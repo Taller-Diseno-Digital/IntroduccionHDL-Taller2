@@ -13,16 +13,14 @@ end entity bit4_sumador;
 architecture bit4_sumador_logica of bit4_sumador is
 	signal CARRY : std_logic_vector(3 downto 1);
 	
-component completo_sumador is
-        port(
-				x,y,z      : in std_logic;
-				sum,cout   : out std_logic
-				);
-    end component;
-	
 	begin 
-		BIT0 : completo_sumador port map(B(0),A(0),CIN,     SUM(0),CARRY(1));
-		BIT1 : completo_sumador port map(B(1),A(1),CARRY(1),SUM(1),CARRY(2));
-		BIT2 : completo_sumador port map(B(2),A(2),CARRY(2),SUM(2),CARRY(3)); 
-		BIT3 : completo_sumador port map(B(3),A(3),CARRY(3),SUM(3),COUT); 
+		BIT0 : entity work.completo_sumador
+			port map(B(0),A(0),CIN,     SUM(0),CARRY(1));
+		BIT1 : entity work.completo_sumador
+			port map(B(1),A(1),CARRY(1),SUM(1),CARRY(2));
+		BIT2 : entity work.completo_sumador
+			port map(B(2),A(2),CARRY(2),SUM(2),CARRY(3)); 
+		BIT3 : entity work.completo_sumador
+			port map(B(3),A(3),CARRY(3),SUM(3),COUT); 
+			
 end bit4_sumador_logica;

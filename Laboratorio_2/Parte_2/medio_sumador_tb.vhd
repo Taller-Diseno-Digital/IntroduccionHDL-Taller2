@@ -1,9 +1,6 @@
 library ieee;
 use ieee.std_logic_1164.all; 
 
-library ieee;
-use ieee.std_logic_1164.all;
-
 entity medio_sumador_tb is
 end medio_sumador_tb;
 

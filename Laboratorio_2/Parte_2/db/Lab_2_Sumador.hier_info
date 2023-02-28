@@ -8,11 +8,11 @@ B[1] => completo_sumador:BIT1.x
 B[2] => completo_sumador:BIT2.x
 B[3] => completo_sumador:BIT3.x
 CIN => completo_sumador:BIT0.z
-SUM[0] <= completo_sumador:BIT0.sum
-SUM[1] <= completo_sumador:BIT1.sum
-SUM[2] <= completo_sumador:BIT2.sum
-SUM[3] <= completo_sumador:BIT3.sum
-COUT <= completo_sumador:BIT3.cout
+SUM[0] << completo_sumador:BIT0.sum
+SUM[1] << completo_sumador:BIT1.sum
+SUM[2] << completo_sumador:BIT2.sum
+SUM[3] << completo_sumador:BIT3.sum
+COUT << completo_sumador:BIT3.cout
 
 
 |bit4_sumador|completo_sumador:BIT0

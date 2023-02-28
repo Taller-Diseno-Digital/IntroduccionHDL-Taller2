@@ -1,16 +1,15 @@
-library ieee;
-use ieee.std_logic_1164.all; 
-
 entity medio_sumador is
 		port(
-				x,y      : in std_logic;
-				sum,cout : out std_logic
+				x : in std_logic;
+				y : in std_logic;
+				s : out std_logic;
+				c : out std_logic
 				);
 end entity medio_sumador;
 
 architecture medio_sumador_logica of medio_sumador is
 	begin 
-		sum  <= x XOR y;
-		cout <= x AND y;
+		s <= x XOR y;
+		c <= x AND y;
 end medio_sumador_logica;
 

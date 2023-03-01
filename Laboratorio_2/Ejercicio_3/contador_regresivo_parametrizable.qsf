@@ -39,7 +39,7 @@
 
 set_global_assignment -name FAMILY "Cyclone V"
 set_global_assignment -name DEVICE 5CGXFC7C7F23C8
-set_global_assignment -name TOP_LEVEL_ENTITY contador_regresivo_parametrizable
+set_global_assignment -name TOP_LEVEL_ENTITY sevenseg
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 22.1STD.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "10:19:44  FEBRUARY 28, 2023"
 set_global_assignment -name LAST_QUARTUS_VERSION "22.1std.0 Lite Edition"
@@ -57,3 +57,4 @@ set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_
 set_global_assignment -name SYSTEMVERILOG_FILE contador_regresivo_parametrizable.sv
 set_global_assignment -name SYSTEMVERILOG_FILE sevenseg.sv
 set_global_assignment -name SYSTEMVERILOG_FILE tb_contador_regresivo_parametrizable.sv
+set_global_assignment -name SYSTEMVERILOG_FILE sevensegHexa.sv

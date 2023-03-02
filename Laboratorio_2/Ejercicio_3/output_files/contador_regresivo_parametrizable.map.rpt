@@ -1,5 +1,5 @@
 Analysis & Elaboration report for contador_regresivo_parametrizable
-Thu Mar  2 00:00:04 2023
+Thu Mar  2 10:55:15 2023
 Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 
 
@@ -38,7 +38,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                                 ;
 +-------------------------------+------------------------------------------------+
-; Analysis & Elaboration Status ; Successful - Thu Mar  2 00:00:04 2023          ;
+; Analysis & Elaboration Status ; Successful - Thu Mar  2 10:55:15 2023          ;
 ; Quartus Prime Version         ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
 ; Revision Name                 ; contador_regresivo_parametrizable              ;
 ; Top-level Entity Name         ; contador_regresivo_parametrizable              ;
@@ -172,7 +172,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
-    Info: Processing started: Wed Mar  1 23:59:55 2023
+    Info: Processing started: Thu Mar  2 10:55:06 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off contador_regresivo_parametrizable -c contador_regresivo_parametrizable --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
@@ -184,14 +184,18 @@ Info (12021): Found 1 design units, including 1 entities, in source file tb_cont
     Info (12023): Found entity 1: tb_contador_regresivo_parametrizable File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_2/Ejercicio_3/tb_contador_regresivo_parametrizable.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file sevenseghexa.sv
     Info (12023): Found entity 1: sevensegHexa File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_2/Ejercicio_3/sevensegHexa.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file tb_contador_regresivo_parametrizable_6bits.sv
+    Info (12023): Found entity 1: tb_contador_regresivo_parametrizable_6bits File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_2/Ejercicio_3/tb_contador_regresivo_parametrizable_6bits.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file tb_contador_regresivo_parametrizable_2bits.sv
+    Info (12023): Found entity 1: tb_contador_regresivo_parametrizable_2bits File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_2/Ejercicio_3/tb_contador_regresivo_parametrizable_2bits.sv Line: 1
 Info (12127): Elaborating entity "contador_regresivo_parametrizable" for the top level hierarchy
+Warning (10230): Verilog HDL assignment warning at contador_regresivo_parametrizable.sv(7): truncated value with size 32 to match size of target (4) File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_2/Ejercicio_3/contador_regresivo_parametrizable.sv Line: 7
 Warning (10230): Verilog HDL assignment warning at contador_regresivo_parametrizable.sv(8): truncated value with size 32 to match size of target (4) File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_2/Ejercicio_3/contador_regresivo_parametrizable.sv Line: 8
-Warning (10230): Verilog HDL assignment warning at contador_regresivo_parametrizable.sv(11): truncated value with size 32 to match size of target (4) File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_2/Ejercicio_3/contador_regresivo_parametrizable.sv Line: 11
-Warning (10230): Verilog HDL assignment warning at contador_regresivo_parametrizable.sv(14): truncated value with size 32 to match size of target (4) File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_2/Ejercicio_3/contador_regresivo_parametrizable.sv Line: 14
+Warning (10230): Verilog HDL assignment warning at contador_regresivo_parametrizable.sv(9): truncated value with size 32 to match size of target (4) File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_2/Ejercicio_3/contador_regresivo_parametrizable.sv Line: 9
 Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 4 warnings
     Info: Peak virtual memory: 4781 megabytes
-    Info: Processing ended: Thu Mar  2 00:00:04 2023
+    Info: Processing ended: Thu Mar  2 10:55:15 2023
     Info: Elapsed time: 00:00:09
-    Info: Total CPU time (on all processors): 00:00:13
+    Info: Total CPU time (on all processors): 00:00:12
 
 

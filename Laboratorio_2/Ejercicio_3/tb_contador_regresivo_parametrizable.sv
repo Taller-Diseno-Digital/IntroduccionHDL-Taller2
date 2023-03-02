@@ -1,30 +1,34 @@
 module tb_contador_regresivo_parametrizable();
 	logic clk;
 	logic reset; 
-	logic [4 - 1:0] y;
+	logic [3:0] y;
 
 	contador_regresivo_parametrizable #(.width(4)) dut(clk, reset, y);
 
 // generate clock 
 	always 
 		begin 
-			clk = 1; 
+			clk = 0; 
 			#50;
-			clk = 0;
+			clk = 1;
 			#50;
 		end
 		
 		
 	initial begin
+	// Se debe inicializar los valores
 		clk = 0;
 		reset = 0;
-		y = 4'b0000;
+		y = 0;
 		#50;
-		assert (y === 4'b1110) else $error("failed case one");
-		#50;
-		assert (y === 4'b1101) else $error("failed case two");
-		#500;
 		reset = 1;
-		assert (y === 4'b1111) else $error("failed case three");
+		#100;
+		assert (y === 14) else $error("failed case one");
+		#100;
+		assert (y === 13) else $error("failed case two");
+		#300
+		reset = 0;
+		#100;
+		assert (y === 15) else $error("failed case three");
 	end
 endmodule

@@ -14,6 +14,13 @@ module bcd_deco(input  logic [3:0] data,
 	7: segments = 7'b000_1111;
 	8: segments = 7'b000_0000;
 	9: segments = 7'b000_1100;
+	10: segments = 7'b000_1000;
+	11: segments = 7'b110_0000;
+	12: segments = 7'b011_0001;
+	13: segments = 7'b100_0010;
+	14: segments = 7'b011_0000;
+	15: segments = 7'b011_1000;
 	default: segments = 7'b111_1111;
 	endcase
-end
+
+endmodule

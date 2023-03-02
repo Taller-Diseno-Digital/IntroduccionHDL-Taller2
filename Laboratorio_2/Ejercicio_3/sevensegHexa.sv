@@ -3,7 +3,7 @@ module sevensegHexa(
 	output logic [6:0] segments);
 		
 	
-	always_comb
+	always_comb begin
 	  case(data)
 		 6'h0: segments = 7'b1111110; // 0
 		 6'h1: segments = 7'b0110000; // 1
@@ -21,7 +21,7 @@ module sevensegHexa(
 		 6'hd: segments = 7'b0111101; // d
 		 6'he: segments = 7'b1001111; // E
 		 6'hf: segments = 7'b1000111; // F
-		 default: segments = 7'b0000001; // no display
+		 default: segments = 7'b0000000; // no display
 	  endcase
 	  // output_segments = ~output_segments; // invert for common anode display
 	end

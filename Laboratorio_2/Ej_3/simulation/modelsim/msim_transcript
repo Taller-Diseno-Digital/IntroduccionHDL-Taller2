@@ -5,15 +5,16 @@
 # }
 # 
 # vlib verilog_libs/altera_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/altera_ver".
 # vmap altera_ver ./verilog_libs/altera_ver
 # Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
 # vmap altera_ver ./verilog_libs/altera_ver 
-# Copying C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Copying D:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
-# vlog -vlog01compat -work altera_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_primitives.v}
+# vlog -vlog01compat -work altera_ver {d:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_primitives.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 11:58:08 on Mar 02,2023
-# vlog -reportprogress 300 -vlog01compat -work altera_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_primitives.v 
+# Start time: 17:07:34 on Mar 05,2023
+# vlog -reportprogress 300 -vlog01compat -work altera_ver d:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_primitives.v 
 # -- Compiling module global
 # -- Compiling module carry
 # -- Compiling module cascade
@@ -94,18 +95,19 @@
 # 	alt_iobuf_diff
 # 	alt_bidir_diff
 # 	alt_bidir_buf
-# End time: 11:58:10 on Mar 02,2023, Elapsed time: 0:00:02
+# End time: 17:07:36 on Mar 05,2023, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/lpm_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/lpm_ver".
 # vmap lpm_ver ./verilog_libs/lpm_ver
 # Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
 # vmap lpm_ver ./verilog_libs/lpm_ver 
 # Modifying modelsim.ini
-# vlog -vlog01compat -work lpm_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/220model.v}
+# vlog -vlog01compat -work lpm_ver {d:/intelfpga_lite/22.1std/quartus/eda/sim_lib/220model.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 11:58:10 on Mar 02,2023
-# vlog -reportprogress 300 -vlog01compat -work lpm_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/220model.v 
+# Start time: 17:07:36 on Mar 05,2023
+# vlog -reportprogress 300 -vlog01compat -work lpm_ver d:/intelfpga_lite/22.1std/quartus/eda/sim_lib/220model.v 
 # -- Compiling module LPM_MEMORY_INITIALIZATION
 # -- Compiling module LPM_HINT_EVALUATION
 # -- Compiling module LPM_DEVICE_FAMILIES
@@ -168,18 +170,19 @@
 # 	lpm_inpad
 # 	lpm_outpad
 # 	lpm_bipad
-# End time: 11:58:10 on Mar 02,2023, Elapsed time: 0:00:00
+# End time: 17:07:37 on Mar 05,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/sgate_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/sgate_ver".
 # vmap sgate_ver ./verilog_libs/sgate_ver
 # Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
 # vmap sgate_ver ./verilog_libs/sgate_ver 
 # Modifying modelsim.ini
-# vlog -vlog01compat -work sgate_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/sgate.v}
+# vlog -vlog01compat -work sgate_ver {d:/intelfpga_lite/22.1std/quartus/eda/sim_lib/sgate.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 11:58:11 on Mar 02,2023
-# vlog -reportprogress 300 -vlog01compat -work sgate_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/sgate.v 
+# Start time: 17:07:38 on Mar 05,2023
+# vlog -reportprogress 300 -vlog01compat -work sgate_ver d:/intelfpga_lite/22.1std/quartus/eda/sim_lib/sgate.v 
 # -- Compiling module oper_add
 # -- Compiling module oper_addsub
 # -- Compiling module mux21
@@ -220,18 +223,19 @@
 # 	oper_decoder
 # 	oper_bus_mux
 # 	oper_latch
-# End time: 11:58:11 on Mar 02,2023, Elapsed time: 0:00:00
+# End time: 17:07:38 on Mar 05,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_mf_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/altera_mf_ver".
 # vmap altera_mf_ver ./verilog_libs/altera_mf_ver
 # Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
 # vmap altera_mf_ver ./verilog_libs/altera_mf_ver 
 # Modifying modelsim.ini
-# vlog -vlog01compat -work altera_mf_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_mf.v}
+# vlog -vlog01compat -work altera_mf_ver {d:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_mf.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 11:58:11 on Mar 02,2023
-# vlog -reportprogress 300 -vlog01compat -work altera_mf_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_mf.v 
+# Start time: 17:07:39 on Mar 05,2023
+# vlog -reportprogress 300 -vlog01compat -work altera_mf_ver d:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_mf.v 
 # -- Compiling module lcell
 # -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
 # -- Compiling module ALTERA_MF_HINT_EVALUATION
@@ -360,18 +364,19 @@
 # 	alt_fault_injection
 # 	sld_virtual_jtag_basic
 # 	altsource_probe
-# End time: 11:58:12 on Mar 02,2023, Elapsed time: 0:00:01
+# End time: 17:07:41 on Mar 05,2023, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_lnsim_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/altera_lnsim_ver".
 # vmap altera_lnsim_ver ./verilog_libs/altera_lnsim_ver
 # Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
 # vmap altera_lnsim_ver ./verilog_libs/altera_lnsim_ver 
 # Modifying modelsim.ini
-# vlog -sv -work altera_lnsim_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_lnsim.sv}
+# vlog -sv -work altera_lnsim_ver {d:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_lnsim.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 11:58:13 on Mar 02,2023
-# vlog -reportprogress 300 -sv -work altera_lnsim_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_lnsim.sv 
+# Start time: 17:07:42 on Mar 05,2023
+# vlog -reportprogress 300 -sv -work altera_lnsim_ver d:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_lnsim.sv 
 # -- Compiling package altera_lnsim_functions
 # -- Compiling package altera_generic_pll_functions
 # -- Compiling module generic_pll
@@ -453,18 +458,19 @@
 # 	altera_iopll
 # 	fourteennm_altera_iopll
 # 	fourteennm_simple_iopll
-# End time: 11:58:14 on Mar 02,2023, Elapsed time: 0:00:01
+# End time: 17:07:44 on Mar 05,2023, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cyclonev_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/cyclonev_ver".
 # vmap cyclonev_ver ./verilog_libs/cyclonev_ver
 # Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
 # vmap cyclonev_ver ./verilog_libs/cyclonev_ver 
 # Modifying modelsim.ini
-# vlog -vlog01compat -work cyclonev_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_atoms_ncrypt.v}
+# vlog -vlog01compat -work cyclonev_ver {d:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 11:58:14 on Mar 02,2023
-# vlog -reportprogress 300 -vlog01compat -work cyclonev_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_atoms_ncrypt.v 
+# Start time: 17:07:44 on Mar 05,2023
+# vlog -reportprogress 300 -vlog01compat -work cyclonev_ver d:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_atoms_ncrypt.v 
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
@@ -477,13 +483,390 @@
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # 
 # Top level modules:
-# End time: 11:58:17 on Mar 02,2023, Elapsed time: 0:00:03
+# End time: 17:07:49 on Mar 05,2023, Elapsed time: 0:00:05
 # Errors: 0, Warnings: 10
-# vlog -vlog01compat -work cyclonev_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hmi_atoms_ncrypt.v}
+# vlog -vlog01compat -work cyclonev_ver {d:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hmi_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 11:58:17 on Mar 02,2023
-# vlog -reportprogress 300 -vlog01compat -work cyclonev_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hmi_atoms_ncrypt.v 
+# Start time: 17:07:49 on Mar 05,2023
+# vlog -reportprogress 300 -vlog01compat -work cyclonev_ver d:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hmi_atoms_ncrypt.v 
 # 
 # Top level modules:
-# End time: 11:58:19 on Mar 02,2023, Elapsed time: 0:00:02
+# End time: 17:07:51 on Mar 05,2023, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work cyclonev_ver {d:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_atoms.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:07:52 on Mar 05,2023
+# vlog -reportprogress 300 -vlog01compat -work cyclonev_ver d:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_atoms.v 
+# -- Compiling UDP CYCLONEV_PRIM_DFFE
+# -- Compiling UDP CYCLONEV_PRIM_DFFEAS
+# -- Compiling UDP CYCLONEV_PRIM_DFFEAS_HIGH
+# -- Compiling module cyclonev_dffe
+# -- Compiling module cyclonev_mux21
+# -- Compiling module cyclonev_mux41
+# -- Compiling module cyclonev_and1
+# -- Compiling module cyclonev_and16
+# -- Compiling module cyclonev_bmux21
+# -- Compiling module cyclonev_b17mux21
+# -- Compiling module cyclonev_nmux21
+# -- Compiling module cyclonev_b5mux21
+# -- Compiling module cyclonev_ff
+# -- Compiling module cyclonev_lcell_comb
+# -- Compiling module cyclonev_routing_wire
+# -- Compiling module cyclonev_ram_block
+# -- Compiling module cyclonev_mlab_cell
+# -- Compiling module cyclonev_io_ibuf
+# -- Compiling module cyclonev_io_obuf
+# -- Compiling module cyclonev_ddio_out
+# -- Compiling module cyclonev_ddio_oe
+# -- Compiling module cyclonev_ddio_in
+# -- Compiling module cyclonev_io_pad
+# -- Compiling module cyclonev_pseudo_diff_out
+# -- Compiling module cyclonev_bias_logic
+# -- Compiling module cyclonev_bias_generator
+# -- Compiling module cyclonev_bias_block
+# -- Compiling module cyclonev_clk_phase_select
+# -- Compiling module cyclonev_clkena
+# -- Compiling module cyclonev_clkselect
+# -- Compiling module cyclonev_delay_chain
+# -- Compiling module cyclonev_dll_offset_ctrl
+# -- Compiling module cyclonev_dll
+# -- Compiling module cyclonev_dqs_config
+# -- Compiling module cyclonev_dqs_delay_chain
+# -- Compiling module cyclonev_dqs_enable_ctrl
+# -- Compiling module cyclonev_duty_cycle_adjustment
+# -- Compiling module cyclonev_fractional_pll
+# -- Compiling module cyclonev_half_rate_input
+# -- Compiling module cyclonev_input_phase_alignment
+# -- Compiling module cyclonev_io_clock_divider
+# -- Compiling module cyclonev_io_config
+# -- Compiling module cyclonev_leveling_delay_chain
+# -- Compiling module cyclonev_pll_dll_output
+# -- Compiling module cyclonev_pll_dpa_output
+# -- Compiling module cyclonev_pll_extclk_output
+# -- Compiling module cyclonev_pll_lvds_output
+# -- Compiling module cyclonev_pll_output_counter
+# -- Compiling module cyclonev_pll_reconfig
+# -- Compiling module cyclonev_pll_refclk_select
+# -- Compiling module cyclonev_termination_logic
+# -- Compiling module cyclonev_termination
+# -- Compiling module cyclonev_asmiblock
+# -- Compiling module cyclonev_chipidblock
+# -- Compiling module cyclonev_controller
+# -- Compiling module cyclonev_crcblock
+# -- Compiling module cyclonev_jtag
+# -- Compiling module cyclonev_prblock
+# -- Compiling module cyclonev_rublock
+# -- Compiling module cyclonev_tsdblock
+# -- Compiling module cyclonev_read_fifo
+# -- Compiling module cyclonev_read_fifo_read_enable
+# -- Compiling module cyclonev_phy_clkbuf
+# -- Compiling module cyclonev_ir_fifo_userdes
+# -- Compiling module cyclonev_read_fifo_read_clock_select
+# -- Compiling module cyclonev_lfifo
+# -- Compiling module cyclonev_vfifo
+# -- Compiling module cyclonev_mac
+# -- Compiling module cyclonev_mem_phy
+# -- Compiling module cyclonev_oscillator
+# -- Compiling module cyclonev_hps_interface_fpga2sdram
+# 
+# Top level modules:
+# 	cyclonev_dffe
+# 	cyclonev_mux41
+# 	cyclonev_and1
+# 	cyclonev_and16
+# 	cyclonev_bmux21
+# 	cyclonev_b17mux21
+# 	cyclonev_nmux21
+# 	cyclonev_b5mux21
+# 	cyclonev_ff
+# 	cyclonev_lcell_comb
+# 	cyclonev_routing_wire
+# 	cyclonev_ram_block
+# 	cyclonev_mlab_cell
+# 	cyclonev_io_ibuf
+# 	cyclonev_io_obuf
+# 	cyclonev_ddio_out
+# 	cyclonev_ddio_oe
+# 	cyclonev_ddio_in
+# 	cyclonev_io_pad
+# 	cyclonev_pseudo_diff_out
+# 	cyclonev_bias_block
+# 	cyclonev_clk_phase_select
+# 	cyclonev_clkena
+# 	cyclonev_clkselect
+# 	cyclonev_delay_chain
+# 	cyclonev_dll_offset_ctrl
+# 	cyclonev_dll
+# 	cyclonev_dqs_config
+# 	cyclonev_dqs_delay_chain
+# 	cyclonev_dqs_enable_ctrl
+# 	cyclonev_duty_cycle_adjustment
+# 	cyclonev_fractional_pll
+# 	cyclonev_half_rate_input
+# 	cyclonev_input_phase_alignment
+# 	cyclonev_io_clock_divider
+# 	cyclonev_io_config
+# 	cyclonev_leveling_delay_chain
+# 	cyclonev_pll_dll_output
+# 	cyclonev_pll_dpa_output
+# 	cyclonev_pll_extclk_output
+# 	cyclonev_pll_lvds_output
+# 	cyclonev_pll_output_counter
+# 	cyclonev_pll_reconfig
+# 	cyclonev_pll_refclk_select
+# 	cyclonev_termination_logic
+# 	cyclonev_termination
+# 	cyclonev_asmiblock
+# 	cyclonev_chipidblock
+# 	cyclonev_controller
+# 	cyclonev_crcblock
+# 	cyclonev_jtag
+# 	cyclonev_prblock
+# 	cyclonev_rublock
+# 	cyclonev_tsdblock
+# 	cyclonev_read_fifo
+# 	cyclonev_read_fifo_read_enable
+# 	cyclonev_phy_clkbuf
+# 	cyclonev_ir_fifo_userdes
+# 	cyclonev_read_fifo_read_clock_select
+# 	cyclonev_lfifo
+# 	cyclonev_vfifo
+# 	cyclonev_mac
+# 	cyclonev_mem_phy
+# 	cyclonev_oscillator
+# 	cyclonev_hps_interface_fpga2sdram
+# End time: 17:07:53 on Mar 05,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlib verilog_libs/cyclonev_hssi_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/cyclonev_hssi_ver".
+# vmap cyclonev_hssi_ver ./verilog_libs/cyclonev_hssi_ver
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap cyclonev_hssi_ver ./verilog_libs/cyclonev_hssi_ver 
+# Modifying modelsim.ini
+# vlog -vlog01compat -work cyclonev_hssi_ver {d:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hssi_atoms_ncrypt.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:07:54 on Mar 05,2023
+# vlog -reportprogress 300 -vlog01compat -work cyclonev_hssi_ver d:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hssi_atoms_ncrypt.v 
+# 
+# Top level modules:
+# End time: 17:07:58 on Mar 05,2023, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work cyclonev_hssi_ver {d:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_hssi_atoms.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:07:58 on Mar 05,2023
+# vlog -reportprogress 300 -vlog01compat -work cyclonev_hssi_ver d:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_hssi_atoms.v 
+# -- Compiling module cyclonev_hssi_8g_pcs_aggregate
+# -- Compiling module cyclonev_hssi_8g_rx_pcs
+# -- Compiling module cyclonev_hssi_8g_tx_pcs
+# -- Compiling module cyclonev_hssi_common_pcs_pma_interface
+# -- Compiling module cyclonev_hssi_common_pld_pcs_interface
+# -- Compiling module cyclonev_hssi_pipe_gen1_2
+# -- Compiling module cyclonev_hssi_pma_aux
+# -- Compiling module cyclonev_hssi_pma_int
+# -- Compiling module cyclonev_hssi_pma_rx_buf
+# -- Compiling module cyclonev_hssi_pma_rx_deser
+# -- Compiling module cyclonev_hssi_pma_tx_buf
+# -- Compiling module cyclonev_hssi_pma_tx_cgb
+# -- Compiling module cyclonev_hssi_pma_tx_ser
+# -- Compiling module cyclonev_hssi_pma_cdr_refclk_select_mux
+# -- Compiling module cyclonev_hssi_rx_pcs_pma_interface
+# -- Compiling module cyclonev_hssi_rx_pld_pcs_interface
+# -- Compiling module cyclonev_hssi_tx_pcs_pma_interface
+# -- Compiling module cyclonev_hssi_tx_pld_pcs_interface
+# -- Compiling module cyclonev_hssi_refclk_divider
+# -- Compiling module cyclonev_pll_aux
+# -- Compiling module cyclonev_channel_pll
+# -- Compiling module cyclonev_hssi_avmm_interface
+# -- Compiling module cyclonev_hssi_pma_hi_pmaif
+# -- Compiling module cyclonev_hssi_pma_hi_xcvrif
+# -- Compiling module arriav_hssi_8g_pcs_aggregate
+# -- Compiling module arriav_hssi_8g_rx_pcs
+# -- Compiling module arriav_hssi_8g_tx_pcs
+# -- Compiling module arriav_hssi_common_pcs_pma_interface
+# -- Compiling module arriav_hssi_common_pld_pcs_interface
+# -- Compiling module arriav_hssi_pipe_gen1_2
+# -- Compiling module arriav_hssi_pma_aux
+# -- Compiling module arriav_hssi_pma_int
+# -- Compiling module arriav_hssi_pma_rx_buf
+# -- Compiling module arriav_hssi_pma_rx_deser
+# -- Compiling module arriav_hssi_pma_tx_buf
+# -- Compiling module arriav_hssi_pma_tx_cgb
+# -- Compiling module arriav_hssi_pma_tx_ser
+# -- Compiling module arriav_hssi_pma_cdr_refclk_select_mux
+# -- Compiling module arriav_hssi_rx_pcs_pma_interface
+# -- Compiling module arriav_hssi_rx_pld_pcs_interface
+# -- Compiling module arriav_hssi_tx_pcs_pma_interface
+# -- Compiling module arriav_hssi_tx_pld_pcs_interface
+# -- Compiling module arriav_hssi_refclk_divider
+# -- Compiling module arriav_pll_aux
+# -- Compiling module arriav_channel_pll
+# -- Compiling module arriav_hssi_avmm_interface
+# -- Compiling module arriav_hssi_pma_hi_pmaif
+# -- Compiling module arriav_hssi_pma_hi_xcvrif
+# 
+# Top level modules:
+# 	cyclonev_hssi_8g_pcs_aggregate
+# 	cyclonev_hssi_8g_rx_pcs
+# 	cyclonev_hssi_8g_tx_pcs
+# 	cyclonev_hssi_common_pcs_pma_interface
+# 	cyclonev_hssi_common_pld_pcs_interface
+# 	cyclonev_hssi_pipe_gen1_2
+# 	cyclonev_hssi_pma_aux
+# 	cyclonev_hssi_pma_int
+# 	cyclonev_hssi_pma_rx_buf
+# 	cyclonev_hssi_pma_rx_deser
+# 	cyclonev_hssi_pma_tx_buf
+# 	cyclonev_hssi_pma_tx_cgb
+# 	cyclonev_hssi_pma_tx_ser
+# 	cyclonev_hssi_pma_cdr_refclk_select_mux
+# 	cyclonev_hssi_rx_pcs_pma_interface
+# 	cyclonev_hssi_rx_pld_pcs_interface
+# 	cyclonev_hssi_tx_pcs_pma_interface
+# 	cyclonev_hssi_tx_pld_pcs_interface
+# 	cyclonev_hssi_refclk_divider
+# 	cyclonev_pll_aux
+# 	cyclonev_channel_pll
+# 	cyclonev_hssi_avmm_interface
+# 	cyclonev_hssi_pma_hi_pmaif
+# 	cyclonev_hssi_pma_hi_xcvrif
+# 	arriav_hssi_8g_pcs_aggregate
+# 	arriav_hssi_8g_rx_pcs
+# 	arriav_hssi_8g_tx_pcs
+# 	arriav_hssi_common_pcs_pma_interface
+# 	arriav_hssi_common_pld_pcs_interface
+# 	arriav_hssi_pipe_gen1_2
+# 	arriav_hssi_pma_aux
+# 	arriav_hssi_pma_int
+# 	arriav_hssi_pma_rx_buf
+# 	arriav_hssi_pma_rx_deser
+# 	arriav_hssi_pma_tx_buf
+# 	arriav_hssi_pma_tx_cgb
+# 	arriav_hssi_pma_tx_ser
+# 	arriav_hssi_pma_cdr_refclk_select_mux
+# 	arriav_hssi_rx_pcs_pma_interface
+# 	arriav_hssi_rx_pld_pcs_interface
+# 	arriav_hssi_tx_pcs_pma_interface
+# 	arriav_hssi_tx_pld_pcs_interface
+# 	arriav_hssi_refclk_divider
+# 	arriav_pll_aux
+# 	arriav_channel_pll
+# 	arriav_hssi_avmm_interface
+# 	arriav_hssi_pma_hi_pmaif
+# 	arriav_hssi_pma_hi_xcvrif
+# End time: 17:07:59 on Mar 05,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlib verilog_libs/cyclonev_pcie_hip_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/cyclonev_pcie_hip_ver".
+# vmap cyclonev_pcie_hip_ver ./verilog_libs/cyclonev_pcie_hip_ver
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap cyclonev_pcie_hip_ver ./verilog_libs/cyclonev_pcie_hip_ver 
+# Modifying modelsim.ini
+# vlog -vlog01compat -work cyclonev_pcie_hip_ver {d:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_pcie_hip_atoms_ncrypt.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:08:00 on Mar 05,2023
+# vlog -reportprogress 300 -vlog01compat -work cyclonev_pcie_hip_ver d:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_pcie_hip_atoms_ncrypt.v 
+# ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
+# ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
+# ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
+# ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
+# ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
+# ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
+# 
+# Top level modules:
+# End time: 17:08:05 on Mar 05,2023, Elapsed time: 0:00:05
+# Errors: 0, Warnings: 6
+# vlog -vlog01compat -work cyclonev_pcie_hip_ver {d:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_pcie_hip_atoms.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:08:05 on Mar 05,2023
+# vlog -reportprogress 300 -vlog01compat -work cyclonev_pcie_hip_ver d:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_pcie_hip_atoms.v 
+# -- Compiling module cyclonev_hd_altpe2_hip_top
+# -- Compiling module arriav_hd_altpe2_hip_top
+# 
+# Top level modules:
+# 	cyclonev_hd_altpe2_hip_top
+# End time: 17:08:05 on Mar 05,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+D:/Documentos/TEC/2023/I\ Semestre/Taller\ de\ Diseno\ Digital/Laboratorio\ 2/dmejias08_digital_design_lab_2023/Laboratorio_2/Ej_3 {D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_2/Ej_3/display_6bit.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:08:06 on Mar 05,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_2/Ej_3" D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_2/Ej_3/display_6bit.sv 
+# -- Compiling module display_6bit
+# 
+# Top level modules:
+# 	display_6bit
+# End time: 17:08:06 on Mar 05,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Documentos/TEC/2023/I\ Semestre/Taller\ de\ Diseno\ Digital/Laboratorio\ 2/dmejias08_digital_design_lab_2023/Laboratorio_2/Ej_3 {D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_2/Ej_3/display_4bits.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:08:06 on Mar 05,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_2/Ej_3" D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_2/Ej_3/display_4bits.sv 
+# -- Compiling module display_4bits
+# 
+# Top level modules:
+# 	display_4bits
+# End time: 17:08:07 on Mar 05,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Documentos/TEC/2023/I\ Semestre/Taller\ de\ Diseno\ Digital/Laboratorio\ 2/dmejias08_digital_design_lab_2023/Laboratorio_2/Ej_3 {D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_2/Ej_3/contador_regresivo.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:08:07 on Mar 05,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_2/Ej_3" D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_2/Ej_3/contador_regresivo.sv 
+# -- Compiling module contador_regresivo
+# 
+# Top level modules:
+# 	contador_regresivo
+# End time: 17:08:07 on Mar 05,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Documentos/TEC/2023/I\ Semestre/Taller\ de\ Diseno\ Digital/Laboratorio\ 2/dmejias08_digital_design_lab_2023/Laboratorio_2/Ej_3 {D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_2/Ej_3/contador_display.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:08:07 on Mar 05,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_2/Ej_3" D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_2/Ej_3/contador_display.sv 
+# -- Compiling module contador_display
+# 
+# Top level modules:
+# 	contador_display
+# End time: 17:08:07 on Mar 05,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+D:/Documentos/TEC/2023/I\ Semestre/Taller\ de\ Diseno\ Digital/Laboratorio\ 2/dmejias08_digital_design_lab_2023/Laboratorio_2/Ej_3 {D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_2/Ej_3/contador_display_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:08:07 on Mar 05,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_2/Ej_3" D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_2/Ej_3/contador_display_tb.sv 
+# -- Compiling module contador_display_tb
+# 
+# Top level modules:
+# 	contador_display_tb
+# End time: 17:08:07 on Mar 05,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  contador_display_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" contador_display_tb 
+# Start time: 17:08:08 on Mar 05,2023
+# Loading sv_std.std
+# Loading work.contador_display_tb
+# Loading work.contador_display
+# Loading work.contador_regresivo
+# Loading work.display_6bit
+# Loading work.display_4bits
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break key hit
+# Simulation stop requested.
+# End time: 17:12:47 on Mar 05,2023, Elapsed time: 0:04:39
 # Errors: 0, Warnings: 0

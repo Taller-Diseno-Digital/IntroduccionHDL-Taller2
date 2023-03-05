@@ -1,5 +1,5 @@
 module display_4bits(input  logic [3:0] data,
-					 output logic [6:0] segments);
+					 output reg [6:0] segments);
 					 
 	always_comb
 	case(data)
@@ -22,5 +22,5 @@ module display_4bits(input  logic [3:0] data,
 	15: segments = 7'b011_1000;
 	default: segments = 7'b111_1111;
 	endcase
-
+	
 endmodule

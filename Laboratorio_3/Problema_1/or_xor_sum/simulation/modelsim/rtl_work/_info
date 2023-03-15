@@ -1,0 +1,89 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/or_xor_sum/simulation/modelsim
+vmod_sum
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1678838350
+!i10b 1
+!s100 WMeGJm0[T:@8MzI3=:?ER3
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Im;IdPD@fY:OCM4>f70e353
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1678838249
+8C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/or_xor_sum/mod_sum.sv
+FC:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/or_xor_sum/mod_sum.sv
+!i122 1
+L0 1 15
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1678838350.000000
+!s107 C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/or_xor_sum/mod_sum.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/or_xor_sum|C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/or_xor_sum/mod_sum.sv|
+!i113 1
+Z7 o-sv -work work
+Z8 !s92 -sv -work work {+incdir+C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/or_xor_sum}
+Z9 tCvgOpt 0
+vsum_1bit
+R1
+R2
+!i10b 1
+!s100 ^K<aZ9D57@n_BP>maQ1AQ2
+R3
+I:1@]_dB80<Ta4maW>F8<k1
+R4
+S1
+R0
+w1678836247
+8C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/or_xor_sum/sum_1bit.sv
+FC:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/or_xor_sum/sum_1bit.sv
+!i122 0
+L0 1 14
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/or_xor_sum/sum_1bit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/or_xor_sum|C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/or_xor_sum/sum_1bit.sv|
+!i113 1
+R7
+R8
+R9
+vtb_mod_sum
+R1
+R2
+!i10b 1
+!s100 gb_cEI3GFL^TkGbz=XPUG1
+R3
+I8FcBTa]DAi9IN9N?KTkBW0
+R4
+S1
+R0
+w1678837293
+8C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/or_xor_sum/tb_mod_sum.sv
+FC:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/or_xor_sum/tb_mod_sum.sv
+!i122 2
+L0 1 33
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/or_xor_sum/tb_mod_sum.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/or_xor_sum|C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/or_xor_sum/tb_mod_sum.sv|
+!i113 1
+R7
+R8
+R9

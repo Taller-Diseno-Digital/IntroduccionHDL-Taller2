@@ -1,5 +1,5 @@
 Analysis & Elaboration report for ALU
-Tue Mar 14 17:57:39 2023
+Wed Mar 15 22:54:39 2023
 Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 
 
@@ -9,10 +9,9 @@ Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
   1. Legal Notice
   2. Analysis & Elaboration Summary
   3. Parallel Compilation
-  4. Parameter Settings for User Entity Instance: Top-level Entity: |mod_sum
+  4. Parameter Settings for User Entity Instance: Top-level Entity: |mod_and
   5. Analysis & Elaboration Settings
-  6. Port Connectivity Checks: "sum_1bit:first"
-  7. Analysis & Elaboration Messages
+  6. Analysis & Elaboration Messages
 
 
 
@@ -39,10 +38,10 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                                 ;
 +-------------------------------+------------------------------------------------+
-; Analysis & Elaboration Status ; Successful - Tue Mar 14 17:57:39 2023          ;
+; Analysis & Elaboration Status ; Successful - Wed Mar 15 22:54:39 2023          ;
 ; Quartus Prime Version         ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
 ; Revision Name                 ; ALU                                            ;
-; Top-level Entity Name         ; mod_sum                                        ;
+; Top-level Entity Name         ; mod_and                                        ;
 ; Family                        ; Cyclone V                                      ;
 ; Logic utilization (in ALMs)   ; N/A until Partition Merge                      ;
 ; Total registers               ; N/A until Partition Merge                      ;
@@ -71,7 +70,7 @@ https://fpgasoftware.intel.com/eula.
 
 
 +-------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: Top-level Entity: |mod_sum ;
+; Parameter Settings for User Entity Instance: Top-level Entity: |mod_and ;
 +----------------+-------+------------------------------------------------+
 ; Parameter Name ; Value ; Type                                           ;
 +----------------+-------+------------------------------------------------+
@@ -86,7 +85,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; Option                                                                          ; Setting            ; Default Value      ;
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 ; Device                                                                          ; 5CSEMA5F31C6       ;                    ;
-; Top-level entity name                                                           ; mod_sum            ; ALU                ;
+; Top-level entity name                                                           ; mod_and            ; ALU                ;
 ; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
 ; Use smart compilation                                                           ; Off                ; Off                ;
 ; Enable parallel Assembler and Timing Analyzer during compilation                ; On                 ; On                 ;
@@ -167,23 +166,13 @@ Note: In order to hide this table in the UI and the text report file, please set
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "sum_1bit:first"                                                                                                                                                                      ;
-+---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port    ; Type  ; Severity ; Details                                                                                                                                                                            ;
-+---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; cin     ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (1 bits) it drives.  The 31 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-; cin[-1] ; Input ; Info     ; Stuck at GND                                                                                                                                                                       ;
-+---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
-
 +---------------------------------+
 ; Analysis & Elaboration Messages ;
 +---------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
-    Info: Processing started: Tue Mar 14 17:57:31 2023
+    Info: Processing started: Wed Mar 15 22:54:30 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ALU -c ALU --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
@@ -203,13 +192,19 @@ Info (12021): Found 1 design units, including 1 entities, in source file mod_sum
     Info (12023): Found entity 1: mod_sum File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/or_xor_sum/mod_sum.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file tb_mod_sum.sv
     Info (12023): Found entity 1: tb_mod_sum File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/or_xor_sum/tb_mod_sum.sv Line: 1
-Info (12127): Elaborating entity "mod_sum" for the top level hierarchy
-Info (12128): Elaborating entity "sum_1bit" for hierarchy "sum_1bit:first" File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/or_xor_sum/mod_sum.sv Line: 8
-Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
-Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 2 warnings
-    Info: Peak virtual memory: 4781 megabytes
-    Info: Processing ended: Tue Mar 14 17:57:39 2023
-    Info: Elapsed time: 00:00:08
-    Info: Total CPU time (on all processors): 00:00:12
+Info (12021): Found 1 design units, including 1 entities, in source file mod_not.sv
+    Info (12023): Found entity 1: mod_not File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/or_xor_sum/mod_not.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file tb_mod_not.sv
+    Info (12023): Found entity 1: tb_mod_not File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/or_xor_sum/tb_mod_not.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file mod_and.sv
+    Info (12023): Found entity 1: mod_and File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/or_xor_sum/mod_and.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file tb_mod_and.sv
+    Info (12023): Found entity 1: tb_mod_and File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/or_xor_sum/tb_mod_and.sv Line: 1
+Info (12127): Elaborating entity "mod_and" for the top level hierarchy
+Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4785 megabytes
+    Info: Processing ended: Wed Mar 15 22:54:39 2023
+    Info: Elapsed time: 00:00:09
+    Info: Total CPU time (on all processors): 00:00:13
 
 

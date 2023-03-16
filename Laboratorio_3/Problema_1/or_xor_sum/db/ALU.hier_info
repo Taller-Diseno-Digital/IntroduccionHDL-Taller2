@@ -1,68 +1,15 @@
-|mod_sum
-a[0] => a[0].IN1
-a[1] => a[1].IN1
-a[2] => a[2].IN1
-a[3] => a[3].IN1
-b[0] => b[0].IN1
-b[1] => b[1].IN1
-b[2] => b[2].IN1
-b[3] => b[3].IN1
-cout <= sum_1bit:forloop[3].result.port3
-sum[0] <= sum_1bit:first.port4
-sum[1] <= sum_1bit:forloop[1].result.port4
-sum[2] <= sum_1bit:forloop[2].result.port4
-sum[3] <= sum_1bit:forloop[3].result.port4
-
-
-|mod_sum|sum_1bit:first
-a => and_g.IN0
-a => or_p.IN0
-a => xor_sum.IN0
-b => and_g.IN1
-b => or_p.IN1
-b => xor_sum.IN1
-cin => xor_sum.IN2
-cin => and_c.IN1
-cout <= or_cout.DB_MAX_OUTPUT_PORT_TYPE
-sum <= xor_sum.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|mod_sum|sum_1bit:forloop[1].result
-a => and_g.IN0
-a => or_p.IN0
-a => xor_sum.IN0
-b => and_g.IN1
-b => or_p.IN1
-b => xor_sum.IN1
-cin => xor_sum.IN2
-cin => and_c.IN1
-cout <= or_cout.DB_MAX_OUTPUT_PORT_TYPE
-sum <= xor_sum.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|mod_sum|sum_1bit:forloop[2].result
-a => and_g.IN0
-a => or_p.IN0
-a => xor_sum.IN0
-b => and_g.IN1
-b => or_p.IN1
-b => xor_sum.IN1
-cin => xor_sum.IN2
-cin => and_c.IN1
-cout <= or_cout.DB_MAX_OUTPUT_PORT_TYPE
-sum <= xor_sum.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|mod_sum|sum_1bit:forloop[3].result
-a => and_g.IN0
-a => or_p.IN0
-a => xor_sum.IN0
-b => and_g.IN1
-b => or_p.IN1
-b => xor_sum.IN1
-cin => xor_sum.IN2
-cin => and_c.IN1
-cout <= or_cout.DB_MAX_OUTPUT_PORT_TYPE
-sum <= xor_sum.DB_MAX_OUTPUT_PORT_TYPE
+|mod_and
+a[0] => forloop[0].dut.IN0
+a[1] => forloop[1].dut.IN0
+a[2] => forloop[2].dut.IN0
+a[3] => forloop[3].dut.IN0
+b[0] => forloop[0].dut.IN1
+b[1] => forloop[1].dut.IN1
+b[2] => forloop[2].dut.IN1
+b[3] => forloop[3].dut.IN1
+y[0] <= forloop[0].dut.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= forloop[1].dut.DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= forloop[2].dut.DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= forloop[3].dut.DB_MAX_OUTPUT_PORT_TYPE
 
 

@@ -14,5 +14,4 @@ module left_shift_arith #(parameter width)
         data_out[i] = data_in[i - 1];
     end
   end
-	
 endmodule

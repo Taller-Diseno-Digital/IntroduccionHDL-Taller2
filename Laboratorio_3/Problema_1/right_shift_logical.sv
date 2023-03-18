@@ -1,4 +1,4 @@
-module right_shift_logical #(parameter width)
+module right_shift_logical #(parameter width = 2)
 									(input logic signed [width-1:0] in_data,
 									 output logic signed [width-1:0] out_data);
 
@@ -9,10 +9,10 @@ module right_shift_logical #(parameter width)
 	 
       if (i >= width - 1) //MSB
 		
-        data_out[i] = 1'b0;
+        out_data[i] = 1'b0;
 		  
       else
-        data_out[i] = data_in[i + 1];
+        out_data[i] = in_data[i + 1];
     end
   end
 	

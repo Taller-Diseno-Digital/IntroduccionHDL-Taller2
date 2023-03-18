@@ -1,9 +1,0 @@
-module mod_or #(parameter width = 4)(input logic[width-1:0] a, input logic[width-1:0] b, output logic[width-1:0] y);
-	int i;
-	always_comb begin
-		for (i = 0 ; i < width ; i++) begin
-			or dut(y[i], a[i], b[i]);
-		end
-	end
-
-endmodule

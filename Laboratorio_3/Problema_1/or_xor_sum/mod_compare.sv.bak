@@ -1,6 +1,0 @@
-module mod_compare #(parameter width = 4)(
-    input logic [width - 1 : 0] a,b,
-	 input logic cin,
-    output logic cout,
-    output logic [width - 1 : 0] sum
-);

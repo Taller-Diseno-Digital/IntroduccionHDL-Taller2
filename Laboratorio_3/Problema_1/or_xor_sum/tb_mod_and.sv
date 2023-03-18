@@ -7,8 +7,8 @@ module tb_mod_and();
     initial begin
         a = 0000;
         b = 0001;
-		  y = 0;
-		  #50;
+		y = 0;
+		#50;
         assert (y === 0000) 
         else   $error("Failed case a = 0 & b = 0");
         #50;

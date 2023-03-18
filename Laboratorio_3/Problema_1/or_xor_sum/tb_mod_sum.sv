@@ -1,12 +1,13 @@
 module tb_mod_sum();
 	logic [3:0] a, b, sum;
-	logic cout;
+	logic cout,cin,negative;
 
-	mod_sum #(.width(4)) dut(a, b, cout, sum);
+	mod_sum #(.width(4)) dut(a, b,cin, cout, negative, sum);
 
 	    initial begin
         a = 0;
         b = 0;
+		  cin = 0;
         cout = 0;
         sum = 0;
         #50;

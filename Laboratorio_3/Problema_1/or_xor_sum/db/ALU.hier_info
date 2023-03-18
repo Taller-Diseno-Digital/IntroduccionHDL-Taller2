@@ -1,4 +1,256 @@
-|mod_and
+|mod_alu
+a[0] => a[0].IN4
+a[1] => a[1].IN4
+a[2] => a[2].IN4
+a[3] => a[3].IN4
+b[0] => b[0].IN5
+b[1] => b[1].IN5
+b[2] => b[2].IN5
+b[3] => b[3].IN5
+sel[0] => sel[0].IN4
+sel[1] => sel[1].IN1
+cout << mod_sum:dut_sum.port3
+negative << negative.DB_MAX_OUTPUT_PORT_TYPE
+zero << mod_compare:dut_compare.port4
+result[0] << mod_mux4:dut_mux4.port5
+result[1] << mod_mux4:dut_mux4.port5
+result[2] << mod_mux4:dut_mux4.port5
+result[3] << mod_mux4:dut_mux4.port5
+
+
+|mod_alu|mod_not:dut_not_b
+a[0] => y[0].DATAIN
+a[1] => y[1].DATAIN
+a[2] => y[2].DATAIN
+a[3] => y[3].DATAIN
+y[0] <= a[0].DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= a[1].DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= a[2].DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= a[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mod_alu|mod_mux2:dut_mux2
+d0[0] => y.DATAA
+d0[1] => y.DATAA
+d0[2] => y.DATAA
+d0[3] => y.DATAA
+d1[0] => y.DATAB
+d1[1] => y.DATAB
+d1[2] => y.DATAB
+d1[3] => y.DATAB
+s => y.OUTPUTSELECT
+s => y.OUTPUTSELECT
+s => y.OUTPUTSELECT
+s => y.OUTPUTSELECT
+y[0] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mod_alu|mod_sum:dut_sum
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+cin => cin.IN1
+cout <= sum_1bit:forloop[3].result.port3
+sum[0] <= sum_1bit:first.port4
+sum[1] <= sum_1bit:forloop[1].result.port4
+sum[2] <= sum_1bit:forloop[2].result.port4
+sum[3] <= sum_1bit:forloop[3].result.port4
+
+
+|mod_alu|mod_sum:dut_sum|sum_1bit:first
+a => and_g.IN0
+a => or_p.IN0
+a => xor_sum.IN0
+b => and_g.IN1
+b => or_p.IN1
+b => xor_sum.IN1
+cin => xor_sum.IN2
+cin => and_c.IN1
+cout <= or_cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= xor_sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mod_alu|mod_sum:dut_sum|sum_1bit:forloop[1].result
+a => and_g.IN0
+a => or_p.IN0
+a => xor_sum.IN0
+b => and_g.IN1
+b => or_p.IN1
+b => xor_sum.IN1
+cin => xor_sum.IN2
+cin => and_c.IN1
+cout <= or_cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= xor_sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mod_alu|mod_sum:dut_sum|sum_1bit:forloop[2].result
+a => and_g.IN0
+a => or_p.IN0
+a => xor_sum.IN0
+b => and_g.IN1
+b => or_p.IN1
+b => xor_sum.IN1
+cin => xor_sum.IN2
+cin => and_c.IN1
+cout <= or_cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= xor_sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mod_alu|mod_sum:dut_sum|sum_1bit:forloop[3].result
+a => and_g.IN0
+a => or_p.IN0
+a => xor_sum.IN0
+b => and_g.IN1
+b => or_p.IN1
+b => xor_sum.IN1
+cin => xor_sum.IN2
+cin => and_c.IN1
+cout <= or_cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= xor_sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mod_alu|mod_compare:dut_compare
+a[0] => Equal0.IN3
+a[0] => LessThan0.IN4
+a[1] => Equal0.IN2
+a[1] => LessThan0.IN3
+a[2] => Equal0.IN1
+a[2] => LessThan0.IN2
+a[3] => Equal0.IN0
+a[3] => LessThan0.IN1
+b[0] => Equal0.IN7
+b[0] => LessThan0.IN8
+b[1] => Equal0.IN6
+b[1] => LessThan0.IN7
+b[2] => Equal0.IN5
+b[2] => LessThan0.IN6
+b[3] => Equal0.IN4
+b[3] => LessThan0.IN5
+sel => zero.OUTPUTSELECT
+sel => negative.OUTPUTSELECT
+negative <= negative.DB_MAX_OUTPUT_PORT_TYPE
+zero <= zero.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mod_alu|mod_compl:dut_complement
+add_or_sub[0] => add_or_sub[0].IN1
+add_or_sub[1] => add_or_sub[1].IN1
+add_or_sub[2] => add_or_sub[2].IN1
+add_or_sub[3] => add_or_sub[3].IN1
+result[0] <= mod_sum:dut_sum_complement.port4
+result[1] <= mod_sum:dut_sum_complement.port4
+result[2] <= mod_sum:dut_sum_complement.port4
+result[3] <= mod_sum:dut_sum_complement.port4
+
+
+|mod_alu|mod_compl:dut_complement|mod_not:not_b_mod
+a[0] => y[0].DATAIN
+a[1] => y[1].DATAIN
+a[2] => y[2].DATAIN
+a[3] => y[3].DATAIN
+y[0] <= a[0].DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= a[1].DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= a[2].DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= a[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mod_alu|mod_compl:dut_complement|mod_sum:dut_sum_complement
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+cin => cin.IN1
+cout <= sum_1bit:forloop[3].result.port3
+sum[0] <= sum_1bit:first.port4
+sum[1] <= sum_1bit:forloop[1].result.port4
+sum[2] <= sum_1bit:forloop[2].result.port4
+sum[3] <= sum_1bit:forloop[3].result.port4
+
+
+|mod_alu|mod_compl:dut_complement|mod_sum:dut_sum_complement|sum_1bit:first
+a => and_g.IN0
+a => or_p.IN0
+a => xor_sum.IN0
+b => and_g.IN1
+b => or_p.IN1
+b => xor_sum.IN1
+cin => xor_sum.IN2
+cin => and_c.IN1
+cout <= or_cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= xor_sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mod_alu|mod_compl:dut_complement|mod_sum:dut_sum_complement|sum_1bit:forloop[1].result
+a => and_g.IN0
+a => or_p.IN0
+a => xor_sum.IN0
+b => and_g.IN1
+b => or_p.IN1
+b => xor_sum.IN1
+cin => xor_sum.IN2
+cin => and_c.IN1
+cout <= or_cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= xor_sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mod_alu|mod_compl:dut_complement|mod_sum:dut_sum_complement|sum_1bit:forloop[2].result
+a => and_g.IN0
+a => or_p.IN0
+a => xor_sum.IN0
+b => and_g.IN1
+b => or_p.IN1
+b => xor_sum.IN1
+cin => xor_sum.IN2
+cin => and_c.IN1
+cout <= or_cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= xor_sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mod_alu|mod_compl:dut_complement|mod_sum:dut_sum_complement|sum_1bit:forloop[3].result
+a => and_g.IN0
+a => or_p.IN0
+a => xor_sum.IN0
+b => and_g.IN1
+b => or_p.IN1
+b => xor_sum.IN1
+cin => xor_sum.IN2
+cin => and_c.IN1
+cout <= or_cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= xor_sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mod_alu|mod_mux2:dut_mux2_sub
+d0[0] => y.DATAA
+d0[1] => y.DATAA
+d0[2] => y.DATAA
+d0[3] => y.DATAA
+d1[0] => y.DATAB
+d1[1] => y.DATAB
+d1[2] => y.DATAB
+d1[3] => y.DATAB
+s => y.OUTPUTSELECT
+s => y.OUTPUTSELECT
+s => y.OUTPUTSELECT
+s => y.OUTPUTSELECT
+y[0] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mod_alu|mod_and:dut_and
 a[0] => forloop[0].dut.IN0
 a[1] => forloop[1].dut.IN0
 a[2] => forloop[2].dut.IN0
@@ -11,5 +263,55 @@ y[0] <= forloop[0].dut.DB_MAX_OUTPUT_PORT_TYPE
 y[1] <= forloop[1].dut.DB_MAX_OUTPUT_PORT_TYPE
 y[2] <= forloop[2].dut.DB_MAX_OUTPUT_PORT_TYPE
 y[3] <= forloop[3].dut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mod_alu|mod_or:dut_or
+a[0] => forloop[0].dut.IN0
+a[1] => forloop[1].dut.IN0
+a[2] => forloop[2].dut.IN0
+a[3] => forloop[3].dut.IN0
+b[0] => forloop[0].dut.IN1
+b[1] => forloop[1].dut.IN1
+b[2] => forloop[2].dut.IN1
+b[3] => forloop[3].dut.IN1
+y[0] <= forloop[0].dut.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= forloop[1].dut.DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= forloop[2].dut.DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= forloop[3].dut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mod_alu|mod_mux4:dut_mux4
+d0[0] => y.DATAA
+d0[1] => y.DATAA
+d0[2] => y.DATAA
+d0[3] => y.DATAA
+d1[0] => y.DATAB
+d1[1] => y.DATAB
+d1[2] => y.DATAB
+d1[3] => y.DATAB
+d2[0] => y.DATAA
+d2[1] => y.DATAA
+d2[2] => y.DATAA
+d2[3] => y.DATAA
+d3[0] => y.DATAB
+d3[1] => y.DATAB
+d3[2] => y.DATAB
+d3[3] => y.DATAB
+s[0] => y.OUTPUTSELECT
+s[0] => y.OUTPUTSELECT
+s[0] => y.OUTPUTSELECT
+s[0] => y.OUTPUTSELECT
+s[0] => y.OUTPUTSELECT
+s[0] => y.OUTPUTSELECT
+s[0] => y.OUTPUTSELECT
+s[0] => y.OUTPUTSELECT
+s[1] => y.OUTPUTSELECT
+s[1] => y.OUTPUTSELECT
+s[1] => y.OUTPUTSELECT
+s[1] => y.OUTPUTSELECT
+y[0] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 

@@ -1,0 +1,6 @@
+module principal(	 input logic [width - 1 : 0] a,b,
+						 input [3:0] sel,
+						 output logic cout,negative,zero,
+						 output logic [width - 1 : 0] result);
+
+  mod_alu #(.width(width)) alu();

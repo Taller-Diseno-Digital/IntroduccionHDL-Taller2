@@ -37,7 +37,7 @@ module tb_mod_alu();
         b = 4'b0011;
         sel = 1; 
         #50;
-		  assert (result === 4'b0001 & cout === 1) 
+		  assert (result === 4'b0001 & cout === 0) 
         else   $error("Failed case 4 - 3");
 
         a = 4'b0110;
@@ -51,7 +51,7 @@ module tb_mod_alu();
         b = 4'b0110;
         sel = 1;
         #50;
-		  assert (result === 4'b0000 & cout === 1) 
+		  assert (result === 4'b0000 & cout === 0 & zero === 1) 
         else   $error("Failed case 6 - 6");
 
 		  // ---not a---
@@ -145,7 +145,7 @@ module tb_mod_alu();
 		  assert (result === 4'b1101 & cout === 0) 
         else   $error("Failed case shift right art 1010");
 		  
-		a = 4'b1110;
+		  a = 4'b1110;
         sel = 8; 
         #50;
 		  assert (result === 4'b1111 & cout === 0) 

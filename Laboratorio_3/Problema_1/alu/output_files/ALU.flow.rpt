@@ -1,5 +1,5 @@
 Flow report for ALU
-Tue Mar 21 09:45:14 2023
+Tue Mar 21 11:28:59 2023
 Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 
 
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +------------------------------------------------------------------------------+
 ; Flow Summary                                                                 ;
 +-----------------------------+------------------------------------------------+
-; Flow Status                 ; Successful - Tue Mar 21 09:45:14 2023          ;
+; Flow Status                 ; Successful - Tue Mar 21 11:28:59 2023          ;
 ; Quartus Prime Version       ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
 ; Revision Name               ; ALU                                            ;
 ; Top-level Entity Name       ; mod_alu                                        ;
@@ -63,7 +63,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 03/21/2023 09:45:01 ;
+; Start date & time ; 03/21/2023 11:28:52 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; ALU                 ;
 +-------------------+---------------------+
@@ -74,12 +74,13 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id                        ;
 +--------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID                ; 24580036504921.167941350106864         ; --            ; --          ; --                                ;
+; COMPILER_SIGNATURE_ID                ; 24580036504921.167941973217516         ; --            ; --          ; --                                ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; tb_mod_alu                        ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; tb_mod_or                         ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; tb_mod_sub                        ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; tb_mod_and                        ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; tb_mod_not                        ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; tb_principal                      ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; tb_mod_xor                        ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; tb_mod_sum                        ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; tb_sum_1bit                       ;
@@ -96,6 +97,7 @@ https://fpgasoftware.intel.com/eula.
 ; EDA_TEST_BENCH_FILE                  ; tb_mod_sub.sv                          ; --            ; --          ; tb_mod_sub                        ;
 ; EDA_TEST_BENCH_FILE                  ; tb_mod_and.sv                          ; --            ; --          ; tb_mod_and                        ;
 ; EDA_TEST_BENCH_FILE                  ; tb_mod_not.sv                          ; --            ; --          ; tb_mod_not                        ;
+; EDA_TEST_BENCH_FILE                  ; tb_principal.sv                        ; --            ; --          ; tb_principal                      ;
 ; EDA_TEST_BENCH_FILE                  ; tb_mod_xor.sv                          ; --            ; --          ; tb_mod_xor                        ;
 ; EDA_TEST_BENCH_FILE                  ; tb_mod_sum.sv                          ; --            ; --          ; tb_mod_sum                        ;
 ; EDA_TEST_BENCH_FILE                  ; tb_sum_1bit.sv                         ; --            ; --          ; tb_sum_1bit                       ;
@@ -104,6 +106,7 @@ https://fpgasoftware.intel.com/eula.
 ; EDA_TEST_BENCH_MODULE_NAME           ; tb_mod_sub                             ; --            ; --          ; tb_mod_sub                        ;
 ; EDA_TEST_BENCH_MODULE_NAME           ; tb_mod_and                             ; --            ; --          ; tb_mod_and                        ;
 ; EDA_TEST_BENCH_MODULE_NAME           ; tb_mod_not                             ; --            ; --          ; tb_mod_not                        ;
+; EDA_TEST_BENCH_MODULE_NAME           ; tb_principal                           ; --            ; --          ; tb_principal                      ;
 ; EDA_TEST_BENCH_MODULE_NAME           ; tb_mod_xor                             ; --            ; --          ; tb_mod_xor                        ;
 ; EDA_TEST_BENCH_MODULE_NAME           ; tb_mod_sum                             ; --            ; --          ; tb_mod_sum                        ;
 ; EDA_TEST_BENCH_MODULE_NAME           ; tb_sum_1bit                            ; --            ; --          ; tb_sum_1bit                       ;
@@ -115,6 +118,7 @@ https://fpgasoftware.intel.com/eula.
 ; EDA_TEST_BENCH_NAME                  ; tb_mod_and                             ; --            ; --          ; eda_simulation                    ;
 ; EDA_TEST_BENCH_NAME                  ; tb_mod_sub                             ; --            ; --          ; eda_simulation                    ;
 ; EDA_TEST_BENCH_NAME                  ; tb_mod_alu                             ; --            ; --          ; eda_simulation                    ;
+; EDA_TEST_BENCH_NAME                  ; tb_principal                           ; --            ; --          ; eda_simulation                    ;
 ; EDA_TIME_SCALE                       ; 1 ps                                   ; --            ; --          ; eda_simulation                    ;
 ; MAX_CORE_JUNCTION_TEMP               ; 85                                     ; --            ; --          ; --                                ;
 ; MIN_CORE_JUNCTION_TEMP               ; 0                                      ; --            ; --          ; --                                ;
@@ -133,8 +137,8 @@ https://fpgasoftware.intel.com/eula.
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Elaboration ; 00:00:14     ; 1.0                     ; 4789 MB             ; 00:00:12                           ;
-; Total                  ; 00:00:14     ; --                      ; --                  ; 00:00:12                           ;
+; Analysis & Elaboration ; 00:00:08     ; 1.0                     ; 4792 MB             ; 00:00:13                           ;
+; Total                  ; 00:00:08     ; --                      ; --                  ; 00:00:13                           ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

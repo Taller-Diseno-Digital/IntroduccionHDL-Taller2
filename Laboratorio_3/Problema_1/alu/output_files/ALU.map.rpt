@@ -1,5 +1,5 @@
 Analysis & Elaboration report for ALU
-Tue Mar 21 09:45:14 2023
+Tue Mar 21 11:28:59 2023
 Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 
 
@@ -29,7 +29,8 @@ Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
  21. Parameter Settings for User Entity Instance: mod_mux16:dut_mux16
  22. Analysis & Elaboration Settings
  23. Port Connectivity Checks: "mod_compl:dut_complement|mod_sum:dut_sum_complement"
- 24. Analysis & Elaboration Messages
+ 24. Port Connectivity Checks: "mod_compare:dut_compare"
+ 25. Analysis & Elaboration Messages
 
 
 
@@ -56,7 +57,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                                 ;
 +-------------------------------+------------------------------------------------+
-; Analysis & Elaboration Status ; Successful - Tue Mar 21 09:45:14 2023          ;
+; Analysis & Elaboration Status ; Successful - Tue Mar 21 11:28:59 2023          ;
 ; Quartus Prime Version         ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
 ; Revision Name                 ; ALU                                            ;
 ; Top-level Entity Name         ; mod_alu                                        ;
@@ -366,13 +367,22 @@ Note: In order to hide this table in the UI and the text report file, please set
 +---------+--------+----------+-------------------------------------------------------------------------------------+
 
 
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "mod_compare:dut_compare"                                                            ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; zero ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
 +---------------------------------+
 ; Analysis & Elaboration Messages ;
 +---------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
-    Info: Processing started: Tue Mar 21 09:45:00 2023
+    Info: Processing started: Tue Mar 21 11:28:51 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ALU -c ALU --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
@@ -421,7 +431,15 @@ Info (12021): Found 1 design units, including 1 entities, in source file mod_rsh
     Info (12023): Found entity 1: mod_rshift_a File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_rshift_a.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file mod_mux16.sv
     Info (12023): Found entity 1: mod_mux16 File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_mux16.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file display_hexadecimal.sv
+    Info (12023): Found entity 1: display_hexadecimal File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/display_hexadecimal.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file principal.sv
+    Info (12023): Found entity 1: principal File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/principal.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file tb_principal.sv
+    Info (12023): Found entity 1: tb_principal File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/tb_principal.sv Line: 1
 Info (12127): Elaborating entity "mod_alu" for the top level hierarchy
+Warning (10230): Verilog HDL assignment warning at mod_alu.sv(68): truncated value with size 4 to match size of target (1) File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_alu.sv Line: 68
+Warning (10230): Verilog HDL assignment warning at mod_alu.sv(69): truncated value with size 4 to match size of target (1) File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_alu.sv Line: 69
 Info (12128): Elaborating entity "mod_not" for hierarchy "mod_not:dut_not_b" File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_alu.sv Line: 11
 Info (12128): Elaborating entity "mod_mux2" for hierarchy "mod_mux2:dut_mux2" File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_alu.sv Line: 13
 Info (12128): Elaborating entity "mod_sum" for hierarchy "mod_sum:dut_sum" File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_alu.sv Line: 15
@@ -439,10 +457,10 @@ Info (12128): Elaborating entity "mod_rshift_a" for hierarchy "mod_rshift_a:rshi
 Info (12128): Elaborating entity "mod_rshift" for hierarchy "mod_rshift:rshift" File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_alu.sv Line: 37
 Info (12128): Elaborating entity "mod_mux16" for hierarchy "mod_mux16:dut_mux16" File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_alu.sv Line: 50
 Warning (10230): Verilog HDL assignment warning at mod_mux16.sv(25): truncated value with size 16 to match size of target (4) File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_mux16.sv Line: 25
-Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 4789 megabytes
-    Info: Processing ended: Tue Mar 21 09:45:14 2023
-    Info: Elapsed time: 00:00:14
-    Info: Total CPU time (on all processors): 00:00:12
+Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 7 warnings
+    Info: Peak virtual memory: 4792 megabytes
+    Info: Processing ended: Tue Mar 21 11:28:59 2023
+    Info: Elapsed time: 00:00:08
+    Info: Total CPU time (on all processors): 00:00:13
 
 

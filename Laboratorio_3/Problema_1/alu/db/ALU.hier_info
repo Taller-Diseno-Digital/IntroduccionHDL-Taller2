@@ -11,13 +11,13 @@ sel[0] => sel[0].IN4
 sel[1] => sel[1].IN1
 sel[2] => sel[2].IN1
 sel[3] => sel[3].IN1
-cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
-negative <= negative.DB_MAX_OUTPUT_PORT_TYPE
-zero <= mod_compare:dut_compare.port4
-result[0] <= mod_mux16:dut_mux16.port11
-result[1] <= mod_mux16:dut_mux16.port11
-result[2] <= mod_mux16:dut_mux16.port11
-result[3] <= mod_mux16:dut_mux16.port11
+cout << cout.DB_MAX_OUTPUT_PORT_TYPE
+negative << negative.DB_MAX_OUTPUT_PORT_TYPE
+zero << mod_compare:dut_compare.port4
+result[0] << mod_mux16:dut_mux16.port11
+result[1] << mod_mux16:dut_mux16.port11
+result[2] << mod_mux16:dut_mux16.port11
+result[3] << mod_mux16:dut_mux16.port11
 
 
 |mod_alu|mod_not:dut_not_b

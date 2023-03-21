@@ -11,7 +11,7 @@ cModel Technology
 Z0 dC:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/simulation/modelsim
 vmod_alu
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1679112185
+Z2 !s110 1679413909
 !i10b 1
 !s100 PI:A<zB6KcIS3gW;dRVeo2
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -28,7 +28,7 @@ Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1679112185.000000
+Z6 !s108 1679413909.000000
 !s107 C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_alu.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu|C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_alu.sv|
 !i113 1
@@ -63,7 +63,7 @@ R8
 R9
 vmod_compare
 R1
-R2
+Z12 !s110 1679413910
 !i10b 1
 !s100 ]>Z@FZ?_QimQY[Y2Ka1Z40
 R3
@@ -80,7 +80,7 @@ R5
 r1
 !s85 0
 31
-R6
+Z13 !s108 1679413910.000000
 !s107 C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_compare.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu|C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_compare.sv|
 !i113 1
@@ -89,7 +89,7 @@ R8
 R9
 vmod_compl
 R1
-R2
+R12
 !i10b 1
 !s100 GlK9?KX5fJ4naP5fz7o5W3
 R3
@@ -106,7 +106,7 @@ R5
 r1
 !s85 0
 31
-R6
+R13
 !s107 C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_compl.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu|C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_compl.sv|
 !i113 1
@@ -115,7 +115,7 @@ R8
 R9
 vmod_lshift
 R1
-Z12 !s110 1679112186
+R12
 !i10b 1
 !s100 Eh1CLSzeFPSSe3T4mcUeE3
 R3
@@ -132,7 +132,7 @@ R5
 r1
 !s85 0
 31
-Z13 !s108 1679112186.000000
+R13
 !s107 C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_lshift.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu|C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_lshift.sv|
 !i113 1
@@ -158,7 +158,7 @@ R5
 r1
 !s85 0
 31
-R6
+R13
 !s107 C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_lshift_a.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu|C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_lshift_a.sv|
 !i113 1
@@ -193,7 +193,7 @@ R8
 R9
 vmod_mux2
 R1
-R2
+R12
 !i10b 1
 !s100 z1a>1l`]3:lKiNn;JoN;h2
 R3
@@ -210,7 +210,7 @@ R5
 r1
 !s85 0
 31
-R6
+R13
 !s107 C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_mux2.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu|C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_mux2.sv|
 !i113 1
@@ -245,7 +245,7 @@ R8
 R9
 vmod_or
 R1
-Z14 !s110 1679112184
+R2
 !i10b 1
 !s100 P@8G^D7Zn;D3PB8^<8T8@0
 R3
@@ -262,7 +262,7 @@ R5
 r1
 !s85 0
 31
-Z15 !s108 1679112184.000000
+R6
 !s107 C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_or.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu|C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_or.sv|
 !i113 1
@@ -283,7 +283,7 @@ w1679100801
 8C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_rshift.sv
 FC:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_rshift.sv
 !i122 12
-Z16 L0 1 19
+Z14 L0 1 19
 R5
 r1
 !s85 0
@@ -309,7 +309,7 @@ w1679100783
 8C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_rshift_a.sv
 FC:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_rshift_a.sv
 !i122 13
-R16
+R14
 R5
 r1
 !s85 0
@@ -349,7 +349,7 @@ R8
 R9
 vmod_xor
 R1
-R14
+R2
 !i10b 1
 !s100 8ERYMUOCzifzTdm>@R=]V0
 R3
@@ -366,7 +366,7 @@ R5
 r1
 !s85 0
 31
-R15
+R6
 !s107 C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_xor.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu|C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_xor.sv|
 !i113 1
@@ -375,7 +375,7 @@ R8
 R9
 vsum_1bit
 R1
-R14
+R2
 !i10b 1
 !s100 ^K<aZ9D57@n_BP>maQ1AQ2
 R3
@@ -392,7 +392,7 @@ R5
 r1
 !s85 0
 31
-R15
+R6
 !s107 C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/sum_1bit.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu|C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/sum_1bit.sv|
 !i113 1
@@ -403,13 +403,13 @@ vtb_mod_alu
 R1
 R12
 !i10b 1
-!s100 UfS61V9h^2N9XA[RC9n5Z2
+!s100 1j<cdJgG34JnizbML_fQb3
 R3
-Io2>``WdCzC9[ADLQgVIjE3
+Ie>M^Z0B<J6XZ0P^0nciKk0
 R4
 S1
 R0
-w1679112110
+w1679413862
 8C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/tb_mod_alu.sv
 FC:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/tb_mod_alu.sv
 !i122 15

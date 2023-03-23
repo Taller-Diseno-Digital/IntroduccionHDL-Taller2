@@ -133,7 +133,7 @@ module tb_mod_alu();
         else   $error("Failed case shift left 1010");
 
 		  a = 4'b1110;
-        sel = 6; 
+        sel = 7; 
         #50;
 		  assert (result === 4'b1100 & cout === 0) 
         else   $error("Failed case shift left 1110");

@@ -1,0 +1,6 @@
+module tb_principal();
+
+logic [width - 1 : 0] a,b;
+logic [3:0] sel;
+logic cout,negative,zero;
+logic [6 : 0] result;

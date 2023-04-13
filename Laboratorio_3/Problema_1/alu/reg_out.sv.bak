@@ -1,0 +1,21 @@
+module reg_out #(parameter width = 4)(
+  input logic clk,  
+  input logic reset,
+  input logic [width - 1 : 0] s_in,
+  output logic [width - 1 : 0] s_out
+);
+
+logic [width - 1 : 0] reg_s;  // Registro de salida
+
+// Registro de salida con clock negativo
+always_ff @(negedge clk) begin
+  if (reset) begin
+     reg_s <= '0;
+  end else begin
+     reg_s <= s_in;
+  end
+end
+
+assign s_out = reg_s;
+
+endmodule

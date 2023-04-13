@@ -1,0 +1,36 @@
+
+
+create_clock -name clk_in -period 7 [get_ports (clk_in)]
+
+create_clock -name cik_in_vir -period 7
+
+create_clock -name clk_out_vir -period 7
+
+#derive pll clocks
+create_generated_clock -name clk_x1 
+	-source (get_pins {pll|altpll_component|auto_generated|pll1|inclk[0]}] -duty_cycle 30.000 
+	-multiply_by 1 -master_clock {clkin} [get_pins {pll|altpll_component|auto_generated|pll1|clk[0]}]
+	
+create_generated_clock -name clk_x2
+	-source (get_pins {pll|altpll_component|auto_generated|pll1|inclk[0]}] -duty_cycle 50.000 
+	-multiply_by 2 -master_clock {clkin} [get_pins {pll|altpll_component|auto_generated|pll1|clk[1]}]
+
+derive_clock_uncertainty
+
+set_input_delay -clock (clk_in_vir) -max 3.15 [get_ports {din*}]
+set_input_delay -clock (clk_in_vir) -max 3.15 [get_ports {din*}]
+
+set_input_delay -clock (clk_in_vir) -max 3.15 [get_ports {din*}]
+set_input_delay -clock (clk_in_vir) -max 3.15 [get_ports {din*}]
+
+set_input_delay -clock (clk_in_vir) -max 3.15 [get_ports {din*}]
+set_input_delay -clock (clk_in_vir) -max 3.15 [get_ports {din*}]
+
+
+set false path from (get ports. (reset)]
+
+sex multicycle path -from [get pina (x_regtwo jelk y regtwo jelki1 -setup-end 2
+
+ses multicycle path-from [get pina fx regtwo/clk y regtwo jelk)] hold -end 1
+
+ant clock group -asynchronous group clk out vir -group clk_xi

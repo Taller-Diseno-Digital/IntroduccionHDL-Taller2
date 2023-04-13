@@ -1,0 +1,27 @@
+tb_frecuencia();
+logic clk,  
+logic reset,
+logic [width - 1 : 0] a,b;
+logic [3:0] sel;
+logic cout,negative,zero;
+logic [width - 1 : 0] result;
+
+frecuencia #(.width(4)) dut(clk, reset, y);
+	
+always 
+	begin 
+		clk = 0; 
+		#50;
+		clk = 1;
+		#50;
+	end
+		
+		
+	initial begin
+	// Se debe inicializar los valores
+		clk = 0;
+		reset = 0;
+		y = 0;
+		#50;
+		reset = 1;
+		#100;

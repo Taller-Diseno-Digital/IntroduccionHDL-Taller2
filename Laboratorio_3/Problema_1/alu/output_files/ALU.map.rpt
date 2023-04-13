@@ -1,5 +1,5 @@
-Analysis & Elaboration report for ALU
-Tue Mar 21 09:45:14 2023
+Analysis & Synthesis report for ALU
+Mon Mar 27 19:58:24 2023
 Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 
 
@@ -7,29 +7,39 @@ Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 ; Table of Contents ;
 ---------------------
   1. Legal Notice
-  2. Analysis & Elaboration Summary
-  3. Parallel Compilation
-  4. Parameter Settings for User Entity Instance: Top-level Entity: |mod_alu
-  5. Parameter Settings for User Entity Instance: mod_not:dut_not_b
-  6. Parameter Settings for User Entity Instance: mod_mux2:dut_mux2
-  7. Parameter Settings for User Entity Instance: mod_sum:dut_sum
-  8. Parameter Settings for User Entity Instance: mod_compare:dut_compare
-  9. Parameter Settings for User Entity Instance: mod_compl:dut_complement
- 10. Parameter Settings for User Entity Instance: mod_compl:dut_complement|mod_not:not_b_mod
- 11. Parameter Settings for User Entity Instance: mod_compl:dut_complement|mod_sum:dut_sum_complement
- 12. Parameter Settings for User Entity Instance: mod_mux2:dut_mux2_sub
- 13. Parameter Settings for User Entity Instance: mod_not:dut_not_a
- 14. Parameter Settings for User Entity Instance: mod_and:dut_and
- 15. Parameter Settings for User Entity Instance: mod_or:dut_or
- 16. Parameter Settings for User Entity Instance: mod_xor:dut_xor
- 17. Parameter Settings for User Entity Instance: mod_lshift_a:lshift_a
- 18. Parameter Settings for User Entity Instance: mod_lshift:lshift
- 19. Parameter Settings for User Entity Instance: mod_rshift_a:rshift_a
- 20. Parameter Settings for User Entity Instance: mod_rshift:rshift
- 21. Parameter Settings for User Entity Instance: mod_mux16:dut_mux16
- 22. Analysis & Elaboration Settings
- 23. Port Connectivity Checks: "mod_compl:dut_complement|mod_sum:dut_sum_complement"
- 24. Analysis & Elaboration Messages
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. General Register Statistics
+  9. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 10. Parameter Settings for User Entity Instance: Top-level Entity: |frecuencia
+ 11. Parameter Settings for User Entity Instance: reg_in:regin
+ 12. Parameter Settings for User Entity Instance: mod_alu:alu
+ 13. Parameter Settings for User Entity Instance: mod_alu:alu|mod_not:dut_not_b
+ 14. Parameter Settings for User Entity Instance: mod_alu:alu|mod_mux2:dut_mux2
+ 15. Parameter Settings for User Entity Instance: mod_alu:alu|mod_sum:dut_sum
+ 16. Parameter Settings for User Entity Instance: mod_alu:alu|mod_compare:dut_compare
+ 17. Parameter Settings for User Entity Instance: mod_alu:alu|mod_compl:dut_complement
+ 18. Parameter Settings for User Entity Instance: mod_alu:alu|mod_compl:dut_complement|mod_not:not_b_mod
+ 19. Parameter Settings for User Entity Instance: mod_alu:alu|mod_compl:dut_complement|mod_sum:dut_sum_complement
+ 20. Parameter Settings for User Entity Instance: mod_alu:alu|mod_mux2:dut_mux2_sub
+ 21. Parameter Settings for User Entity Instance: mod_alu:alu|mod_not:dut_not_a
+ 22. Parameter Settings for User Entity Instance: mod_alu:alu|mod_and:dut_and
+ 23. Parameter Settings for User Entity Instance: mod_alu:alu|mod_or:dut_or
+ 24. Parameter Settings for User Entity Instance: mod_alu:alu|mod_xor:dut_xor
+ 25. Parameter Settings for User Entity Instance: mod_alu:alu|mod_lshift_a:lshift_a
+ 26. Parameter Settings for User Entity Instance: mod_alu:alu|mod_lshift:lshift
+ 27. Parameter Settings for User Entity Instance: mod_alu:alu|mod_rshift_a:rshift_a
+ 28. Parameter Settings for User Entity Instance: mod_alu:alu|mod_rshift:rshift
+ 29. Parameter Settings for User Entity Instance: mod_alu:alu|mod_mux16:dut_mux16
+ 30. Parameter Settings for User Entity Instance: reg_out:regout
+ 31. Port Connectivity Checks: "mod_alu:alu|mod_compl:dut_complement|mod_sum:dut_sum_complement"
+ 32. Post-Synthesis Netlist Statistics for Top Partition
+ 33. Elapsed Time Per Partition
+ 34. Analysis & Synthesis Messages
 
 
 
@@ -53,227 +63,36 @@ https://fpgasoftware.intel.com/eula.
 
 
 
-+--------------------------------------------------------------------------------+
-; Analysis & Elaboration Summary                                                 ;
-+-------------------------------+------------------------------------------------+
-; Analysis & Elaboration Status ; Successful - Tue Mar 21 09:45:14 2023          ;
-; Quartus Prime Version         ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
-; Revision Name                 ; ALU                                            ;
-; Top-level Entity Name         ; mod_alu                                        ;
-; Family                        ; Cyclone V                                      ;
-; Logic utilization (in ALMs)   ; N/A until Partition Merge                      ;
-; Total registers               ; N/A until Partition Merge                      ;
-; Total pins                    ; N/A until Partition Merge                      ;
-; Total virtual pins            ; N/A until Partition Merge                      ;
-; Total block memory bits       ; N/A until Partition Merge                      ;
-; Total PLLs                    ; N/A until Partition Merge                      ;
-; Total DLLs                    ; N/A until Partition Merge                      ;
-+-------------------------------+------------------------------------------------+
-
-
-+------------------------------------------+
-; Parallel Compilation                     ;
-+----------------------------+-------------+
-; Processors                 ; Number      ;
-+----------------------------+-------------+
-; Number detected on machine ; 16          ;
-; Maximum allowed            ; 16          ;
-;                            ;             ;
-; Average used               ; 1.00        ;
-; Maximum used               ; 1           ;
-;                            ;             ;
-; Usage by Processor         ; % Time Used ;
-;     Processor 1            ; 100.0%      ;
-+----------------------------+-------------+
-
-
-+-------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: Top-level Entity: |mod_alu ;
-+----------------+-------+------------------------------------------------+
-; Parameter Name ; Value ; Type                                           ;
-+----------------+-------+------------------------------------------------+
-; width          ; 4     ; Signed Integer                                 ;
-+----------------+-------+------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+----------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: mod_not:dut_not_b ;
-+----------------+-------+---------------------------------------+
-; Parameter Name ; Value ; Type                                  ;
-+----------------+-------+---------------------------------------+
-; width          ; 4     ; Signed Integer                        ;
-+----------------+-------+---------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+----------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: mod_mux2:dut_mux2 ;
-+----------------+-------+---------------------------------------+
-; Parameter Name ; Value ; Type                                  ;
-+----------------+-------+---------------------------------------+
-; width          ; 4     ; Signed Integer                        ;
-+----------------+-------+---------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+--------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: mod_sum:dut_sum ;
-+----------------+-------+-------------------------------------+
-; Parameter Name ; Value ; Type                                ;
-+----------------+-------+-------------------------------------+
-; width          ; 4     ; Signed Integer                      ;
-+----------------+-------+-------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+----------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: mod_compare:dut_compare ;
-+----------------+-------+---------------------------------------------+
-; Parameter Name ; Value ; Type                                        ;
-+----------------+-------+---------------------------------------------+
-; width          ; 4     ; Signed Integer                              ;
-+----------------+-------+---------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+-----------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: mod_compl:dut_complement ;
-+----------------+-------+----------------------------------------------+
-; Parameter Name ; Value ; Type                                         ;
-+----------------+-------+----------------------------------------------+
-; width          ; 4     ; Signed Integer                               ;
-+----------------+-------+----------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+-----------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: mod_compl:dut_complement|mod_not:not_b_mod ;
-+----------------+-------+----------------------------------------------------------------+
-; Parameter Name ; Value ; Type                                                           ;
-+----------------+-------+----------------------------------------------------------------+
-; width          ; 4     ; Signed Integer                                                 ;
-+----------------+-------+----------------------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+--------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: mod_compl:dut_complement|mod_sum:dut_sum_complement ;
-+----------------+-------+-------------------------------------------------------------------------+
-; Parameter Name ; Value ; Type                                                                    ;
-+----------------+-------+-------------------------------------------------------------------------+
-; width          ; 4     ; Signed Integer                                                          ;
-+----------------+-------+-------------------------------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+--------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: mod_mux2:dut_mux2_sub ;
-+----------------+-------+-------------------------------------------+
-; Parameter Name ; Value ; Type                                      ;
-+----------------+-------+-------------------------------------------+
-; width          ; 4     ; Signed Integer                            ;
-+----------------+-------+-------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+----------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: mod_not:dut_not_a ;
-+----------------+-------+---------------------------------------+
-; Parameter Name ; Value ; Type                                  ;
-+----------------+-------+---------------------------------------+
-; width          ; 4     ; Signed Integer                        ;
-+----------------+-------+---------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+--------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: mod_and:dut_and ;
-+----------------+-------+-------------------------------------+
-; Parameter Name ; Value ; Type                                ;
-+----------------+-------+-------------------------------------+
-; width          ; 4     ; Signed Integer                      ;
-+----------------+-------+-------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: mod_or:dut_or ;
-+----------------+-------+-----------------------------------+
-; Parameter Name ; Value ; Type                              ;
-+----------------+-------+-----------------------------------+
-; width          ; 4     ; Signed Integer                    ;
-+----------------+-------+-----------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+--------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: mod_xor:dut_xor ;
-+----------------+-------+-------------------------------------+
-; Parameter Name ; Value ; Type                                ;
-+----------------+-------+-------------------------------------+
-; width          ; 4     ; Signed Integer                      ;
-+----------------+-------+-------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+--------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: mod_lshift_a:lshift_a ;
-+----------------+-------+-------------------------------------------+
-; Parameter Name ; Value ; Type                                      ;
-+----------------+-------+-------------------------------------------+
-; width          ; 4     ; Signed Integer                            ;
-+----------------+-------+-------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+----------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: mod_lshift:lshift ;
-+----------------+-------+---------------------------------------+
-; Parameter Name ; Value ; Type                                  ;
-+----------------+-------+---------------------------------------+
-; width          ; 4     ; Signed Integer                        ;
-+----------------+-------+---------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+--------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: mod_rshift_a:rshift_a ;
-+----------------+-------+-------------------------------------------+
-; Parameter Name ; Value ; Type                                      ;
-+----------------+-------+-------------------------------------------+
-; width          ; 4     ; Signed Integer                            ;
-+----------------+-------+-------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+----------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: mod_rshift:rshift ;
-+----------------+-------+---------------------------------------+
-; Parameter Name ; Value ; Type                                  ;
-+----------------+-------+---------------------------------------+
-; width          ; 4     ; Signed Integer                        ;
-+----------------+-------+---------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: mod_mux16:dut_mux16 ;
-+----------------+-------+-----------------------------------------+
-; Parameter Name ; Value ; Type                                    ;
-+----------------+-------+-----------------------------------------+
-; width          ; 4     ; Signed Integer                          ;
-+----------------+-------+-----------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
++----------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                     ;
++---------------------------------+------------------------------------------------+
+; Analysis & Synthesis Status     ; Successful - Mon Mar 27 19:58:24 2023          ;
+; Quartus Prime Version           ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
+; Revision Name                   ; ALU                                            ;
+; Top-level Entity Name           ; frecuencia                                     ;
+; Family                          ; Cyclone V                                      ;
+; Logic utilization (in ALMs)     ; N/A                                            ;
+; Total registers                 ; 103                                            ;
+; Total pins                      ; 105                                            ;
+; Total virtual pins              ; 0                                              ;
+; Total block memory bits         ; 0                                              ;
+; Total DSP Blocks                ; 0                                              ;
+; Total HSSI RX PCSs              ; 0                                              ;
+; Total HSSI PMA RX Deserializers ; 0                                              ;
+; Total HSSI TX PCSs              ; 0                                              ;
+; Total HSSI PMA TX Serializers   ; 0                                              ;
+; Total PLLs                      ; 0                                              ;
+; Total DLLs                      ; 0                                              ;
++---------------------------------+------------------------------------------------+
 
 
 +---------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Elaboration Settings                                                                                           ;
+; Analysis & Synthesis Settings                                                                                             ;
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 ; Option                                                                          ; Setting            ; Default Value      ;
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 ; Device                                                                          ; 5CSEMA5F31C6       ;                    ;
-; Top-level entity name                                                           ; mod_alu            ; ALU                ;
+; Top-level entity name                                                           ; frecuencia         ; ALU                ;
 ; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
 ; Use smart compilation                                                           ; Off                ; Off                ;
 ; Enable parallel Assembler and Timing Analyzer during compilation                ; On                 ; On                 ;
@@ -354,95 +173,518 @@ Note: In order to hide this table in the UI and the text report file, please set
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "mod_compl:dut_complement|mod_sum:dut_sum_complement"                                   ;
-+---------+--------+----------+-------------------------------------------------------------------------------------+
-; Port    ; Type   ; Severity ; Details                                                                             ;
-+---------+--------+----------+-------------------------------------------------------------------------------------+
-; b[3..1] ; Input  ; Info     ; Stuck at GND                                                                        ;
-; b[0]    ; Input  ; Info     ; Stuck at VCC                                                                        ;
-; cin     ; Input  ; Info     ; Stuck at GND                                                                        ;
-; cout    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+---------+--------+----------+-------------------------------------------------------------------------------------+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 8           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 8           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processors 2-8         ;   0.0%      ;
++----------------------------+-------------+
 
 
-+---------------------------------+
-; Analysis & Elaboration Messages ;
-+---------------------------------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                                                                ;
++----------------------------------+-----------------+------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                                                                                            ; Library ;
++----------------------------------+-----------------+------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+; reg_in.sv                        ; yes             ; User SystemVerilog HDL File  ; D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/reg_in.sv       ;         ;
+; reg_out.sv                       ; yes             ; User SystemVerilog HDL File  ; D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/reg_out.sv      ;         ;
+; mod_or.sv                        ; yes             ; User SystemVerilog HDL File  ; D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_or.sv       ;         ;
+; mod_xor.sv                       ; yes             ; User SystemVerilog HDL File  ; D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_xor.sv      ;         ;
+; sum_1bit.sv                      ; yes             ; User SystemVerilog HDL File  ; D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/sum_1bit.sv     ;         ;
+; mod_sum.sv                       ; yes             ; User SystemVerilog HDL File  ; D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_sum.sv      ;         ;
+; mod_not.sv                       ; yes             ; User SystemVerilog HDL File  ; D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_not.sv      ;         ;
+; mod_and.sv                       ; yes             ; User SystemVerilog HDL File  ; D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_and.sv      ;         ;
+; mod_alu.sv                       ; yes             ; User SystemVerilog HDL File  ; D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_alu.sv      ;         ;
+; mod_mux2.sv                      ; yes             ; User SystemVerilog HDL File  ; D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_mux2.sv     ;         ;
+; mod_compl.sv                     ; yes             ; User SystemVerilog HDL File  ; D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_compl.sv    ;         ;
+; mod_compare.sv                   ; yes             ; User SystemVerilog HDL File  ; D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_compare.sv  ;         ;
+; mod_lshift_a.sv                  ; yes             ; User SystemVerilog HDL File  ; D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_lshift_a.sv ;         ;
+; mod_lshift.sv                    ; yes             ; User SystemVerilog HDL File  ; D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_lshift.sv   ;         ;
+; mod_rshift.sv                    ; yes             ; User SystemVerilog HDL File  ; D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_rshift.sv   ;         ;
+; mod_rshift_a.sv                  ; yes             ; User SystemVerilog HDL File  ; D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_rshift_a.sv ;         ;
+; mod_mux16.sv                     ; yes             ; User SystemVerilog HDL File  ; D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_mux16.sv    ;         ;
+; frecuencia.sv                    ; yes             ; User SystemVerilog HDL File  ; D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/frecuencia.sv   ;         ;
++----------------------------------+-----------------+------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+
+
++---------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary             ;
++---------------------------------------------+-----------+
+; Resource                                    ; Usage     ;
++---------------------------------------------+-----------+
+; Estimate of Logic utilization (ALMs needed) ; 176       ;
+;                                             ;           ;
+; Combinational ALUT usage for logic          ; 237       ;
+;     -- 7 input functions                    ; 5         ;
+;     -- 6 input functions                    ; 102       ;
+;     -- 5 input functions                    ; 24        ;
+;     -- 4 input functions                    ; 32        ;
+;     -- <=3 input functions                  ; 74        ;
+;                                             ;           ;
+; Dedicated logic registers                   ; 103       ;
+;                                             ;           ;
+; I/O pins                                    ; 105       ;
+;                                             ;           ;
+; Total DSP Blocks                            ; 0         ;
+;                                             ;           ;
+; Maximum fan-out node                        ; clk~input ;
+; Maximum fan-out                             ; 103       ;
+; Total fan-out                               ; 1573      ;
+; Average fan-out                             ; 2.86      ;
++---------------------------------------------+-----------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                       ;
++-------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------------------------------------------------------------------------------------+-------------+--------------+
+; Compilation Hierarchy Node                ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                     ; Entity Name ; Library Name ;
++-------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------------------------------------------------------------------------------------+-------------+--------------+
+; |frecuencia                               ; 237 (1)             ; 103 (0)                   ; 0                 ; 0          ; 105  ; 0            ; |frecuencia                                                                                             ; frecuencia  ; work         ;
+;    |mod_alu:alu|                          ; 160 (2)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu                                                                                 ; mod_alu     ; work         ;
+;       |mod_compare:dut_compare|           ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu|mod_compare:dut_compare                                                         ; mod_compare ; work         ;
+;       |mod_compl:dut_complement|          ; 20 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu|mod_compl:dut_complement                                                        ; mod_compl   ; work         ;
+;          |mod_sum:dut_sum_complement|     ; 20 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu|mod_compl:dut_complement|mod_sum:dut_sum_complement                             ; mod_sum     ; work         ;
+;             |sum_1bit:forloop[10].result| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu|mod_compl:dut_complement|mod_sum:dut_sum_complement|sum_1bit:forloop[10].result ; sum_1bit    ; work         ;
+;             |sum_1bit:forloop[11].result| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu|mod_compl:dut_complement|mod_sum:dut_sum_complement|sum_1bit:forloop[11].result ; sum_1bit    ; work         ;
+;             |sum_1bit:forloop[13].result| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu|mod_compl:dut_complement|mod_sum:dut_sum_complement|sum_1bit:forloop[13].result ; sum_1bit    ; work         ;
+;             |sum_1bit:forloop[15].result| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu|mod_compl:dut_complement|mod_sum:dut_sum_complement|sum_1bit:forloop[15].result ; sum_1bit    ; work         ;
+;             |sum_1bit:forloop[16].result| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu|mod_compl:dut_complement|mod_sum:dut_sum_complement|sum_1bit:forloop[16].result ; sum_1bit    ; work         ;
+;             |sum_1bit:forloop[18].result| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu|mod_compl:dut_complement|mod_sum:dut_sum_complement|sum_1bit:forloop[18].result ; sum_1bit    ; work         ;
+;             |sum_1bit:forloop[1].result|  ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu|mod_compl:dut_complement|mod_sum:dut_sum_complement|sum_1bit:forloop[1].result  ; sum_1bit    ; work         ;
+;             |sum_1bit:forloop[20].result| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu|mod_compl:dut_complement|mod_sum:dut_sum_complement|sum_1bit:forloop[20].result ; sum_1bit    ; work         ;
+;             |sum_1bit:forloop[21].result| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu|mod_compl:dut_complement|mod_sum:dut_sum_complement|sum_1bit:forloop[21].result ; sum_1bit    ; work         ;
+;             |sum_1bit:forloop[23].result| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu|mod_compl:dut_complement|mod_sum:dut_sum_complement|sum_1bit:forloop[23].result ; sum_1bit    ; work         ;
+;             |sum_1bit:forloop[25].result| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu|mod_compl:dut_complement|mod_sum:dut_sum_complement|sum_1bit:forloop[25].result ; sum_1bit    ; work         ;
+;             |sum_1bit:forloop[26].result| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu|mod_compl:dut_complement|mod_sum:dut_sum_complement|sum_1bit:forloop[26].result ; sum_1bit    ; work         ;
+;             |sum_1bit:forloop[27].result| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu|mod_compl:dut_complement|mod_sum:dut_sum_complement|sum_1bit:forloop[27].result ; sum_1bit    ; work         ;
+;             |sum_1bit:forloop[28].result| ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu|mod_compl:dut_complement|mod_sum:dut_sum_complement|sum_1bit:forloop[28].result ; sum_1bit    ; work         ;
+;             |sum_1bit:forloop[29].result| ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu|mod_compl:dut_complement|mod_sum:dut_sum_complement|sum_1bit:forloop[29].result ; sum_1bit    ; work         ;
+;             |sum_1bit:forloop[3].result|  ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu|mod_compl:dut_complement|mod_sum:dut_sum_complement|sum_1bit:forloop[3].result  ; sum_1bit    ; work         ;
+;             |sum_1bit:forloop[5].result|  ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu|mod_compl:dut_complement|mod_sum:dut_sum_complement|sum_1bit:forloop[5].result  ; sum_1bit    ; work         ;
+;             |sum_1bit:forloop[6].result|  ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu|mod_compl:dut_complement|mod_sum:dut_sum_complement|sum_1bit:forloop[6].result  ; sum_1bit    ; work         ;
+;             |sum_1bit:forloop[8].result|  ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu|mod_compl:dut_complement|mod_sum:dut_sum_complement|sum_1bit:forloop[8].result  ; sum_1bit    ; work         ;
+;       |mod_mux16:dut_mux16|               ; 5 (5)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu|mod_mux16:dut_mux16                                                             ; mod_mux16   ; work         ;
+;       |mod_mux2:dut_mux2|                 ; 27 (27)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu|mod_mux2:dut_mux2                                                               ; mod_mux2    ; work         ;
+;       |mod_sum:dut_sum|                   ; 66 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu|mod_sum:dut_sum                                                                 ; mod_sum     ; work         ;
+;          |sum_1bit:forloop[10].result|    ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu|mod_sum:dut_sum|sum_1bit:forloop[10].result                                     ; sum_1bit    ; work         ;
+;          |sum_1bit:forloop[11].result|    ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu|mod_sum:dut_sum|sum_1bit:forloop[11].result                                     ; sum_1bit    ; work         ;
+;          |sum_1bit:forloop[12].result|    ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu|mod_sum:dut_sum|sum_1bit:forloop[12].result                                     ; sum_1bit    ; work         ;
+;          |sum_1bit:forloop[13].result|    ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu|mod_sum:dut_sum|sum_1bit:forloop[13].result                                     ; sum_1bit    ; work         ;
+;          |sum_1bit:forloop[14].result|    ; 4 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu|mod_sum:dut_sum|sum_1bit:forloop[14].result                                     ; sum_1bit    ; work         ;
+;          |sum_1bit:forloop[15].result|    ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu|mod_sum:dut_sum|sum_1bit:forloop[15].result                                     ; sum_1bit    ; work         ;
+;          |sum_1bit:forloop[16].result|    ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu|mod_sum:dut_sum|sum_1bit:forloop[16].result                                     ; sum_1bit    ; work         ;
+;          |sum_1bit:forloop[17].result|    ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu|mod_sum:dut_sum|sum_1bit:forloop[17].result                                     ; sum_1bit    ; work         ;
+;          |sum_1bit:forloop[18].result|    ; 3 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu|mod_sum:dut_sum|sum_1bit:forloop[18].result                                     ; sum_1bit    ; work         ;
+;          |sum_1bit:forloop[19].result|    ; 4 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu|mod_sum:dut_sum|sum_1bit:forloop[19].result                                     ; sum_1bit    ; work         ;
+;          |sum_1bit:forloop[1].result|     ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu|mod_sum:dut_sum|sum_1bit:forloop[1].result                                      ; sum_1bit    ; work         ;
+;          |sum_1bit:forloop[20].result|    ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu|mod_sum:dut_sum|sum_1bit:forloop[20].result                                     ; sum_1bit    ; work         ;
+;          |sum_1bit:forloop[21].result|    ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu|mod_sum:dut_sum|sum_1bit:forloop[21].result                                     ; sum_1bit    ; work         ;
+;          |sum_1bit:forloop[22].result|    ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu|mod_sum:dut_sum|sum_1bit:forloop[22].result                                     ; sum_1bit    ; work         ;
+;          |sum_1bit:forloop[23].result|    ; 3 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu|mod_sum:dut_sum|sum_1bit:forloop[23].result                                     ; sum_1bit    ; work         ;
+;          |sum_1bit:forloop[24].result|    ; 4 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu|mod_sum:dut_sum|sum_1bit:forloop[24].result                                     ; sum_1bit    ; work         ;
+;          |sum_1bit:forloop[25].result|    ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu|mod_sum:dut_sum|sum_1bit:forloop[25].result                                     ; sum_1bit    ; work         ;
+;          |sum_1bit:forloop[26].result|    ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu|mod_sum:dut_sum|sum_1bit:forloop[26].result                                     ; sum_1bit    ; work         ;
+;          |sum_1bit:forloop[27].result|    ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu|mod_sum:dut_sum|sum_1bit:forloop[27].result                                     ; sum_1bit    ; work         ;
+;          |sum_1bit:forloop[28].result|    ; 5 (5)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu|mod_sum:dut_sum|sum_1bit:forloop[28].result                                     ; sum_1bit    ; work         ;
+;          |sum_1bit:forloop[29].result|    ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu|mod_sum:dut_sum|sum_1bit:forloop[29].result                                     ; sum_1bit    ; work         ;
+;          |sum_1bit:forloop[2].result|     ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu|mod_sum:dut_sum|sum_1bit:forloop[2].result                                      ; sum_1bit    ; work         ;
+;          |sum_1bit:forloop[30].result|    ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu|mod_sum:dut_sum|sum_1bit:forloop[30].result                                     ; sum_1bit    ; work         ;
+;          |sum_1bit:forloop[3].result|     ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu|mod_sum:dut_sum|sum_1bit:forloop[3].result                                      ; sum_1bit    ; work         ;
+;          |sum_1bit:forloop[4].result|     ; 4 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu|mod_sum:dut_sum|sum_1bit:forloop[4].result                                      ; sum_1bit    ; work         ;
+;          |sum_1bit:forloop[5].result|     ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu|mod_sum:dut_sum|sum_1bit:forloop[5].result                                      ; sum_1bit    ; work         ;
+;          |sum_1bit:forloop[6].result|     ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu|mod_sum:dut_sum|sum_1bit:forloop[6].result                                      ; sum_1bit    ; work         ;
+;          |sum_1bit:forloop[7].result|     ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu|mod_sum:dut_sum|sum_1bit:forloop[7].result                                      ; sum_1bit    ; work         ;
+;          |sum_1bit:forloop[8].result|     ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu|mod_sum:dut_sum|sum_1bit:forloop[8].result                                      ; sum_1bit    ; work         ;
+;          |sum_1bit:forloop[9].result|     ; 4 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|mod_alu:alu|mod_sum:dut_sum|sum_1bit:forloop[9].result                                      ; sum_1bit    ; work         ;
+;    |reg_in:regin|                         ; 0 (0)               ; 68 (68)                   ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|reg_in:regin                                                                                ; reg_in      ; work         ;
+;    |reg_out:regout|                       ; 76 (76)             ; 35 (35)                   ; 0                 ; 0          ; 0    ; 0            ; |frecuencia|reg_out:regout                                                                              ; reg_out     ; work         ;
++-------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------------------------------------------------------------------------------------+-------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 103   ;
+; Number of registers using Synchronous Clear  ; 103   ;
+; Number of registers using Synchronous Load   ; 31    ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                          ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------+
+; 11:1               ; 30 bits   ; 210 LEs       ; 120 LEs              ; 90 LEs                 ; Yes        ; |frecuencia|reg_out:regout|result_out[26] ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------+
+
+
++----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Top-level Entity: |frecuencia ;
++----------------+-------+---------------------------------------------------+
+; Parameter Name ; Value ; Type                                              ;
++----------------+-------+---------------------------------------------------+
+; width          ; 32    ; Signed Integer                                    ;
++----------------+-------+---------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------+
+; Parameter Settings for User Entity Instance: reg_in:regin ;
++----------------+-------+----------------------------------+
+; Parameter Name ; Value ; Type                             ;
++----------------+-------+----------------------------------+
+; width          ; 32    ; Signed Integer                   ;
++----------------+-------+----------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------+
+; Parameter Settings for User Entity Instance: mod_alu:alu ;
++----------------+-------+---------------------------------+
+; Parameter Name ; Value ; Type                            ;
++----------------+-------+---------------------------------+
+; width          ; 32    ; Signed Integer                  ;
++----------------+-------+---------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: mod_alu:alu|mod_not:dut_not_b ;
++----------------+-------+---------------------------------------------------+
+; Parameter Name ; Value ; Type                                              ;
++----------------+-------+---------------------------------------------------+
+; width          ; 32    ; Signed Integer                                    ;
++----------------+-------+---------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: mod_alu:alu|mod_mux2:dut_mux2 ;
++----------------+-------+---------------------------------------------------+
+; Parameter Name ; Value ; Type                                              ;
++----------------+-------+---------------------------------------------------+
+; width          ; 32    ; Signed Integer                                    ;
++----------------+-------+---------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: mod_alu:alu|mod_sum:dut_sum ;
++----------------+-------+-------------------------------------------------+
+; Parameter Name ; Value ; Type                                            ;
++----------------+-------+-------------------------------------------------+
+; width          ; 32    ; Signed Integer                                  ;
++----------------+-------+-------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: mod_alu:alu|mod_compare:dut_compare ;
++----------------+-------+---------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                    ;
++----------------+-------+---------------------------------------------------------+
+; width          ; 32    ; Signed Integer                                          ;
++----------------+-------+---------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: mod_alu:alu|mod_compl:dut_complement ;
++----------------+-------+----------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                     ;
++----------------+-------+----------------------------------------------------------+
+; width          ; 32    ; Signed Integer                                           ;
++----------------+-------+----------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: mod_alu:alu|mod_compl:dut_complement|mod_not:not_b_mod ;
++----------------+-------+----------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                       ;
++----------------+-------+----------------------------------------------------------------------------+
+; width          ; 32    ; Signed Integer                                                             ;
++----------------+-------+----------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: mod_alu:alu|mod_compl:dut_complement|mod_sum:dut_sum_complement ;
++----------------+-------+-------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                ;
++----------------+-------+-------------------------------------------------------------------------------------+
+; width          ; 32    ; Signed Integer                                                                      ;
++----------------+-------+-------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: mod_alu:alu|mod_mux2:dut_mux2_sub ;
++----------------+-------+-------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                  ;
++----------------+-------+-------------------------------------------------------+
+; width          ; 32    ; Signed Integer                                        ;
++----------------+-------+-------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: mod_alu:alu|mod_not:dut_not_a ;
++----------------+-------+---------------------------------------------------+
+; Parameter Name ; Value ; Type                                              ;
++----------------+-------+---------------------------------------------------+
+; width          ; 32    ; Signed Integer                                    ;
++----------------+-------+---------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: mod_alu:alu|mod_and:dut_and ;
++----------------+-------+-------------------------------------------------+
+; Parameter Name ; Value ; Type                                            ;
++----------------+-------+-------------------------------------------------+
+; width          ; 32    ; Signed Integer                                  ;
++----------------+-------+-------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: mod_alu:alu|mod_or:dut_or ;
++----------------+-------+-----------------------------------------------+
+; Parameter Name ; Value ; Type                                          ;
++----------------+-------+-----------------------------------------------+
+; width          ; 32    ; Signed Integer                                ;
++----------------+-------+-----------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: mod_alu:alu|mod_xor:dut_xor ;
++----------------+-------+-------------------------------------------------+
+; Parameter Name ; Value ; Type                                            ;
++----------------+-------+-------------------------------------------------+
+; width          ; 32    ; Signed Integer                                  ;
++----------------+-------+-------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: mod_alu:alu|mod_lshift_a:lshift_a ;
++----------------+-------+-------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                  ;
++----------------+-------+-------------------------------------------------------+
+; width          ; 32    ; Signed Integer                                        ;
++----------------+-------+-------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: mod_alu:alu|mod_lshift:lshift ;
++----------------+-------+---------------------------------------------------+
+; Parameter Name ; Value ; Type                                              ;
++----------------+-------+---------------------------------------------------+
+; width          ; 32    ; Signed Integer                                    ;
++----------------+-------+---------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: mod_alu:alu|mod_rshift_a:rshift_a ;
++----------------+-------+-------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                  ;
++----------------+-------+-------------------------------------------------------+
+; width          ; 32    ; Signed Integer                                        ;
++----------------+-------+-------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: mod_alu:alu|mod_rshift:rshift ;
++----------------+-------+---------------------------------------------------+
+; Parameter Name ; Value ; Type                                              ;
++----------------+-------+---------------------------------------------------+
+; width          ; 32    ; Signed Integer                                    ;
++----------------+-------+---------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: mod_alu:alu|mod_mux16:dut_mux16 ;
++----------------+-------+-----------------------------------------------------+
+; Parameter Name ; Value ; Type                                                ;
++----------------+-------+-----------------------------------------------------+
+; width          ; 32    ; Signed Integer                                      ;
++----------------+-------+-----------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: reg_out:regout ;
++----------------+-------+------------------------------------+
+; Parameter Name ; Value ; Type                               ;
++----------------+-------+------------------------------------+
+; width          ; 32    ; Signed Integer                     ;
++----------------+-------+------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "mod_alu:alu|mod_compl:dut_complement|mod_sum:dut_sum_complement"                                                                               ;
++---------+--------+----------+---------------------------------------------------------------------------------------------------------------------------------------------+
+; Port    ; Type   ; Severity ; Details                                                                                                                                     ;
++---------+--------+----------+---------------------------------------------------------------------------------------------------------------------------------------------+
+; b       ; Input  ; Warning  ; Input port expression (4 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "b[31..4]" will be connected to GND. ;
+; b[3..1] ; Input  ; Info     ; Stuck at GND                                                                                                                                ;
+; b[28]   ; Input  ; Info     ; Stuck at VCC                                                                                                                                ;
+; cin     ; Input  ; Info     ; Stuck at GND                                                                                                                                ;
+; cout    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                                                         ;
++---------+--------+----------+---------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; arriav_ff             ; 103                         ;
+;     SCLR              ; 72                          ;
+;     SCLR SLD          ; 31                          ;
+; arriav_lcell_comb     ; 237                         ;
+;     extend            ; 5                           ;
+;         7 data inputs ; 5                           ;
+;     normal            ; 232                         ;
+;         0 data inputs ; 1                           ;
+;         2 data inputs ; 52                          ;
+;         3 data inputs ; 21                          ;
+;         4 data inputs ; 32                          ;
+;         5 data inputs ; 24                          ;
+;         6 data inputs ; 102                         ;
+; boundary_port         ; 105                         ;
+;                       ;                             ;
+; Max LUT depth         ; 14.00                       ;
+; Average LUT depth     ; 7.90                        ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:01     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
 Info: *******************************************************************
-Info: Running Quartus Prime Analysis & Elaboration
+Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
-    Info: Processing started: Tue Mar 21 09:45:00 2023
-Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ALU -c ALU --analysis_and_elaboration
+    Info: Processing started: Mon Mar 27 19:58:08 2023
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ALU -c ALU
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
+Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file reg_in.sv
+    Info (12023): Found entity 1: reg_in File: D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/reg_in.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file reg_out.sv
+    Info (12023): Found entity 1: reg_out File: D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/reg_out.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file mod_or.sv
-    Info (12023): Found entity 1: mod_or File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_or.sv Line: 1
+    Info (12023): Found entity 1: mod_or File: D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_or.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file mod_xor.sv
-    Info (12023): Found entity 1: mod_xor File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_xor.sv Line: 1
+    Info (12023): Found entity 1: mod_xor File: D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_xor.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file tb_mod_or.sv
-    Info (12023): Found entity 1: tb_mod_or File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/tb_mod_or.sv Line: 1
+    Info (12023): Found entity 1: tb_mod_or File: D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/tb_mod_or.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file tb_mod_xor.sv
-    Info (12023): Found entity 1: tb_mod_xor File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/tb_mod_xor.sv Line: 1
+    Info (12023): Found entity 1: tb_mod_xor File: D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/tb_mod_xor.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file sum_1bit.sv
-    Info (12023): Found entity 1: sum_1bit File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/sum_1bit.sv Line: 1
+    Info (12023): Found entity 1: sum_1bit File: D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/sum_1bit.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file tb_sum_1bit.sv
-    Info (12023): Found entity 1: tb_sum_1bit File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/tb_sum_1bit.sv Line: 1
+    Info (12023): Found entity 1: tb_sum_1bit File: D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/tb_sum_1bit.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file mod_sum.sv
-    Info (12023): Found entity 1: mod_sum File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_sum.sv Line: 1
+    Info (12023): Found entity 1: mod_sum File: D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_sum.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file tb_mod_sum.sv
-    Info (12023): Found entity 1: tb_mod_sum File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/tb_mod_sum.sv Line: 1
+    Info (12023): Found entity 1: tb_mod_sum File: D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/tb_mod_sum.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file mod_not.sv
-    Info (12023): Found entity 1: mod_not File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_not.sv Line: 1
+    Info (12023): Found entity 1: mod_not File: D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_not.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file tb_mod_not.sv
-    Info (12023): Found entity 1: tb_mod_not File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/tb_mod_not.sv Line: 1
+    Info (12023): Found entity 1: tb_mod_not File: D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/tb_mod_not.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file mod_and.sv
-    Info (12023): Found entity 1: mod_and File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_and.sv Line: 1
+    Info (12023): Found entity 1: mod_and File: D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_and.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file tb_mod_and.sv
-    Info (12023): Found entity 1: tb_mod_and File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/tb_mod_and.sv Line: 1
+    Info (12023): Found entity 1: tb_mod_and File: D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/tb_mod_and.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file mod_alu.sv
-    Info (12023): Found entity 1: mod_alu File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_alu.sv Line: 1
+    Info (12023): Found entity 1: mod_alu File: D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_alu.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file mod_mux2.sv
-    Info (12023): Found entity 1: mod_mux2 File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_mux2.sv Line: 1
+    Info (12023): Found entity 1: mod_mux2 File: D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_mux2.sv Line: 1
 Warning (12019): Can't analyze file -- file mod_mux4.sv is missing
 Info (12021): Found 1 design units, including 1 entities, in source file tb_mod_alu.sv
-    Info (12023): Found entity 1: tb_mod_alu File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/tb_mod_alu.sv Line: 1
+    Info (12023): Found entity 1: tb_mod_alu File: D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/tb_mod_alu.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file mod_compl.sv
-    Info (12023): Found entity 1: mod_compl File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_compl.sv Line: 1
+    Info (12023): Found entity 1: mod_compl File: D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_compl.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file mod_compare.sv
-    Info (12023): Found entity 1: mod_compare File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_compare.sv Line: 1
+    Info (12023): Found entity 1: mod_compare File: D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_compare.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file mod_lshift_a.sv
-    Info (12023): Found entity 1: mod_lshift_a File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_lshift_a.sv Line: 1
+    Info (12023): Found entity 1: mod_lshift_a File: D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_lshift_a.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file mod_lshift.sv
-    Info (12023): Found entity 1: mod_lshift File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_lshift.sv Line: 1
+    Info (12023): Found entity 1: mod_lshift File: D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_lshift.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file mod_rshift.sv
-    Info (12023): Found entity 1: mod_rshift File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_rshift.sv Line: 1
+    Info (12023): Found entity 1: mod_rshift File: D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_rshift.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file mod_rshift_a.sv
-    Info (12023): Found entity 1: mod_rshift_a File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_rshift_a.sv Line: 1
+    Info (12023): Found entity 1: mod_rshift_a File: D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_rshift_a.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file mod_mux16.sv
-    Info (12023): Found entity 1: mod_mux16 File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_mux16.sv Line: 1
-Info (12127): Elaborating entity "mod_alu" for the top level hierarchy
-Info (12128): Elaborating entity "mod_not" for hierarchy "mod_not:dut_not_b" File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_alu.sv Line: 11
-Info (12128): Elaborating entity "mod_mux2" for hierarchy "mod_mux2:dut_mux2" File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_alu.sv Line: 13
-Info (12128): Elaborating entity "mod_sum" for hierarchy "mod_sum:dut_sum" File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_alu.sv Line: 15
-Info (12128): Elaborating entity "sum_1bit" for hierarchy "mod_sum:dut_sum|sum_1bit:first" File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_sum.sv Line: 9
-Info (12128): Elaborating entity "mod_compare" for hierarchy "mod_compare:dut_compare" File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_alu.sv Line: 17
-Warning (10230): Verilog HDL assignment warning at mod_compare.sv(7): truncated value with size 32 to match size of target (1) File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_compare.sv Line: 7
-Warning (10230): Verilog HDL assignment warning at mod_compare.sv(8): truncated value with size 32 to match size of target (1) File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_compare.sv Line: 8
-Info (12128): Elaborating entity "mod_compl" for hierarchy "mod_compl:dut_complement" File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_alu.sv Line: 19
-Info (12128): Elaborating entity "mod_and" for hierarchy "mod_and:dut_and" File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_alu.sv Line: 25
-Info (12128): Elaborating entity "mod_or" for hierarchy "mod_or:dut_or" File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_alu.sv Line: 27
-Info (12128): Elaborating entity "mod_xor" for hierarchy "mod_xor:dut_xor" File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_alu.sv Line: 29
-Info (12128): Elaborating entity "mod_lshift_a" for hierarchy "mod_lshift_a:lshift_a" File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_alu.sv Line: 31
-Info (12128): Elaborating entity "mod_lshift" for hierarchy "mod_lshift:lshift" File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_alu.sv Line: 33
-Info (12128): Elaborating entity "mod_rshift_a" for hierarchy "mod_rshift_a:rshift_a" File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_alu.sv Line: 35
-Info (12128): Elaborating entity "mod_rshift" for hierarchy "mod_rshift:rshift" File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_alu.sv Line: 37
-Info (12128): Elaborating entity "mod_mux16" for hierarchy "mod_mux16:dut_mux16" File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_alu.sv Line: 50
-Warning (10230): Verilog HDL assignment warning at mod_mux16.sv(25): truncated value with size 16 to match size of target (4) File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_mux16.sv Line: 25
-Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 4789 megabytes
-    Info: Processing ended: Tue Mar 21 09:45:14 2023
-    Info: Elapsed time: 00:00:14
-    Info: Total CPU time (on all processors): 00:00:12
+    Info (12023): Found entity 1: mod_mux16 File: D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_mux16.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file frecuencia.sv
+    Info (12023): Found entity 1: frecuencia File: D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/frecuencia.sv Line: 1
+Info (12127): Elaborating entity "frecuencia" for the top level hierarchy
+Info (12128): Elaborating entity "reg_in" for hierarchy "reg_in:regin" File: D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/frecuencia.sv Line: 16
+Info (12128): Elaborating entity "mod_alu" for hierarchy "mod_alu:alu" File: D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/frecuencia.sv Line: 17
+Info (12128): Elaborating entity "mod_not" for hierarchy "mod_alu:alu|mod_not:dut_not_b" File: D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_alu.sv Line: 11
+Info (12128): Elaborating entity "mod_mux2" for hierarchy "mod_alu:alu|mod_mux2:dut_mux2" File: D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_alu.sv Line: 13
+Info (12128): Elaborating entity "mod_sum" for hierarchy "mod_alu:alu|mod_sum:dut_sum" File: D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_alu.sv Line: 15
+Info (12128): Elaborating entity "sum_1bit" for hierarchy "mod_alu:alu|mod_sum:dut_sum|sum_1bit:first" File: D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_sum.sv Line: 9
+Info (12128): Elaborating entity "mod_compare" for hierarchy "mod_alu:alu|mod_compare:dut_compare" File: D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_alu.sv Line: 17
+Warning (10230): Verilog HDL assignment warning at mod_compare.sv(7): truncated value with size 32 to match size of target (1) File: D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_compare.sv Line: 7
+Warning (10230): Verilog HDL assignment warning at mod_compare.sv(8): truncated value with size 32 to match size of target (1) File: D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_compare.sv Line: 8
+Info (12128): Elaborating entity "mod_compl" for hierarchy "mod_alu:alu|mod_compl:dut_complement" File: D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_alu.sv Line: 19
+Info (12128): Elaborating entity "mod_and" for hierarchy "mod_alu:alu|mod_and:dut_and" File: D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_alu.sv Line: 25
+Info (12128): Elaborating entity "mod_or" for hierarchy "mod_alu:alu|mod_or:dut_or" File: D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_alu.sv Line: 27
+Info (12128): Elaborating entity "mod_xor" for hierarchy "mod_alu:alu|mod_xor:dut_xor" File: D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_alu.sv Line: 29
+Info (12128): Elaborating entity "mod_lshift_a" for hierarchy "mod_alu:alu|mod_lshift_a:lshift_a" File: D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_alu.sv Line: 31
+Info (12128): Elaborating entity "mod_lshift" for hierarchy "mod_alu:alu|mod_lshift:lshift" File: D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_alu.sv Line: 33
+Info (12128): Elaborating entity "mod_rshift_a" for hierarchy "mod_alu:alu|mod_rshift_a:rshift_a" File: D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_alu.sv Line: 35
+Info (12128): Elaborating entity "mod_rshift" for hierarchy "mod_alu:alu|mod_rshift:rshift" File: D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_alu.sv Line: 37
+Info (12128): Elaborating entity "mod_mux16" for hierarchy "mod_alu:alu|mod_mux16:dut_mux16" File: D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/mod_alu.sv Line: 50
+Info (12128): Elaborating entity "reg_out" for hierarchy "reg_out:regout" File: D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/alu/frecuencia.sv Line: 18
+Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+Info (286030): Timing-Driven Synthesis is running
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 411 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 70 input pins
+    Info (21059): Implemented 35 output pins
+    Info (21061): Implemented 306 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 5 warnings
+    Info: Peak virtual memory: 4869 megabytes
+    Info: Processing ended: Mon Mar 27 19:58:24 2023
+    Info: Elapsed time: 00:00:16
+    Info: Total CPU time (on all processors): 00:00:35
 
 

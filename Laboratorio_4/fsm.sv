@@ -21,9 +21,9 @@ module fsm(
 
 
 
-    always_ff @(posedge clk) begin
+    always_ff @(posedge clk or posedge rst) begin
 
-        if (!rst)  estado <= inicio;
+        if (rst)  estado <= inicio;
 
         else         estado <= estado_sig;
 

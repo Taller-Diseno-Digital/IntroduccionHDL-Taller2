@@ -19,7 +19,7 @@ module mod_alu #(parameter width = 4)(
    mod_compl #(.width(width)) dut_complement(addition_temp, substracion);
 
    mod_mux2 #(.width(width)) dut_mux2_sub(addition_temp, substracion, negative, addition);
-    
+    x|
 	mod_not #(.width(width)) dut_not_a(a, not_a);
 
 	mod_and #(.width(width)) dut_and(a, b, m_and);

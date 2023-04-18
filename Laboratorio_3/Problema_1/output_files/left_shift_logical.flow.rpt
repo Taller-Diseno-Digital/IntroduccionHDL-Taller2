@@ -1,5 +1,5 @@
 Flow report for left_shift_logical
-Thu Mar 16 11:16:40 2023
+Sun Mar 26 21:04:48 2023
 Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 
 
@@ -38,29 +38,24 @@ https://fpgasoftware.intel.com/eula.
 
 
 
-+----------------------------------------------------------------------------------+
-; Flow Summary                                                                     ;
-+---------------------------------+------------------------------------------------+
-; Flow Status                     ; Successful - Thu Mar 16 11:16:40 2023          ;
-; Quartus Prime Version           ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
-; Revision Name                   ; left_shift_logical                             ;
-; Top-level Entity Name           ; right_shift_arith                              ;
-; Family                          ; Cyclone V                                      ;
-; Device                          ; 5CSEMA5F31C6                                   ;
-; Timing Models                   ; Final                                          ;
-; Logic utilization (in ALMs)     ; 1 / 32,070 ( < 1 % )                           ;
-; Total registers                 ; 0                                              ;
-; Total pins                      ; 8 / 457 ( 2 % )                                ;
-; Total virtual pins              ; 0                                              ;
-; Total block memory bits         ; 0 / 4,065,280 ( 0 % )                          ;
-; Total DSP Blocks                ; 0 / 87 ( 0 % )                                 ;
-; Total HSSI RX PCSs              ; 0                                              ;
-; Total HSSI PMA RX Deserializers ; 0                                              ;
-; Total HSSI TX PCSs              ; 0                                              ;
-; Total HSSI PMA TX Serializers   ; 0                                              ;
-; Total PLLs                      ; 0 / 6 ( 0 % )                                  ;
-; Total DLLs                      ; 0 / 4 ( 0 % )                                  ;
-+---------------------------------+------------------------------------------------+
++------------------------------------------------------------------------------+
+; Flow Summary                                                                 ;
++-----------------------------+------------------------------------------------+
+; Flow Status                 ; Successful - Sun Mar 26 21:04:48 2023          ;
+; Quartus Prime Version       ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
+; Revision Name               ; left_shift_logical                             ;
+; Top-level Entity Name       ; right_shift_logical                            ;
+; Family                      ; Cyclone V                                      ;
+; Device                      ; 5CSEMA5F31C6                                   ;
+; Timing Models               ; Final                                          ;
+; Logic utilization (in ALMs) ; N/A until Partition Merge                      ;
+; Total registers             ; N/A until Partition Merge                      ;
+; Total pins                  ; N/A until Partition Merge                      ;
+; Total virtual pins          ; N/A until Partition Merge                      ;
+; Total block memory bits     ; N/A until Partition Merge                      ;
+; Total PLLs                  ; N/A until Partition Merge                      ;
+; Total DLLs                  ; N/A until Partition Merge                      ;
++-----------------------------+------------------------------------------------+
 
 
 +-----------------------------------------+
@@ -68,90 +63,78 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 03/16/2023 11:15:00 ;
+; Start date & time ; 03/26/2023 21:04:38 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; left_shift_logical  ;
 +-------------------+---------------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                                                           ;
-+--------------------------------------+----------------------------------------+--------------------+-------------------+-----------------------------------+
-; Assignment Name                      ; Value                                  ; Default Value      ; Entity Name       ; Section Id                        ;
-+--------------------------------------+----------------------------------------+--------------------+-------------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID                ; 1095649362444.167898689904888          ; --                 ; --                ; --                                ;
-; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --                 ; --                ; tb_left_shift_arith               ;
-; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --                 ; --                ; tb_right_shift_arith              ;
-; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --                 ; --                ; tb_right_shift_logical            ;
-; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --                 ; --                ; tb_left_shift_logical             ;
-; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --                 ; --                ; eda_board_design_timing           ;
-; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --                 ; --                ; eda_board_design_boundary_scan    ;
-; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --                 ; --                ; eda_board_design_signal_integrity ;
-; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --                 ; --                ; eda_board_design_symbol           ;
-; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; tb_right_shift_arith                   ; --                 ; --                ; eda_simulation                    ;
-; EDA_OUTPUT_DATA_FORMAT               ; Systemverilog Hdl                      ; --                 ; --                ; eda_simulation                    ;
-; EDA_SIMULATION_TOOL                  ; ModelSim (SystemVerilog)               ; <None>             ; --                ; --                                ;
-; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                        ; --                 ; --                ; eda_simulation                    ;
-; EDA_TEST_BENCH_FILE                  ; tb_left_shift_arith.sv                 ; --                 ; --                ; tb_left_shift_arith               ;
-; EDA_TEST_BENCH_FILE                  ; tb_right_shift_arith.sv                ; --                 ; --                ; tb_right_shift_arith              ;
-; EDA_TEST_BENCH_FILE                  ; tb_right_shift_logical.sv              ; --                 ; --                ; tb_right_shift_logical            ;
-; EDA_TEST_BENCH_FILE                  ; tb_left_shift_logical.sv               ; --                 ; --                ; tb_left_shift_logical             ;
-; EDA_TEST_BENCH_MODULE_NAME           ; tb_left_shift_arith                    ; --                 ; --                ; tb_left_shift_arith               ;
-; EDA_TEST_BENCH_MODULE_NAME           ; tb_right_shift_arith                   ; --                 ; --                ; tb_right_shift_arith              ;
-; EDA_TEST_BENCH_MODULE_NAME           ; tb_right_shift_logical                 ; --                 ; --                ; tb_right_shift_logical            ;
-; EDA_TEST_BENCH_MODULE_NAME           ; tb_left_shift_logical                  ; --                 ; --                ; tb_left_shift_logical             ;
-; EDA_TEST_BENCH_NAME                  ; tb_left_shift_logical                  ; --                 ; --                ; eda_simulation                    ;
-; EDA_TEST_BENCH_NAME                  ; tb_right_shift_logical                 ; --                 ; --                ; eda_simulation                    ;
-; EDA_TEST_BENCH_NAME                  ; tb_left_shift_arith                    ; --                 ; --                ; eda_simulation                    ;
-; EDA_TEST_BENCH_NAME                  ; tb_right_shift_arith                   ; --                 ; --                ; eda_simulation                    ;
-; EDA_TIME_SCALE                       ; 1 ps                                   ; --                 ; --                ; eda_simulation                    ;
-; MAX_CORE_JUNCTION_TEMP               ; 85                                     ; --                 ; --                ; --                                ;
-; MIN_CORE_JUNCTION_TEMP               ; 0                                      ; --                 ; --                ; --                                ;
-; PARTITION_COLOR                      ; -- (Not supported for targeted family) ; --                 ; right_shift_arith ; Top                               ;
-; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family) ; --                 ; right_shift_arith ; Top                               ;
-; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family) ; --                 ; right_shift_arith ; Top                               ;
-; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                    ; --                 ; --                ; --                                ;
-; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --                 ; --                ; --                                ;
-; PROJECT_OUTPUT_DIRECTORY             ; output_files                           ; --                 ; --                ; --                                ;
-; TOP_LEVEL_ENTITY                     ; right_shift_arith                      ; left_shift_logical ; --                ; --                                ;
-+--------------------------------------+----------------------------------------+--------------------+-------------------+-----------------------------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                             ;
++--------------------------------------+----------------------------------------+--------------------+---------------------+-----------------------------------+
+; Assignment Name                      ; Value                                  ; Default Value      ; Entity Name         ; Section Id                        ;
++--------------------------------------+----------------------------------------+--------------------+---------------------+-----------------------------------+
+; COMPILER_SIGNATURE_ID                ; 1095649362444.167988627808740          ; --                 ; --                  ; --                                ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --                 ; --                  ; tb_left_shift_arith               ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --                 ; --                  ; tb_right_shift_arith              ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --                 ; --                  ; tb_right_shift_logical            ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --                 ; --                  ; tb_left_shift_logical             ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --                 ; --                  ; eda_board_design_timing           ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --                 ; --                  ; eda_board_design_boundary_scan    ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --                 ; --                  ; eda_board_design_signal_integrity ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --                 ; --                  ; eda_board_design_symbol           ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; tb_right_shift_logical                 ; --                 ; --                  ; eda_simulation                    ;
+; EDA_OUTPUT_DATA_FORMAT               ; Systemverilog Hdl                      ; --                 ; --                  ; eda_simulation                    ;
+; EDA_SIMULATION_TOOL                  ; ModelSim (SystemVerilog)               ; <None>             ; --                  ; --                                ;
+; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                        ; --                 ; --                  ; eda_simulation                    ;
+; EDA_TEST_BENCH_FILE                  ; tb_left_shift_arith.sv                 ; --                 ; --                  ; tb_left_shift_arith               ;
+; EDA_TEST_BENCH_FILE                  ; tb_right_shift_arith.sv                ; --                 ; --                  ; tb_right_shift_arith              ;
+; EDA_TEST_BENCH_FILE                  ; tb_right_shift_logical.sv              ; --                 ; --                  ; tb_right_shift_logical            ;
+; EDA_TEST_BENCH_FILE                  ; tb_left_shift_logical.sv               ; --                 ; --                  ; tb_left_shift_logical             ;
+; EDA_TEST_BENCH_MODULE_NAME           ; tb_left_shift_arith                    ; --                 ; --                  ; tb_left_shift_arith               ;
+; EDA_TEST_BENCH_MODULE_NAME           ; tb_right_shift_arith                   ; --                 ; --                  ; tb_right_shift_arith              ;
+; EDA_TEST_BENCH_MODULE_NAME           ; tb_right_shift_logical                 ; --                 ; --                  ; tb_right_shift_logical            ;
+; EDA_TEST_BENCH_MODULE_NAME           ; tb_left_shift_logical                  ; --                 ; --                  ; tb_left_shift_logical             ;
+; EDA_TEST_BENCH_NAME                  ; tb_left_shift_logical                  ; --                 ; --                  ; eda_simulation                    ;
+; EDA_TEST_BENCH_NAME                  ; tb_right_shift_logical                 ; --                 ; --                  ; eda_simulation                    ;
+; EDA_TEST_BENCH_NAME                  ; tb_left_shift_arith                    ; --                 ; --                  ; eda_simulation                    ;
+; EDA_TEST_BENCH_NAME                  ; tb_right_shift_arith                   ; --                 ; --                  ; eda_simulation                    ;
+; EDA_TIME_SCALE                       ; 1 ps                                   ; --                 ; --                  ; eda_simulation                    ;
+; MAX_CORE_JUNCTION_TEMP               ; 85                                     ; --                 ; --                  ; --                                ;
+; MIN_CORE_JUNCTION_TEMP               ; 0                                      ; --                 ; --                  ; --                                ;
+; PARTITION_COLOR                      ; -- (Not supported for targeted family) ; --                 ; right_shift_logical ; Top                               ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family) ; --                 ; right_shift_logical ; Top                               ;
+; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family) ; --                 ; right_shift_logical ; Top                               ;
+; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                    ; --                 ; --                  ; --                                ;
+; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --                 ; --                  ; --                                ;
+; PROJECT_OUTPUT_DIRECTORY             ; output_files                           ; --                 ; --                  ; --                                ;
+; TOP_LEVEL_ENTITY                     ; right_shift_logical                    ; left_shift_logical ; --                  ; --                                ;
++--------------------------------------+----------------------------------------+--------------------+---------------------+-----------------------------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------+
-; Flow Elapsed Time                                                                                                        ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:17     ; 1.0                     ; 4806 MB             ; 00:00:45                           ;
-; Fitter               ; 00:00:56     ; 1.0                     ; 6890 MB             ; 00:02:26                           ;
-; Assembler            ; 00:00:11     ; 1.0                     ; 4884 MB             ; 00:00:11                           ;
-; Timing Analyzer      ; 00:00:08     ; 1.0                     ; 5156 MB             ; 00:00:08                           ;
-; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4728 MB             ; 00:00:02                           ;
-; Total                ; 00:01:34     ; --                      ; --                  ; 00:03:32                           ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
++----------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                          ;
++------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Elaboration ; 00:00:11     ; 1.0                     ; 4774 MB             ; 00:00:28                           ;
+; Total                  ; 00:00:11     ; --                      ; --                  ; 00:00:28                           ;
++------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+------------------------------------------------------------------------------------+
-; Flow OS Summary                                                                    ;
-+----------------------+------------------+------------+------------+----------------+
-; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
-+----------------------+------------------+------------+------------+----------------+
-; Analysis & Synthesis ; ValesskasEnvy    ; Windows 10 ; 10.0       ; x86_64         ;
-; Fitter               ; ValesskasEnvy    ; Windows 10 ; 10.0       ; x86_64         ;
-; Assembler            ; ValesskasEnvy    ; Windows 10 ; 10.0       ; x86_64         ;
-; Timing Analyzer      ; ValesskasEnvy    ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; ValesskasEnvy    ; Windows 10 ; 10.0       ; x86_64         ;
-+----------------------+------------------+------------+------------+----------------+
++--------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                      ;
++------------------------+------------------+------------+------------+----------------+
+; Module Name            ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++------------------------+------------------+------------+------------+----------------+
+; Analysis & Elaboration ; ValesskasEnvy    ; Windows 10 ; 10.0       ; x86_64         ;
++------------------------+------------------+------------+------------+----------------+
 
 
 ------------
 ; Flow Log ;
 ------------
-quartus_map --read_settings_files=on --write_settings_files=off left_shift_logical -c left_shift_logical
-quartus_fit --read_settings_files=off --write_settings_files=off left_shift_logical -c left_shift_logical
-quartus_asm --read_settings_files=off --write_settings_files=off left_shift_logical -c left_shift_logical
-quartus_sta left_shift_logical -c left_shift_logical
-quartus_eda --read_settings_files=off --write_settings_files=off left_shift_logical -c left_shift_logical
+quartus_map --read_settings_files=on --write_settings_files=off left_shift_logical -c left_shift_logical --analysis_and_elaboration
 
 
 

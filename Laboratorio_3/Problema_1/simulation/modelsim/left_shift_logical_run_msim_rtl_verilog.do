@@ -45,11 +45,11 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
-vlog -sv -work work +incdir+C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1 {C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/right_shift_arith.sv}
+vlog -sv -work work +incdir+C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1 {C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/right_shift_logical.sv}
 
-vlog -sv -work work +incdir+C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1 {C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/tb_right_shift_arith.sv}
+vlog -sv -work work +incdir+C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1 {C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/tb_right_shift_logical.sv}
 
-vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_right_shift_arith
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_right_shift_logical
 
 add wave *
 view structure

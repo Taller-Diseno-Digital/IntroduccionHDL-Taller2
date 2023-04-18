@@ -1,0 +1,73 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "BCD_digit_1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "BCD_digit_1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "BCD_digit_1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "BCD_digit_1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "BCD_digit_1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "BCD_digit_1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "BCD_digit_1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "BCD_digit_2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "BCD_digit_2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "BCD_digit_2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "BCD_digit_2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "BCD_digit_2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "BCD_digit_2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "BCD_digit_2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

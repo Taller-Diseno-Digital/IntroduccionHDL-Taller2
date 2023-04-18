@@ -1,0 +1,178 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_2/Parte_2/simulation/modelsim
+Ebit4_sumador
+Z1 w1677601730
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 2
+R0
+Z4 8D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_2/Parte_2/bit4_sumador.vhd
+Z5 FD:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_2/Parte_2/bit4_sumador.vhd
+l0
+L4 1
+Ve:PBd979Z1MC>OUQT=gj01
+!s100 kI36nTUaW576l6;c8[jI83
+Z6 OV;C;2020.1;71
+31
+Z7 !s110 1677603959
+!i10b 1
+Z8 !s108 1677603959.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_2/Parte_2/bit4_sumador.vhd|
+Z10 !s107 D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_2/Parte_2/bit4_sumador.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Abit4_sumador_logica
+Z13 DEx4 work 16 completo_sumador 0 22 oH6kiFe4=Ycef5hZFK3`N3
+R2
+R3
+Z14 DEx4 work 12 bit4_sumador 0 22 e:PBd979Z1MC>OUQT=gj01
+!i122 2
+l16
+L13 14
+VjV:@oC4[@hETn:EMZ<VRk0
+!s100 _I<HZ7J?FFQTjeDXE?j9_0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ebit4_sumador_tb
+Z15 w1677603880
+R2
+R3
+!i122 3
+R0
+Z16 8D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_2/Parte_2/bit4_sumador_tb.vhd
+Z17 FD:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_2/Parte_2/bit4_sumador_tb.vhd
+l0
+L4 1
+VT:HY1WXPEKJjmY5J;R0AU3
+!s100 ]>TGESo=kTXzDY<XL3SdK0
+R6
+31
+R7
+!i10b 1
+R8
+Z18 !s90 -reportprogress|300|-93|-work|work|D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_2/Parte_2/bit4_sumador_tb.vhd|
+!s107 D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_2/Parte_2/bit4_sumador_tb.vhd|
+!i113 1
+R11
+R12
+Atest
+R14
+R2
+R3
+DEx4 work 15 bit4_sumador_tb 0 22 T:HY1WXPEKJjmY5J;R0AU3
+!i122 3
+l12
+L7 55
+V[EfzYa1`^LQdKMSUD;2<k0
+!s100 I?N;m?X1PEj5;n<9@iEhQ3
+R6
+31
+R7
+!i10b 1
+R8
+R18
+Z19 !s107 D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_2/Parte_2/bit4_sumador_tb.vhd|
+!i113 1
+R11
+R12
+Ecompleto_sumador
+Z20 w1677601685
+R2
+R3
+!i122 1
+R0
+Z21 8D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_2/Parte_2/completo_sumador.vhd
+Z22 FD:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_2/Parte_2/completo_sumador.vhd
+l0
+L4 1
+VoH6kiFe4=Ycef5hZFK3`N3
+!s100 7E^D2NPJVFfcM3:J]nTho0
+R6
+31
+R7
+!i10b 1
+R8
+Z23 !s90 -reportprogress|300|-93|-work|work|D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_2/Parte_2/completo_sumador.vhd|
+Z24 !s107 D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_2/Parte_2/completo_sumador.vhd|
+!i113 1
+R11
+R12
+Acompleto_sumador_logica
+Z25 DEx4 work 13 medio_sumador 0 22 =nGK8A6[54B:SR4YCc<:=0
+R2
+R3
+R13
+!i122 1
+l16
+L11 13
+VLAcDg0TS]]04R0kYlM37=0
+!s100 YEb<J`4UXT3=FCz96`SZY0
+R6
+31
+R7
+!i10b 1
+R8
+R23
+R24
+!i113 1
+R11
+R12
+Emedio_sumador
+Z26 w1677569359
+R2
+R3
+!i122 0
+R0
+Z27 8D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_2/Parte_2/medio_sumador.vhd
+Z28 FD:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_2/Parte_2/medio_sumador.vhd
+l0
+L4 1
+V=nGK8A6[54B:SR4YCc<:=0
+!s100 7<A2>Vj@YadIdAjj]VhTN2
+R6
+31
+R7
+!i10b 1
+Z29 !s108 1677603958.000000
+Z30 !s90 -reportprogress|300|-93|-work|work|D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_2/Parte_2/medio_sumador.vhd|
+Z31 !s107 D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_2/Parte_2/medio_sumador.vhd|
+!i113 1
+R11
+R12
+Amedio_sumador_logica
+R2
+R3
+R25
+!i122 0
+l12
+L11 5
+VV;9gV?_7mgnEz<z`nO8C]3
+!s100 gPg;C[EDiNFinzTfP5T3P1
+R6
+31
+R7
+!i10b 1
+R29
+R30
+R31
+!i113 1
+R11
+R12

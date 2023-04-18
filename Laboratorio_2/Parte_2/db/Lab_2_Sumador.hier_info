@@ -1,0 +1,121 @@
+|bit4_sumador
+A[0] => completo_sumador:BIT0.y
+A[1] => completo_sumador:BIT1.y
+A[2] => completo_sumador:BIT2.y
+A[3] => completo_sumador:BIT3.y
+B[0] => completo_sumador:BIT0.x
+B[1] => completo_sumador:BIT1.x
+B[2] => completo_sumador:BIT2.x
+B[3] => completo_sumador:BIT3.x
+CIN => completo_sumador:BIT0.z
+SUM[0] << completo_sumador:BIT0.sum
+SUM[1] << completo_sumador:BIT1.sum
+SUM[2] << completo_sumador:BIT2.sum
+SUM[3] << completo_sumador:BIT3.sum
+COUT << completo_sumador:BIT3.cout
+
+
+|bit4_sumador|completo_sumador:BIT0
+x => medio_sumador:MS1.x
+y => medio_sumador:MS1.y
+z => medio_sumador:MS2.y
+sum <= medio_sumador:MS2.sum
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bit4_sumador|completo_sumador:BIT0|medio_sumador:MS1
+x => sum.IN0
+x => cout.IN0
+y => sum.IN1
+y => cout.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bit4_sumador|completo_sumador:BIT0|medio_sumador:MS2
+x => sum.IN0
+x => cout.IN0
+y => sum.IN1
+y => cout.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bit4_sumador|completo_sumador:BIT1
+x => medio_sumador:MS1.x
+y => medio_sumador:MS1.y
+z => medio_sumador:MS2.y
+sum <= medio_sumador:MS2.sum
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bit4_sumador|completo_sumador:BIT1|medio_sumador:MS1
+x => sum.IN0
+x => cout.IN0
+y => sum.IN1
+y => cout.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bit4_sumador|completo_sumador:BIT1|medio_sumador:MS2
+x => sum.IN0
+x => cout.IN0
+y => sum.IN1
+y => cout.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bit4_sumador|completo_sumador:BIT2
+x => medio_sumador:MS1.x
+y => medio_sumador:MS1.y
+z => medio_sumador:MS2.y
+sum <= medio_sumador:MS2.sum
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bit4_sumador|completo_sumador:BIT2|medio_sumador:MS1
+x => sum.IN0
+x => cout.IN0
+y => sum.IN1
+y => cout.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bit4_sumador|completo_sumador:BIT2|medio_sumador:MS2
+x => sum.IN0
+x => cout.IN0
+y => sum.IN1
+y => cout.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bit4_sumador|completo_sumador:BIT3
+x => medio_sumador:MS1.x
+y => medio_sumador:MS1.y
+z => medio_sumador:MS2.y
+sum <= medio_sumador:MS2.sum
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bit4_sumador|completo_sumador:BIT3|medio_sumador:MS1
+x => sum.IN0
+x => cout.IN0
+y => sum.IN1
+y => cout.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bit4_sumador|completo_sumador:BIT3|medio_sumador:MS2
+x => sum.IN0
+x => cout.IN0
+y => sum.IN1
+y => cout.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+

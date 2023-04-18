@@ -1,0 +1,6 @@
+module control_movimiento(
+	input logic [2:0] movimiento,
+	output logic puntaje);
+	
+	
+	

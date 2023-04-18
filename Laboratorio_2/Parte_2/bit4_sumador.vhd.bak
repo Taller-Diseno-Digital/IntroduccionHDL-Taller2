@@ -1,0 +1,20 @@
+entity 4bit_sumador is
+		port(
+				A : in std_logic_vector(3 downto 0);
+				B : in std_logic_vector(3 downto 0);
+				C0 : in std_logic;
+				S : out std_logic_vector(3 downto 0);
+				C4 : out std_logic;
+				);
+end entity 4bit_sumador;
+
+architecture 4bit_sumador_logica of 4bit_sumador is
+	signal C : std_logic_vector(3 downto 0);
+	
+	begin 
+		BIT0 : entity work.completo_sumador(B(0),A(0),C0,S(0),C(1))
+		BIT1 : entity work.completo_sumador(B(1),A(1),C(1),S(1),C(2))
+		BIT2 : entity work.completo_sumador(B(2),A(2),C(2),S(2),C(3)) 
+		BIT3 : entity work.completo_sumador(B(3),A(3),C(3),S(3),C4) 
+
+end 4bit_sumador_logica;

@@ -32,9 +32,6 @@ module fsm(
     always_comb begin
 
 
-        movement = 3'b0;
-
-
         case (estado)
 
 

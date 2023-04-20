@@ -1,15 +1,11 @@
 |fsm
 clk => estado~1.DATAIN
-rst => estado.OUTPUTSELECT
-rst => estado.OUTPUTSELECT
-rst => estado.OUTPUTSELECT
-rst => estado.OUTPUTSELECT
-rst => estado.OUTPUTSELECT
-btn_izquierda => estado.DATAA
+rst => estado~3.DATAIN
 btn_izquierda => estado_sig.inicio.OUTPUTSELECT
 btn_izquierda => estado_sig.derecha.OUTPUTSELECT
 btn_izquierda => estado_sig.arriba.OUTPUTSELECT
 btn_izquierda => estado_sig.abajo.OUTPUTSELECT
+btn_izquierda => estado.izquierda.DATAIN
 btn_derecha => estado_sig.OUTPUTSELECT
 btn_derecha => estado_sig.OUTPUTSELECT
 btn_derecha => estado_sig.OUTPUTSELECT
@@ -19,8 +15,8 @@ btn_abajo => estado_sig.DATAA
 btn_arriba => estado_sig.OUTPUTSELECT
 btn_arriba => estado_sig.OUTPUTSELECT
 btn_arriba => estado_sig.DATAA
-movement[0] <= movement.DB_MAX_OUTPUT_PORT_TYPE
-movement[1] <= movement.DB_MAX_OUTPUT_PORT_TYPE
-movement[2] <= movement[2].DB_MAX_OUTPUT_PORT_TYPE
+movement[0] << movement.DB_MAX_OUTPUT_PORT_TYPE
+movement[1] << movement.DB_MAX_OUTPUT_PORT_TYPE
+movement[2] << movement[2].DB_MAX_OUTPUT_PORT_TYPE
 
 

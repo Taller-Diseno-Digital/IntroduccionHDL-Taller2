@@ -38,8 +38,8 @@ module mov_derecha_tb();
 				for (int j=0; j<4; j++) begin
 					assert(output_matrix[i][j] == expected_matrix[i][j])
 						else $error("Output matrix is incorrect!");
+				end
 			end
-end
     end
 
 endmodule

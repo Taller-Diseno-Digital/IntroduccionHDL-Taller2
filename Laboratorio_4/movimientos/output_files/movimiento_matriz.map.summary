@@ -1,7 +1,7 @@
-Analysis & Elaboration Status : Successful - Tue Apr 25 09:44:40 2023
+Analysis & Elaboration Status : Successful - Tue Apr 25 10:16:53 2023
 Quartus Prime Version : 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 Revision Name : movimiento_matriz
-Top-level Entity Name : mov_izquierda
+Top-level Entity Name : mov_arriba
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A until Partition Merge
 Total registers : N/A until Partition Merge

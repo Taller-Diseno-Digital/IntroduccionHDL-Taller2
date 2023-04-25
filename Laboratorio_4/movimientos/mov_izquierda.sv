@@ -13,7 +13,7 @@ module mov_izquierda(input int matriz_entrada [4][4],
 			
 			for (n=0; n < 3; n++) begin // realizando la lógica 3 veces por fila
 			
-				for (j=1; j < 4; j++) begin // recorriendo columnas de dercha a izquierda
+				for (j=1; j < 4; j++) begin // recorriendo columnas de izquierda a derecha
 					
 					if (matriz_temp[i][j] != 0 && matriz_temp[i][j-1] == 0) begin
 					

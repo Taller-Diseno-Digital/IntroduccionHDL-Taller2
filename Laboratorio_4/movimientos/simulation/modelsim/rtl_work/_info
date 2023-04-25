@@ -9,45 +9,45 @@ z2
 !i10f 100
 cModel Technology
 Z0 dC:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/simulation/modelsim
-vmov_izquierda
+vmov_arriba
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1682437603
+Z2 !s110 1682439669
 !i10b 1
-!s100 KD>?M4jTHVWK`^mDk>TJ13
+!s100 do=DLJVV@@dVa1KDE<d4Q0
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
-I9d;QZ9I=I8DFTTAVhLfHY2
+I^;6kDmgLA02kP^YEHW:@f0
 Z4 VDg1SIo80bB@j0V0VzS_@n1
 S1
 R0
-w1682437289
-8C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/mov_izquierda.sv
-FC:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/mov_izquierda.sv
+w1682439261
+8C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/mov_arriba.sv
+FC:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/mov_arriba.sv
 !i122 0
 L0 1 43
 Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1682437603.000000
-!s107 C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/mov_izquierda.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos|C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/mov_izquierda.sv|
+Z6 !s108 1682439669.000000
+!s107 C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/mov_arriba.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos|C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/mov_arriba.sv|
 !i113 1
 Z7 o-sv -work work
 Z8 !s92 -sv -work work +incdir+C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos
 Z9 tCvgOpt 0
-vmov_izquierda_tb
+vmov_arriba_tb
 R1
 R2
 !i10b 1
-!s100 E<kS<UZH3bPAkG`;GCdiE0
+!s100 ;]21zMg7Zm46PCZ[KEQiJ2
 R3
-I^jI[5kgRA1^XL0JOTI?hB1
+IIfTIG@9UhPTik?hj^2Pc_1
 R4
 S1
 R0
-w1682437424
-8C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/mov_izquierda_tb.sv
-FC:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/mov_izquierda_tb.sv
+w1682439368
+8C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/mov_arriba_tb.sv
+FC:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/mov_arriba_tb.sv
 !i122 1
 L0 1 45
 R5
@@ -55,8 +55,8 @@ r1
 !s85 0
 31
 R6
-!s107 C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/mov_izquierda_tb.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos|C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/mov_izquierda_tb.sv|
+!s107 C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/mov_arriba_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos|C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/mov_arriba_tb.sv|
 !i113 1
 R7
 R8

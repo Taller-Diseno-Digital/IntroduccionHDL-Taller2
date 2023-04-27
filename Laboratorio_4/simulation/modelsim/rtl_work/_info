@@ -1,0 +1,141 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/VGA MODULE/simulation/modelsim
+vcolor_module
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1682616663
+!i10b 1
+!s100 QfRfoTC;S^mhMXhYeVB@93
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+ISQG_FR^hES^X2c:WRT8T30
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1682616475
+8D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/VGA MODULE/color_module.sv
+FD:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/VGA MODULE/color_module.sv
+!i122 2
+L0 1 107
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1682616662.000000
+!s107 D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/VGA MODULE/color_module.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/VGA MODULE|D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/VGA MODULE/color_module.sv|
+!i113 1
+Z7 o-sv -work work
+Z8 !s92 -sv -work work {+incdir+D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/VGA MODULE}
+Z9 tCvgOpt 0
+vcolor_selector
+R1
+R2
+!i10b 1
+!s100 cCOlAfkWOM[>:6I7kQF8S1
+R3
+I6]z3_fG48KScJOoNLFA]R1
+R4
+S1
+R0
+w1682616472
+8D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/VGA MODULE/color_selector.sv
+FD:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/VGA MODULE/color_selector.sv
+!i122 3
+L0 1 28
+R5
+r1
+!s85 0
+31
+Z10 !s108 1682616663.000000
+!s107 D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/VGA MODULE/color_selector.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/VGA MODULE|D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/VGA MODULE/color_selector.sv|
+!i113 1
+R7
+R8
+R9
+vvga_decoder
+R1
+Z11 !s110 1682616662
+!i10b 1
+!s100 JEIi2o^gzV0;?BzfZbioP3
+R3
+IU0UKOCQ>1A=>3_XF@UZFR0
+R4
+S1
+R0
+w1682616514
+8D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/VGA MODULE/vga_decoder.sv
+FD:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/VGA MODULE/vga_decoder.sv
+!i122 1
+L0 1 45
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/VGA MODULE/vga_decoder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/VGA MODULE|D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/VGA MODULE/vga_decoder.sv|
+!i113 1
+R7
+R8
+R9
+vvga_decoder_tb
+R1
+R2
+!i10b 1
+!s100 3J0FNbPXKGK6aBb::EA@I0
+R3
+IFljOn^d_jAQGlFV]F>zMM0
+R4
+S1
+R0
+w1682372137
+8D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/VGA MODULE/vga_decoder_tb.sv
+FD:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/VGA MODULE/vga_decoder_tb.sv
+!i122 4
+L0 1 23
+R5
+r1
+!s85 0
+31
+R10
+!s107 D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/VGA MODULE/vga_decoder_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/VGA MODULE|D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/VGA MODULE/vga_decoder_tb.sv|
+!i113 1
+R7
+R8
+R9
+vvga_sync
+R1
+R11
+!i10b 1
+!s100 a@=ejC=aDB726FadPU_d40
+R3
+IS0kh=kVD][eB;X1o2::bP1
+R4
+S1
+R0
+w1682434703
+8D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/VGA MODULE/vga_sync.sv
+FD:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/VGA MODULE/vga_sync.sv
+!i122 0
+L0 1 97
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/VGA MODULE/vga_sync.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/VGA MODULE|D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/VGA MODULE/vga_sync.sv|
+!i113 1
+R7
+R8
+R9

@@ -1,0 +1,29 @@
+module color_selector(
+    input int number,
+    output logic [7:0] r,
+    output logic [7:0] g,
+    output logic [7:0] b
+);
+
+    // Assign default color
+    assign r = 8'h00;
+    assign g = 8'h00;
+    assign b = 8'h00;
+    
+    // Select pastel color based on input number
+    case(number)
+        4: 		begin r = 8'hFF; g = 8'hC4; b = 8'hC4; end // Pastel red
+        8: 		begin r = 8'hFF; g = 8'hE8; b = 8'hC4; end // Pastel orange
+        16: 	begin r = 8'hFF; g = 8'hF7; b = 8'hC4; end // Pastel yellow
+        32: 	begin r = 8'hC4; g = 8'hFF; b = 8'hC4; end // Pastel green
+        64: 	begin r = 8'hC4; g = 8'hFF; b = 8'hFF; end // Pastel cyan
+        128: 	begin r = 8'hC4; g = 8'hC4; b = 8'hFF; end // Pastel blue
+        256: 	begin r = 8'hFF; g = 8'hC4; b = 8'hFF; end // Pastel magenta
+        512: 	begin r = 8'hFF; g = 8'hD1; b = 8'hDC; end // Pastel pink
+        1024: 	begin r = 8'hE6; g = 8'hE6; b = 8'hE6; end // Pastel gray
+        2048: 	begin r = 8'hD5; g = 8'hB8; b = 8'hB8; end // Pastel brown
+        default: begin r = 8'h00; g = 8'h00; b = 8'h00; end // Default color (black)
+    endcase
+
+endmodule
+

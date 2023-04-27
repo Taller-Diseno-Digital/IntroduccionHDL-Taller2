@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at vga_sync.sv(25): always construct contains both blocking and non-blocking assignments File: D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/VGA MODULE/vga_sync.sv Line: 25

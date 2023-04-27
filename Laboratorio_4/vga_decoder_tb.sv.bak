@@ -1,0 +1,23 @@
+module vga_decoder_tb();
+
+	vga_decoder dut1(clk, rst);
+	
+		always 
+		begin 
+			clk = 0; 
+			#10;
+			clk = 1;
+			#10;
+		end
+
+    initial begin
+        clk = 1'b0;
+        rst = 1'b0;
+        btn_izquierda = 1'b0;
+        btn_derecha = 1'b0;
+        btn_arriba = 1'b0;
+        btn_abajo = 1'b0 ;
+		movement = 3'b000;
+		#100;
+		
+	end

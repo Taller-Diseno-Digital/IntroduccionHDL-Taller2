@@ -1,0 +1,101 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'vga_sync:vga_sync_mod|pixel_temp'
+Slack : -7.741
+TNS   : -145.284
+
+Type  : Slow 1100mV 85C Model Setup 'clk'
+Slack : -4.107
+TNS   : -71.833
+
+Type  : Slow 1100mV 85C Model Hold 'clk'
+Slack : 0.331
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'vga_sync:vga_sync_mod|pixel_temp'
+Slack : 1.461
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'vga_sync:vga_sync_mod|pixel_temp'
+Slack : -2.174
+TNS   : -81.535
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.938
+TNS   : -13.301
+
+Type  : Slow 1100mV 0C Model Setup 'vga_sync:vga_sync_mod|pixel_temp'
+Slack : -8.012
+TNS   : -149.516
+
+Type  : Slow 1100mV 0C Model Setup 'clk'
+Slack : -3.992
+TNS   : -65.930
+
+Type  : Slow 1100mV 0C Model Hold 'clk'
+Slack : 0.230
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'vga_sync:vga_sync_mod|pixel_temp'
+Slack : 1.522
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'vga_sync:vga_sync_mod|pixel_temp'
+Slack : -2.174
+TNS   : -81.328
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.926
+TNS   : -14.434
+
+Type  : Fast 1100mV 85C Model Setup 'vga_sync:vga_sync_mod|pixel_temp'
+Slack : -3.981
+TNS   : -74.799
+
+Type  : Fast 1100mV 85C Model Setup 'clk'
+Slack : -3.190
+TNS   : -53.952
+
+Type  : Fast 1100mV 85C Model Hold 'clk'
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'vga_sync:vga_sync_mod|pixel_temp'
+Slack : 0.881
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'vga_sync:vga_sync_mod|pixel_temp'
+Slack : -2.174
+TNS   : -80.788
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.827
+TNS   : -3.062
+
+Type  : Fast 1100mV 0C Model Setup 'vga_sync:vga_sync_mod|pixel_temp'
+Slack : -3.851
+TNS   : -72.553
+
+Type  : Fast 1100mV 0C Model Setup 'clk'
+Slack : -2.745
+TNS   : -42.495
+
+Type  : Fast 1100mV 0C Model Hold 'clk'
+Slack : 0.134
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'vga_sync:vga_sync_mod|pixel_temp'
+Slack : 0.866
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'vga_sync:vga_sync_mod|pixel_temp'
+Slack : -2.174
+TNS   : -80.556
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.771
+TNS   : -2.987
+
+------------------------------------------------------------

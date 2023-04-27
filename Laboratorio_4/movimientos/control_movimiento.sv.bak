@@ -1,0 +1,29 @@
+module control_movimiento (input int matriz_entrada [4][4], input [1:0] selector,
+									output int matriz_resultante [4][4]);
+	
+	int matriz_temp [4][4];
+	
+	if (selector == 2'b00) begin
+		
+		mov_derecha mov_derecha_inst(matriz_entrada, matriz_temp); 
+		
+	end
+	else if (selector == 2'b01) begin
+	
+		mov_izquierda mov_izquierda_inst(matriz_entrada, matriz_temp);
+	
+	end
+	else if (selector == 2'10) begin
+	
+		mov_arriba mov_arriba_inst(matriz_entrada, matriz_temp);
+	
+	end
+	else if (selector == 2'11) begin
+	
+		mov_abajo mov_abajo_inst(matriz_entrada, matriz_temp);
+	
+	end
+	
+	assign matriz_resultante = matriz_temp;
+	
+endmodule

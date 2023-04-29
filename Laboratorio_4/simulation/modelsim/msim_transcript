@@ -13,7 +13,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work altera_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_primitives.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:59:13 on Apr 19,2023
+# Start time: 08:43:25 on Apr 28,2023
 # vlog -reportprogress 300 -vlog01compat -work altera_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_primitives.v 
 # -- Compiling module global
 # -- Compiling module carry
@@ -95,7 +95,7 @@
 # 	alt_iobuf_diff
 # 	alt_bidir_diff
 # 	alt_bidir_buf
-# End time: 22:59:14 on Apr 19,2023, Elapsed time: 0:00:01
+# End time: 08:43:27 on Apr 28,2023, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/lpm_ver
@@ -106,7 +106,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work lpm_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/220model.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:59:14 on Apr 19,2023
+# Start time: 08:43:27 on Apr 28,2023
 # vlog -reportprogress 300 -vlog01compat -work lpm_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/220model.v 
 # -- Compiling module LPM_MEMORY_INITIALIZATION
 # -- Compiling module LPM_HINT_EVALUATION
@@ -170,7 +170,7 @@
 # 	lpm_inpad
 # 	lpm_outpad
 # 	lpm_bipad
-# End time: 22:59:15 on Apr 19,2023, Elapsed time: 0:00:01
+# End time: 08:43:28 on Apr 28,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/sgate_ver
@@ -181,7 +181,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work sgate_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/sgate.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:59:15 on Apr 19,2023
+# Start time: 08:43:28 on Apr 28,2023
 # vlog -reportprogress 300 -vlog01compat -work sgate_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/sgate.v 
 # -- Compiling module oper_add
 # -- Compiling module oper_addsub
@@ -223,7 +223,7 @@
 # 	oper_decoder
 # 	oper_bus_mux
 # 	oper_latch
-# End time: 22:59:15 on Apr 19,2023, Elapsed time: 0:00:00
+# End time: 08:43:28 on Apr 28,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_mf_ver
@@ -234,7 +234,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work altera_mf_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_mf.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:59:16 on Apr 19,2023
+# Start time: 08:43:29 on Apr 28,2023
 # vlog -reportprogress 300 -vlog01compat -work altera_mf_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_mf.v 
 # -- Compiling module lcell
 # -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
@@ -364,7 +364,7 @@
 # 	alt_fault_injection
 # 	sld_virtual_jtag_basic
 # 	altsource_probe
-# End time: 22:59:17 on Apr 19,2023, Elapsed time: 0:00:01
+# End time: 08:43:31 on Apr 28,2023, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_lnsim_ver
@@ -375,7 +375,7 @@
 # Modifying modelsim.ini
 # vlog -sv -work altera_lnsim_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_lnsim.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:59:17 on Apr 19,2023
+# Start time: 08:43:32 on Apr 28,2023
 # vlog -reportprogress 300 -sv -work altera_lnsim_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_lnsim.sv 
 # -- Compiling package altera_lnsim_functions
 # -- Compiling package altera_generic_pll_functions
@@ -458,7 +458,7 @@
 # 	altera_iopll
 # 	fourteennm_altera_iopll
 # 	fourteennm_simple_iopll
-# End time: 22:59:18 on Apr 19,2023, Elapsed time: 0:00:01
+# End time: 08:43:33 on Apr 28,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cyclonev_ver
@@ -469,7 +469,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cyclonev_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:59:18 on Apr 19,2023
+# Start time: 08:43:33 on Apr 28,2023
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_atoms_ncrypt.v 
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
@@ -483,19 +483,19 @@
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # 
 # Top level modules:
-# End time: 22:59:21 on Apr 19,2023, Elapsed time: 0:00:03
+# End time: 08:43:38 on Apr 28,2023, Elapsed time: 0:00:05
 # Errors: 0, Warnings: 10
 # vlog -vlog01compat -work cyclonev_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hmi_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:59:21 on Apr 19,2023
+# Start time: 08:43:38 on Apr 28,2023
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hmi_atoms_ncrypt.v 
 # 
 # Top level modules:
-# End time: 22:59:22 on Apr 19,2023, Elapsed time: 0:00:01
+# End time: 08:43:41 on Apr 28,2023, Elapsed time: 0:00:03
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work cyclonev_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_atoms.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:59:22 on Apr 19,2023
+# Start time: 08:43:41 on Apr 28,2023
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_atoms.v 
 # -- Compiling UDP CYCLONEV_PRIM_DFFE
 # -- Compiling UDP CYCLONEV_PRIM_DFFEAS
@@ -635,7 +635,7 @@
 # 	cyclonev_mem_phy
 # 	cyclonev_oscillator
 # 	cyclonev_hps_interface_fpga2sdram
-# End time: 22:59:23 on Apr 19,2023, Elapsed time: 0:00:01
+# End time: 08:43:42 on Apr 28,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cyclonev_hssi_ver
@@ -646,15 +646,15 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cyclonev_hssi_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hssi_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:59:24 on Apr 19,2023
+# Start time: 08:43:42 on Apr 28,2023
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_hssi_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hssi_atoms_ncrypt.v 
 # 
 # Top level modules:
-# End time: 22:59:26 on Apr 19,2023, Elapsed time: 0:00:02
+# End time: 08:43:45 on Apr 28,2023, Elapsed time: 0:00:03
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work cyclonev_hssi_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_hssi_atoms.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:59:26 on Apr 19,2023
+# Start time: 08:43:45 on Apr 28,2023
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_hssi_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_hssi_atoms.v 
 # -- Compiling module cyclonev_hssi_8g_pcs_aggregate
 # -- Compiling module cyclonev_hssi_8g_rx_pcs
@@ -754,7 +754,7 @@
 # 	arriav_hssi_avmm_interface
 # 	arriav_hssi_pma_hi_pmaif
 # 	arriav_hssi_pma_hi_xcvrif
-# End time: 22:59:26 on Apr 19,2023, Elapsed time: 0:00:00
+# End time: 08:43:45 on Apr 28,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cyclonev_pcie_hip_ver
@@ -765,7 +765,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cyclonev_pcie_hip_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_pcie_hip_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:59:27 on Apr 19,2023
+# Start time: 08:43:46 on Apr 28,2023
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_pcie_hip_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_pcie_hip_atoms_ncrypt.v 
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
@@ -775,18 +775,18 @@
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # 
 # Top level modules:
-# End time: 22:59:29 on Apr 19,2023, Elapsed time: 0:00:02
+# End time: 08:43:49 on Apr 28,2023, Elapsed time: 0:00:03
 # Errors: 0, Warnings: 6
 # vlog -vlog01compat -work cyclonev_pcie_hip_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_pcie_hip_atoms.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:59:29 on Apr 19,2023
+# Start time: 08:43:49 on Apr 28,2023
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_pcie_hip_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_pcie_hip_atoms.v 
 # -- Compiling module cyclonev_hd_altpe2_hip_top
 # -- Compiling module arriav_hd_altpe2_hip_top
 # 
 # Top level modules:
 # 	cyclonev_hd_altpe2_hip_top
-# End time: 22:59:30 on Apr 19,2023, Elapsed time: 0:00:01
+# End time: 08:43:50 on Apr 28,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # if {[file exists rtl_work]} {
@@ -800,29 +800,30 @@
 # 
 # vlog -sv -work work +incdir+C:/Users/dmeji/OneDrive\ -\ Estudiantes\ ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4 {C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/fsm.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:59:30 on Apr 19,2023
+# Start time: 08:43:50 on Apr 28,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4" C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/fsm.sv 
 # -- Compiling module fsm
+# ** Warning: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/fsm.sv(124): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
 # 
 # Top level modules:
 # 	fsm
-# End time: 22:59:30 on Apr 19,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
+# End time: 08:43:50 on Apr 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
 # 
 # vlog -sv -work work +incdir+C:/Users/dmeji/OneDrive\ -\ Estudiantes\ ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4 {C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/tb_fsm.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:59:30 on Apr 19,2023
+# Start time: 08:43:50 on Apr 28,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4" C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/tb_fsm.sv 
 # -- Compiling module tb_fsm
 # 
 # Top level modules:
 # 	tb_fsm
-# End time: 22:59:30 on Apr 19,2023, Elapsed time: 0:00:00
+# End time: 08:43:50 on Apr 28,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_fsm
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb_fsm 
-# Start time: 22:59:30 on Apr 19,2023
+# Start time: 08:43:50 on Apr 28,2023
 # Loading sv_std.std
 # Loading work.tb_fsm
 # Loading work.fsm
@@ -833,7 +834,40 @@
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run -all
+# ** Error: Caso izquierda
+#    Time: 300 ps  Scope: tb_fsm File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/tb_fsm.sv Line: 31
+# ** Error: Caso derecha
+#    Time: 400 ps  Scope: tb_fsm File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/tb_fsm.sv Line: 39
+# ** Error: Caso arriba
+#    Time: 500 ps  Scope: tb_fsm File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/tb_fsm.sv Line: 48
+# ** Error: Caso abajo
+#    Time: 700 ps  Scope: tb_fsm File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/tb_fsm.sv Line: 62
+# ** Error: Caso flag
+#    Time: 800 ps  Scope: tb_fsm File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/tb_fsm.sv Line: 72
+# ** Error: Caso arriba
+#    Time: 1100 ps  Scope: tb_fsm File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/tb_fsm.sv Line: 95
+add wave -position insertpoint  \
+sim:/tb_fsm/dut1/estado_sig
+restart -f
+
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+# ** Error: Caso izquierda
+#    Time: 300 ps  Scope: tb_fsm File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/tb_fsm.sv Line: 31
+# ** Error: Caso derecha
+#    Time: 400 ps  Scope: tb_fsm File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/tb_fsm.sv Line: 39
+# ** Error: Caso arriba
+#    Time: 500 ps  Scope: tb_fsm File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/tb_fsm.sv Line: 48
+# ** Error: Caso abajo
+#    Time: 700 ps  Scope: tb_fsm File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/tb_fsm.sv Line: 62
+# ** Error: Caso flag
+#    Time: 800 ps  Scope: tb_fsm File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/tb_fsm.sv Line: 72
+# ** Error: Caso arriba
+#    Time: 1100 ps  Scope: tb_fsm File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/tb_fsm.sv Line: 95
 # Break key hit
-# Simulation stop requested.
-# End time: 23:00:51 on Apr 19,2023, Elapsed time: 0:01:21
-# Errors: 0, Warnings: 0
+# Break in Module tb_fsm at C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/tb_fsm.sv line 6
+# End time: 08:57:32 on Apr 28,2023, Elapsed time: 0:13:42
+# Errors: 6, Warnings: 0

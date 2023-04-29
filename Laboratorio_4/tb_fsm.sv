@@ -15,8 +15,6 @@ module tb_fsm();
         btn_abajo = 1'b1 ;	
         flag = 1'b0;		  
 		  movement = 3'b000;
-        rst = 1'b0;
-		  #100;
 		  rst = 1'b1;
 		  #100;
 		  rst = 1'b0;

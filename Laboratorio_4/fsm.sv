@@ -16,8 +16,8 @@ module fsm(
 
     output  logic  [2: 0]  movement); 
 
-                                // 0         1          2        3      4
-    typedef enum logic [ 2 : 0 ] {inicio, izquierda, derecha, arriba, abajo, perdioGano} statetype;
+                                // 0         1          2        3      4			5				6		7
+    typedef enum logic [ 2 : 0 ] {inicio, izquierda, derecha, arriba, abajo, perdioGano, espera, control} statetype;
 
     statetype estado, estado_sig;
 
@@ -38,7 +38,6 @@ module fsm(
 
             inicio: begin
 
-                // movement <= 3'b000;
 					 
 					 if (flag)	estado_sig = perdioGano;
 
@@ -56,103 +55,54 @@ module fsm(
        
 
             izquierda: begin
-
-                // module moviemiento_izquierda (dentro se llama al VGA para generar figuras)
-
-                // module puntaje (dentro se llama la logica de puntaje para mostrar el 7 segmentos)
-
-                // module numero aleatorio (dentro se llama al VGA para generar figuras)
-
-                // module gano (dentro se llama al VGA para generar el mensaje)
-
-                // module perdio (dentro se llama al VGA para generar mensaje)
-
-                // movement <= 3'b001;
 					 
 					 if (flag)	estado_sig = perdioGano;
-
-                else if (!btn_izquierda)    estado_sig = izquierda;
-
-                else if(!btn_derecha)    estado_sig = derecha;
-
-                else if(!btn_arriba)     estado_sig = arriba;
                 
-                else if(!btn_abajo)     estado_sig = abajo;
-                
-                else          estado_sig = inicio;
+                else          estado_sig = espera;
 
             end
 				
             derecha: begin
-
-                // module moviemiento_derecha (dentro se llama al VGA para generar figuras)
-
-                // module puntaje (dentro se llama la logica de puntaje para mostrar el 7 segmentos)
-
-                // module numero aleatorio (dentro se llama al VGA para generar figuras)
-
-                // module gano (dentro se llama al VGA para generar el mensaje)
-
-                // module perdio (dentro se llama al VGA para generar mensaje)
-
-                // movement <= 3'b010;
 					 
 					 if (flag)	estado_sig = perdioGano;
-
-                else if (!btn_izquierda)    estado_sig = izquierda;
-
-                else if(!btn_derecha)    estado_sig = derecha;
-
-                else if(!btn_arriba)     estado_sig = arriba;
                 
-                else if(!btn_abajo)     estado_sig = abajo;
-                
-                else          estado_sig = inicio;
+                else          estado_sig = espera;
 
             end
 				
-            arriba: begin
-
-                // module moviemiento_arriba (dentro se llama al VGA para generar figuras)
-
-                // module puntaje (dentro se llama la logica de puntaje para mostrar el 7 segmentos)
-
-                // module numero aleatorio (dentro se llama al VGA para generar figuras)
-
-                // module gano (dentro se llama al VGA para generar el mensaje)
-
-                // module perdio (dentro se llama al VGA para generar mensaje)
-
-					 // movement <= 3'b011;					 
+            arriba: begin		 
 					 
 					 if (flag)	estado_sig = perdioGano;
-
-                else if (!btn_izquierda)    estado_sig = izquierda;
-
-                else if(!btn_derecha)    estado_sig = derecha;
-
-                else if(!btn_arriba)     estado_sig = arriba;
                 
-                else if(!btn_abajo)     estado_sig = abajo;
-                
-                else          estado_sig = inicio;
+                else          estado_sig = espera;
 
             end
 				
             abajo: begin
 
-                // module moviemiento_abajo (dentro se llama al VGA para generar figuras)
+					 if (flag)	estado_sig = perdioGano;
+                
+                else          estado_sig = espera;
 
-                // module puntaje (dentro se llama la logica de puntaje para mostrar el 7 segmentos)
+            end
+				
+            perdioGano: begin
+					 estado_sig = perdioGano;
 
-                // module numero aleatorio (dentro se llama al VGA para generar figuras)
+            end
+				
+            espera: begin
+				
+					 if (flag)	estado_sig = perdioGano;
 
-                // module gano (dentro se llama al VGA para generar el mensaje)
+                else if (btn_izquierda & btn_derecha & btn_arriba & btn_abajo)    estado_sig = control;
+                
+                else          estado_sig = espera;
 
-                // module perdio (dentro se llama al VGA para generar mensaje)
-            
-					 // movement <= 3'b100;
-					 
+            end
+				
+            control: begin
+				
 					 if (flag)	estado_sig = perdioGano;
 
                 else if (!btn_izquierda)    estado_sig = izquierda;
@@ -163,24 +113,19 @@ module fsm(
                 
                 else if(!btn_abajo)     estado_sig = abajo;
                 
-                else          estado_sig = inicio;
-
+                else          estado_sig = control;
             end
 				
-            perdioGano: begin
-
-                //movement <= 3'b101;
-					 estado_sig = perdioGano;
-
-            end
         endcase
     end
 	
-	assign movement = (estado == izquierda) ? 1'b001  : 
-            (estado == derecha) ? 1'b010 : 
-            (estado == arriba) ? 1'b0011 : 
-            (estado == abajo) ? 1'b100 :
-				(estado == perdioGano) ? 1'b101 : 
-            1'b000; 
+	assign movement = (estado == izquierda) ? 3'b001  : 
+            (estado == derecha) ? 3'b010 : 
+            (estado == arriba) ? 3'b0011 : 
+            (estado == abajo) ? 3'b100 : 
+				(estado == perdioGano) ? 3'b101 : 
+				(estado == espera) ? 3'b110 :
+				(estado == control) ? 3'b111 :
+            3'b000; 
 	 
 	 endmodule

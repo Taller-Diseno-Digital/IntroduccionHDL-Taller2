@@ -79,17 +79,23 @@ set_global_assignment -name EDA_TEST_BENCH_NAME mov_arriba_tb -section_id eda_si
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id mov_arriba_tb
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME mov_arriba_tb -section_id mov_arriba_tb
 set_global_assignment -name SYSTEMVERILOG_FILE control_movimiento.sv
+set_global_assignment -name SYSTEMVERILOG_FILE mux4_1.sv
+set_global_assignment -name SYSTEMVERILOG_FILE control_movimiento_tb.sv
+set_global_assignment -name EDA_TEST_BENCH_NAME control_movimiento_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id control_movimiento_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME control_movimiento_tb -section_id control_movimiento_tb
+set_global_assignment -name SYSTEMVERILOG_FILE verificar_matriz.sv
+set_global_assignment -name SYSTEMVERILOG_FILE verificar_matriz_tb.sv
+set_global_assignment -name EDA_TEST_BENCH_NAME verificar_matriz_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id verificar_matriz_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME verificar_matriz_tb -section_id verificar_matriz_tb
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
-set_global_assignment -name SYSTEMVERILOG_FILE mux4_1.sv
-set_global_assignment -name SYSTEMVERILOG_FILE control_movimiento_tb.sv
 set_global_assignment -name EDA_TEST_BENCH_FILE mov_derecha_tb.sv -section_id mov_derecha_tb
 set_global_assignment -name EDA_TEST_BENCH_FILE mov_izquierda_tb.sv -section_id mov_izquierda_tb
 set_global_assignment -name EDA_TEST_BENCH_FILE mov_abajo_tb.sv -section_id mov_abajo_tb
 set_global_assignment -name EDA_TEST_BENCH_FILE mov_arriba_tb.sv -section_id mov_arriba_tb
-set_global_assignment -name EDA_TEST_BENCH_NAME control_movimiento_tb -section_id eda_simulation
-set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id control_movimiento_tb
-set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME control_movimiento_tb -section_id control_movimiento_tb
 set_global_assignment -name EDA_TEST_BENCH_FILE control_movimiento_tb.sv -section_id control_movimiento_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE verificar_matriz_tb.sv -section_id verificar_matriz_tb
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

@@ -1,11 +1,13 @@
 module mov_abajo(input int matriz_entrada [4][4],
-						  output int matriz_resultante [4][4]);
+						  output int matriz_resultante [4][4], output int mov);
 			
 	int matriz_temp [4][4];
 	int mezclas[4][4];
+	int mov_temp;
 
 	always_comb begin
 		int n, i, j;
+		mov_temp = 0;
 	
 		matriz_temp = matriz_entrada;
 	
@@ -19,6 +21,7 @@ module mov_abajo(input int matriz_entrada [4][4],
 					
 						matriz_temp[i+1][j] = matriz_temp[i][j];
 						matriz_temp[i][j] = 0;
+						mov_temp = 1;
 						
 					end
 						
@@ -28,6 +31,7 @@ module mov_abajo(input int matriz_entrada [4][4],
 						matriz_temp[i+1][j] = matriz_temp[i+1][j] * 2;
 						matriz_temp[i][j] = 0;
 						mezclas[i+1][j] = 1;
+						mov_temp = 1;
 					end
 					
 				end
@@ -39,5 +43,6 @@ module mov_abajo(input int matriz_entrada [4][4],
 	end
 	
 	assign matriz_resultante = matriz_temp;
+	assign mov = mov_temp;
 	
 endmodule	

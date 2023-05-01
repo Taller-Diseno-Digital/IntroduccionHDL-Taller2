@@ -3,8 +3,9 @@ module mov_izquierda_tb();
     int input_matrix [4][4];
 	 int expected_matrix[4][4];
     int output_matrix [4][4];
+	 int mov;
 
-    mov_izquierda mov_izquierda_inst(input_matrix, output_matrix);
+    mov_izquierda mov_izquierda_inst(input_matrix, output_matrix, mov);
 
     initial begin
         // Matriz de entrada
@@ -30,6 +31,8 @@ module mov_izquierda_tb();
                 $write("%d | ", output_matrix[i][j]);
             $display("");
         end
+		  
+		  $write("%d \nHubo movimiento: ", mov);
 
         // Verificando valores
 		  expected_matrix = '{'{4,0,0,0}, {4,4,0,0}, {4,4,0,0}, {4,4,4,0}};

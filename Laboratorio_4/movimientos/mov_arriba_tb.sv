@@ -3,8 +3,9 @@ module mov_arriba_tb();
     int input_matrix [4][4];
 	 int expected_matrix[4][4];
     int output_matrix [4][4];
-
-    mov_arriba mov_arriba_inst(input_matrix, output_matrix);
+	 int mov;
+	 
+    mov_arriba mov_arriba_inst(input_matrix, output_matrix, mov);
 
     initial begin
         // Matriz de entrada
@@ -30,6 +31,8 @@ module mov_arriba_tb();
                 $write("%d | ", output_matrix[i][j]);
             $display("");
         end
+		  
+		  $write("%d \nHubo movimiento: ", mov);
 
         // Verificando valores
 		  expected_matrix = '{'{4,4,4,8}, {0,4,4,4}, {0,0,0,0}, {0,0,0,0}};

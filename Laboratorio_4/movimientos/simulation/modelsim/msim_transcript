@@ -13,7 +13,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work altera_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_primitives.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 18:49:17 on Apr 30,2023
+# Start time: 11:18:54 on May 02,2023
 # vlog -reportprogress 300 -vlog01compat -work altera_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_primitives.v 
 # -- Compiling module global
 # -- Compiling module carry
@@ -95,7 +95,7 @@
 # 	alt_iobuf_diff
 # 	alt_bidir_diff
 # 	alt_bidir_buf
-# End time: 18:49:18 on Apr 30,2023, Elapsed time: 0:00:01
+# End time: 11:18:55 on May 02,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/lpm_ver
@@ -106,7 +106,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work lpm_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/220model.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 18:49:18 on Apr 30,2023
+# Start time: 11:18:56 on May 02,2023
 # vlog -reportprogress 300 -vlog01compat -work lpm_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/220model.v 
 # -- Compiling module LPM_MEMORY_INITIALIZATION
 # -- Compiling module LPM_HINT_EVALUATION
@@ -170,7 +170,7 @@
 # 	lpm_inpad
 # 	lpm_outpad
 # 	lpm_bipad
-# End time: 18:49:19 on Apr 30,2023, Elapsed time: 0:00:01
+# End time: 11:18:56 on May 02,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/sgate_ver
@@ -181,7 +181,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work sgate_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/sgate.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 18:49:19 on Apr 30,2023
+# Start time: 11:18:57 on May 02,2023
 # vlog -reportprogress 300 -vlog01compat -work sgate_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/sgate.v 
 # -- Compiling module oper_add
 # -- Compiling module oper_addsub
@@ -223,7 +223,7 @@
 # 	oper_decoder
 # 	oper_bus_mux
 # 	oper_latch
-# End time: 18:49:20 on Apr 30,2023, Elapsed time: 0:00:01
+# End time: 11:18:57 on May 02,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_mf_ver
@@ -234,7 +234,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work altera_mf_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_mf.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 18:49:20 on Apr 30,2023
+# Start time: 11:18:57 on May 02,2023
 # vlog -reportprogress 300 -vlog01compat -work altera_mf_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_mf.v 
 # -- Compiling module lcell
 # -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
@@ -364,7 +364,7 @@
 # 	alt_fault_injection
 # 	sld_virtual_jtag_basic
 # 	altsource_probe
-# End time: 18:49:22 on Apr 30,2023, Elapsed time: 0:00:02
+# End time: 11:18:59 on May 02,2023, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_lnsim_ver
@@ -375,7 +375,7 @@
 # Modifying modelsim.ini
 # vlog -sv -work altera_lnsim_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_lnsim.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 18:49:22 on Apr 30,2023
+# Start time: 11:19:00 on May 02,2023
 # vlog -reportprogress 300 -sv -work altera_lnsim_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_lnsim.sv 
 # -- Compiling package altera_lnsim_functions
 # -- Compiling package altera_generic_pll_functions
@@ -458,7 +458,7 @@
 # 	altera_iopll
 # 	fourteennm_altera_iopll
 # 	fourteennm_simple_iopll
-# End time: 18:49:24 on Apr 30,2023, Elapsed time: 0:00:02
+# End time: 11:19:01 on May 02,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cyclonev_ver
@@ -469,7 +469,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cyclonev_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 18:49:24 on Apr 30,2023
+# Start time: 11:19:01 on May 02,2023
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_atoms_ncrypt.v 
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
@@ -483,19 +483,19 @@
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # 
 # Top level modules:
-# End time: 18:49:28 on Apr 30,2023, Elapsed time: 0:00:04
+# End time: 11:19:04 on May 02,2023, Elapsed time: 0:00:03
 # Errors: 0, Warnings: 10
 # vlog -vlog01compat -work cyclonev_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hmi_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 18:49:28 on Apr 30,2023
+# Start time: 11:19:04 on May 02,2023
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hmi_atoms_ncrypt.v 
 # 
 # Top level modules:
-# End time: 18:49:30 on Apr 30,2023, Elapsed time: 0:00:02
+# End time: 11:19:07 on May 02,2023, Elapsed time: 0:00:03
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work cyclonev_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_atoms.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 18:49:30 on Apr 30,2023
+# Start time: 11:19:07 on May 02,2023
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_atoms.v 
 # -- Compiling UDP CYCLONEV_PRIM_DFFE
 # -- Compiling UDP CYCLONEV_PRIM_DFFEAS
@@ -635,7 +635,7 @@
 # 	cyclonev_mem_phy
 # 	cyclonev_oscillator
 # 	cyclonev_hps_interface_fpga2sdram
-# End time: 18:49:31 on Apr 30,2023, Elapsed time: 0:00:01
+# End time: 11:19:08 on May 02,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cyclonev_hssi_ver
@@ -646,15 +646,15 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cyclonev_hssi_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hssi_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 18:49:32 on Apr 30,2023
+# Start time: 11:19:08 on May 02,2023
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_hssi_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hssi_atoms_ncrypt.v 
 # 
 # Top level modules:
-# End time: 18:49:35 on Apr 30,2023, Elapsed time: 0:00:03
+# End time: 11:19:11 on May 02,2023, Elapsed time: 0:00:03
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work cyclonev_hssi_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_hssi_atoms.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 18:49:35 on Apr 30,2023
+# Start time: 11:19:11 on May 02,2023
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_hssi_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_hssi_atoms.v 
 # -- Compiling module cyclonev_hssi_8g_pcs_aggregate
 # -- Compiling module cyclonev_hssi_8g_rx_pcs
@@ -754,7 +754,7 @@
 # 	arriav_hssi_avmm_interface
 # 	arriav_hssi_pma_hi_pmaif
 # 	arriav_hssi_pma_hi_xcvrif
-# End time: 18:49:35 on Apr 30,2023, Elapsed time: 0:00:00
+# End time: 11:19:11 on May 02,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cyclonev_pcie_hip_ver
@@ -765,7 +765,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cyclonev_pcie_hip_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_pcie_hip_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 18:49:36 on Apr 30,2023
+# Start time: 11:19:12 on May 02,2023
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_pcie_hip_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_pcie_hip_atoms_ncrypt.v 
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
@@ -775,18 +775,18 @@
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # 
 # Top level modules:
-# End time: 18:49:40 on Apr 30,2023, Elapsed time: 0:00:04
+# End time: 11:19:15 on May 02,2023, Elapsed time: 0:00:03
 # Errors: 0, Warnings: 6
 # vlog -vlog01compat -work cyclonev_pcie_hip_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_pcie_hip_atoms.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 18:49:40 on Apr 30,2023
+# Start time: 11:19:15 on May 02,2023
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_pcie_hip_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_pcie_hip_atoms.v 
 # -- Compiling module cyclonev_hd_altpe2_hip_top
 # -- Compiling module arriav_hd_altpe2_hip_top
 # 
 # Top level modules:
 # 	cyclonev_hd_altpe2_hip_top
-# End time: 18:49:40 on Apr 30,2023, Elapsed time: 0:00:00
+# End time: 11:19:16 on May 02,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # if {[file exists rtl_work]} {
@@ -798,157 +798,65 @@
 # vmap work rtl_work 
 # Modifying modelsim.ini
 # 
-# vlog -sv -work work +incdir+C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos {C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/mov_derecha.sv}
+# vlog -sv -work work +incdir+C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos {C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/generar_aleatorio.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 18:49:41 on Apr 30,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos" C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/mov_derecha.sv 
-# -- Compiling module mov_derecha
-# ** Warning: C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/mov_derecha.sv(30): (vlog-2182) 'mezclas' might be read before written in always_comb or always @* block.
+# Start time: 11:19:16 on May 02,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos" C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/generar_aleatorio.sv 
+# -- Compiling module generar_aleatorio
 # 
 # Top level modules:
-# 	mov_derecha
-# End time: 18:49:41 on Apr 30,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 1
-# vlog -sv -work work +incdir+C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos {C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/mov_izquierda.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 18:49:41 on Apr 30,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos" C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/mov_izquierda.sv 
-# -- Compiling module mov_izquierda
-# ** Warning: C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/mov_izquierda.sv(29): (vlog-2182) 'mezclas' might be read before written in always_comb or always @* block.
-# 
-# Top level modules:
-# 	mov_izquierda
-# End time: 18:49:41 on Apr 30,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 1
-# vlog -sv -work work +incdir+C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos {C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/mov_abajo.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 18:49:41 on Apr 30,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos" C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/mov_abajo.sv 
-# -- Compiling module mov_abajo
-# ** Warning: C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/mov_abajo.sv(29): (vlog-2182) 'mezclas' might be read before written in always_comb or always @* block.
-# 
-# Top level modules:
-# 	mov_abajo
-# End time: 18:49:41 on Apr 30,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 1
-# vlog -sv -work work +incdir+C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos {C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/mov_arriba.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 18:49:41 on Apr 30,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos" C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/mov_arriba.sv 
-# -- Compiling module mov_arriba
-# ** Warning: C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/mov_arriba.sv(29): (vlog-2182) 'mezclas' might be read before written in always_comb or always @* block.
-# 
-# Top level modules:
-# 	mov_arriba
-# End time: 18:49:41 on Apr 30,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 1
-# vlog -sv -work work +incdir+C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos {C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/control_movimiento.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 18:49:41 on Apr 30,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos" C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/control_movimiento.sv 
-# -- Compiling module control_movimiento
-# 
-# Top level modules:
-# 	control_movimiento
-# End time: 18:49:42 on Apr 30,2023, Elapsed time: 0:00:01
+# 	generar_aleatorio
+# End time: 11:19:16 on May 02,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos {C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/mux4_1.sv}
+# vlog -sv -work work +incdir+C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos {C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/encontrar_ceros.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 18:49:42 on Apr 30,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos" C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/mux4_1.sv 
-# -- Compiling module mux4_1
+# Start time: 11:19:16 on May 02,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos" C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/encontrar_ceros.sv 
+# -- Compiling module encontrar_ceros
 # 
 # Top level modules:
-# 	mux4_1
-# End time: 18:49:42 on Apr 30,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos {C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/verificar_matriz.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 18:49:42 on Apr 30,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos" C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/verificar_matriz.sv 
-# -- Compiling module verificar_matriz
-# 
-# Top level modules:
-# 	verificar_matriz
-# End time: 18:49:42 on Apr 30,2023, Elapsed time: 0:00:00
+# 	encontrar_ceros
+# End time: 11:19:16 on May 02,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vlog -sv -work work +incdir+C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos {C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/control_movimiento_tb.sv}
+# vlog -sv -work work +incdir+C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos {C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/generar_aleatorio_tb.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 18:49:42 on Apr 30,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos" C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/control_movimiento_tb.sv 
-# -- Compiling module control_movimiento_tb
+# Start time: 11:19:17 on May 02,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos" C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/generar_aleatorio_tb.sv 
+# -- Compiling module generar_aleatorio_tb
 # 
 # Top level modules:
-# 	control_movimiento_tb
-# End time: 18:49:42 on Apr 30,2023, Elapsed time: 0:00:00
+# 	generar_aleatorio_tb
+# End time: 11:19:17 on May 02,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  control_movimiento_tb
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" control_movimiento_tb 
-# Start time: 18:49:42 on Apr 30,2023
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  generar_aleatorio_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" generar_aleatorio_tb 
+# Start time: 11:19:17 on May 02,2023
 # Loading sv_std.std
-# Loading work.control_movimiento_tb
-# Loading work.control_movimiento
-# Loading work.mov_izquierda
-# Loading work.mov_derecha
-# Loading work.mov_arriba
-# Loading work.mov_abajo
-# Loading work.mux4_1
-# Loading work.verificar_matriz
+# Loading work.generar_aleatorio_tb
+# Loading work.generar_aleatorio
+# Loading work.encontrar_ceros
 # 
 # add wave *
-# view structure
-# .main_pane.structure.interior.cs.body.struct
-# view signals
-# .main_pane.objects.interior.cs.body.tree
-# run -all
+# ** UI-Msg: (vish-4014) No objects found matching '*'.
+# Error in macro ./movimiento_matriz_run_msim_rtl_verilog.do line 55
+# ** UI-Msg: (vish-4014) No objects found matching '*'.
+#     while executing
+# "add wave *"
+add wave -position end  sim:/generar_aleatorio_tb/matriz_entrada
+add wave -position end  sim:/generar_aleatorio_tb/matriz_resultante
+run
 # Input matrix:
-# |           1 |           2 |           3 |           4 | 
-# |           5 |           6 |           7 |           8 | 
-# |           9 |          10 |          11 |          12 | 
-# |          13 |          14 |          15 |          16 | 
+# |           0 |           2 |           2 |           0 | 
+# |           0 |           4 |           2 |           2 | 
+# |           2 |           2 |           4 |           0 | 
+# |           4 |           2 |           2 |           4 | 
 # 
 # Output matrix:
-# |           1 |           2 |           3 |           4 | 
-# |           5 |           6 |           7 |           8 | 
-# |           9 |          10 |          11 |          12 | 
-# |          13 |          14 |          15 |          16 | 
-# Gano: 
-#           0
-# Perdio: 
-#           1
-# ** Error: Output matrix is incorrect!
-#    Time: 1 ps  Scope: control_movimiento_tb File: C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/control_movimiento_tb.sv Line: 51
-# ** Error: Output matrix is incorrect!
-#    Time: 1 ps  Scope: control_movimiento_tb File: C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/control_movimiento_tb.sv Line: 51
-# ** Error: Output matrix is incorrect!
-#    Time: 1 ps  Scope: control_movimiento_tb File: C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/control_movimiento_tb.sv Line: 51
-# ** Error: Output matrix is incorrect!
-#    Time: 1 ps  Scope: control_movimiento_tb File: C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/control_movimiento_tb.sv Line: 51
-# ** Error: Output matrix is incorrect!
-#    Time: 1 ps  Scope: control_movimiento_tb File: C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/control_movimiento_tb.sv Line: 51
-# ** Error: Output matrix is incorrect!
-#    Time: 1 ps  Scope: control_movimiento_tb File: C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/control_movimiento_tb.sv Line: 51
-# ** Error: Output matrix is incorrect!
-#    Time: 1 ps  Scope: control_movimiento_tb File: C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/control_movimiento_tb.sv Line: 51
-# ** Error: Output matrix is incorrect!
-#    Time: 1 ps  Scope: control_movimiento_tb File: C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/control_movimiento_tb.sv Line: 51
-# ** Error: Output matrix is incorrect!
-#    Time: 1 ps  Scope: control_movimiento_tb File: C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/control_movimiento_tb.sv Line: 51
-# ** Error: Output matrix is incorrect!
-#    Time: 1 ps  Scope: control_movimiento_tb File: C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/control_movimiento_tb.sv Line: 51
-# ** Error: Output matrix is incorrect!
-#    Time: 1 ps  Scope: control_movimiento_tb File: C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/control_movimiento_tb.sv Line: 51
-# ** Error: Output matrix is incorrect!
-#    Time: 1 ps  Scope: control_movimiento_tb File: C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/control_movimiento_tb.sv Line: 51
-# ** Error: Output matrix is incorrect!
-#    Time: 1 ps  Scope: control_movimiento_tb File: C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/control_movimiento_tb.sv Line: 51
-# ** Error: Output matrix is incorrect!
-#    Time: 1 ps  Scope: control_movimiento_tb File: C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/control_movimiento_tb.sv Line: 51
-# ** Error: Output matrix is incorrect!
-#    Time: 1 ps  Scope: control_movimiento_tb File: C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/control_movimiento_tb.sv Line: 51
-# ** Error: Output matrix is incorrect!
-#    Time: 1 ps  Scope: control_movimiento_tb File: C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/control_movimiento_tb.sv Line: 51
-# End time: 18:50:00 on Apr 30,2023, Elapsed time: 0:00:18
-# Errors: 16, Warnings: 0
+# |           0 |           2 |           2 |           0 | 
+# |           4 |           4 |           2 |           2 | 
+# |           2 |           2 |           4 |           0 | 
+# |           4 |           2 |           2 |           4 | 
+# End time: 11:20:34 on May 02,2023, Elapsed time: 0:01:17
+# Errors: 0, Warnings: 0

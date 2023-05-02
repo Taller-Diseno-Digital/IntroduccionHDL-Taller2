@@ -1,7 +1,7 @@
-Analysis & Elaboration Status : Successful - Sun Apr 30 18:47:39 2023
+Analysis & Elaboration Status : Successful - Tue May  2 11:18:14 2023
 Quartus Prime Version : 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 Revision Name : movimiento_matriz
-Top-level Entity Name : control_movimiento
+Top-level Entity Name : generar_aleatorio
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A until Partition Merge
 Total registers : N/A until Partition Merge

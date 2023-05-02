@@ -12,9 +12,8 @@ module control_movimiento_tb();
 
     initial begin
         // Matriz de entrada
-		  selector = 3'b010;
+		  selector = 3'b000;
 		  condicion_gane = 2048;
-        input_matrix = '{'{1,2,3,4}, {5,6,7,8}, {9,10,11,12}, {13,14,15,16}};
 
         // Imprimiendo matriz entrada
         $display("Input matrix:");

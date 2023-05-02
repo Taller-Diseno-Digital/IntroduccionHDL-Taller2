@@ -9,211 +9,81 @@ z2
 !i10f 100
 cModel Technology
 Z0 dC:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/simulation/modelsim
-vcontrol_movimiento
+vencontrar_ceros
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1682902182
+Z2 !s110 1683047956
 !i10b 1
-!s100 dZOA3O[ZTiL=MS5<a:On03
+!s100 ;21@;VWbkQU4o6@BLl8BT0
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IZ==i=NMEEA_Tak]odS6>71
+IBz;olI5mhfJVMMU:>GceP1
 Z4 VDg1SIo80bB@j0V0VzS_@n1
 S1
 R0
-w1682901256
-8C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/control_movimiento.sv
-FC:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/control_movimiento.sv
-!i122 4
-Z5 L0 1 20
-Z6 OV;L;2020.1;71
-r1
-!s85 0
-31
-Z7 !s108 1682902181.000000
-!s107 C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/control_movimiento.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos|C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/control_movimiento.sv|
-!i113 1
-Z8 o-sv -work work
-Z9 !s92 -sv -work work +incdir+C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos
-Z10 tCvgOpt 0
-vcontrol_movimiento_tb
-R1
-R2
-!i10b 1
-!s100 Hb1Go[09a]CPM8<HbD<db3
-R3
-I?zYWT2OKdzRVkLU33<3zB2
-R4
-S1
-R0
-w1682902028
-8C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/control_movimiento_tb.sv
-FC:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/control_movimiento_tb.sv
-!i122 7
-L0 1 56
-R6
-r1
-!s85 0
-31
-Z11 !s108 1682902182.000000
-!s107 C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/control_movimiento_tb.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos|C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/control_movimiento_tb.sv|
-!i113 1
-R8
-R9
-R10
-vmov_abajo
-R1
-Z12 !s110 1682902181
-!i10b 1
-!s100 e]e<`WzT;fT^82NCH02Ag3
-R3
-IkYhzlD@VNj60@WeBP]=ZD0
-R4
-S1
-R0
-w1682898583
-8C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/mov_abajo.sv
-FC:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/mov_abajo.sv
-!i122 2
-Z13 L0 1 48
-R6
-r1
-!s85 0
-31
-R7
-!s107 C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/mov_abajo.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos|C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/mov_abajo.sv|
-!i113 1
-R8
-R9
-R10
-vmov_arriba
-R1
-R12
-!i10b 1
-!s100 R_f9Gb`PEVW=9bFS@X4zO1
-R3
-I:=RnRGQ;SzGGYPWGnnjO[1
-R4
-S1
-R0
-w1682898624
-8C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/mov_arriba.sv
-FC:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/mov_arriba.sv
-!i122 3
-R13
-R6
-r1
-!s85 0
-31
-R7
-!s107 C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/mov_arriba.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos|C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/mov_arriba.sv|
-!i113 1
-R8
-R9
-R10
-vmov_derecha
-R1
-R12
-!i10b 1
-!s100 IY;[I0CCdaaa2I_jUEaMZ3
-R3
-IZQ5V6oFleG2T0ab4W9LPU3
-R4
-S1
-R0
-w1682898147
-8C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/mov_derecha.sv
-FC:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/mov_derecha.sv
-!i122 0
-L0 1 49
-R6
-r1
-!s85 0
-31
-R7
-!s107 C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/mov_derecha.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos|C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/mov_derecha.sv|
-!i113 1
-R8
-R9
-R10
-vmov_izquierda
-R1
-R12
-!i10b 1
-!s100 i>obLX@mQ>Fnc<0z4bfbJ0
-R3
-IdGDo1AS9N0ao6ZgXL@X4V3
-R4
-S1
-R0
-w1682898488
-8C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/mov_izquierda.sv
-FC:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/mov_izquierda.sv
+w1683044137
+8C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/encontrar_ceros.sv
+FC:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/encontrar_ceros.sv
 !i122 1
-R13
-R6
+L0 1 34
+Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-R7
-!s107 C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/mov_izquierda.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos|C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/mov_izquierda.sv|
+Z6 !s108 1683047956.000000
+!s107 C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/encontrar_ceros.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos|C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/encontrar_ceros.sv|
 !i113 1
-R8
-R9
-R10
-vmux4_1
+Z7 o-sv -work work
+Z8 !s92 -sv -work work +incdir+C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos
+Z9 tCvgOpt 0
+vgenerar_aleatorio
 R1
 R2
 !i10b 1
-!s100 >e59f[6_k`]JmIbWae]BO3
+!s100 6IUI246jcc]CE]aF4mkRR0
 R3
-IB`[4D<mBdZKjgd9<UWmLV1
+I2X3WP>b<3f0CTBZUFY]7L2
 R4
 S1
 R0
-w1682617756
-8C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/mux4_1.sv
-FC:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/mux4_1.sv
-!i122 5
+w1683047751
+8C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/generar_aleatorio.sv
+FC:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/generar_aleatorio.sv
+!i122 0
+L0 1 26
 R5
-R6
 r1
 !s85 0
 31
-R11
-!s107 C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/mux4_1.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos|C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/mux4_1.sv|
+R6
+!s107 C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/generar_aleatorio.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos|C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/generar_aleatorio.sv|
 !i113 1
+R7
 R8
 R9
-R10
-vverificar_matriz
+vgenerar_aleatorio_tb
 R1
-R2
+!s110 1683047957
 !i10b 1
-!s100 gKFCoGY>cbXQSje8T:Rme1
+!s100 R=nLX?IGDE^<UDB>gzdK62
 R3
-Ih?U^37TO^`Yj=WSEfkZf72
+IaIUSC`6JAHL2Pn3Fl2SJH1
 R4
 S1
 R0
-w1682899458
-8C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/verificar_matriz.sv
-FC:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/verificar_matriz.sv
-!i122 6
-L0 1 37
-R6
+w1683046737
+8C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/generar_aleatorio_tb.sv
+FC:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/generar_aleatorio_tb.sv
+!i122 2
+L0 1 36
+R5
 r1
 !s85 0
 31
-R11
-!s107 C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/verificar_matriz.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos|C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/verificar_matriz.sv|
+!s108 1683047957.000000
+!s107 C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/generar_aleatorio_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos|C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_4/movimientos/generar_aleatorio_tb.sv|
 !i113 1
+R7
 R8
 R9
-R10

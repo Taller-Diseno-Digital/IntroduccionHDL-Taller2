@@ -15,6 +15,12 @@ module control_movimiento(input int matriz_entrada [4][4], input logic [2:0] sel
 	mov_abajo mov_abajo_inst(matriz_entrada, matriz_aba, mov_aba);
 	mux4_1 mux4_1_inst(matriz_entrada,matriz_izq,matriz_der,matriz_arr,matriz_aba,selector,matriz_temp);
 	verificar_matriz verificar_matriz_inst(matriz_temp, mov_izq, mov_der, mov_arr, mov_aba, condicion_gane, gano, perdio);
-	assign matriz_resultante = matriz_temp;
+	
+	always @(selector) begin
+		
+		matriz_resultante = matriz_temp;
+		
+	end
+	
   
 endmodule

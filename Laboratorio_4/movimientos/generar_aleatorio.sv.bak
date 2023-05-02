@@ -1,0 +1,7 @@
+module generar_aleatorio(input int matriz_entrada[4][4], input logic [2:0] selector
+								 output int matriz_resultante[4][4]);
+
+	int matriz_resultante_temp[4][4];
+	int contador;
+
+endmodule

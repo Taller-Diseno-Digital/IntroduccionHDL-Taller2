@@ -1,5 +1,5 @@
 Flow report for movimiento_matriz
-Tue May  2 11:18:14 2023
+Thu May  4 11:35:12 2023
 Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 
 
@@ -41,10 +41,10 @@ https://fpgasoftware.intel.com/eula.
 +------------------------------------------------------------------------------+
 ; Flow Summary                                                                 ;
 +-----------------------------+------------------------------------------------+
-; Flow Status                 ; Successful - Tue May  2 11:18:14 2023          ;
+; Flow Status                 ; Successful - Thu May  4 11:35:11 2023          ;
 ; Quartus Prime Version       ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
 ; Revision Name               ; movimiento_matriz                              ;
-; Top-level Entity Name       ; generar_aleatorio                              ;
+; Top-level Entity Name       ; control_movimiento                             ;
 ; Family                      ; Cyclone V                                      ;
 ; Device                      ; 5CGXFC7C7F23C8                                 ;
 ; Timing Models               ; Final                                          ;
@@ -63,69 +63,69 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 05/02/2023 11:18:04 ;
+; Start date & time ; 05/04/2023 11:34:57 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; movimiento_matriz   ;
 +-------------------+---------------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                                                          ;
-+--------------------------------------+----------------------------------------+-------------------+-------------------+-----------------------------------+
-; Assignment Name                      ; Value                                  ; Default Value     ; Entity Name       ; Section Id                        ;
-+--------------------------------------+----------------------------------------+-------------------+-------------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID                ; 1095649362444.168304788305284          ; --                ; --                ; --                                ;
-; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --                ; --                ; mov_abajo_tb                      ;
-; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --                ; --                ; encontrar_ceros_tb                ;
-; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --                ; --                ; generar_aleatorio_tb              ;
-; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --                ; --                ; mov_derecha_tb                    ;
-; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --                ; --                ; control_movimiento_tb             ;
-; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --                ; --                ; mov_izquierda_tb                  ;
-; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --                ; --                ; mov_arriba_tb                     ;
-; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --                ; --                ; verificar_matriz_tb               ;
-; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --                ; --                ; eda_board_design_timing           ;
-; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --                ; --                ; eda_board_design_boundary_scan    ;
-; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --                ; --                ; eda_board_design_signal_integrity ;
-; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --                ; --                ; eda_board_design_symbol           ;
-; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; generar_aleatorio_tb                   ; --                ; --                ; eda_simulation                    ;
-; EDA_OUTPUT_DATA_FORMAT               ; Systemverilog Hdl                      ; --                ; --                ; eda_simulation                    ;
-; EDA_SIMULATION_TOOL                  ; ModelSim (SystemVerilog)               ; <None>            ; --                ; --                                ;
-; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                        ; --                ; --                ; eda_simulation                    ;
-; EDA_TEST_BENCH_FILE                  ; mov_abajo_tb.sv                        ; --                ; --                ; mov_abajo_tb                      ;
-; EDA_TEST_BENCH_FILE                  ; encontrar_ceros_tb.sv                  ; --                ; --                ; encontrar_ceros_tb                ;
-; EDA_TEST_BENCH_FILE                  ; generar_aleatorio_tb.sv                ; --                ; --                ; generar_aleatorio_tb              ;
-; EDA_TEST_BENCH_FILE                  ; mov_derecha_tb.sv                      ; --                ; --                ; mov_derecha_tb                    ;
-; EDA_TEST_BENCH_FILE                  ; control_movimiento_tb.sv               ; --                ; --                ; control_movimiento_tb             ;
-; EDA_TEST_BENCH_FILE                  ; mov_izquierda_tb.sv                    ; --                ; --                ; mov_izquierda_tb                  ;
-; EDA_TEST_BENCH_FILE                  ; mov_arriba_tb.sv                       ; --                ; --                ; mov_arriba_tb                     ;
-; EDA_TEST_BENCH_FILE                  ; verificar_matriz_tb.sv                 ; --                ; --                ; verificar_matriz_tb               ;
-; EDA_TEST_BENCH_MODULE_NAME           ; mov_abajo_tb                           ; --                ; --                ; mov_abajo_tb                      ;
-; EDA_TEST_BENCH_MODULE_NAME           ; encontrar_ceros_tb                     ; --                ; --                ; encontrar_ceros_tb                ;
-; EDA_TEST_BENCH_MODULE_NAME           ; generar_aleatorio_tb                   ; --                ; --                ; generar_aleatorio_tb              ;
-; EDA_TEST_BENCH_MODULE_NAME           ; mov_derecha_tb                         ; --                ; --                ; mov_derecha_tb                    ;
-; EDA_TEST_BENCH_MODULE_NAME           ; control_movimiento_tb                  ; --                ; --                ; control_movimiento_tb             ;
-; EDA_TEST_BENCH_MODULE_NAME           ; mov_izquierda_tb                       ; --                ; --                ; mov_izquierda_tb                  ;
-; EDA_TEST_BENCH_MODULE_NAME           ; mov_arriba_tb                          ; --                ; --                ; mov_arriba_tb                     ;
-; EDA_TEST_BENCH_MODULE_NAME           ; verificar_matriz_tb                    ; --                ; --                ; verificar_matriz_tb               ;
-; EDA_TEST_BENCH_NAME                  ; mov_derecha_tb                         ; --                ; --                ; eda_simulation                    ;
-; EDA_TEST_BENCH_NAME                  ; mov_izquierda_tb                       ; --                ; --                ; eda_simulation                    ;
-; EDA_TEST_BENCH_NAME                  ; mov_abajo_tb                           ; --                ; --                ; eda_simulation                    ;
-; EDA_TEST_BENCH_NAME                  ; mov_arriba_tb                          ; --                ; --                ; eda_simulation                    ;
-; EDA_TEST_BENCH_NAME                  ; control_movimiento_tb                  ; --                ; --                ; eda_simulation                    ;
-; EDA_TEST_BENCH_NAME                  ; verificar_matriz_tb                    ; --                ; --                ; eda_simulation                    ;
-; EDA_TEST_BENCH_NAME                  ; encontrar_ceros_tb                     ; --                ; --                ; eda_simulation                    ;
-; EDA_TEST_BENCH_NAME                  ; generar_aleatorio_tb                   ; --                ; --                ; eda_simulation                    ;
-; EDA_TIME_SCALE                       ; 1 ps                                   ; --                ; --                ; eda_simulation                    ;
-; MAX_CORE_JUNCTION_TEMP               ; 85                                     ; --                ; --                ; --                                ;
-; MIN_CORE_JUNCTION_TEMP               ; 0                                      ; --                ; --                ; --                                ;
-; PARTITION_COLOR                      ; -- (Not supported for targeted family) ; --                ; generar_aleatorio ; Top                               ;
-; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family) ; --                ; generar_aleatorio ; Top                               ;
-; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family) ; --                ; generar_aleatorio ; Top                               ;
-; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                    ; --                ; --                ; --                                ;
-; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --                ; --                ; --                                ;
-; PROJECT_OUTPUT_DIRECTORY             ; output_files                           ; --                ; --                ; --                                ;
-; TOP_LEVEL_ENTITY                     ; generar_aleatorio                      ; movimiento_matriz ; --                ; --                                ;
-+--------------------------------------+----------------------------------------+-------------------+-------------------+-----------------------------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                           ;
++--------------------------------------+----------------------------------------+-------------------+--------------------+-----------------------------------+
+; Assignment Name                      ; Value                                  ; Default Value     ; Entity Name        ; Section Id                        ;
++--------------------------------------+----------------------------------------+-------------------+--------------------+-----------------------------------+
+; COMPILER_SIGNATURE_ID                ; 1095649362444.168322169703204          ; --                ; --                 ; --                                ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --                ; --                 ; mov_abajo_tb                      ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --                ; --                 ; encontrar_ceros_tb                ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --                ; --                 ; generar_aleatorio_tb              ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --                ; --                 ; mov_derecha_tb                    ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --                ; --                 ; control_movimiento_tb             ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --                ; --                 ; mov_izquierda_tb                  ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --                ; --                 ; mov_arriba_tb                     ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --                ; --                 ; verificar_matriz_tb               ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --                ; --                 ; eda_board_design_timing           ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --                ; --                 ; eda_board_design_boundary_scan    ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --                ; --                 ; eda_board_design_signal_integrity ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --                ; --                 ; eda_board_design_symbol           ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; control_movimiento_tb                  ; --                ; --                 ; eda_simulation                    ;
+; EDA_OUTPUT_DATA_FORMAT               ; Systemverilog Hdl                      ; --                ; --                 ; eda_simulation                    ;
+; EDA_SIMULATION_TOOL                  ; ModelSim (SystemVerilog)               ; <None>            ; --                 ; --                                ;
+; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                        ; --                ; --                 ; eda_simulation                    ;
+; EDA_TEST_BENCH_FILE                  ; mov_abajo_tb.sv                        ; --                ; --                 ; mov_abajo_tb                      ;
+; EDA_TEST_BENCH_FILE                  ; encontrar_ceros_tb.sv                  ; --                ; --                 ; encontrar_ceros_tb                ;
+; EDA_TEST_BENCH_FILE                  ; generar_aleatorio_tb.sv                ; --                ; --                 ; generar_aleatorio_tb              ;
+; EDA_TEST_BENCH_FILE                  ; mov_derecha_tb.sv                      ; --                ; --                 ; mov_derecha_tb                    ;
+; EDA_TEST_BENCH_FILE                  ; control_movimiento_tb.sv               ; --                ; --                 ; control_movimiento_tb             ;
+; EDA_TEST_BENCH_FILE                  ; mov_izquierda_tb.sv                    ; --                ; --                 ; mov_izquierda_tb                  ;
+; EDA_TEST_BENCH_FILE                  ; mov_arriba_tb.sv                       ; --                ; --                 ; mov_arriba_tb                     ;
+; EDA_TEST_BENCH_FILE                  ; verificar_matriz_tb.sv                 ; --                ; --                 ; verificar_matriz_tb               ;
+; EDA_TEST_BENCH_MODULE_NAME           ; mov_abajo_tb                           ; --                ; --                 ; mov_abajo_tb                      ;
+; EDA_TEST_BENCH_MODULE_NAME           ; encontrar_ceros_tb                     ; --                ; --                 ; encontrar_ceros_tb                ;
+; EDA_TEST_BENCH_MODULE_NAME           ; generar_aleatorio_tb                   ; --                ; --                 ; generar_aleatorio_tb              ;
+; EDA_TEST_BENCH_MODULE_NAME           ; mov_derecha_tb                         ; --                ; --                 ; mov_derecha_tb                    ;
+; EDA_TEST_BENCH_MODULE_NAME           ; control_movimiento_tb                  ; --                ; --                 ; control_movimiento_tb             ;
+; EDA_TEST_BENCH_MODULE_NAME           ; mov_izquierda_tb                       ; --                ; --                 ; mov_izquierda_tb                  ;
+; EDA_TEST_BENCH_MODULE_NAME           ; mov_arriba_tb                          ; --                ; --                 ; mov_arriba_tb                     ;
+; EDA_TEST_BENCH_MODULE_NAME           ; verificar_matriz_tb                    ; --                ; --                 ; verificar_matriz_tb               ;
+; EDA_TEST_BENCH_NAME                  ; mov_derecha_tb                         ; --                ; --                 ; eda_simulation                    ;
+; EDA_TEST_BENCH_NAME                  ; mov_izquierda_tb                       ; --                ; --                 ; eda_simulation                    ;
+; EDA_TEST_BENCH_NAME                  ; mov_abajo_tb                           ; --                ; --                 ; eda_simulation                    ;
+; EDA_TEST_BENCH_NAME                  ; mov_arriba_tb                          ; --                ; --                 ; eda_simulation                    ;
+; EDA_TEST_BENCH_NAME                  ; control_movimiento_tb                  ; --                ; --                 ; eda_simulation                    ;
+; EDA_TEST_BENCH_NAME                  ; verificar_matriz_tb                    ; --                ; --                 ; eda_simulation                    ;
+; EDA_TEST_BENCH_NAME                  ; encontrar_ceros_tb                     ; --                ; --                 ; eda_simulation                    ;
+; EDA_TEST_BENCH_NAME                  ; generar_aleatorio_tb                   ; --                ; --                 ; eda_simulation                    ;
+; EDA_TIME_SCALE                       ; 1 ps                                   ; --                ; --                 ; eda_simulation                    ;
+; MAX_CORE_JUNCTION_TEMP               ; 85                                     ; --                ; --                 ; --                                ;
+; MIN_CORE_JUNCTION_TEMP               ; 0                                      ; --                ; --                 ; --                                ;
+; PARTITION_COLOR                      ; -- (Not supported for targeted family) ; --                ; control_movimiento ; Top                               ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family) ; --                ; control_movimiento ; Top                               ;
+; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family) ; --                ; control_movimiento ; Top                               ;
+; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                    ; --                ; --                 ; --                                ;
+; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --                ; --                 ; --                                ;
+; PROJECT_OUTPUT_DIRECTORY             ; output_files                           ; --                ; --                 ; --                                ;
+; TOP_LEVEL_ENTITY                     ; control_movimiento                     ; movimiento_matriz ; --                 ; --                                ;
++--------------------------------------+----------------------------------------+-------------------+--------------------+-----------------------------------+
 
 
 +----------------------------------------------------------------------------------------------------------------------------+
@@ -133,8 +133,8 @@ https://fpgasoftware.intel.com/eula.
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Elaboration ; 00:00:11     ; 1.0                     ; 4796 MB             ; 00:00:30                           ;
-; Total                  ; 00:00:11     ; --                      ; --                  ; 00:00:30                           ;
+; Analysis & Elaboration ; 00:00:15     ; 1.0                     ; 4812 MB             ; 00:00:37                           ;
+; Total                  ; 00:00:15     ; --                      ; --                  ; 00:00:37                           ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

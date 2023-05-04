@@ -1,16 +1,18 @@
 module verificar_matriz_tb();
 
 	int input_matrix [4][4];
-	int condicion_gane;
+	logic[3:0] condicion_gane;
 	int mov_izq, mov_der, mov_arr, mov_aba;
-	int gano;
-	int perdio;
+	logic [2:0] selector;
+	logic gano;
+	logic perdio;
 
-	verificar_matriz verificar_matriz_inst(input_matrix, mov_izq, mov_der, mov_arr, mov_aba, condicion_gane, gano, perdio);
+	verificar_matriz verificar_matriz_inst(input_matrix, mov_izq, mov_der, mov_arr, mov_aba, condicion_gane,selector, gano, perdio);
 
 	initial begin
 	  // Matriz de entrada
-	  input_matrix = '{'{0,0,2,4}, {2,4,2,0}, {2,2,4,4}, {0,2,0,4}};
+	  selector = 3'b000;
+	  input_matrix = '{'{0,0,0,0}, {0,2048,0,0}, {0,0,0,0}, {0,0,0,0}};
 	  condicion_gane = 2048;
 	  mov_izq = 0;
 	  mov_der = 0;
@@ -25,14 +27,9 @@ module verificar_matriz_tb();
 				 $write("%d | ", input_matrix[i][j]);
 			$display("");
 	  end
-
-	  // Simulando
-	  #1;
-
-	  // Imprimiendo flags
-	  $display("Flags:");
 	  
-	  $write("%d \nGano: ", gano, "%d \nPerdio: ", perdio);
+	  $display(gano);
+	  $display(perdio);
 
 	end
 

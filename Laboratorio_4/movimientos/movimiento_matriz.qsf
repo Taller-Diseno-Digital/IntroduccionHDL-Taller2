@@ -39,7 +39,7 @@
 
 set_global_assignment -name FAMILY "Cyclone V"
 set_global_assignment -name DEVICE 5CGXFC7C7F23C8
-set_global_assignment -name TOP_LEVEL_ENTITY generar_aleatorio
+set_global_assignment -name TOP_LEVEL_ENTITY control_movimiento
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 22.1STD.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "10:16:01  APRIL 18, 2023"
 set_global_assignment -name LAST_QUARTUS_VERSION "22.1std.0 Lite Edition"
@@ -59,7 +59,7 @@ set_global_assignment -name SYSTEMVERILOG_FILE mov_derecha_tb.sv
 set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
 set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
 set_global_assignment -name EDA_TEST_BENCH_ENABLE_STATUS TEST_BENCH_MODE -section_id eda_simulation
-set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH generar_aleatorio_tb -section_id eda_simulation
+set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH control_movimiento_tb -section_id eda_simulation
 set_global_assignment -name EDA_TEST_BENCH_NAME mov_derecha_tb -section_id eda_simulation
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id mov_derecha_tb
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME mov_derecha_tb -section_id mov_derecha_tb
@@ -99,6 +99,8 @@ set_global_assignment -name SYSTEMVERILOG_FILE generar_aleatorio_tb.sv
 set_global_assignment -name EDA_TEST_BENCH_NAME generar_aleatorio_tb -section_id eda_simulation
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id generar_aleatorio_tb
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME generar_aleatorio_tb -section_id generar_aleatorio_tb
+set_global_assignment -name SYSTEMVERILOG_FILE generar_aleatorio_aux.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../game_2048.sv
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
@@ -111,4 +113,3 @@ set_global_assignment -name EDA_TEST_BENCH_FILE verificar_matriz_tb.sv -section_
 set_global_assignment -name EDA_TEST_BENCH_FILE encontrar_ceros_tb.sv -section_id encontrar_ceros_tb
 set_global_assignment -name EDA_TEST_BENCH_FILE generar_aleatorio_tb.sv -section_id generar_aleatorio_tb
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
-set_global_assignment -name SYSTEMVERILOG_FILE generar_aleatorio_aux.sv

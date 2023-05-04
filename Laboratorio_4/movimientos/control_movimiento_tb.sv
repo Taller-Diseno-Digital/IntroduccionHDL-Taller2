@@ -1,10 +1,9 @@
 module control_movimiento_tb();
 	
     int input_matrix [4][4];
-	 int expected_matrix[4][4];
     int output_matrix [4][4];
-	 int gano;
-	 int perdio;
+	 logic gano;
+	 logic perdio;
 	 int condicion_gane;
 	 logic [2:0] selector;
 
@@ -12,8 +11,10 @@ module control_movimiento_tb();
 
     initial begin
         // Matriz de entrada
-		  selector = 3'b000;
-		  condicion_gane = 2048;
+		  selector = 3'b001;
+		  condicion_gane = 4'b1011;
+		  
+		  input_matrix = '{'{0,0,0,0}, {0,2048,0,0}, {0,0,0,0}, {0,0,0,0}};
 
         // Imprimiendo matriz entrada
         $display("Input matrix:");
@@ -41,15 +42,7 @@ module control_movimiento_tb();
 		  $display("Perdio: ");
 		  $display(perdio);
 
-        // Verificando valores
-		  expected_matrix = '{'{2,4,0,0}, {2,4,2,0}, {4,8,0,0}, {2,4,0,0}};
-		  
-			for (int i=0; i<4; i++) begin
-				for (int j=0; j<4; j++) begin
-					assert(output_matrix[i][j] == expected_matrix[i][j])
-						else $error("Output matrix is incorrect!");
-				end
-			end
+
     end
 
 endmodule

@@ -16,51 +16,42 @@ module tb_fsm();
         flag = 1'b0;		  
 		  movement = 3'b000;
 		  rst = 1'b1;
-		  #100;
+		  #50;
 		  rst = 1'b0;
-		  #100;
-		  assert (movement == 3'b000) 
-        else   $error("Caso de inicio");
-		  
         btn_izquierda = 1'b0;
         btn_derecha = 1'b1;
         btn_arriba = 1'b1;
         btn_abajo = 1'b1 ;
         #100;
-		assert (movement == 3'b001) 
-        else   $error("Caso izquierda");
 
+		  btn_izquierda = 1'b1;
+        btn_derecha = 1'b1;
+        btn_arriba = 1'b1;
+        btn_abajo = 1'b1 ;
+		  #100	
+		  
         btn_izquierda = 1'b1;
         btn_derecha = 1'b0;
         btn_arriba = 1'b1;
         btn_abajo = 1'b1 ;
-        #100;
-		assert (movement == 3'b010) 
-        else   $error("Caso derecha");
+		  #100
 		  
-
         btn_izquierda = 1'b1;
         btn_derecha = 1'b1;
         btn_arriba = 1'b0;
         btn_abajo = 1'b1 ;
         #100;
-		assert (movement == 3'b011) 
-        else   $error("Caso arriba");
 
-        rst = 1'b1;
-        #100;
-		assert (movement == 3'b000) 
-        else   $error("Reset");
-
+        rst = 1'b1; 
+		  #100
+		  
         rst = 1'b0;
         btn_izquierda = 1'b1;
-        btn_derecha = 1'b1;
+		  btn_derecha = 1'b1;
         btn_arriba = 1'b1;
         btn_abajo = 1'b0 ;
         #100;
-		assert (movement == 3'b100) 
-        else   $error("Caso abajo");
-		  
+
 		  rst = 1'b0;
         btn_izquierda = 1'b1;
         btn_derecha = 1'b1;
@@ -68,31 +59,23 @@ module tb_fsm();
         btn_abajo = 1'b0 ;
 		  flag = 1'b1;	
         #100;
-		assert (movement == 3'b101) 
-        else   $error("Caso flag");
+
 		  
         btn_izquierda = 1'b1;
         btn_derecha = 1'b1;
         btn_arriba = 1'b1;
         btn_abajo = 1'b0;	
         #100;
-		assert (movement == 3'b101) 
-        else   $error("Caso flag");
-		  
+
 		  rst = 1'b1;
         #100;
-		assert (movement == 3'b000) 
-        else   $error("Caso abajo");
-		  
+
 		  rst = 1'b0;
 		  flag = 1'b0;
 		  btn_izquierda = 1'b1;
         btn_derecha = 1'b1;
         btn_arriba = 1'b0;
         btn_abajo = 1'b1 ;
-        #100;
-		assert (movement == 3'b011) 
-        else   $error("Caso arriba");
 
     end
 

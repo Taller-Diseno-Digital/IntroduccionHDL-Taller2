@@ -1,5 +1,6 @@
 module vga_decoder(
    input  logic clk, reset,
+	input logic win, lost,
    output logic hsync, vsync, nsync, nblanc, clk_out,
    output logic [7:0] r, g, b
 );
@@ -9,6 +10,7 @@ module vga_decoder(
 	logic [11:0] number;
 	logic clk_out_copy;
 	logic res;
+	//string text;
 	
 	initial begin
 		matriz_entrada = '{'{0, 16, 4, 0}, '{8, 32, 256, 1024}, '{2048, 4, 16, 0}, '{32, 8, 256, 4}};
@@ -28,7 +30,11 @@ module vga_decoder(
       .y(y)
 	);
 	
-	Pixel_On_Text2 #(.displayText("Bienvenido al juego!")) t1(
+	
+	//chargenrom chargenromb(y[8:3]+1, x[2:0], y[2:0], res);
+	
+	
+	Pixel_On_Text2 #(.displayText("Holaaaaaaaaaaaa")) t1(
       clk_out_copy,
       240, // text position.x (top left)
       60, // text position.y (top left)
@@ -55,6 +61,13 @@ module vga_decoder(
 				
 	always_comb begin
 		clk_out_copy = clk_out;
+		//if (win == 0)
+		//begin text = "Perdiste el juego!"; end
+		//else if (win == 1)
+		//begin text = "Ganaste el juego!"; end
+		//else
+		//begin text = "Bienvenido al juego!"; end
+		
 	end
 	  
 endmodule

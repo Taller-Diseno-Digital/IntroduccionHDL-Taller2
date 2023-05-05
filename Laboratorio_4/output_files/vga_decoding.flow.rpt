@@ -1,5 +1,5 @@
 Flow report for vga_decoding
-Thu Apr 27 15:06:50 2023
+Thu May  4 11:19:18 2023
 Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 
 
@@ -41,18 +41,18 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +---------------------------------+------------------------------------------------+
-; Flow Status                     ; Successful - Thu Apr 27 15:06:50 2023          ;
+; Flow Status                     ; Successful - Thu May  4 11:19:18 2023          ;
 ; Quartus Prime Version           ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
 ; Revision Name                   ; vga_decoding                                   ;
 ; Top-level Entity Name           ; vga_decoder                                    ;
 ; Family                          ; Cyclone V                                      ;
 ; Device                          ; 5CSEMA5F31C6                                   ;
 ; Timing Models                   ; Final                                          ;
-; Logic utilization (in ALMs)     ; 89 / 32,070 ( < 1 % )                          ;
-; Total registers                 ; 24                                             ;
-; Total pins                      ; 31 / 457 ( 7 % )                               ;
+; Logic utilization (in ALMs)     ; 129 / 32,070 ( < 1 % )                         ;
+; Total registers                 ; 36                                             ;
+; Total pins                      ; 33 / 457 ( 7 % )                               ;
 ; Total virtual pins              ; 0                                              ;
-; Total block memory bits         ; 16,384 / 4,065,280 ( < 1 % )                   ;
+; Total block memory bits         ; 0 / 4,065,280 ( 0 % )                          ;
 ; Total DSP Blocks                ; 0 / 87 ( 0 % )                                 ;
 ; Total HSSI RX PCSs              ; 0                                              ;
 ; Total HSSI PMA RX Deserializers ; 0                                              ;
@@ -68,7 +68,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 04/27/2023 15:00:32 ;
+; Start date & time ; 05/04/2023 11:17:06 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; vga_decoding        ;
 +-------------------+---------------------+
@@ -79,7 +79,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id                        ;
 +--------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID                ; 220837866376015.168262923113428        ; --            ; --          ; --                                ;
+; COMPILER_SIGNATURE_ID                ; 220837866376015.168322062524304        ; --            ; --          ; --                                ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; vga_decoder_tb                    ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --            ; --          ; eda_board_design_timing           ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --            ; --          ; eda_board_design_boundary_scan    ;
@@ -112,12 +112,12 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:18     ; 1.0                     ; 4906 MB             ; 00:00:36                           ;
-; Fitter               ; 00:03:48     ; 1.0                     ; 6934 MB             ; 00:03:47                           ;
-; Assembler            ; 00:00:22     ; 1.0                     ; 4884 MB             ; 00:00:10                           ;
-; Timing Analyzer      ; 00:00:18     ; 1.1                     ; 5226 MB             ; 00:00:11                           ;
-; EDA Netlist Writer   ; 00:00:04     ; 1.0                     ; 4727 MB             ; 00:00:03                           ;
-; Total                ; 00:04:50     ; --                      ; --                  ; 00:04:47                           ;
+; Analysis & Synthesis ; 00:00:18     ; 1.0                     ; 4865 MB             ; 00:00:34                           ;
+; Fitter               ; 00:01:27     ; 1.0                     ; 6903 MB             ; 00:04:45                           ;
+; Assembler            ; 00:00:09     ; 1.0                     ; 4887 MB             ; 00:00:09                           ;
+; Timing Analyzer      ; 00:00:09     ; 1.2                     ; 5189 MB             ; 00:00:09                           ;
+; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4736 MB             ; 00:00:03                           ;
+; Total                ; 00:02:05     ; --                      ; --                  ; 00:05:40                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

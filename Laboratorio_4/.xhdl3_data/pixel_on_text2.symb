@@ -1,0 +1,125 @@
+$VAR1 = {
+          '-main' => {
+                       'std_logic' => {},
+                       'vertcoord' => {
+                                        '-size' => '',
+                                        '-type' => 'integer',
+                                        '-init' => '',
+                                        '-port' => '',
+                                        '-right' => '',
+                                        '-name' => 'vertCoord',
+                                        '-range' => '',
+                                        '-class' => 'port',
+                                        '-left' => '',
+                                        '-val' => 'vertCoord'
+                                      },
+                       'pixel' => {
+                                    '-size' => '',
+                                    '-type' => 'std_logic',
+                                    '-init' => '',
+                                    '-port' => '',
+                                    '-right' => '',
+                                    '-name' => 'pixel',
+                                    '-range' => '',
+                                    '-class' => 'port',
+                                    '-left' => '',
+                                    '-val' => 'pixel'
+                                  },
+                       'work' => {},
+                       'nul' => {
+                                  '-size' => '',
+                                  '-type' => '',
+                                  '-init' => '',
+                                  '-port' => '',
+                                  '-name' => 'NUL',
+                                  '-range' => '',
+                                  '-class' => '',
+                                  '-val' => 'NUL'
+                                },
+                       'positionx' => {
+                                        '-size' => '',
+                                        '-type' => 'integer',
+                                        '-init' => '',
+                                        '-port' => '',
+                                        '-right' => '',
+                                        '-name' => 'positionX',
+                                        '-range' => '',
+                                        '-class' => 'port',
+                                        '-left' => '',
+                                        '-val' => 'positionX'
+                                      },
+                       'positiony' => {
+                                        '-size' => '',
+                                        '-type' => 'integer',
+                                        '-init' => '',
+                                        '-port' => '',
+                                        '-right' => '',
+                                        '-name' => 'positionY',
+                                        '-range' => '',
+                                        '-class' => 'port',
+                                        '-left' => '',
+                                        '-val' => 'positionY'
+                                      },
+                       'ieee' => {},
+                       'displaytext' => {
+                                          '-size' => '',
+                                          '-type' => 'string',
+                                          '-init' => '{1{NUL}}',
+                                          '-port' => '',
+                                          '-right' => '',
+                                          '-name' => 'displayText',
+                                          '-range' => '',
+                                          '-class' => 'constant',
+                                          '-left' => '',
+                                          '-val' => 'displayText'
+                                        },
+                       'string' => {
+                                     '-size' => '',
+                                     '-type' => '',
+                                     '-init' => '',
+                                     '-port' => '',
+                                     '-name' => 'string',
+                                     '-range' => '',
+                                     '-class' => '',
+                                     '-val' => 'string'
+                                   },
+                       'numeric_std' => {},
+                       'integer' => {},
+                       'std_logic_1164' => {},
+                       'clk' => {
+                                  '-size' => '',
+                                  '-type' => 'std_logic',
+                                  '-init' => '',
+                                  '-port' => '',
+                                  '-right' => '',
+                                  '-name' => 'clk',
+                                  '-range' => '',
+                                  '-class' => 'port',
+                                  '-left' => '',
+                                  '-val' => 'clk'
+                                },
+                       'pixel_on_text2' => {
+                                             '-size' => '',
+                                             '-type' => '',
+                                             '-init' => '',
+                                             '-port' => '',
+                                             '-name' => 'Pixel_On_Text2',
+                                             '-range' => '',
+                                             '-class' => '',
+                                             '-val' => 'Pixel_On_Text2'
+                                           },
+                       'horzcoord' => {
+                                        '-size' => '',
+                                        '-type' => 'integer',
+                                        '-init' => '',
+                                        '-port' => '',
+                                        '-right' => '',
+                                        '-name' => 'horzCoord',
+                                        '-range' => '',
+                                        '-class' => 'port',
+                                        '-left' => '',
+                                        '-val' => 'horzCoord'
+                                      },
+                       'commonpak' => {}
+                     }
+        };

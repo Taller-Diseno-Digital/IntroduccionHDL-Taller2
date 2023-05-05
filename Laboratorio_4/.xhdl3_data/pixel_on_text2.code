@@ -1,0 +1,46 @@
+$VAR1 = {
+          '-flags' => {
+                        'defines_included' => undef
+                      },
+          '-inits' => [
+                        'pixel <= 1\'b0;
+'
+                      ],
+          '-design_name' => 'Pixel_On_Text2',
+          '-code' => '// Pixel_On_Text2 determines if the current pixel is on text and make it easiler to call from verilog
+// param:
+//   display text
+// input: 
+//   VGA clock(the clk you used to update VGA)
+//   top left corner of the text area -- positionX, positionY
+//   current X and Y position
+// output:
+//   a bit that represent whether is the pixel in text
+// Uncomment the following library declaration if using
+// arithmetic functions with Signed or Unsigned values
+// Uncomment the following library declaration if instantiating
+// any Xilinx primitives in this code.
+//library UNISIM;
+//use UNISIM.VComponents.all;
+// note this line.The package is compiled to this directory by default.
+// so don\'t forget to include this directory. 
+// this line also is must.This includes the particular package into your program.
+module Pixel_On_Text2 (clk, positionX, positionY, horzCoord, vertCoord, pixel);
+
+øparameter displayText  = {1{NUL}};
+// <<X-HDL>> : Warning - included file work/commonPak does not exist - this may affect translation
+
+input clk; 
+input positionX; 
+integer positionX;
+input positionY; 
+integer positionY;
+input horzCoord; 
+integer horzCoord;
+input vertCoord; 
+integer vertCoord;
+output pixel; 
+wire pixel;
+
+'
+        };

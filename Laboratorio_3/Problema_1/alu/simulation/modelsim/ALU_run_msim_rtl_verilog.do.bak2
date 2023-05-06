@@ -45,11 +45,19 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/left_shift_logical_run_msim_rtl_verilog.do
+vlog -sv -work work +incdir+C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1 {C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/right_shift_logical.sv}
+
+vlog -sv -work work +incdir+C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1 {C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/tb_right_shift_logical.sv}
+
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_right_shift_logical
+=======
 vlog -sv -work work +incdir+C:/Users/dmeji/OneDrive\ -\ Estudiantes\ ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1 {C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/mod_xor.sv}
 
 vlog -sv -work work +incdir+C:/Users/dmeji/OneDrive\ -\ Estudiantes\ ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1 {C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/tb_mod_xor.sv}
 
 vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_mod_xor
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/ALU_run_msim_rtl_verilog.do.bak2
 
 add wave *
 view structure

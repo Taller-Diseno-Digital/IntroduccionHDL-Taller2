@@ -13,8 +13,13 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work altera_ver {d:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_primitives.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/msim_transcript
+# Start time: 21:05:00 on Mar 26,2023
+# vlog -reportprogress 300 -vlog01compat -work altera_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_primitives.v 
+=======
 # Start time: 17:07:34 on Mar 05,2023
 # vlog -reportprogress 300 -vlog01compat -work altera_ver d:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_primitives.v 
+>>>>>>> development:Laboratorio_2/Ej_3/simulation/modelsim/msim_transcript
 # -- Compiling module global
 # -- Compiling module carry
 # -- Compiling module cascade
@@ -95,7 +100,11 @@
 # 	alt_iobuf_diff
 # 	alt_bidir_diff
 # 	alt_bidir_buf
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/msim_transcript
+# End time: 21:05:01 on Mar 26,2023, Elapsed time: 0:00:01
+=======
 # End time: 17:07:36 on Mar 05,2023, Elapsed time: 0:00:02
+>>>>>>> development:Laboratorio_2/Ej_3/simulation/modelsim/msim_transcript
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/lpm_ver
@@ -106,8 +115,13 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work lpm_ver {d:/intelfpga_lite/22.1std/quartus/eda/sim_lib/220model.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/msim_transcript
+# Start time: 21:05:01 on Mar 26,2023
+# vlog -reportprogress 300 -vlog01compat -work lpm_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/220model.v 
+=======
 # Start time: 17:07:36 on Mar 05,2023
 # vlog -reportprogress 300 -vlog01compat -work lpm_ver d:/intelfpga_lite/22.1std/quartus/eda/sim_lib/220model.v 
+>>>>>>> development:Laboratorio_2/Ej_3/simulation/modelsim/msim_transcript
 # -- Compiling module LPM_MEMORY_INITIALIZATION
 # -- Compiling module LPM_HINT_EVALUATION
 # -- Compiling module LPM_DEVICE_FAMILIES
@@ -170,7 +184,11 @@
 # 	lpm_inpad
 # 	lpm_outpad
 # 	lpm_bipad
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/msim_transcript
+# End time: 21:05:02 on Mar 26,2023, Elapsed time: 0:00:01
+=======
 # End time: 17:07:37 on Mar 05,2023, Elapsed time: 0:00:01
+>>>>>>> development:Laboratorio_2/Ej_3/simulation/modelsim/msim_transcript
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/sgate_ver
@@ -181,8 +199,13 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work sgate_ver {d:/intelfpga_lite/22.1std/quartus/eda/sim_lib/sgate.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/msim_transcript
+# Start time: 21:05:02 on Mar 26,2023
+# vlog -reportprogress 300 -vlog01compat -work sgate_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/sgate.v 
+=======
 # Start time: 17:07:38 on Mar 05,2023
 # vlog -reportprogress 300 -vlog01compat -work sgate_ver d:/intelfpga_lite/22.1std/quartus/eda/sim_lib/sgate.v 
+>>>>>>> development:Laboratorio_2/Ej_3/simulation/modelsim/msim_transcript
 # -- Compiling module oper_add
 # -- Compiling module oper_addsub
 # -- Compiling module mux21
@@ -223,7 +246,11 @@
 # 	oper_decoder
 # 	oper_bus_mux
 # 	oper_latch
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/msim_transcript
+# End time: 21:05:02 on Mar 26,2023, Elapsed time: 0:00:00
+=======
 # End time: 17:07:38 on Mar 05,2023, Elapsed time: 0:00:00
+>>>>>>> development:Laboratorio_2/Ej_3/simulation/modelsim/msim_transcript
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_mf_ver
@@ -234,8 +261,13 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work altera_mf_ver {d:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_mf.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/msim_transcript
+# Start time: 21:05:03 on Mar 26,2023
+# vlog -reportprogress 300 -vlog01compat -work altera_mf_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_mf.v 
+=======
 # Start time: 17:07:39 on Mar 05,2023
 # vlog -reportprogress 300 -vlog01compat -work altera_mf_ver d:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_mf.v 
+>>>>>>> development:Laboratorio_2/Ej_3/simulation/modelsim/msim_transcript
 # -- Compiling module lcell
 # -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
 # -- Compiling module ALTERA_MF_HINT_EVALUATION
@@ -364,7 +396,11 @@
 # 	alt_fault_injection
 # 	sld_virtual_jtag_basic
 # 	altsource_probe
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/msim_transcript
+# End time: 21:05:04 on Mar 26,2023, Elapsed time: 0:00:01
+=======
 # End time: 17:07:41 on Mar 05,2023, Elapsed time: 0:00:02
+>>>>>>> development:Laboratorio_2/Ej_3/simulation/modelsim/msim_transcript
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_lnsim_ver
@@ -375,8 +411,13 @@
 # Modifying modelsim.ini
 # vlog -sv -work altera_lnsim_ver {d:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_lnsim.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/msim_transcript
+# Start time: 21:05:05 on Mar 26,2023
+# vlog -reportprogress 300 -sv -work altera_lnsim_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_lnsim.sv 
+=======
 # Start time: 17:07:42 on Mar 05,2023
 # vlog -reportprogress 300 -sv -work altera_lnsim_ver d:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_lnsim.sv 
+>>>>>>> development:Laboratorio_2/Ej_3/simulation/modelsim/msim_transcript
 # -- Compiling package altera_lnsim_functions
 # -- Compiling package altera_generic_pll_functions
 # -- Compiling module generic_pll
@@ -458,7 +499,11 @@
 # 	altera_iopll
 # 	fourteennm_altera_iopll
 # 	fourteennm_simple_iopll
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/msim_transcript
+# End time: 21:05:06 on Mar 26,2023, Elapsed time: 0:00:01
+=======
 # End time: 17:07:44 on Mar 05,2023, Elapsed time: 0:00:02
+>>>>>>> development:Laboratorio_2/Ej_3/simulation/modelsim/msim_transcript
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cyclonev_ver
@@ -469,8 +514,13 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cyclonev_ver {d:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/msim_transcript
+# Start time: 21:05:06 on Mar 26,2023
+# vlog -reportprogress 300 -vlog01compat -work cyclonev_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_atoms_ncrypt.v 
+=======
 # Start time: 17:07:44 on Mar 05,2023
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_ver d:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_atoms_ncrypt.v 
+>>>>>>> development:Laboratorio_2/Ej_3/simulation/modelsim/msim_transcript
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
@@ -483,20 +533,37 @@
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # 
 # Top level modules:
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/msim_transcript
+# End time: 21:05:10 on Mar 26,2023, Elapsed time: 0:00:04
+=======
 # End time: 17:07:49 on Mar 05,2023, Elapsed time: 0:00:05
+>>>>>>> development:Laboratorio_2/Ej_3/simulation/modelsim/msim_transcript
 # Errors: 0, Warnings: 10
 # vlog -vlog01compat -work cyclonev_ver {d:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hmi_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/msim_transcript
+# Start time: 21:05:10 on Mar 26,2023
+# vlog -reportprogress 300 -vlog01compat -work cyclonev_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hmi_atoms_ncrypt.v 
+# 
+# Top level modules:
+# End time: 21:05:12 on Mar 26,2023, Elapsed time: 0:00:02
+=======
 # Start time: 17:07:49 on Mar 05,2023
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_ver d:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hmi_atoms_ncrypt.v 
 # 
 # Top level modules:
 # End time: 17:07:51 on Mar 05,2023, Elapsed time: 0:00:02
+>>>>>>> development:Laboratorio_2/Ej_3/simulation/modelsim/msim_transcript
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work cyclonev_ver {d:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_atoms.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/msim_transcript
+# Start time: 21:05:12 on Mar 26,2023
+# vlog -reportprogress 300 -vlog01compat -work cyclonev_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_atoms.v 
+=======
 # Start time: 17:07:52 on Mar 05,2023
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_ver d:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_atoms.v 
+>>>>>>> development:Laboratorio_2/Ej_3/simulation/modelsim/msim_transcript
 # -- Compiling UDP CYCLONEV_PRIM_DFFE
 # -- Compiling UDP CYCLONEV_PRIM_DFFEAS
 # -- Compiling UDP CYCLONEV_PRIM_DFFEAS_HIGH
@@ -635,7 +702,11 @@
 # 	cyclonev_mem_phy
 # 	cyclonev_oscillator
 # 	cyclonev_hps_interface_fpga2sdram
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/msim_transcript
+# End time: 21:05:14 on Mar 26,2023, Elapsed time: 0:00:02
+=======
 # End time: 17:07:53 on Mar 05,2023, Elapsed time: 0:00:01
+>>>>>>> development:Laboratorio_2/Ej_3/simulation/modelsim/msim_transcript
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cyclonev_hssi_ver
@@ -646,16 +717,29 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cyclonev_hssi_ver {d:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hssi_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/msim_transcript
+# Start time: 21:05:14 on Mar 26,2023
+# vlog -reportprogress 300 -vlog01compat -work cyclonev_hssi_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hssi_atoms_ncrypt.v 
+# 
+# Top level modules:
+# End time: 21:05:17 on Mar 26,2023, Elapsed time: 0:00:03
+=======
 # Start time: 17:07:54 on Mar 05,2023
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_hssi_ver d:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hssi_atoms_ncrypt.v 
 # 
 # Top level modules:
 # End time: 17:07:58 on Mar 05,2023, Elapsed time: 0:00:04
+>>>>>>> development:Laboratorio_2/Ej_3/simulation/modelsim/msim_transcript
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work cyclonev_hssi_ver {d:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_hssi_atoms.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/msim_transcript
+# Start time: 21:05:17 on Mar 26,2023
+# vlog -reportprogress 300 -vlog01compat -work cyclonev_hssi_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_hssi_atoms.v 
+=======
 # Start time: 17:07:58 on Mar 05,2023
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_hssi_ver d:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_hssi_atoms.v 
+>>>>>>> development:Laboratorio_2/Ej_3/simulation/modelsim/msim_transcript
 # -- Compiling module cyclonev_hssi_8g_pcs_aggregate
 # -- Compiling module cyclonev_hssi_8g_rx_pcs
 # -- Compiling module cyclonev_hssi_8g_tx_pcs
@@ -754,7 +838,11 @@
 # 	arriav_hssi_avmm_interface
 # 	arriav_hssi_pma_hi_pmaif
 # 	arriav_hssi_pma_hi_xcvrif
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/msim_transcript
+# End time: 21:05:18 on Mar 26,2023, Elapsed time: 0:00:01
+=======
 # End time: 17:07:59 on Mar 05,2023, Elapsed time: 0:00:01
+>>>>>>> development:Laboratorio_2/Ej_3/simulation/modelsim/msim_transcript
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cyclonev_pcie_hip_ver
@@ -765,8 +853,13 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cyclonev_pcie_hip_ver {d:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_pcie_hip_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/msim_transcript
+# Start time: 21:05:18 on Mar 26,2023
+# vlog -reportprogress 300 -vlog01compat -work cyclonev_pcie_hip_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_pcie_hip_atoms_ncrypt.v 
+=======
 # Start time: 17:08:00 on Mar 05,2023
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_pcie_hip_ver d:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_pcie_hip_atoms_ncrypt.v 
+>>>>>>> development:Laboratorio_2/Ej_3/simulation/modelsim/msim_transcript
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
@@ -775,18 +868,31 @@
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # 
 # Top level modules:
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/msim_transcript
+# End time: 21:05:22 on Mar 26,2023, Elapsed time: 0:00:04
+=======
 # End time: 17:08:05 on Mar 05,2023, Elapsed time: 0:00:05
+>>>>>>> development:Laboratorio_2/Ej_3/simulation/modelsim/msim_transcript
 # Errors: 0, Warnings: 6
 # vlog -vlog01compat -work cyclonev_pcie_hip_ver {d:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_pcie_hip_atoms.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/msim_transcript
+# Start time: 21:05:22 on Mar 26,2023
+# vlog -reportprogress 300 -vlog01compat -work cyclonev_pcie_hip_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_pcie_hip_atoms.v 
+=======
 # Start time: 17:08:05 on Mar 05,2023
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_pcie_hip_ver d:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_pcie_hip_atoms.v 
+>>>>>>> development:Laboratorio_2/Ej_3/simulation/modelsim/msim_transcript
 # -- Compiling module cyclonev_hd_altpe2_hip_top
 # -- Compiling module arriav_hd_altpe2_hip_top
 # 
 # Top level modules:
 # 	cyclonev_hd_altpe2_hip_top
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/msim_transcript
+# End time: 21:05:22 on Mar 26,2023, Elapsed time: 0:00:00
+=======
 # End time: 17:08:05 on Mar 05,2023, Elapsed time: 0:00:00
+>>>>>>> development:Laboratorio_2/Ej_3/simulation/modelsim/msim_transcript
 # Errors: 0, Warnings: 0
 # 
 # if {[file exists rtl_work]} {
@@ -798,6 +904,36 @@
 # vmap work rtl_work 
 # Modifying modelsim.ini
 # 
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/msim_transcript
+# vlog -sv -work work +incdir+C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1 {C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/right_shift_logical.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:05:23 on Mar 26,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1" C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/right_shift_logical.sv 
+# -- Compiling module right_shift_logical
+# 
+# Top level modules:
+# 	right_shift_logical
+# End time: 21:05:23 on Mar 26,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1 {C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/tb_right_shift_logical.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:05:23 on Mar 26,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1" C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/tb_right_shift_logical.sv 
+# -- Compiling module tb_right_shift_logical
+# 
+# Top level modules:
+# 	tb_right_shift_logical
+# End time: 21:05:23 on Mar 26,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_right_shift_logical
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb_right_shift_logical 
+# Start time: 21:05:23 on Mar 26,2023
+# Loading sv_std.std
+# Loading work.tb_right_shift_logical
+# Loading work.right_shift_logical
+=======
 # vlog -sv -work work +incdir+D:/Documentos/TEC/2023/I\ Semestre/Taller\ de\ Diseno\ Digital/Laboratorio\ 2/dmejias08_digital_design_lab_2023/Laboratorio_2/Ej_3 {D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/Laboratorio 2/dmejias08_digital_design_lab_2023/Laboratorio_2/Ej_3/display_6bit.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 # Start time: 17:08:06 on Mar 05,2023
@@ -859,6 +995,7 @@
 # Loading work.contador_regresivo
 # Loading work.display_6bit
 # Loading work.display_4bits
+>>>>>>> development:Laboratorio_2/Ej_3/simulation/modelsim/msim_transcript
 # 
 # add wave *
 # view structure
@@ -866,7 +1003,12 @@
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run -all
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/msim_transcript
+# Logical right shift passed
+# End time: 21:49:14 on Mar 26,2023, Elapsed time: 0:43:51
+=======
 # Break key hit
 # Simulation stop requested.
 # End time: 17:12:47 on Mar 05,2023, Elapsed time: 0:04:39
+>>>>>>> development:Laboratorio_2/Ej_3/simulation/modelsim/msim_transcript
 # Errors: 0, Warnings: 0

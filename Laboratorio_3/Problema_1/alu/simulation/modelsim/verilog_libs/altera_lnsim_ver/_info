@@ -10,8 +10,13 @@ z2
 cModel Technology
 dC:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/simulation/modelsim
 valtera_arriav_pll
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1679886306
+=======
 Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
 Z1 !s110 1679419751
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 !i10b 1
 !s100 5h]c@?QJf;jn]BQSNfoYR1
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -22,13 +27,21 @@ Z4 dC:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Di
 Z5 w1666749957
 Z6 8c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_lnsim.sv
 Z7 Fc:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_lnsim.sv
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 22500 2033
 Z8 OV;L;2020.1;71
 r1
 !s85 0
 31
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+Z9 !s108 1679886305.000000
+=======
 Z9 !s108 1679419750.000000
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 !s107 c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_lnsim.sv|
 Z10 !s90 -reportprogress|300|-sv|-work|altera_lnsim_ver|c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_lnsim.sv|
 !i113 1
@@ -47,7 +60,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 24536 2033
 R8
 r1
@@ -72,7 +89,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 26572 1380
 R8
 r1
@@ -87,6 +108,10 @@ R12
 Xaltera_generic_pll_functions
 R0
 R1
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+Z14 !s110 1679886305
+=======
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 !i10b 1
 !s100 :N55gQC8?9:3U2>Bb8OEi1
 R2
@@ -97,7 +122,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 1486 0
 R8
 r1
@@ -122,7 +151,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 30840 556
 R8
 r1
@@ -147,7 +180,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 34133 59
 R8
 r1
@@ -172,7 +209,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 4 0
 R8
 r1
@@ -187,6 +228,10 @@ R12
 vALTERA_LNSIM_MEMORY_INITIALIZATION
 R0
 R1
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+R2
+=======
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 !i10b 1
 !s100 ;WJE^iYLz[^eJTH9:W]gP3
 R2
@@ -197,7 +242,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 19197 1262
 R8
 r1
@@ -223,7 +272,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 5815 1096
 R8
 r1
@@ -248,7 +301,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 6919 1484
 R8
 r1
@@ -274,7 +331,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 27965 2636
 R8
 r1
@@ -299,7 +360,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 34206 96
 R8
 r1
@@ -324,7 +389,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 11302 4906
 R8
 r1
@@ -339,6 +408,10 @@ R12
 valtera_stratixv_pll
 R0
 R1
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+R2
+=======
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 !i10b 1
 !s100 2ZhM`AAZT5JHm;7ALzR9A1
 R2
@@ -349,7 +422,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 20461 2036
 R8
 r1
@@ -364,6 +441,10 @@ R12
 valtera_syncram
 R0
 R1
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+R2
+=======
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 !i10b 1
 !s100 8l014dM<?<M_ST@FRE>5d1
 R2
@@ -374,7 +455,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 16238 2865
 R8
 r1
@@ -389,6 +474,10 @@ R12
 valtera_syncram_forwarding_logic
 R0
 R1
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+R2
+=======
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 !i10b 1
 !s100 ma=onaBe==HmRh5dNdfVB2
 R2
@@ -399,7 +488,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 19104 62
 R8
 r1
@@ -424,7 +517,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 9479 301
 R8
 r1
@@ -449,7 +546,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 10300 300
 R8
 r1
@@ -474,7 +575,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 9087 383
 R8
 r1
@@ -499,7 +604,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 8758 321
 R8
 r1
@@ -524,7 +633,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 8469 52
 R8
 r1
@@ -549,7 +662,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 11150 139
 R8
 r1
@@ -574,7 +691,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 9789 236
 R8
 r1
@@ -599,7 +720,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 10034 256
 R8
 r1
@@ -624,7 +749,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 8529 120
 R8
 r1
@@ -649,7 +778,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 8657 92
 R8
 r1
@@ -674,7 +807,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 10917 226
 R8
 r1
@@ -699,7 +836,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 8411 50
 R8
 r1
@@ -724,7 +865,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 10610 300
 R8
 r1
@@ -749,7 +894,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 5503 77
 R8
 r1
@@ -774,7 +923,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 5241 66
 R8
 r1
@@ -800,7 +953,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 4579 150
 R8
 r1
@@ -825,7 +982,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 4496 35
 R8
 r1
@@ -850,7 +1011,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 4539 32
 R8
 r1
@@ -876,7 +1041,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 2886 1144
 R8
 r1
@@ -901,7 +1070,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 2767 37
 R8
 r1
@@ -926,7 +1099,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 2812 63
 R8
 r1
@@ -951,7 +1128,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 4737 67
 R8
 r1
@@ -976,7 +1157,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 4976 78
 R8
 r1
@@ -1001,7 +1186,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 30680 78
 R8
 r1
@@ -1026,7 +1215,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 30601 79
 R8
 r1
@@ -1051,7 +1244,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 30759 48
 R8
 r1
@@ -1076,7 +1273,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 32142 59
 R8
 r1
@@ -1101,7 +1302,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 31402 59
 R8
 r1
@@ -1126,7 +1331,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 31619 514
 R8
 r1
@@ -1152,7 +1361,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 32218 0
 R8
 r1
@@ -1179,7 +1392,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 32330 367
 R8
 r1
@@ -1206,7 +1423,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 32697 821
 R8
 r1
@@ -1232,7 +1453,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 5324 159
 R8
 r1
@@ -1258,7 +1483,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 4812 156
 R8
 r1
@@ -1284,7 +1513,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 5062 159
 R8
 r1
@@ -1310,7 +1543,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 2394 359
 R8
 r1
@@ -1336,7 +1573,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 5597 209
 R8
 r1
@@ -1361,7 +1602,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 4269 212
 R8
 r1
@@ -1386,7 +1631,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 4038 222
 R8
 r1
@@ -1411,7 +1660,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 5585 11
 R8
 r1
@@ -1438,7 +1691,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 1605 787
 R8
 r1
@@ -1463,7 +1720,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 34306 629
 R8
 r1
@@ -1488,7 +1749,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 31462 124
 R8
 r1
@@ -1513,7 +1778,11 @@ R4
 R5
 R6
 R7
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_lnsim_ver/_info
 L0 33519 601
 R8
 r1

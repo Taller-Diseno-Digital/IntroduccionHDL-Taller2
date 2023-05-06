@@ -1,3 +1,0 @@
-module aletorio();
-
-endmodule

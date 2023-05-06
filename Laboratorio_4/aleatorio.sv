@@ -1,1 +1,3 @@
-module aletorio
+module aletorio();
+
+endmodule

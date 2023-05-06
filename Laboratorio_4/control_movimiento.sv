@@ -36,8 +36,8 @@ module control_movimiento(
 					// puntaje
 
             end
-				
-			default: //caso default
         endcase
 
     end
+	 
+endmodule

@@ -39,7 +39,7 @@
 
 set_global_assignment -name FAMILY "Cyclone V"
 set_global_assignment -name DEVICE 5CSEMA5F31C6
-set_global_assignment -name TOP_LEVEL_ENTITY fsm
+set_global_assignment -name TOP_LEVEL_ENTITY control_movimiento
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 22.1STD.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "18:19:55  APRIL 11, 2023"
 set_global_assignment -name LAST_QUARTUS_VERSION "22.1std.0 Lite Edition"
@@ -52,32 +52,94 @@ set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_symbol
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_signal_integrity
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_boundary_scan
-set_global_assignment -name SYSTEMVERILOG_FILE fsm.sv
 set_global_assignment -name SYSTEMVERILOG_FILE tb_fsm.sv
-set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
-set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
-set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
-set_global_assignment -name SYSTEMVERILOG_FILE control_movimiento.sv
-set_global_assignment -name SYSTEMVERILOG_FILE aleatorio.sv
 set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
 set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
 set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
 set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
 set_global_assignment -name EDA_TEST_BENCH_ENABLE_STATUS TEST_BENCH_MODE -section_id eda_simulation
-set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH tb_fsm -section_id eda_simulation
+set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH control_movimiento_tb -section_id eda_simulation
 set_global_assignment -name EDA_TEST_BENCH_NAME tb_fsm -section_id eda_simulation
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id tb_fsm
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME tb_fsm -section_id tb_fsm
-set_global_assignment -name EDA_TEST_BENCH_FILE tb_fsm.sv -section_id tb_fsm
-set_global_assignment -name SYSTEMVERILOG_FILE clock2.sv
 set_location_assignment PIN_AA14 -to btn_izquierda
 set_location_assignment PIN_AA15 -to btn_derecha
 set_location_assignment PIN_W15 -to btn_arriba
 set_location_assignment PIN_Y16 -to btn_abajo
-set_location_assignment PIN_AF9 -to clk
-set_location_assignment PIN_AC12 -to flag
+set_location_assignment PIN_AF14 -to clk
 set_location_assignment PIN_AB12 -to rst
 set_location_assignment PIN_V16 -to movement[0]
 set_location_assignment PIN_W16 -to movement[1]
 set_location_assignment PIN_V17 -to movement[2]
+set_global_assignment -name SYSTEMVERILOG_FILE fsm.sv
+set_global_assignment -name SYSTEMVERILOG_FILE game_2048.sv
+set_global_assignment -name SYSTEMVERILOG_FILE hhclock.sv
+set_global_assignment -name SYSTEMVERILOG_FILE control_movimiento.sv
+set_global_assignment -name SYSTEMVERILOG_FILE encontrar_ceros.sv
+set_global_assignment -name SYSTEMVERILOG_FILE gano.sv
+set_global_assignment -name SYSTEMVERILOG_FILE generar_aleatorio.sv
+set_global_assignment -name SYSTEMVERILOG_FILE mov_abajo.sv
+set_global_assignment -name SYSTEMVERILOG_FILE mov_arriba.sv
+set_global_assignment -name SYSTEMVERILOG_FILE mov_derecha.sv
+set_global_assignment -name SYSTEMVERILOG_FILE mov_izquierda.sv
+set_global_assignment -name SYSTEMVERILOG_FILE mux8_1.sv
+set_global_assignment -name SYSTEMVERILOG_FILE verificar_matriz.sv
+set_global_assignment -name SYSTEMVERILOG_FILE color_module.sv
+set_global_assignment -name SYSTEMVERILOG_FILE color_selector.sv
+set_global_assignment -name SYSTEMVERILOG_FILE vga_decoder.sv
+set_global_assignment -name SYSTEMVERILOG_FILE vga_sync.sv
+set_global_assignment -name SYSTEMVERILOG_FILE generar_aleatorio_aux.sv
+set_location_assignment PIN_AE11 -to condicion_gane[0]
+set_location_assignment PIN_AC9 -to condicion_gane[1]
+set_location_assignment PIN_AD10 -to condicion_gane[2]
+set_location_assignment PIN_AE12 -to condicion_gane[3]
+set_location_assignment PIN_A13 -to r[0]
+set_location_assignment PIN_C13 -to r[1]
+set_location_assignment PIN_E13 -to r[2]
+set_location_assignment PIN_B12 -to r[3]
+set_location_assignment PIN_C12 -to r[4]
+set_location_assignment PIN_D12 -to r[5]
+set_location_assignment PIN_E12 -to r[6]
+set_location_assignment PIN_F13 -to r[7]
+set_location_assignment PIN_C10 -to nsync
+set_location_assignment PIN_F10 -to nblanc
+set_location_assignment PIN_B11 -to hsync
+set_location_assignment PIN_A11 -to clk_out
+set_location_assignment PIN_E11 -to g[7]
+set_location_assignment PIN_J9 -to g[0]
+set_location_assignment PIN_J10 -to g[1]
+set_location_assignment PIN_H12 -to g[2]
+set_location_assignment PIN_G10 -to g[3]
+set_location_assignment PIN_G11 -to g[4]
+set_location_assignment PIN_G12 -to g[5]
+set_location_assignment PIN_F11 -to g[6]
+set_location_assignment PIN_D11 -to vsync
+set_location_assignment PIN_B13 -to b[0]
+set_location_assignment PIN_G13 -to b[1]
+set_location_assignment PIN_H13 -to b[2]
+set_location_assignment PIN_F14 -to b[3]
+set_location_assignment PIN_H14 -to b[4]
+set_location_assignment PIN_F15 -to b[5]
+set_location_assignment PIN_G15 -to b[6]
+set_location_assignment PIN_J14 -to b[7]
+set_global_assignment -name SYSTEMVERILOG_FILE modificar_matiz.sv
+set_global_assignment -name SYSTEMVERILOG_FILE modificar_matriz_tb.sv
+set_global_assignment -name EDA_TEST_BENCH_NAME modificar_matriz_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id modificar_matriz_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME modificar_matriz_tb -section_id modificar_matriz_tb
+set_global_assignment -name SYSTEMVERILOG_FILE generar_aleatorio_tb.sv
+set_global_assignment -name EDA_TEST_BENCH_NAME generar_aleatorio_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id generar_aleatorio_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME generar_aleatorio_tb -section_id generar_aleatorio_tb
+set_global_assignment -name SYSTEMVERILOG_FILE control_movimiento_tb.sv
+set_global_assignment -name EDA_TEST_BENCH_FILE tb_fsm.sv -section_id tb_fsm
+set_global_assignment -name EDA_TEST_BENCH_FILE modificar_matriz_tb.sv -section_id modificar_matriz_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE generar_aleatorio_tb.sv -section_id generar_aleatorio_tb
+set_global_assignment -name EDA_TEST_BENCH_NAME control_movimiento_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id control_movimiento_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME control_movimiento_tb -section_id control_movimiento_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE control_movimiento_tb.sv -section_id control_movimiento_tb
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

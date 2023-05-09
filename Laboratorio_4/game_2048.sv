@@ -31,8 +31,6 @@ module game_2048(
 		
 		control_movimiento control_movimiento_inst(matriz_resultante, selector, condicion_gane,matriz_modificada, gano, perdio);
 		
-		//modificar_matiz mod_matriz_inst(matriz_entrada, selector, condicion_gane, matriz_resultante,gano, perdio);
-		
 		vga_decoder vga(clk, rst, gano, perdio, matriz_resultante, hsync, vsync, nsync, nblanc, clk_out, r, g, b);
 
 	 assign movement = selector;

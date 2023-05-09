@@ -1,12 +1,14 @@
-module control_movimiento(input int matriz_entrada [4][4], input logic [2:0] selector, input logic[3:0] condicion_gane,
+module control_movimiento(input logic [2:0] selector, input logic[3:0] condicion_gane,
                           output int matriz_resultante [4][4], output logic gano, output logic perdio);
 								  
+	int matriz_entrada[4][4];
 	int matriz_izq[4][4];
 	int matriz_der[4][4];
 	int matriz_arr[4][4];
 	int matriz_aba[4][4];
 	int matriz_temp[4][4];
 	int matriz_temp_result[4][4];
+
 	
 	int mov_izq, mov_der, mov_arr, mov_aba;
 	 
@@ -19,12 +21,14 @@ module control_movimiento(input int matriz_entrada [4][4], input logic [2:0] sel
 	
 	generar_aleatorio generador_ale_inst(matriz_temp, selector, matriz_temp_result);
 
-	always_comb begin
+
+	always @(selector) begin
 		
-		matriz_resultante = matriz_temp_result; 
+		matriz_resultante = matriz_temp_result;
 		
 	end
-	
-	
+
+	//assign matriz_resultante = matriz_temp_result;
+	assign matriz_entrada = matriz_resultante;
   
 endmodule

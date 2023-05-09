@@ -3,6 +3,9 @@ module mux8_1(input int matriz_entrada [4][4], input int matriz_izquierda [4][4]
 				  
 	int matriz_zeros [4][4];
 	//int matriz_zeros = '{'{4, 0, 0, 0}, '{0, 0, 0, 0}, '{0, 0, 0, 0}, '{0, 0, 0, 0}};
+	initial begin
+		matriz_zeros = '{'{0, 0, 0, 0}, '{0, 0, 0, 0}, '{0, 0, 0, 0}, '{0, 0, 0, 0}};
+	end
 	
 	always_comb begin
 		case (sel)

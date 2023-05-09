@@ -1,0 +1,12 @@
+module mov_derecha (input logic [3:0][3:0] matriz_entrada,
+						  output logic [3:0][3:0] matriz_resultante);
+
+	always_comb begin
+	
+	for (i=0; i < 4; i++)
+		
+	end
+	
+	end
+	
+endmodule

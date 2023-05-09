@@ -1,0 +1,32 @@
+<<<<<<< HEAD:Laboratorio_3/Problema_1/output_files/left_shift_logical.map.summary
+Analysis & Elaboration Status : Successful - Sun Mar 26 21:04:48 2023
+Quartus Prime Version : 22.1std.0 Build 915 10/25/2022 SC Lite Edition
+Revision Name : left_shift_logical
+Top-level Entity Name : right_shift_logical
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A until Partition Merge
+Total registers : N/A until Partition Merge
+Total pins : N/A until Partition Merge
+Total virtual pins : N/A until Partition Merge
+Total block memory bits : N/A until Partition Merge
+Total PLLs : N/A until Partition Merge
+Total DLLs : N/A until Partition Merge
+=======
+Analysis & Synthesis Status : Successful - Thu Mar 23 10:02:39 2023
+Quartus Prime Version : 22.1std.0 Build 915 10/25/2022 SC Lite Edition
+Revision Name : ALU
+Top-level Entity Name : principal
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 0
+Total pins : 23
+Total virtual pins : 0
+Total block memory bits : 0
+Total DSP Blocks : 0
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 0
+Total DLLs : 0
+>>>>>>> development:Laboratorio_3/Problema_1/alu/output_files/ALU.map.summary

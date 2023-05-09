@@ -1,0 +1,34 @@
+module verificar_matriz_tb();
+
+	int input_matrix [4][4];
+	int condicion_gane;
+	int gano;
+	int perdio;
+
+	verificar_matriz verificar_matriz_inst(input_matrix, condicion_gane, gano, perdio);
+
+	initial begin
+	  // Matriz de entrada
+	  input_matrix = '{'{0,0,2,4}, {2,4,2,0}, {2,2,4,4}, {0,2,0,4}};
+
+	  // Imprimiendo matriz entrada
+	  $display("Input matrix:");
+	  for (int i=0; i<4; i++) begin
+			$write("| ");
+			for (int j=0; j<4; j++)
+				 $write("%d | ", input_matrix[i][j]);
+			$display("");
+	  end
+
+	  // Simulando
+	  #1;
+
+	  // Imprimiendo flags
+	  $display("\nFlags:");
+	  
+	  $write("%d \nGanó: ", gano);
+	  $write("%d \nPerdió: ", perdio);
+
+	end
+
+endmodule

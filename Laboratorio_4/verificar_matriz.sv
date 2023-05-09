@@ -41,5 +41,4 @@ module verificar_matriz(input int matriz_entrada [4][4],
 	
 	assign gano = gano_temp;
 	assign perdio = perdio_temp;
-
 endmodule

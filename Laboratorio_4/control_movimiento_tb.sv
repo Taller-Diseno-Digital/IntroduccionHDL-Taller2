@@ -11,42 +11,13 @@ module control_movimiento_tb();
     initial begin
 	     selector = 3'b000;
 		  condicion_gane = 4'b1011;
-		  #1;
-		  // Imprimiendo matriz salida
-        $display("\nOutput matrix inicial:");
-        for (int i=0; i<4; i++) begin
-            $write("| ");
-            for (int j=0; j<4; j++)
-                $write("%d | ", output_matrix[i][j]);
-            $display("");
-        end
-        #1;
+        #100;
 	     selector = 3'b001; 
-		  
-		  // Imprimiendo matriz salida
-        $display("\nOutput matrix inicial:");
-        for (int i=0; i<4; i++) begin
-            $write("| ");
-            for (int j=0; j<4; j++)
-                $write("%d | ", output_matrix[i][j]);
-            $display("");
-        end
-		  
-		  #1;
-		  
-		  selector = 3'b000;
-		  
-		  #1
-        // Imprimiendo matriz salida
-        $display("\nOutput matrix inicial:");
-        for (int i=0; i<4; i++) begin
-            $write("| ");
-            for (int j=0; j<4; j++)
-                $write("%d | ", output_matrix[i][j]);
-            $display("");
-        end
 
-		  #1;
+		  #100;
+		  selector = 3'b000;
+
+		  #100;
 		  
         // Matriz de entrada
 		  selector = 3'b011; 
@@ -55,29 +26,30 @@ module control_movimiento_tb();
 		  //input_matrix = '{'{0,0,8,0}, '{0,8,0,0}, '{0,0,8,0}, '{0,0,0,0}};
 
         // Simulando
-        #1;
+        #100;
 
         // Imprimiendo matriz salida
-        $display("\nOutput matrix arriba:");
+        $display("\nOutput matrix:");
         for (int i=0; i<4; i++) begin
             $write("| ");
             for (int j=0; j<4; j++)
                 $write("%d | ", output_matrix[i][j]);
             $display("");
         end
-		  
-		  
-		  #1;
-		  
-		  
-		  // Matriz de entrada
+		  #100;
+		  selector = 3'b011; 
+		  #100;
+		  selector = 3'b011; 
+		  #100;
+		  selector = 3'b011; 
+		  #100;
 		  selector = 3'b111; 
 
         // Simulando
-        #1;
+        #100;
 
         // Imprimiendo matriz salida
-        $display("\nOutput matrix control:");
+        $display("\nOutput matrix:");
         for (int i=0; i<4; i++) begin
             $write("| ");
             for (int j=0; j<4; j++)
@@ -85,17 +57,17 @@ module control_movimiento_tb();
             $display("");
         end
 		  
-		  #1;
+		  #100;
 		  
 		  	// Matriz de entrada
 		  selector = 3'b011; 
 
 
         // Simulando
-        #1;
+        #100;
 
         // Imprimiendo matriz salida
-        $display("\nOutput matrix arriba:");
+        $display("\nOutput matrix:");
         for (int i=0; i<4; i++) begin
             $write("| ");
             for (int j=0; j<4; j++)
@@ -103,16 +75,55 @@ module control_movimiento_tb();
             $display("");
         end
 		  
-		  #1;
+		  		  
+		  #100;
+		  
+		  
+		  // Matriz de entrada
+		  selector = 3'b111; 
+
+        // Simulando
+        #100;
+
+        // Imprimiendo matriz salida
+        $display("\nOutput matrix:");
+        for (int i=0; i<4; i++) begin
+            $write("| ");
+            for (int j=0; j<4; j++)
+                $write("%d | ", output_matrix[i][j]);
+            $display("");
+        end
+		  
+		  #100;
+		  
+		  
+		  // Matriz de entrada
+		  selector = 3'b111; 
+
+        // Simulando
+        #100;
+
+        // Imprimiendo matriz salida
+        $display("\nOutput matrix:");
+        for (int i=0; i<4; i++) begin
+            $write("| ");
+            for (int j=0; j<4; j++)
+                $write("%d | ", output_matrix[i][j]);
+            $display("");
+        end
+		  
+		  
+		  
+		  #100;
 		  		  	// Matriz de entrada
 		  selector = 3'b100; 
 
 
         // Simulando
-        #1;
+        #100;
 
         // Imprimiendo matriz salida
-        $display("\nOutput matrix abajo:");
+        $display("\nOutput matrix:");
         for (int i=0; i<4; i++) begin
             $write("| ");
             for (int j=0; j<4; j++)
@@ -120,16 +131,16 @@ module control_movimiento_tb();
             $display("");
         end
 		  
-		  #1;
+		  #100;
 		  
 		  selector = 3'b111; 
 
 
         // Simulando
-        #1;
+        #100;
 
         // Imprimiendo matriz salida
-        $display("\nOutput matrix control:");
+        $display("\nOutput matrix:");
         for (int i=0; i<4; i++) begin
             $write("| ");
             for (int j=0; j<4; j++)
@@ -137,16 +148,16 @@ module control_movimiento_tb();
             $display("");
         end
 		  
-		   #1;
+		   #100;
 		  
 		  selector = 3'b010; 
 
 
         // Simulando
-        #1;
+        #100;
 
         // Imprimiendo matriz salida
-        $display("\nOutput matrix derecha:");
+        $display("\nOutput matrix:");
         for (int i=0; i<4; i++) begin
             $write("| ");
             for (int j=0; j<4; j++)
@@ -155,16 +166,16 @@ module control_movimiento_tb();
         end
 		  
 		  
-		   #1;
+		   #100;
 		  
 		  selector = 3'b111; 
 
 
         // Simulando
-        #1;
+        #100;
 
         // Imprimiendo matriz salida
-        $display("\nOutput matrix control:");
+        $display("\nOutput matrix:");
         for (int i=0; i<4; i++) begin
             $write("| ");
             for (int j=0; j<4; j++)
@@ -172,9 +183,9 @@ module control_movimiento_tb();
             $display("");
         end
 		  
-		  #1;
+		  #100;
 		 // Imprimiendo matriz salida
-        $display("\nOutput matrix control:");
+        $display("\nOutput matrix:");
         for (int i=0; i<4; i++) begin
             $write("| ");
             for (int j=0; j<4; j++)

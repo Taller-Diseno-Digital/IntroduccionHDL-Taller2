@@ -15,7 +15,7 @@ module mux8_1(input int matriz_entrada [4][4], input int matriz_izquierda [4][4]
 		 3'b011: matriz_resultante = matriz_arriba;
 		 3'b100: matriz_resultante = matriz_abajo;
 		 3'b111: matriz_resultante = matriz_entrada; 
-		 default: matriz_resultante = matriz_entrada; 
+		 default: matriz_resultante = matriz_entrada;
 		endcase 
 	end
 	

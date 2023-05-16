@@ -10,7 +10,11 @@ z2
 cModel Technology
 dC:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/simulation/modelsim
 vlpm_abs
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/lpm_ver/_info
+Z1 !s110 1679886302
+=======
 Z0 !s110 1679419748
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/lpm_ver/_info
 !i10b 1
 !s100 C1CEPTa>h1KTS35mS<k;H0
 Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -20,13 +24,21 @@ Z3 dC:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Di
 Z4 w1666749971
 Z5 8c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/220model.v
 Z6 Fc:/intelfpga_lite/22.1std/quartus/eda/sim_lib/220model.v
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/lpm_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/lpm_ver/_info
 L0 3479 44
 Z7 OV;L;2020.1;71
 r1
 !s85 0
 31
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/lpm_ver/_info
+Z8 !s108 1679886301.000000
+=======
 Z8 !s108 1679419748.000000
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/lpm_ver/_info
 !s107 c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/220model.v|
 Z9 !s90 -reportprogress|300|-vlog01compat|-work|lpm_ver|c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/220model.v|
 !i113 1
@@ -43,7 +55,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/lpm_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/lpm_ver/_info
 L0 2606 179
 R7
 r1
@@ -66,7 +82,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/lpm_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/lpm_ver/_info
 L0 1682 62
 R7
 r1
@@ -89,7 +109,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/lpm_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/lpm_ver/_info
 L0 6690 53
 R7
 r1
@@ -112,7 +136,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/lpm_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/lpm_ver/_info
 L0 1972 69
 R7
 r1
@@ -135,7 +163,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/lpm_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/lpm_ver/_info
 L0 2321 267
 R7
 r1
@@ -158,7 +190,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/lpm_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/lpm_ver/_info
 L0 2812 157
 R7
 r1
@@ -181,7 +217,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/lpm_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/lpm_ver/_info
 L0 1578 34
 R7
 r1
@@ -204,7 +244,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/lpm_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/lpm_ver/_info
 L0 3543 266
 R7
 r1
@@ -227,7 +271,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/lpm_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/lpm_ver/_info
 L0 2193 109
 R7
 r1
@@ -250,7 +298,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/lpm_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/lpm_ver/_info
 L0 1367 194
 R7
 r1
@@ -274,7 +326,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/lpm_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/lpm_ver/_info
 L0 3272 188
 R7
 r1
@@ -297,7 +353,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/lpm_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/lpm_ver/_info
 L0 3951 201
 R7
 r1
@@ -320,7 +380,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/lpm_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/lpm_ver/_info
 L0 5398 313
 R7
 r1
@@ -343,7 +407,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/lpm_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/lpm_ver/_info
 L0 6455 105
 R7
 r1
@@ -366,7 +434,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/lpm_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/lpm_ver/_info
 L0 6018 418
 R7
 r1
@@ -389,7 +461,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/lpm_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/lpm_ver/_info
 L0 5729 69
 R7
 r1
@@ -412,7 +488,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/lpm_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/lpm_ver/_info
 L0 5816 184
 R7
 r1
@@ -435,7 +515,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/lpm_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/lpm_ver/_info
 L0 1257 105
 R7
 r1
@@ -459,7 +543,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/lpm_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/lpm_ver/_info
 L0 6578 37
 R7
 r1
@@ -482,7 +570,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/lpm_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/lpm_ver/_info
 L0 1629 35
 R7
 r1
@@ -505,7 +597,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/lpm_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/lpm_ver/_info
 L0 3827 103
 R7
 r1
@@ -528,7 +624,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/lpm_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/lpm_ver/_info
 L0 77 1159
 R7
 r1
@@ -552,7 +652,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/lpm_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/lpm_ver/_info
 L0 2986 259
 R7
 r1
@@ -575,7 +679,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/lpm_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/lpm_ver/_info
 L0 2058 117
 R7
 r1
@@ -598,7 +706,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/lpm_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/lpm_ver/_info
 L0 1762 63
 R7
 r1
@@ -621,7 +733,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/lpm_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/lpm_ver/_info
 L0 6634 37
 R7
 r1
@@ -644,7 +760,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/lpm_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/lpm_ver/_info
 L0 4630 272
 R7
 r1
@@ -667,7 +787,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/lpm_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/lpm_ver/_info
 L0 4374 238
 R7
 r1
@@ -690,7 +814,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/lpm_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/lpm_ver/_info
 L0 4921 241
 R7
 r1
@@ -713,7 +841,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/lpm_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/lpm_ver/_info
 L0 5183 199
 R7
 r1
@@ -736,7 +868,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/lpm_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/lpm_ver/_info
 L0 4170 184
 R7
 r1
@@ -759,7 +895,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/lpm_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/lpm_ver/_info
 L0 1843 63
 R7
 r1

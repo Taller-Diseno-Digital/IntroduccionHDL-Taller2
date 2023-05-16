@@ -1,0 +1,5 @@
+module gano(input int matriz_entrada[4][4], output int gano);
+
+	
+
+endmodule

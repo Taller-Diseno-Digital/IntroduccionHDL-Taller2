@@ -10,7 +10,11 @@ z2
 cModel Technology
 dC:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/GitHub_Labs/dmejias08_digital_design_lab_2023/Laboratorio_3/Problema_1/simulation/modelsim
 va_graycounter
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+Z1 !s110 1679886304
+=======
 Z0 !s110 1679419750
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 !i10b 1
 !s100 7VdIP_cJU>465C8GfPlVQ2
 Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -20,13 +24,21 @@ Z3 dC:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Di
 Z4 w1666750025
 Z5 8c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_mf.v
 Z6 Fc:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_mf.v
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 52632 72
 Z7 OV;L;2020.1;71
 r1
 !s85 0
 31
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+Z8 !s108 1679886303.000000
+=======
 Z8 !s108 1679419749.000000
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 !s107 c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_mf.v|
 Z9 !s90 -reportprogress|300|-vlog01compat|-work|altera_mf_ver|c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_mf.v|
 !i113 1
@@ -43,7 +55,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 50824 650
 R7
 r1
@@ -56,7 +72,11 @@ R9
 R10
 R11
 valt_aeq_s4
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+R1
+=======
 R0
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 !i10b 1
 !s100 6lh>D5F7QmYO@_0@FSbbI3
 R1
@@ -66,7 +86,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 53583 83
 R7
 r1
@@ -79,7 +103,11 @@ R9
 R10
 R11
 valt_cal
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+R1
+=======
 R0
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 !i10b 1
 !s100 >iC_b7A9U<zFFAY_eVVLT0
 R1
@@ -89,7 +117,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 53052 98
 R7
 r1
@@ -102,7 +134,11 @@ R9
 R10
 R11
 valt_cal_av
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+R1
+=======
 R0
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 !i10b 1
 !s100 a;QM:6b[6AB]Q^>?<02Sb3
 R1
@@ -112,7 +148,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 53476 93
 R7
 r1
@@ -125,7 +165,11 @@ R9
 R10
 R11
 valt_cal_c3gxb
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+R1
+=======
 R0
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 !i10b 1
 !s100 zISFXFj1miQmT7>J:`ULz2
 R1
@@ -135,7 +179,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 53279 96
 R7
 r1
@@ -148,7 +196,11 @@ R9
 R10
 R11
 valt_cal_mm
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+R1
+=======
 R0
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 !i10b 1
 !s100 ^i?I2YAVlhXDiJPm7nc9_3
 R1
@@ -158,7 +210,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 53154 121
 R7
 r1
@@ -171,7 +227,11 @@ R9
 R10
 R11
 valt_cal_sv
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+R1
+=======
 R0
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 !i10b 1
 !s100 A;8WMlKKC4OG@=EQAPBz;1
 R1
@@ -181,7 +241,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 53379 93
 R7
 r1
@@ -194,7 +258,11 @@ R9
 R10
 R11
 valt_dfe
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+R1
+=======
 R0
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 !i10b 1
 !s100 R7;FgFmf<hUTiRP5jhl?Q0
 R1
@@ -204,7 +272,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 53960 272
 R7
 r1
@@ -217,7 +289,11 @@ R9
 R10
 R11
 valt_eyemon
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+R1
+=======
 R0
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 !i10b 1
 !s100 1zFBLYhaL]4X=OFCn61:D3
 R1
@@ -227,7 +303,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 53680 268
 R7
 r1
@@ -240,7 +320,11 @@ R9
 R10
 R11
 valt_fault_injection
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+R1
+=======
 R0
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 !i10b 1
 !s100 Ei?>Vk[OY60_f^SSU?bhT0
 R1
@@ -250,7 +334,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 56028 47
 R7
 r1
@@ -273,7 +361,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 34799 226
 R7
 r1
@@ -296,7 +388,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 45469 905
 R7
 r1
@@ -319,7 +415,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 46909 121
 R7
 r1
@@ -342,7 +442,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 46395 245
 R7
 r1
@@ -365,7 +469,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 46658 229
 R7
 r1
@@ -388,7 +496,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 47048 528
 R7
 r1
@@ -401,7 +513,11 @@ R9
 R10
 R11
 vALTERA_DEVICE_FAMILIES
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+Z13 !s110 1679886303
+=======
 Z13 !s110 1679419749
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 !i10b 1
 !s100 3MfKBDVTR`KzM]eJ1HS@G0
 R1
@@ -411,7 +527,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 1433 896
 R7
 r1
@@ -435,7 +555,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 1311 105
 R7
 r1
@@ -459,7 +583,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 72 1219
 R7
 r1
@@ -483,7 +611,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 52858 130
 R7
 r1
@@ -506,7 +638,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 53017 33
 R7
 r1
@@ -529,7 +665,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 31875 2834
 R7
 r1
@@ -552,7 +692,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 34710 62
 R7
 r1
@@ -575,7 +719,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 44582 663
 R7
 r1
@@ -588,7 +736,11 @@ R9
 R10
 R11
 valtlvds_rx
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+R1
+=======
 R13
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 !i10b 1
 !s100 `YEWkRFWiDhg5`o1zE[0W3
 R1
@@ -598,7 +750,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 23845 1198
 R7
 r1
@@ -611,7 +767,11 @@ R9
 R10
 R11
 valtlvds_tx
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+R1
+=======
 R13
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 !i10b 1
 !s100 @E=WW2AOGSi1B0a<Xo5ZE3
 R1
@@ -621,7 +781,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 27432 1388
 R7
 r1
@@ -644,7 +808,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 35041 2191
 R7
 r1
@@ -667,7 +835,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 37246 7315
 R7
 r1
@@ -680,7 +852,11 @@ R9
 R10
 R11
 valtparallel_flash_loader
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+R1
+=======
 R0
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 !i10b 1
 !s100 J:1aR>1KY4Q^mO96^kbO:3
 R1
@@ -690,7 +866,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 55873 120
 R7
 r1
@@ -713,7 +893,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 21831 1989
 R7
 r1
@@ -726,7 +910,11 @@ R9
 R10
 R11
 valtserial_flash_loader
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+R1
+=======
 R0
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 !i10b 1
 !s100 POEQPZ?Qm5_DG9_FO9RmG1
 R1
@@ -736,7 +924,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 55994 33
 R7
 r1
@@ -759,7 +951,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 52487 128
 R7
 r1
@@ -772,7 +968,11 @@ R9
 R10
 R11
 valtsource_probe
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+R1
+=======
 R0
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 !i10b 1
 !s100 c;T2;5^0[;T?678K4`@G53
 R1
@@ -782,7 +982,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 56154 55
 R7
 r1
@@ -805,7 +1009,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 45267 181
 R7
 r1
@@ -828,7 +1036,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 52723 101
 R7
 r1
@@ -841,7 +1053,11 @@ R9
 R10
 R11
 valtstratixii_oct
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+R1
+=======
 R0
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 !i10b 1
 !s100 ;<Rk56cIQ[>dd4>DUJCX32
 R1
@@ -851,7 +1067,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 55857 15
 R7
 r1
@@ -874,7 +1094,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 47593 293
 R7
 r1
@@ -897,7 +1121,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 47887 2885
 R7
 r1
@@ -920,7 +1148,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 6560 69
 R7
 r1
@@ -943,7 +1175,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 6640 70
 R7
 r1
@@ -966,7 +1202,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 6722 100
 R7
 r1
@@ -989,7 +1229,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 14499 70
 R7
 r1
@@ -1012,7 +1256,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 14580 59
 R7
 r1
@@ -1035,7 +1283,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 14651 100
 R7
 r1
@@ -1058,7 +1310,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 18369 62
 R7
 r1
@@ -1081,7 +1337,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 31730 113
 R7
 r1
@@ -1104,7 +1364,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 29931 524
 R7
 r1
@@ -1117,7 +1381,11 @@ R9
 R10
 R11
 vdcfifo_dffpipe
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+R1
+=======
 R13
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 !i10b 1
 !s100 G?nT?dbOcV@nV4MhF]3m[2
 R1
@@ -1127,7 +1395,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 29701 60
 R7
 r1
@@ -1140,7 +1412,11 @@ R9
 R10
 R11
 vdcfifo_fefifo
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+R1
+=======
 R13
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 !i10b 1
 !s100 GDA>72Uj=`Xbf1J]NE=i;2
 R1
@@ -1150,7 +1426,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 29779 134
 R7
 r1
@@ -1173,7 +1453,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 30782 600
 R7
 r1
@@ -1196,7 +1480,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 31400 312
 R7
 r1
@@ -1219,7 +1507,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 30473 288
 R7
 r1
@@ -1242,7 +1534,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 2338 30
 R7
 r1
@@ -1255,7 +1551,11 @@ R9
 R10
 R11
 vdummy_hub
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+R1
+=======
 R0
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 !i10b 1
 !s100 mAE64Q^X0jo1z5FY2`9=o1
 R1
@@ -1265,7 +1565,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 55331 236
 R7
 r1
@@ -1278,7 +1582,11 @@ R9
 R10
 R11
 vflexible_lvds_rx
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+R1
+=======
 R13
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 !i10b 1
 !s100 36BLALCdoWEI_^7CE1NbH2
 R1
@@ -1288,7 +1596,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 25899 450
 R7
 r1
@@ -1301,7 +1613,11 @@ R9
 R10
 R11
 vflexible_lvds_tx
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+R1
+=======
 R13
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 !i10b 1
 !s100 jCQfZG^k6YK?58GIGXjTQ3
 R1
@@ -1311,7 +1627,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 29141 541
 R7
 r1
@@ -1324,7 +1644,11 @@ R9
 R10
 R11
 vjtag_tap_controller
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+R1
+=======
 R0
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 !i10b 1
 !s100 aSN3Y=;;H4CT5[jECYiXS0
 R1
@@ -1334,7 +1658,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 54874 435
 R7
 r1
@@ -1357,7 +1685,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 35 6
 R7
 r1
@@ -1380,7 +1712,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 14778 3316
 R7
 r1
@@ -1404,7 +1740,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 18107 70
 R7
 r1
@@ -1428,7 +1768,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 18188 59
 R7
 r1
@@ -1452,7 +1796,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 18458 3344
 R7
 r1
@@ -1476,7 +1824,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 18259 100
 R7
 r1
@@ -1500,7 +1852,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 2695 36
 R7
 r1
@@ -1524,7 +1880,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 2754 3795
 R7
 r1
@@ -1548,7 +1908,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 6845 3541
 R7
 r1
@@ -1572,7 +1936,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 10676 3811
 R7
 r1
@@ -1596,7 +1964,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 51507 152
 R7
 r1
@@ -1619,7 +1991,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 2371 14
 R7
 r1
@@ -1642,7 +2018,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 51676 790
 R7
 r1
@@ -1655,7 +2035,11 @@ R9
 R10
 R11
 vsignal_gen
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+R1
+=======
 R0
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 !i10b 1
 !s100 X^S?9zF6BFilEZ0H:4PA73
 R1
@@ -1665,7 +2049,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 54307 546
 R7
 r1
@@ -1678,7 +2066,11 @@ R9
 R10
 R11
 vsld_signaltap
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+R1
+=======
 R0
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 !i10b 1
 !s100 JQMVmzFOG]BWIKme3OGC=1
 R1
@@ -1688,7 +2080,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 55715 141
 R7
 r1
@@ -1701,7 +2097,11 @@ R9
 R10
 R11
 vsld_virtual_jtag
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+R1
+=======
 R0
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 !i10b 1
 !s100 lKm__P@HNC@B[6Ui<WfCW2
 R1
@@ -1711,7 +2111,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 55588 125
 R7
 r1
@@ -1724,7 +2128,11 @@ R9
 R10
 R11
 vsld_virtual_jtag_basic
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+R1
+=======
 R0
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 !i10b 1
 !s100 KIe<9dmNc8M@<bEKg>B:d1
 R1
@@ -1734,7 +2142,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 56076 77
 R7
 r1
@@ -1747,7 +2159,11 @@ R9
 R10
 R11
 vstratix_lvds_rx
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+R1
+=======
 R13
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 !i10b 1
 !s100 0K5hDH1Re^jJ=W?b;QCbj0
 R1
@@ -1757,7 +2173,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 25062 90
 R7
 r1
@@ -1770,7 +2190,11 @@ R9
 R10
 R11
 vstratix_tx_outclk
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+R1
+=======
 R13
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 !i10b 1
 !s100 SjH@`Bmc5>94WIDdPG6gR0
 R1
@@ -1780,7 +2204,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 28932 89
 R7
 r1
@@ -1793,7 +2221,11 @@ R9
 R10
 R11
 vstratixgx_dpa_lvds_rx
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+R1
+=======
 R13
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 !i10b 1
 !s100 Z6Pk9_:kSf9@?Cb5`Yg`l3
 R1
@@ -1803,7 +2235,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 25170 383
 R7
 r1
@@ -1816,7 +2252,11 @@ R9
 R10
 R11
 vstratixii_lvds_rx
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+R1
+=======
 R13
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 !i10b 1
 !s100 I6XV4WPDdkkIO7f<GoWFf0
 R1
@@ -1826,7 +2266,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 25573 307
 R7
 r1
@@ -1839,7 +2283,11 @@ R9
 R10
 R11
 vstratixii_tx_outclk
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+R1
+=======
 R13
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 !i10b 1
 !s100 2hPV?b9j8e0K<K2?m9UL<0
 R1
@@ -1849,7 +2297,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 29040 81
 R7
 r1
@@ -1862,7 +2314,11 @@ R9
 R10
 R11
 vstratixiii_lvds_rx
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+R1
+=======
 R13
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 !i10b 1
 !s100 IV7;V^?T0oWZJ]JZ5MB`90
 R1
@@ -1872,7 +2328,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 26372 160
 R7
 r1
@@ -1885,7 +2345,11 @@ R9
 R10
 R11
 vstratixiii_lvds_rx_channel
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+R1
+=======
 R13
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 !i10b 1
 !s100 Ej2D2PDk>V@@5H=X@ZB852
 R1
@@ -1895,7 +2359,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 26554 594
 R7
 r1
@@ -1908,7 +2376,11 @@ R9
 R10
 R11
 vstratixiii_lvds_rx_dpa
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+R1
+=======
 R13
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 !i10b 1
 !s100 OU2KI@?=Zd@XKXK@YEfo20
 R1
@@ -1918,7 +2390,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 27163 244
 R7
 r1
@@ -1931,7 +2407,11 @@ R9
 R10
 R11
 vstratixv_local_clk_divider
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+R1
+=======
 R13
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 !i10b 1
 !s100 [YmOGL_NXG<jh`M6N6:=b2
 R1
@@ -1941,7 +2421,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 28838 75
 R7
 r1
@@ -1964,7 +2448,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 2397 67
 R7
 r1
@@ -1987,7 +2475,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 2475 73
 R7
 r1
@@ -2010,7 +2502,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 2560 123
 R7
 r1
@@ -2033,7 +2529,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 10397 70
 R7
 r1
@@ -2056,7 +2556,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 10478 59
 R7
 r1
@@ -2079,7 +2583,11 @@ R3
 R4
 R5
 R6
+<<<<<<< HEAD:Laboratorio_3/Problema_1/simulation/modelsim/verilog_libs/altera_mf_ver/_info
+!i122 5
+=======
 !i122 56
+>>>>>>> development:Laboratorio_3/Problema_1/alu/simulation/modelsim/verilog_libs/altera_mf_ver/_info
 L0 10549 100
 R7
 r1

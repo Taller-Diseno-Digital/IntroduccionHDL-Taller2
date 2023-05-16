@@ -8,6 +8,7 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
+<<<<<<< HEAD
 Z0 dD:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/VGA MODULE/simulation/modelsim
 valt_bidir_buf
 Z1 !s110 1682616630
@@ -21,14 +22,35 @@ Z4 w1666749960
 Z5 8d:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_primitives.v
 Z6 Fd:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_primitives.v
 !i122 12
+=======
+Z0 dC:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/simulation/modelsim
+valt_bidir_buf
+Z1 !s110 1683587981
+!i10b 1
+!s100 ?bJO>;1FbXMWPeFM2gAf>3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IW:zNB;PA;;9Lz^0<RjM5z0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1666749960
+Z5 8c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_primitives.v
+Z6 Fc:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_primitives.v
+!i122 92
+>>>>>>> main
 L0 1218 32
 Z7 OV;L;2020.1;71
 r1
 !s85 0
 31
+<<<<<<< HEAD
 Z8 !s108 1682616630.000000
 !s107 d:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_primitives.v|
 Z9 !s90 -reportprogress|300|-vlog01compat|-work|altera_ver|d:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_primitives.v|
+=======
+Z8 !s108 1683587981.000000
+!s107 c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_primitives.v|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|altera_ver|c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_primitives.v|
+>>>>>>> main
 !i113 1
 Z10 o-vlog01compat -work altera_ver
 Z11 tCvgOpt 0
@@ -37,20 +59,32 @@ R1
 !i10b 1
 !s100 P0jjWbAKNXA?D9]S8VI6n0
 R2
+<<<<<<< HEAD
 IjIlzobT6`15T6DdCPaPVH0
+=======
+I81Hloj6B^nI3FiBYF4:a71
+>>>>>>> main
 R3
 R0
 R4
 R5
 R6
+<<<<<<< HEAD
 !i122 12
+=======
+!i122 92
+>>>>>>> main
 L0 1180 36
 R7
 r1
 !s85 0
 31
 R8
+<<<<<<< HEAD
 Z12 !s107 d:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_primitives.v|
+=======
+Z12 !s107 c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_primitives.v|
+>>>>>>> main
 R9
 !i113 1
 R10
@@ -60,13 +94,21 @@ R1
 !i10b 1
 !s100 akUoeMd;;^[kK>DGfzn9Z3
 R2
+<<<<<<< HEAD
 I?@=8bYTAK=go26d1o3NKJ1
+=======
+IL26GLHz@Mmg7LbRjAh>Kg3
+>>>>>>> main
 R3
 R0
 R4
 R5
 R6
+<<<<<<< HEAD
 !i122 12
+=======
+!i122 92
+>>>>>>> main
 L0 985 13
 R7
 r1
@@ -83,13 +125,21 @@ R1
 !i10b 1
 !s100 ?>aNNBhFcffz;^]mClk;@1
 R2
+<<<<<<< HEAD
 I>d0Oa2JTVaH2AoZJdeEA03
+=======
+I6]0cUB@0?[1OogZPm:ZcI0
+>>>>>>> main
 R3
 R0
 R4
 R5
 R6
+<<<<<<< HEAD
 !i122 12
+=======
+!i122 92
+>>>>>>> main
 L0 1068 28
 R7
 r1
@@ -106,13 +156,21 @@ R1
 !i10b 1
 !s100 I=bnbi][@Wo?fYTM>W9jg0
 R2
+<<<<<<< HEAD
 Iz]RcRfk=6hX`DGHJSJ84R3
+=======
+Ic`Ji2o92OB9LXUiR05Oo_1
+>>>>>>> main
 R3
 R0
 R4
 R5
 R6
+<<<<<<< HEAD
 !i122 12
+=======
+!i122 92
+>>>>>>> main
 L0 1039 27
 R7
 r1
@@ -129,13 +187,21 @@ R1
 !i10b 1
 !s100 F07Yec27`geeB?ODgN<`k3
 R2
+<<<<<<< HEAD
 IMWbQ?LAE?^;hHDXEN=VTJ2
+=======
+I]X8WPEb8Z]I5o2^HI6]]01
+>>>>>>> main
 R3
 R0
 R4
 R5
 R6
+<<<<<<< HEAD
 !i122 12
+=======
+!i122 92
+>>>>>>> main
 L0 1141 37
 R7
 r1
@@ -152,13 +218,21 @@ R1
 !i10b 1
 !s100 J1@G8O4j]60odlJ8Lh<LE1
 R2
+<<<<<<< HEAD
 Io?V>04NLNeo8Y=WVOFF0C3
+=======
+I:ZgjOD044K94H>b>gjB_42
+>>>>>>> main
 R3
 R0
 R4
 R5
 R6
+<<<<<<< HEAD
 !i122 12
+=======
+!i122 92
+>>>>>>> main
 L0 1000 17
 R7
 r1
@@ -175,13 +249,21 @@ R1
 !i10b 1
 !s100 D:>?T85fgDn60BlPEY^250
 R2
+<<<<<<< HEAD
 IT1e8_DC8C?c3Y6Rkj?3j90
+=======
+IVl`4=j`<CJ7@>H0]A;lQ40
+>>>>>>> main
 R3
 R0
 R4
 R5
 R6
+<<<<<<< HEAD
 !i122 12
+=======
+!i122 92
+>>>>>>> main
 L0 1098 19
 R7
 r1
@@ -198,13 +280,21 @@ R1
 !i10b 1
 !s100 69?bo=F8=izMQ_Ade_?Nz0
 R2
+<<<<<<< HEAD
 I9A61`zTD420EJVA5dNSzz0
+=======
+If2Le81jjTi3_Hnnl^i_in1
+>>>>>>> main
 R3
 R0
 R4
 R5
 R6
+<<<<<<< HEAD
 !i122 12
+=======
+!i122 92
+>>>>>>> main
 L0 1019 18
 R7
 r1
@@ -221,13 +311,21 @@ R1
 !i10b 1
 !s100 @c>V^ef;CjC_eA@>bgj[g0
 R2
+<<<<<<< HEAD
 I9Y0NWl5^WJF<HDa9W^eQI3
+=======
+Iz5[A@IkV4D`3M9Z?9=70K2
+>>>>>>> main
 R3
 R0
 R4
 R5
 R6
+<<<<<<< HEAD
 !i122 12
+=======
+!i122 92
+>>>>>>> main
 L0 1119 20
 R7
 r1
@@ -244,13 +342,21 @@ R1
 !i10b 1
 !s100 680fDS0]Yb5aD<F>R94_N1
 R2
+<<<<<<< HEAD
 I1i[g`kjCYiXVE<CBK8]7>2
+=======
+I7<HQRE^BPD;J?16?bZU;U2
+>>>>>>> main
 R3
 R0
 R4
 R5
 R6
+<<<<<<< HEAD
 !i122 12
+=======
+!i122 92
+>>>>>>> main
 L0 49 6
 R7
 r1
@@ -267,13 +373,21 @@ R1
 !i10b 1
 !s100 TQTDRWCL4YKBU`6`TL]:63
 R2
+<<<<<<< HEAD
 Ic`cX[hQ4_DeN;mGI;PFd42
+=======
+Ilz2QVI7GLDF9U`IV_iAR<2
+>>>>>>> main
 R3
 R0
 R4
 R5
 R6
+<<<<<<< HEAD
 !i122 12
+=======
+!i122 92
+>>>>>>> main
 L0 65 9
 R7
 r1
@@ -290,13 +404,21 @@ R1
 !i10b 1
 !s100 3KdVTKXAW1Lmbzj0GjV073
 R2
+<<<<<<< HEAD
 IhV7mTPPF1KCH_>l`:Dhzh0
+=======
+ILmbe5h<`ZIWkL9GCU6f@l0
+>>>>>>> main
 R3
 R0
 R4
 R5
 R6
+<<<<<<< HEAD
 !i122 12
+=======
+!i122 92
+>>>>>>> main
 L0 57 6
 R7
 r1
@@ -313,13 +435,21 @@ R1
 !i10b 1
 !s100 RW6]DKM6`4IDKd[N;c4nC2
 R2
+<<<<<<< HEAD
 IGj9BH9kVXD=LnQ<<><IFV2
+=======
+IbY>9SkLi?34E_R<1?TkLb2
+>>>>>>> main
 R3
 R0
 R4
 R5
 R6
+<<<<<<< HEAD
 !i122 12
+=======
+!i122 92
+>>>>>>> main
 L0 590 392
 R7
 r1
@@ -336,13 +466,21 @@ R1
 !i10b 1
 !s100 OaYfciQeXdhd:^]Q@i87>3
 R2
+<<<<<<< HEAD
 IVV;mLX0oKZEf7[;>GD>Ij1
+=======
+I`ilGLB=ze6i:mz@E6nkZo1
+>>>>>>> main
 R3
 R0
 R4
 R5
 R6
+<<<<<<< HEAD
 !i122 12
+=======
+!i122 92
+>>>>>>> main
 L0 203 9
 R7
 r1
@@ -359,13 +497,21 @@ R1
 !i10b 1
 !s100 iIVHablKCd2e2P>TfgGc_2
 R2
+<<<<<<< HEAD
 IQi:3^_Pba>?;HIzDMGRTb0
+=======
+I96i03Pk[c<W=kVo0^eaL80
+>>>>>>> main
 R3
 R0
 R4
 R5
 R6
+<<<<<<< HEAD
 !i122 12
+=======
+!i122 92
+>>>>>>> main
 L0 214 9
 R7
 r1
@@ -382,13 +528,21 @@ R1
 !i10b 1
 !s100 dI14C^1[Q1dcgM_`;FaKa1
 R2
+<<<<<<< HEAD
 IXmz^_?mi?Ko;kV_U[J7FL1
+=======
+I^A2ULE8V6YDlabi^?>X4U2
+>>>>>>> main
 R3
 R0
 R4
 R5
 R6
+<<<<<<< HEAD
 !i122 12
+=======
+!i122 92
+>>>>>>> main
 L0 225 20
 R7
 r1
@@ -405,13 +559,21 @@ R1
 !i10b 1
 !s100 ]I6IZB=4@84<TXGhdG6<i3
 R2
+<<<<<<< HEAD
 IQLlVAEf2>B^]d]UP<QTLR3
+=======
+ICj_D^XE5C3B9F8`n9HTKV2
+>>>>>>> main
 R3
 R0
 R4
 R5
 R6
+<<<<<<< HEAD
 !i122 12
+=======
+!i122 92
+>>>>>>> main
 L0 247 92
 R7
 r1
@@ -428,13 +590,21 @@ R1
 !i10b 1
 !s100 IEQ;oSFmbUCDb5fTc`aSh3
 R2
+<<<<<<< HEAD
 Il3]?0m9iIjz0d=4c7aBi^1
+=======
+I^mBL4kSJOReej95DiJ36O2
+>>>>>>> main
 R3
 R0
 R4
 R5
 R6
+<<<<<<< HEAD
 !i122 12
+=======
+!i122 92
+>>>>>>> main
 L0 341 93
 R7
 r1
@@ -451,13 +621,21 @@ R1
 !i10b 1
 !s100 Z=Ef`O`L0XT6AnDRKok3?3
 R2
+<<<<<<< HEAD
 IOK99KDbk@>V>KmWDS^zII3
+=======
+IdDIhClHQ1L=coIoi0dT@V3
+>>>>>>> main
 R3
 R0
 R4
 R5
 R6
+<<<<<<< HEAD
 !i122 12
+=======
+!i122 92
+>>>>>>> main
 L0 153 16
 R7
 r1
@@ -474,13 +652,21 @@ R1
 !i10b 1
 !s100 Jh263a3>GB:UIkN9@2`=c2
 R2
+<<<<<<< HEAD
 IOD]6B^6hek^U4Vez@eTiW3
+=======
+I`:H>I6_]3nB?2U>SYIbYK2
+>>>>>>> main
 R3
 R0
 R4
 R5
 R6
+<<<<<<< HEAD
 !i122 12
+=======
+!i122 92
+>>>>>>> main
 L0 76 6
 R7
 r1
@@ -497,13 +683,21 @@ R1
 !i10b 1
 !s100 5HiSe1DO]9oDgm@d7Ozzn0
 R2
+<<<<<<< HEAD
 Ib]INnU_T]@PHj_KK]QO@:2
+=======
+IiSA=EV:NZcd0_=Ml00TZ;0
+>>>>>>> main
 R3
 R0
 R4
 R5
 R6
+<<<<<<< HEAD
 !i122 12
+=======
+!i122 92
+>>>>>>> main
 L0 38 6
 R7
 r1
@@ -520,13 +714,21 @@ R1
 !i10b 1
 !s100 4=;7A<WSgO:NgHTYT8fhR1
 R2
+<<<<<<< HEAD
 I>ZR7Xln]Kg__??bP^kC9A1
+=======
+IIV3jh?1`^5EO[gJ4YhoIJ1
+>>>>>>> main
 R3
 R0
 R4
 R5
 R6
+<<<<<<< HEAD
 !i122 12
+=======
+!i122 92
+>>>>>>> main
 L0 514 9
 R7
 r1
@@ -543,13 +745,21 @@ R1
 !i10b 1
 !s100 eNImO7hJdm=3`h0UR`6a_0
 R2
+<<<<<<< HEAD
 IhKoP:jcFkV@dfGdP`S2Um2
+=======
+I:JoP<J:_?G5j4_jRM]Y_70
+>>>>>>> main
 R3
 R0
 R4
 R5
 R6
+<<<<<<< HEAD
 !i122 12
+=======
+!i122 92
+>>>>>>> main
 L0 525 9
 R7
 r1
@@ -566,13 +776,21 @@ R1
 !i10b 1
 !s100 X`eTLdZnnaQNDHH[>X0V_2
 R2
+<<<<<<< HEAD
 IJ9Db=n>`JSK1QO547o98d0
+=======
+IXKY^dUOIPSzengUEnJU=j0
+>>>>>>> main
 R3
 R0
 R4
 R5
 R6
+<<<<<<< HEAD
 !i122 12
+=======
+!i122 92
+>>>>>>> main
 L0 139 12
 R7
 r1
@@ -589,13 +807,21 @@ R1
 !i10b 1
 !s100 Rda7]o?GnXk]RKJkdPVKJ0
 R2
+<<<<<<< HEAD
 I::7g?12TJCdj@Y:_f]EQ82
+=======
+IDHNKK21VQnHb0LcBJ4Iz82
+>>>>>>> main
 R3
 R0
 R4
 R5
 R6
+<<<<<<< HEAD
 !i122 12
+=======
+!i122 92
+>>>>>>> main
 L0 123 6
 R7
 r1
@@ -612,13 +838,21 @@ R1
 !i10b 1
 !s100 E4YPP3^WTK@h;cTS?X6C^2
 R2
+<<<<<<< HEAD
 IBlSc4[k7eTm8S?<GVOAK82
+=======
+I>FAazTYG5mYVU^0?mH7<=1
+>>>>>>> main
 R3
 R0
 R4
 R5
 R6
+<<<<<<< HEAD
 !i122 12
+=======
+!i122 92
+>>>>>>> main
 L0 131 6
 R7
 r1
@@ -635,13 +869,21 @@ R1
 !i10b 1
 !s100 f@4Z852a<ciYg^^Xd97:F1
 R2
+<<<<<<< HEAD
 I2IUZPQ;Bg^540<YoBlmda2
+=======
+I_C>XTjoYT]LmjYm=h6W7@3
+>>>>>>> main
 R3
 R0
 R4
 R5
 R6
+<<<<<<< HEAD
 !i122 12
+=======
+!i122 92
+>>>>>>> main
 L0 98 6
 R7
 r1
@@ -658,13 +900,21 @@ R1
 !i10b 1
 !s100 J5Lf_SV8VM2Ke9^XffIK>0
 R2
+<<<<<<< HEAD
 IWNkiKD`5b^2;o7G:Z7_KD0
+=======
+I=WkIPHGEVFgJj2AXkCC`91
+>>>>>>> main
 R3
 R0
 R4
 R5
 R6
+<<<<<<< HEAD
 !i122 12
+=======
+!i122 92
+>>>>>>> main
 L0 171 30
 R7
 r1
@@ -677,17 +927,29 @@ R9
 R10
 R11
 UPRIM_GDFF_HIGH
+<<<<<<< HEAD
 Z13 !s110 1682616631
 !i10b 1
 !s100 5fn;cU9hn_;@eUeLYV=US1
 R2
 Id?:D1iJ0USaVGizbSGVEX2
+=======
+Z13 !s110 1683587982
+!i10b 1
+!s100 5fn;cU9hn_;@eUeLYV=US1
+R2
+I>[Y]foAcnm7IV65KCPcUY0
+>>>>>>> main
 R3
 R0
 R4
 R5
 R6
+<<<<<<< HEAD
 !i122 12
+=======
+!i122 92
+>>>>>>> main
 L0 1337 0
 R7
 r1
@@ -705,13 +967,21 @@ R13
 !i10b 1
 !s100 _zzISVcAS28Xz``f_2<?F0
 R2
+<<<<<<< HEAD
 Ih?kHH12Q@>6FM<YTDmVA]3
+=======
+I0^4zW0BiL=<SC?KE2IB;@0
+>>>>>>> main
 R3
 R0
 R4
 R5
 R6
+<<<<<<< HEAD
 !i122 12
+=======
+!i122 92
+>>>>>>> main
 L0 1380 0
 R7
 r1
@@ -729,13 +999,21 @@ R13
 !i10b 1
 !s100 Hj<HTLV;3ai4RkOUj;PQd1
 R2
+<<<<<<< HEAD
 Ijd_8<`^T`9ildIlZ]`E5c0
+=======
+IAUBJma@f:aFbKX76aaH>W3
+>>>>>>> main
 R3
 R0
 R4
 R5
 R6
+<<<<<<< HEAD
 !i122 12
+=======
+!i122 92
+>>>>>>> main
 L0 1251 0
 R7
 r1
@@ -753,13 +1031,21 @@ R13
 !i10b 1
 !s100 Rc[fBmRPfL8IjjVG`;XBa1
 R2
+<<<<<<< HEAD
 IPW_BKBZ<m8cAH1bG8UURT0
+=======
+INEYUO1fYLb]J^Obd3H1n92
+>>>>>>> main
 R3
 R0
 R4
 R5
 R6
+<<<<<<< HEAD
 !i122 12
+=======
+!i122 92
+>>>>>>> main
 L0 1294 0
 R7
 r1
@@ -777,13 +1063,21 @@ R1
 !i10b 1
 !s100 B^<TPQ=CWZFZ@lGnIg17l1
 R2
+<<<<<<< HEAD
 IfPT<K>DXZ;QDXkW>0[NXz1
+=======
+IJ8k7VWNaJTc4hi3J1bXck2
+>>>>>>> main
 R3
 R0
 R4
 R5
 R6
+<<<<<<< HEAD
 !i122 12
+=======
+!i122 92
+>>>>>>> main
 L0 484 28
 R7
 r1
@@ -800,13 +1094,21 @@ R1
 !i10b 1
 !s100 h[GZflTe<VQTVc>:VS27n2
 R2
+<<<<<<< HEAD
 IAT80J6FSDa6jOn8KG>jkf0
+=======
+I6]=>KGi71C5=cLQX>1=T^1
+>>>>>>> main
 R3
 R0
 R4
 R5
 R6
+<<<<<<< HEAD
 !i122 12
+=======
+!i122 92
+>>>>>>> main
 L0 536 28
 R7
 r1
@@ -823,13 +1125,21 @@ R1
 !i10b 1
 !s100 lb`II4QGB[H4BbQk607?E1
 R2
+<<<<<<< HEAD
 IzNLVWn4^mmPF^BYY3QmRg2
+=======
+IP89BHJJRR:?c:l:j28;o?1
+>>>>>>> main
 R3
 R0
 R4
 R5
 R6
+<<<<<<< HEAD
 !i122 12
+=======
+!i122 92
+>>>>>>> main
 L0 436 24
 R7
 r1
@@ -846,13 +1156,21 @@ R1
 !i10b 1
 !s100 m`]MKP@<4VSJGIXQbSZBh0
 R2
+<<<<<<< HEAD
 IB<1O5be8Q00gWN=DDh?4m0
+=======
+IV_Ef<DId0K63AVC7=6n2`3
+>>>>>>> main
 R3
 R0
 R4
 R5
 R6
+<<<<<<< HEAD
 !i122 12
+=======
+!i122 92
+>>>>>>> main
 L0 106 6
 R7
 r1
@@ -869,13 +1187,21 @@ R1
 !i10b 1
 !s100 H1@SI7O<MQ]>X_d@?[LEI1
 R2
+<<<<<<< HEAD
 IS5=UGo9e^E`9OdLoo`Wh>2
+=======
+ImPghBK2I9TD6ikSeBCP=M1
+>>>>>>> main
 R3
 R0
 R4
 R5
 R6
+<<<<<<< HEAD
 !i122 12
+=======
+!i122 92
+>>>>>>> main
 L0 87 6
 R7
 r1
@@ -892,13 +1218,21 @@ R1
 !i10b 1
 !s100 ]P^kZEU`mi0D?SmOUehQK0
 R2
+<<<<<<< HEAD
 I]5i^8e=TLVV;`e@<_NP<30
+=======
+I6d>RzcX<Nk;TTW_>P=RnL0
+>>>>>>> main
 R3
 R0
 R4
 R5
 R6
+<<<<<<< HEAD
 !i122 12
+=======
+!i122 92
+>>>>>>> main
 L0 566 9
 R7
 r1
@@ -915,13 +1249,21 @@ R1
 !i10b 1
 !s100 B_IHTG;d[NY=@ec0;9MzJ0
 R2
+<<<<<<< HEAD
 Ik5@ZGK;LTd<02:aU5l9mj0
+=======
+I4MH2`<5B>]?]DDU5Y`g8Q1
+>>>>>>> main
 R3
 R0
 R4
 R5
 R6
+<<<<<<< HEAD
 !i122 12
+=======
+!i122 92
+>>>>>>> main
 L0 577 9
 R7
 r1
@@ -938,13 +1280,21 @@ R1
 !i10b 1
 !s100 3c]W=7A__A[P1m`j[FSmz1
 R2
+<<<<<<< HEAD
 IR9I4lfQiKMMGXI`5gJYA^0
+=======
+I`z?mC]NP5ojHfGUeJRMnH2
+>>>>>>> main
 R3
 R0
 R4
 R5
 R6
+<<<<<<< HEAD
 !i122 12
+=======
+!i122 92
+>>>>>>> main
 L0 462 9
 R7
 r1
@@ -961,13 +1311,21 @@ R1
 !i10b 1
 !s100 cJ?XbBJ?aKJEaa2WXg1;53
 R2
+<<<<<<< HEAD
 Ii:0L_fBl:<GoDMR5?jYE]1
+=======
+Ia]IKS:W9^1WdNEN6jaaNn0
+>>>>>>> main
 R3
 R0
 R4
 R5
 R6
+<<<<<<< HEAD
 !i122 12
+=======
+!i122 92
+>>>>>>> main
 L0 473 9
 R7
 r1
@@ -984,13 +1342,21 @@ R1
 !i10b 1
 !s100 CgS^a3[`@h_F:oL][5Q0U0
 R2
+<<<<<<< HEAD
 IPXFZjkgjhR54Z:fP5VDiW2
+=======
+I2OQFKMJ=Rl];@=AAbk2iH1
+>>>>>>> main
 R3
 R0
 R4
 R5
 R6
+<<<<<<< HEAD
 !i122 12
+=======
+!i122 92
+>>>>>>> main
 L0 114 7
 R7
 r1

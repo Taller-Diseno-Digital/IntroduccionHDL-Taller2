@@ -8,6 +8,7 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
+<<<<<<< HEAD
 Z0 dD:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/VGA MODULE/simulation/modelsim
 vcolor_module
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
@@ -24,10 +25,29 @@ w1682616475
 FD:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/VGA MODULE/color_module.sv
 !i122 2
 L0 1 107
+=======
+Z0 dC:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/simulation/modelsim
+vcontrol_movimiento
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1683588002
+!i10b 1
+!s100 R>CPfT8lXd1P0^54J7lh_0
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I?9zAj;;D633???^0ESF?I0
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1683586326
+8C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/control_movimiento.sv
+FC:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/control_movimiento.sv
+!i122 0
+L0 1 30
+>>>>>>> main
 Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
+<<<<<<< HEAD
 Z6 !s108 1682616662.000000
 !s107 D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/VGA MODULE/color_module.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/VGA MODULE|D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/VGA MODULE/color_module.sv|
@@ -50,17 +70,48 @@ w1682616472
 FD:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/VGA MODULE/color_selector.sv
 !i122 3
 L0 1 28
+=======
+Z6 !s108 1683588002.000000
+!s107 C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/control_movimiento.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4|C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/control_movimiento.sv|
+!i113 1
+Z7 o-sv -work work
+Z8 !s92 -sv -work work {+incdir+C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4}
+Z9 tCvgOpt 0
+vcontrol_movimiento_tb
+R1
+Z10 !s110 1683588003
+!i10b 1
+!s100 RZcWNAMjNl=V=bMGl6He11
+R3
+I9;bG8zz<_LMP01Xea_n`a0
+R4
+S1
+R0
+w1683587856
+8C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/control_movimiento_tb.sv
+FC:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/control_movimiento_tb.sv
+!i122 10
+L0 1 152
+>>>>>>> main
 R5
 r1
 !s85 0
 31
+<<<<<<< HEAD
 Z10 !s108 1682616663.000000
 !s107 D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/VGA MODULE/color_selector.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/VGA MODULE|D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/VGA MODULE/color_selector.sv|
+=======
+Z11 !s108 1683588003.000000
+!s107 C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/control_movimiento_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4|C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/control_movimiento_tb.sv|
+>>>>>>> main
 !i113 1
 R7
 R8
 R9
+<<<<<<< HEAD
 vvga_decoder
 R1
 Z11 !s110 1682616662
@@ -75,11 +126,236 @@ w1682616514
 8D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/VGA MODULE/vga_decoder.sv
 FD:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/VGA MODULE/vga_decoder.sv
 !i122 1
+=======
+vencontrar_ceros
+R1
+R2
+!i10b 1
+!s100 ;21@;VWbkQU4o6@BLl8BT0
+R3
+IB3Wl`?eQ8CZjoH39[WH5a1
+R4
+S1
+R0
+w1683394132
+8C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/encontrar_ceros.sv
+FC:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/encontrar_ceros.sv
+!i122 1
+L0 1 34
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/encontrar_ceros.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4|C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/encontrar_ceros.sv|
+!i113 1
+R7
+R8
+R9
+vgenerar_aleatorio
+R1
+R2
+!i10b 1
+!s100 R>a3nG;0CIA12NdaYmX[K2
+R3
+IXZGU<:M^X3oZZ0Y8egi@k3
+R4
+S1
+R0
+w1683587956
+8C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/generar_aleatorio.sv
+FC:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/generar_aleatorio.sv
+!i122 2
+L0 1 19
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/generar_aleatorio.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4|C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/generar_aleatorio.sv|
+!i113 1
+R7
+R8
+R9
+vgenerar_aleatorio_aux
+R1
+R10
+!i10b 1
+!s100 g>MML<mf4SPHXOh=B2ioo2
+R3
+IMNhD@o5jaJLnEHMYTP<Pk0
+R4
+S1
+R0
+w1683425920
+8C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/generar_aleatorio_aux.sv
+FC:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/generar_aleatorio_aux.sv
+!i122 9
+L0 1 24
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/generar_aleatorio_aux.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4|C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/generar_aleatorio_aux.sv|
+!i113 1
+R7
+R8
+R9
+vmov_abajo
+R1
+R2
+!i10b 1
+!s100 e]e<`WzT;fT^82NCH02Ag3
+R3
+IDEf>@Q[NZ[c_fYd[k;@[M3
+R4
+S1
+R0
+w1683394238
+8C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/mov_abajo.sv
+FC:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/mov_abajo.sv
+!i122 3
+Z12 L0 1 48
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/mov_abajo.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4|C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/mov_abajo.sv|
+!i113 1
+R7
+R8
+R9
+vmov_arriba
+R1
+R2
+!i10b 1
+!s100 R_f9Gb`PEVW=9bFS@X4zO1
+R3
+I7o1@O]]okkzYSIdDH6=A31
+R4
+S1
+R0
+w1683394263
+8C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/mov_arriba.sv
+FC:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/mov_arriba.sv
+!i122 4
+R12
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/mov_arriba.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4|C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/mov_arriba.sv|
+!i113 1
+R7
+R8
+R9
+vmov_derecha
+R1
+R2
+!i10b 1
+!s100 IY;[I0CCdaaa2I_jUEaMZ3
+R3
+IAB[UJYYl6Ei?YZzHKhjZg2
+R4
+S1
+R0
+w1683394281
+8C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/mov_derecha.sv
+FC:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/mov_derecha.sv
+!i122 5
+L0 1 49
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/mov_derecha.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4|C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/mov_derecha.sv|
+!i113 1
+R7
+R8
+R9
+vmov_izquierda
+R1
+R10
+!i10b 1
+!s100 i>obLX@mQ>Fnc<0z4bfbJ0
+R3
+I;m2Y5_lTJKi1Wj83W>hOP2
+R4
+S1
+R0
+w1683394473
+8C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/mov_izquierda.sv
+FC:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/mov_izquierda.sv
+!i122 6
+R12
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/mov_izquierda.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4|C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/mov_izquierda.sv|
+!i113 1
+R7
+R8
+R9
+vmux8_1
+R1
+R10
+!i10b 1
+!s100 Z2^j2J0FX;m6J77kha5f73
+R3
+I2M>BHn1zX0n8e<g`bL;4S1
+R4
+S1
+R0
+w1683587729
+8C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/mux8_1.sv
+FC:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/mux8_1.sv
+!i122 7
+L0 1 20
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/mux8_1.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4|C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/mux8_1.sv|
+!i113 1
+R7
+R8
+R9
+vverificar_matriz
+R1
+R10
+!i10b 1
+!s100 M3l[DIZ>O`Fh9fMfQ4Ba_1
+R3
+ID3:R1JELCb?_ZkASSjm;i2
+R4
+S1
+R0
+w1683394548
+8C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/verificar_matriz.sv
+FC:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/verificar_matriz.sv
+!i122 8
+>>>>>>> main
 L0 1 45
 R5
 r1
 !s85 0
 31
+<<<<<<< HEAD
 R6
 !s107 D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/VGA MODULE/vga_decoder.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/VGA MODULE|D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/VGA MODULE/vga_decoder.sv|
@@ -135,6 +411,11 @@ r1
 R6
 !s107 D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/VGA MODULE/vga_sync.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/VGA MODULE|D:/Documentos/TEC/2023/I Semestre/Taller de Diseno Digital/VGA MODULE/vga_sync.sv|
+=======
+R11
+!s107 C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/verificar_matriz.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4|C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Laboratorio_4/verificar_matriz.sv|
+>>>>>>> main
 !i113 1
 R7
 R8

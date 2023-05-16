@@ -17,7 +17,12 @@ Sim dir               :  simulation\modelsim
 =======================================================
 
 Info: Starting NativeLink simulation with ModelSim software
+<<<<<<< HEAD:Laboratorio_4/vga_decoding_nativelink_simulation.rpt
 Sourced NativeLink script d:/intelfpga_lite/22.1std/quartus/common/tcl/internal/nativelink/modelsim.tcl
 Warning: File vga_decoding_run_msim_rtl_verilog.do already exists - backing up current file as vga_decoding_run_msim_rtl_verilog.do.bak11
+=======
+Sourced NativeLink script c:/intelfpga_lite/22.1std/quartus/common/tcl/internal/nativelink/modelsim.tcl
+Warning: File 2048_run_msim_rtl_verilog.do already exists - backing up current file as 2048_run_msim_rtl_verilog.do.bak11
+>>>>>>> main:Laboratorio_4/2048_nativelink_simulation.rpt
 Info: Spawning ModelSim Simulation software 
 Info: NativeLink simulation flow was successful

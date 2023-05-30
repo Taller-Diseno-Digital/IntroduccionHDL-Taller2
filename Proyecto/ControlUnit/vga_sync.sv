@@ -1,18 +1,18 @@
-module vga_sync(input  logic clk, reset,
+module vga_sync(input logic clk, reset,
 					output logic hsync, vsync, nsync, nblanc, clk_out,
 				   output logic [9:0] x, y);
 
 			// constantes de la pantalla
 			localparam H_PINTABLE       		= 640; // tamano de pantalla visible HORIZONTAL
-			localparam H_BORDE_IZQUIERDO     = 48; // pixeles extra en el lado izquierdo
+			localparam H_BORDE_IZQUIERDO     = 48; // pixeles extra en el lado izquierdo 
 			localparam H_BORDE_DERECHO      	= 16; // pixeles extra en el lado izquierdo
 			localparam H_RETRACE       		= 96; //retrace horizontal
-			localparam H_TOTAL           		= H_PINTABLE + H_BORDE_IZQUIERDO + H_BORDE_DERECHO + H_RETRACE;
+			localparam H_TOTAL            		= H_PINTABLE + H_BORDE_IZQUIERDO + H_BORDE_DERECHO + H_RETRACE;
 			localparam INICIO_H_RETRACE 		= H_PINTABLE + H_BORDE_DERECHO;
 			localparam FIN_H_RETRACE   		= H_PINTABLE + H_BORDE_DERECHO + H_RETRACE;
 			
 			localparam V_PINTABLE       		= 480; // tamano de pantalla visible VERTICAL
-			localparam V_BORDE_ARRIBA      	= 10	; // pixeles extra en el lado de arriba
+			localparam V_BORDE_ARRIBA      	= 10; // pixeles extra en el lado de arriba
 			localparam V_BORDE_ABAJO      	= 33; // pixeles extra en el lado abajo
 			localparam V_RETRACE       		= 2; // retrace vertical
 			localparam V_TOTAL           		= V_PINTABLE + V_BORDE_ARRIBA + V_BORDE_ABAJO + V_RETRACE;
@@ -35,7 +35,7 @@ module vga_sync(input  logic clk, reset,
 			assign pixel_pos_clk = (pixel_temp == 0); 
 			//------------------------------------------------------------------------------
 			
-			
+			     
 			// Variables para mantener la localizacion de los pixeles
 			logic [9:0] h_count_temp, h_count_siguiente, v_count_temp, v_count_siguiente;
 			

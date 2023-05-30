@@ -17,10 +17,12 @@ module register_file_tb();
 	initial begin
 		
 		
-		clk = 0;
+		clk = 1;
 		rst = 1;
 		
-		#100
+		#50
+		
+		rst = 0;
 		
 		RA1 = 4'b0000;
 		RA2 = 4'b0001;

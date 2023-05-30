@@ -19,7 +19,7 @@ module register_file(input logic clk, input logic rst, input logic [3:0] A1, inp
 			
 		end else begin
 		
-			if (WE3 == 1'b1) begin
+			if (WE3) begin
 			
 				registers[A3] = WD3;
 			

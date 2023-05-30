@@ -1,0 +1,15 @@
+module program_counter(input logic clk, input logic rst, input logic [7:0] PC, output logic [7:0] PC_out);
+
+	always_ff@(posedge clk or posedge rst) begin
+	
+		if(rst) begin
+		
+			PC_out <= 32'h0;
+		
+		end
+		
+		PC_out <= PC + 32'h1;
+	
+	end
+
+endmodule

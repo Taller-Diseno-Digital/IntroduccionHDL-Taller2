@@ -1,4 +1,4 @@
-module alu #(parameter width = 4)(
+module mod_alu #(parameter width = 4)(
     input logic [width - 1 : 0] a,b,
 	 input logic [3:0] sel,
     output logic cout,negative_out,zero,

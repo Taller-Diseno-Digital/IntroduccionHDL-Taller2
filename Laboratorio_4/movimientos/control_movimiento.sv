@@ -6,8 +6,10 @@ module control_movimiento(input int matriz_entrada [4][4], input logic [2:0] sel
 	int matriz_arr[4][4];
 	int matriz_aba[4][4];
 	int matriz_temp[4][4];
+	int matriz_resultante_temp[4][4];
 	
 	int mov_izq, mov_der, mov_arr, mov_aba;
+	int puntaje_entrada;
 	
 	mov_izquierda mov_izquierda_inst(matriz_entrada, matriz_izq, mov_izq);
 	mov_derecha mov_derecha_inst(matriz_entrada, matriz_der, mov_der);
@@ -15,12 +17,9 @@ module control_movimiento(input int matriz_entrada [4][4], input logic [2:0] sel
 	mov_abajo mov_abajo_inst(matriz_entrada, matriz_aba, mov_aba);
 	mux4_1 mux4_1_inst(matriz_entrada,matriz_izq,matriz_der,matriz_arr,matriz_aba,selector,matriz_temp);
 	verificar_matriz verificar_matriz_inst(matriz_temp, mov_izq, mov_der, mov_arr, mov_aba, (2**condicion_gane), selector, gano, perdio);
+	generar_aleatorio generar_aleatorio_inst(matriz_temp, selector, matriz_resultante_temp);
 	
-	always @(selector) begin
-		
-		matriz_resultante = matriz_temp;
-		
-	end
+	assign matriz_resultante = matriz_resultante_temp;
 	
   
 endmodule

@@ -8,7 +8,7 @@ module encontrar_ceros_tb();
 
 	initial begin
 	  // Matriz de entrada
-	  matriz_entrada = '{'{0, 2, 2, 0}, {0, 4, 2, 2}, {2, 2, 4, 0}, {4, 2, 2, 4}};
+	  matriz_entrada = '{'{0,0,0,0}, {0,0,0,0}, {0,0,0,0}, {0,0,0,0}};
 
 	  // Imprimiendo matriz entrada
 	  $display("Input matrix:");
@@ -23,7 +23,7 @@ module encontrar_ceros_tb();
 	  #1;
 
 	  // Imprimiendo lista salida
-	  $display("\nOutput matrix:");
+	  $display("\nOutput list:");
 	  for (int i=0; i<16; i++) begin
 			$write("%d | ", lista[i]);
 	  end

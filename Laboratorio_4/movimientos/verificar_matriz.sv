@@ -30,6 +30,7 @@ module verificar_matriz(input int matriz_entrada [4][4],
 			perdio_temp = 1;
 		end
 		
+		
 		if (selector == 3'b000) begin
 			
 			perdio_temp = 0;

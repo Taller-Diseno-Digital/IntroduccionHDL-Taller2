@@ -14,7 +14,7 @@ module control_movimiento_tb();
 		  selector = 3'b001;
 		  condicion_gane = 4'b1011;
 		  
-		  input_matrix = '{'{0,0,0,0}, {0,2048,0,0}, {0,0,0,0}, {0,0,0,0}};
+		  input_matrix = '{'{0,4,0,4}, {1024,1024,0,0}, {0,4,0,8}, {0,32,0,16}};
 
         // Imprimiendo matriz entrada
         $display("Input matrix:");

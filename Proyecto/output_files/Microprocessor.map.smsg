@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at register_file.sv(10): always construct contains both blocking and non-blocking assignments File: C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Proyecto/register_file.sv Line: 10
+Warning (10268): Verilog HDL information at register_file.sv(34): always construct contains both blocking and non-blocking assignments File: C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Proyecto/register_file.sv Line: 34

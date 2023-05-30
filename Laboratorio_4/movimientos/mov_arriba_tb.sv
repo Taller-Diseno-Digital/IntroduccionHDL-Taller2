@@ -9,7 +9,7 @@ module mov_arriba_tb();
 
     initial begin
         // Matriz de entrada
-        input_matrix = '{'{0,0,2,4}, {2,4,2,0}, {2,2,4,4}, {0,2,0,4}};
+        input_matrix = '{'{4,0,0,0}, {0,0,0,0}, {0,0,0,0}, {0,0,0,0}};
 
         // Imprimiendo matriz entrada
         $display("Input matrix:");
@@ -32,7 +32,8 @@ module mov_arriba_tb();
             $display("");
         end
 		  
-		  $write("%d \nHubo movimiento: ", mov);
+		  $display("Hubo movimiento: ");
+		  $display(mov);
 
         // Verificando valores
 		  expected_matrix = '{'{4,4,4,8}, {0,4,4,4}, {0,0,0,0}, {0,0,0,0}};

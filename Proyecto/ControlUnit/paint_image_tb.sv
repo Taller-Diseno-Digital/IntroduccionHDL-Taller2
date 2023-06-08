@@ -5,9 +5,10 @@ module paint_image_tb();
   // Declare the signals used in the test bench
   logic clk;
   logic reset;
-  logic [7:0] r;
-  logic [7:0] g;
-  logic [7:0] b;
+  logic [31:0] r;
+  logic [31:0] g;
+  logic [31:0] q;
+  logic [31:0] b;
   logic hsync;
   logic vsync;
   logic nsync;
@@ -21,6 +22,7 @@ module paint_image_tb();
   paint_image dut (
     .clk(clk),
     .reset(reset),
+    .q(q),
     .r(r),
     .g(g),
     .b(b),
@@ -50,12 +52,9 @@ module paint_image_tb();
   always @(posedge clk) begin
   $display("x = %h, y = %h", x, y);
    $display("address = %h", address);
-    $display("r = %h, g = %h, b = %h", r, g, b);
+    $display("r = %h, g = %h, b = %h, q = %h", r, g, b, q);
   end
 
-  initial begin
-    #1000;
-    $finish;
-  end
+
   
 endmodule

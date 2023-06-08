@@ -1,0 +1,113 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit/simulation/modelsim
+vpaint_image
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1686176479
+!i10b 1
+!s100 ?F@O8=PT?ZK?nC2RO3@lZ2
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IYiHdOUaQG`L`da??h<1>`3
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1686176438
+8C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit/paint_image.sv
+FC:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit/paint_image.sv
+!i122 1
+L0 1 51
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1686176479.000000
+!s107 C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit/paint_image.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit|C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit/paint_image.sv|
+!i113 1
+Z7 o-sv -work work
+Z8 !s92 -sv -work work {+incdir+C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit}
+Z9 tCvgOpt 0
+vpaint_image_tb
+R1
+!s110 1686176480
+!i10b 1
+!s100 kVUI2YQ06SZMh?dneGm<V2
+R3
+I4;X0;KQzoi=?9JYNnM9iY1
+R4
+S1
+R0
+w1686175956
+8C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit/paint_image_tb.sv
+FC:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit/paint_image_tb.sv
+!i122 3
+L0 3 58
+R5
+r1
+!s85 0
+31
+!s108 1686176480.000000
+!s107 C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit/paint_image_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit|C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit/paint_image_tb.sv|
+!i113 1
+R7
+R8
+R9
+vram8
+R2
+!i10b 1
+!s100 4VoE9;I`M>>TdDAE7A<]>1
+R3
+I]lT@Xb8U1hZCVzF62ZchH0
+R4
+R0
+w1686176429
+8C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit/ram8.v
+FC:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit/ram8.v
+!i122 0
+L0 40 66
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit/ram8.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit|C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit/ram8.v|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work {+incdir+C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit}
+R9
+vvga_sync
+R1
+R2
+!i10b 1
+!s100 a@=ejC=aDB726FadPU_d40
+R3
+I0GY37ni[@nM1B3]b9GTT`1
+R4
+S1
+R0
+w1685636933
+8C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit/vga_sync.sv
+FC:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit/vga_sync.sv
+!i122 2
+L0 1 97
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit/vga_sync.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit|C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit/vga_sync.sv|
+!i113 1
+R7
+R8
+R9

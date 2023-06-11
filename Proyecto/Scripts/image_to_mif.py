@@ -6,38 +6,62 @@ mif_picture_name = 'test.mif'
 desired_width = 256
 desired_height = 256
 
-# Open the image file
-image = Image.open(original_picture_name)
+def img_to_mif(original_picture_name, preprocessed_picture_name, mif_picture_name, desired_width, desired_height):
 
-# Convert the image to grayscale
-grayscale_image = image.convert("L")
+    # Open the image file
+    image = Image.open(original_picture_name)
 
-# Resize image if necessary
-resized_image = grayscale_image.resize((desired_width, desired_height))
+    # Convert the image to grayscale
+    grayscale_image = image.convert("L")
 
-# Save the preprocessed image
-resized_image.save(preprocessed_picture_name)
+    # Resize image if necessary
+    resized_image = grayscale_image.resize((desired_width, desired_height))
 
-# Get pixel data as a sequence
-pixel_data = list(resized_image.getdata())
+    # Save the preprocessed image
+    resized_image.save(preprocessed_picture_name)
 
-# Convert intensity values to decimal representation
-hex_values = [hex(intensity) for intensity in pixel_data]
+    # Get pixel data as a sequence
+    pixel_data = list(resized_image.getdata())
 
-width = 256
-depth = desired_width*desired_height
+    # Convert intensity values to decimal representation
+    hex_values = [hex(intensity)[2:] for intensity in pixel_data]
 
-with open(mif_picture_name, 'w') as f:
-    f.write(f"WIDTH={width};\n")
-    f.write(f"DEPTH={depth};\n")
-    f.write("\n")
-    f.write("ADDRESS_RADIX=HEX;\n")
-    f.write("DATA_RADIX=HEX;\n")
-    f.write("\n")
-    f.write("CONTENT BEGIN\n")
+    width = 256
+    depth = desired_width*desired_height
 
-    for i, value in enumerate(hex_values):
-        f.write(f"    {hex(i)} :   {value};\n")
+    with open(mif_picture_name, 'w') as f:
+        f.write(f"WIDTH={width};\n")
+        f.write(f"DEPTH={depth};\n")
+        f.write("\n")
+        f.write("ADDRESS_RADIX=HEX;\n")
+        f.write("DATA_RADIX=HEX;\n")
+        f.write("\n")
+        f.write("CONTENT BEGIN\n")
 
-    f.write("END;\n")
+        for i, value in enumerate(hex_values):
+            f.write(f"    {hex(i)[2:]} :   {value};\n")
+
+        f.write("END;\n")
+        
+    return hex_values
+
+def mif_list_to_mif(hex_values, desired_width, desired_height, mif_picture_name):
+
+    width = 256
+    depth = desired_width*desired_height
+
+    with open(mif_picture_name, 'w') as f:
+        f.write(f"WIDTH={width};\n")
+        f.write(f"DEPTH={depth};\n")
+        f.write("\n")
+        f.write("ADDRESS_RADIX=HEX;\n")
+        f.write("DATA_RADIX=HEX;\n")
+        f.write("\n")
+        f.write("CONTENT BEGIN\n")
+
+        for i, value in enumerate(hex_values):
+            f.write(f"    {hex(i)[2:]} :   {hex(value)[2:]};\n")
+
+        f.write("END;\n")
+
 

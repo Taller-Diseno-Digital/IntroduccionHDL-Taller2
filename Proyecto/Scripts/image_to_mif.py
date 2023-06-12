@@ -30,8 +30,8 @@ def img_to_mif(original_picture_name, preprocessed_picture_name, mif_picture_nam
     depth = desired_width*desired_height
 
     with open(mif_picture_name, 'w') as f:
-        f.write(f"WIDTH={width};\n")
-        f.write(f"DEPTH={depth};\n")
+        f.write(f"WIDTH=32;\n")
+        f.write(f"DEPTH=145000;\n")
         f.write("\n")
         f.write("ADDRESS_RADIX=HEX;\n")
         f.write("DATA_RADIX=HEX;\n")
@@ -40,6 +40,9 @@ def img_to_mif(original_picture_name, preprocessed_picture_name, mif_picture_nam
 
         for i, value in enumerate(hex_values):
             f.write(f"    {hex(i)[2:]} :   {value};\n")
+
+        for i in range(len(hex_values), 145000):
+            f.write(f"    {hex(i)[2:]} :   0;\n")
 
         f.write("END;\n")
         
@@ -51,7 +54,7 @@ def mif_list_to_mif(hex_values, desired_width, desired_height, mif_picture_name)
     depth = desired_width*desired_height
 
     with open(mif_picture_name, 'w') as f:
-        f.write(f"WIDTH={width};\n")
+        f.write(f"WIDTH=32;\n")
         f.write(f"DEPTH={depth};\n")
         f.write("\n")
         f.write("ADDRESS_RADIX=HEX;\n")

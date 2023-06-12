@@ -1,0 +1,332 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: 礦ision V5.38.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Geovanny Garcia, HP Inc., LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.38.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.19
+Assembler:       Armasm.exe V6.19
+Linker/Locator:  ArmLink.exe V6.19
+Library Manager: ArmAr.exe V6.19
+Hex Converter:   FromElf.exe V6.19
+CPU DLL:         
+Dialog DLL:      
+Target DLL:      UL2V8M.DLL V1.7.10.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+D:\Documentos\TEC\2023\I Semestre\Taller de Diseno Digital\Laboratorios\vdg_digital_design_lab_2023\Proyecto\Scripts\memory_test.uvprojx
+Project File Date:  06/11/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.19', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'Target 1'
+arm_script.s(14): error: invalid instruction, any one of the following would fix this:
+MOV R0, 0x00000
+^
+arm_script.s(14): note: operand must be a register in range [r0, r15]
+MOV R0, 0x00000
+        ^
+arm_script.s(14): note: instruction requires: thumb2
+MOV R0, 0x00000
+^
+arm_script.s(14): note: operand must be an immediate in the range [256,65535]
+MOV R0, 0x00000
+        ^
+arm_script.s(15): error: invalid instruction, any one of the following would fix this:
+MOV R1, 0x10000
+^
+arm_script.s(15): note: operand must be a register in range [r0, r15]
+MOV R1, 0x10000
+        ^
+arm_script.s(15): note: instruction requires: thumb2
+MOV R1, 0x10000
+^
+arm_script.s(15): note: operand must be an immediate in the range [256,65535]
+MOV R1, 0x10000
+        ^
+arm_script.s(16): error: invalid instruction, any one of the following would fix this:
+MOV R2, 0x20000
+^
+arm_script.s(16): note: operand must be a register in range [r0, r15]
+MOV R2, 0x20000
+        ^
+arm_script.s(16): note: instruction requires: thumb2
+MOV R2, 0x20000
+^
+arm_script.s(16): note: operand must be an immediate in the range [256,65535]
+MOV R2, 0x20000
+        ^
+arm_script.s(17): error: invalid instruction, any one of the following would fix this:
+MOV R3, 0x20100
+^
+arm_script.s(17): note: operand must be a register in range [r0, r15]
+MOV R3, 0x20100
+        ^
+arm_script.s(17): note: operand must be an immediate in the range [256,65535]
+MOV R3, 0x20100
+        ^
+arm_script.s(18): error: invalid instruction, any one of the following would fix this:
+MOV R5, 0x00000
+^
+arm_script.s(18): note: operand must be a register in range [r0, r15]
+MOV R5, 0x00000
+        ^
+arm_script.s(18): note: instruction requires: thumb2
+MOV R5, 0x00000
+^
+arm_script.s(18): note: operand must be an immediate in the range [256,65535]
+MOV R5, 0x00000
+        ^
+arm_script.s(26): error: invalid instruction, any one of the following would fix this:
+ADD R6, R2, R7 //En R6 se guarda el valor de R2 (Direcci贸n frec) m谩s el valor de la imagen
+arm_script.s(26): note: instruction requires: thumb2
+ADD R6, R2, R7 //En R6 se guarda el valor de R2 (Direcci贸n frec) m谩s el valor de la imagen
+arm_script.s(26): note: invalid operand for instruction
+ADD R6, R2, R7 //En R6 se guarda el valor de R2 (Direcci贸n frec) m谩s el valor de la imagen
+arm_script.s(26): note: operand must be an immediate in the range [0,7]
+ADD R6, R2, R7 //En R6 se guarda el valor de R2 (Direcci贸n frec) m谩s el valor de la imagen
+arm_script.s(26): note: no flag-preserving variant of this instruction available
+ADD R6, R2, R7 //En R6 se guarda el valor de R2 (Direcci贸n frec) m谩s el valor de la imagen
+arm_script.s(28): error: invalid instruction, any one of the following would fix this:
+ADD R7, R7, #1 //Aumenta R7 en una unidad pues se encontr贸 una coincidencia
+arm_script.s(28): note: instruction requires: thumb2
+ADD R7, R7, #1 //Aumenta R7 en una unidad pues se encontr贸 una coincidencia
+arm_script.s(28): note: invalid operand for instruction
+ADD R7, R7, #1 //Aumenta R7 en una unidad pues se encontr贸 una coincidencia
+arm_script.s(28): note: no flag-preserving variant of this instruction available
+ADD R7, R7, #1 //Aumenta R7 en una unidad pues se encontr贸 una coincidencia
+arm_script.s(28): note: operand must be a register in range [r0, r7]
+ADD R7, R7, #1 //Aumenta R7 en una unidad pues se encontr贸 una coincidencia
+arm_script.s(29): error: invalid operand for instruction
+STR R6, R7 //Se guarda en R6 (freq + valor img) ese nuevo valor aumentado en 1
+        ^
+arm_script.s(30): error: invalid instruction, any one of the following would fix this:
+ADD R5, R5, #1 //Aumenta puntero
+^
+arm_script.s(30): note: instruction requires: thumb2
+ADD R5, R5, #1 //Aumenta puntero
+^
+arm_script.s(30): note: invalid operand for instruction
+ADD R5, R5, #1 //Aumenta puntero
+            ^
+arm_script.s(30): note: no flag-preserving variant of this instruction available
+ADD R5, R5, #1 //Aumenta puntero
+^
+arm_script.s(30): note: operand must be a register in range [r0, r7]
+ADD R5, R5, #1 //Aumenta puntero
+            ^
+arm_script.s(36): error: invalid instruction, any one of the following would fix this:
+ADD R5, #1 //Se adelanta el puntero 5 una unidad, para ir verificando dos valores a la vez
+^
+arm_script.s(36): note: instruction requires: thumb2
+ADD R5, #1 //Se adelanta el puntero 5 una unidad, para ir verificando dos valores a la vez
+^
+arm_script.s(36): note: invalid operand for instruction
+ADD R5, #1 //Se adelanta el puntero 5 una unidad, para ir verificando dos valores a la vez
+        ^
+arm_script.s(36): note: no flag-preserving variant of this instruction available
+ADD R5, #1 //Se adelanta el puntero 5 una unidad, para ir verificando dos valores a la vez
+^
+arm_script.s(36): note: operand must be a register in range [r0, r7]
+ADD R5, #1 //Se adelanta el puntero 5 una unidad, para ir verificando dos valores a la vez
+        ^
+arm_script.s(43): error: invalid instruction, any one of the following would fix this:
+LDR R8, [R6] //Carga en R8 el valor del puntero atrasado
+^
+arm_script.s(43): note: instruction requires: thumb2
+LDR R8, [R6] //Carga en R8 el valor del puntero atrasado
+^
+arm_script.s(43): note: operand must be a register in range [r0, r7]
+LDR R8, [R6] //Carga en R8 el valor del puntero atrasado
+    ^
+arm_script.s(44): error: instruction requires: thumb2
+ADD R9, R7, R8 //Suma los valores
+^
+arm_script.s(45): error: invalid operand for instruction
+STR R5, R9 //Guarda en R5 el valor R9
+        ^
+arm_script.s(46): error: invalid instruction, any one of the following would fix this:
+ADD R5, R5, #1 // Aumenta ambos punteros
+^
+arm_script.s(46): note: instruction requires: thumb2
+ADD R5, R5, #1 // Aumenta ambos punteros
+^
+arm_script.s(46): note: invalid operand for instruction
+ADD R5, R5, #1 // Aumenta ambos punteros
+            ^
+arm_script.s(46): note: no flag-preserving variant of this instruction available
+ADD R5, R5, #1 // Aumenta ambos punteros
+^
+arm_script.s(46): note: operand must be a register in range [r0, r7]
+ADD R5, R5, #1 // Aumenta ambos punteros
+            ^
+arm_script.s(47): error: invalid instruction, any one of the following would fix this:
+ADD R6, R6, #1
+^
+arm_script.s(47): note: instruction requires: thumb2
+ADD R6, R6, #1
+^
+arm_script.s(47): note: invalid operand for instruction
+ADD R6, R6, #1
+            ^
+arm_script.s(47): note: no flag-preserving variant of this instruction available
+ADD R6, R6, #1
+^
+arm_script.s(47): note: operand must be a register in range [r0, r7]
+ADD R6, R6, #1
+            ^
+arm_script.s(51): error: invalid instruction, any one of the following would fix this:
+LSR R9, R9, #8 //Distribuye la frecuencia dividiendo entre 256
+^
+arm_script.s(51): note: instruction requires: thumb2
+LSR R9, R9, #8 //Distribuye la frecuencia dividiendo entre 256
+^
+arm_script.s(51): note: operand must be a register in range [r0, r7]
+LSR R9, R9, #8 //Distribuye la frecuencia dividiendo entre 256
+        ^
+arm_script.s(62): error: invalid instruction, any one of the following would fix this:
+MOV R4, #0
+^
+arm_script.s(62): note: operand must be a register in range [r0, r15]
+MOV R4, #0
+        ^
+arm_script.s(62): note: instruction requires: thumb2
+MOV R4, #0
+^
+arm_script.s(62): note: operand must be an immediate in the range [256,65535]
+MOV R4, #0
+        ^
+arm_script.s(67): error: operand must be a register in range [r0, r15]
+CMP #256, R7 //Verfica que 256 quepa en r7 para poder dividir
+    ^
+arm_script.s(69): error: invalid instruction, any one of the following would fix this:
+SUB R7, R7, R9
+^
+arm_script.s(69): note: instruction requires: thumb2
+SUB R7, R7, R9
+^
+arm_script.s(69): note: invalid operand for instruction
+SUB R7, R7, R9
+            ^
+arm_script.s(69): note: operand must be an immediate in the range [0,7]
+SUB R7, R7, R9
+            ^
+arm_script.s(69): note: operand must be a register in range [r0, r7]
+SUB R7, R7, R9
+            ^
+arm_script.s(70): error: invalid instruction, any one of the following would fix this:
+ADD R4, R4, #1 //aumenta el valor de remapeo
+^
+arm_script.s(70): note: instruction requires: thumb2
+ADD R4, R4, #1 //aumenta el valor de remapeo
+^
+arm_script.s(70): note: invalid operand for instruction
+ADD R4, R4, #1 //aumenta el valor de remapeo
+            ^
+arm_script.s(70): note: no flag-preserving variant of this instruction available
+ADD R4, R4, #1 //aumenta el valor de remapeo
+^
+arm_script.s(70): note: operand must be a register in range [r0, r7]
+ADD R4, R4, #1 //aumenta el valor de remapeo
+            ^
+arm_script.s(75): error: unexpected token in argument list
+BGT ADD R4, R4, #1
+        ^
+arm_script.s(79): error: invalid operand for instruction
+STR R6, R4
+        ^
+arm_script.s(80): error: invalid instruction, any one of the following would fix this:
+ADD R5, R5, #1
+^
+arm_script.s(80): note: instruction requires: thumb2
+ADD R5, R5, #1
+^
+arm_script.s(80): note: invalid operand for instruction
+ADD R5, R5, #1
+            ^
+arm_script.s(80): note: no flag-preserving variant of this instruction available
+ADD R5, R5, #1
+^
+arm_script.s(80): note: operand must be a register in range [r0, r7]
+ADD R5, R5, #1
+            ^
+arm_script.s(81): error: invalid instruction, any one of the following would fix this:
+ADD R6, R6, #1
+^
+arm_script.s(81): note: instruction requires: thumb2
+ADD R6, R6, #1
+^
+arm_script.s(81): note: invalid operand for instruction
+ADD R6, R6, #1
+            ^
+arm_script.s(81): note: no flag-preserving variant of this instruction available
+ADD R6, R6, #1
+^
+arm_script.s(81): note: operand must be a register in range [r0, r7]
+ADD R6, R6, #1
+            ^
+arm_script.s(93): error: invalid instruction, any one of the following would fix this:
+LDR R8, [R7] //Carga de remapeo el valor en la posici贸n del valor de la imagen
+arm_script.s(93): note: instruction requires: thumb2
+LDR R8, [R7] //Carga de remapeo el valor en la posici贸n del valor de la imagen
+arm_script.s(93): note: operand must be a register in range [r0, r7]
+LDR R8, [R7] //Carga de remapeo el valor en la posici贸n del valor de la imagen
+arm_script.s(94): error: invalid operand for instruction
+STR R6, R8
+        ^
+arm_script.s(95): error: invalid instruction, any one of the following would fix this:
+ADD R5, R5, #1
+^
+arm_script.s(95): note: instruction requires: thumb2
+ADD R5, R5, #1
+^
+arm_script.s(95): note: invalid operand for instruction
+ADD R5, R5, #1
+            ^
+arm_script.s(95): note: no flag-preserving variant of this instruction available
+ADD R5, R5, #1
+^
+arm_script.s(95): note: operand must be a register in range [r0, r7]
+ADD R5, R5, #1
+            ^
+arm_script.s(96): error: invalid instruction, any one of the following would fix this:
+ADD R6, R6, #1
+^
+arm_script.s(96): note: instruction requires: thumb2
+ADD R6, R6, #1
+^
+arm_script.s(96): note: invalid operand for instruction
+ADD R6, R6, #1
+            ^
+arm_script.s(96): note: no flag-preserving variant of this instruction available
+ADD R6, R6, #1
+^
+arm_script.s(96): note: operand must be a register in range [r0, r7]
+ADD R6, R6, #1
+            ^
+assembling arm_script.s...
+".\Objects\memory_test.axf" - 28 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM.CMSIS.5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+
+<h2>Collection of Component include folders:</h2>
+  C:/Users/axels/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMv8MBL/Include
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

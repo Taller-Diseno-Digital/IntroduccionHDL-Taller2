@@ -19,6 +19,8 @@ module paint_image_tb();
   logic [15:0] address;
   
   // Instantiate the module under test
+  
+
   paint_image dut (
     .clk(clk),
     .reset(reset),

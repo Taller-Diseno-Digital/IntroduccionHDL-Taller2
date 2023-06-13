@@ -5,12 +5,12 @@ module extend(input  logic [23:0] Instr,
   always_comb
     case(ImmSrc) 
                // 8-bit unsigned immediate
-      2'b00:   ExtImm = {24'b0, Instr[7:0]};  
+      2'b00:   ExtImm = { {24{Instr[7]}}, Instr[7:0] };  
                // 12-bit unsigned immediate 
-      2'b01:   ExtImm = {20'b0, Instr[11:0]}; 
+      2'b01:   ExtImm =  { {20{Instr[11]}}, Instr[11:0] }; 
                // 24-bit two's complement shifted branch 
-      2'b10:   ExtImm = {{6{Instr[23]}}, Instr[23:0], 2'b00}; 
-      default: ExtImm = 32'bx; // undefined
+      2'b10:   ExtImm = { {8{Instr[23]}}, Instr }; 
+      default: ExtImm = { {24{Instr[7]}}, Instr[7:0] }; // undefined
     endcase
 	 
 endmodule

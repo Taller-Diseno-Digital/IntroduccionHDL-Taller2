@@ -1,7 +1,7 @@
-module mux2_1 (input logic data0,
-					  input logic data1,
+module mux2_1 #(parameter width = 4)(input logic [width - 1:0] data0,
+					  input logic [width - 1:0] data1,
 					  input logic select,
-					  output logic result);
+					  output logic [width - 1:0] result);
 
   always_comb begin
     if (select)

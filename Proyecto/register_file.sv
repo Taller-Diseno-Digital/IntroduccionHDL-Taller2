@@ -1,3 +1,4 @@
+
 module register_file(input logic clk, input logic rst, input logic [3:0] A1, input logic [3:0] A2, 
 							input logic [3:0] A3, input logic [31:0] WD3, input logic [31:0] R15, input logic WE3,
 							output logic [31:0] RD1, output logic [31:0] RD2);
@@ -5,6 +6,7 @@ module register_file(input logic clk, input logic rst, input logic [3:0] A1, inp
 	logic [31:0] registers [15:0];
 	logic [31:0] RD1_temp = 32'h0;
 	logic [31:0] RD2_temp = 32'h0;
+	
 	
 	// escritura
 	always_ff @(posedge clk or posedge rst) begin
@@ -16,16 +18,26 @@ module register_file(input logic clk, input logic rst, input logic [3:0] A1, inp
 			registers[2] <= 32'h20000;
 			registers[3] <= 32'h20100;
 			registers[4] <= 32'h20200;
-			
-		end else begin
+			registers[5] <= 32'd0;
+			registers[6] <= 32'd0;
+			registers[7] <= 32'd0;
+			registers[8] <= 32'd0;
+			registers[9] <= 32'd0;
+			registers[10] <= 32'd0;
+			registers[11] <= 32'd0;
+			registers[12] <= 32'd0;
+			registers[13] <= 32'd0;
+			registers[14] <= 32'd0;
+		end 
+		else begin
 		
 			if (WE3) begin
 			
-				registers[A3] = WD3;
+				registers[A3] <= WD3;
 			
 			end
 			
-			registers[15] = R15;
+			registers[15] <= R15;
 			
 		end
 	
@@ -42,8 +54,8 @@ module register_file(input logic clk, input logic rst, input logic [3:0] A1, inp
 		end 
 		
 		else begin
-			RD1_temp = registers[A1];
-			RD2_temp = registers[A2];
+			RD1_temp <= registers[A1];
+			RD2_temp <= registers[A2];
 		end
 	
 	end

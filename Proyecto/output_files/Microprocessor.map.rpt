@@ -1,5 +1,5 @@
 Analysis & Elaboration report for Microprocessor
-Tue May 30 11:24:25 2023
+Mon Jun 12 16:07:57 2023
 Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 
 
@@ -9,9 +9,24 @@ Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
   1. Legal Notice
   2. Analysis & Elaboration Summary
   3. Parallel Compilation
-  4. Analysis & Elaboration Settings
-  5. Analysis & Elaboration Messages
-  6. Analysis & Elaboration Suppressed Messages
+  4. Analysis & Elaboration IP Cores Summary
+  5. Source assignments for rom:rom_inst|altsyncram:altsyncram_component|altsyncram_i5g1:auto_generated
+  6. Source assignments for ram:mem|altsyncram:altsyncram_component|altsyncram_1un1:auto_generated
+  7. Parameter Settings for User Entity Instance: rom:rom_inst|altsyncram:altsyncram_component
+  8. Parameter Settings for User Entity Instance: mux2_1:mux_RA1
+  9. Parameter Settings for User Entity Instance: mux2_1:mux_RA2
+ 10. Parameter Settings for User Entity Instance: mux2_1:mux_SrcB
+ 11. Parameter Settings for User Entity Instance: alu:alu_inst|mod_compare:dut_compare
+ 12. Parameter Settings for User Entity Instance: ram:mem|altsyncram:altsyncram_component
+ 13. Parameter Settings for User Entity Instance: mux2_1:mux_result
+ 14. Parameter Settings for User Entity Instance: mux2_1:mux_pc
+ 15. altsyncram Parameter Settings by Entity Instance
+ 16. Analysis & Elaboration Settings
+ 17. Port Connectivity Checks: "mux2_1:mux_RA1"
+ 18. Port Connectivity Checks: "adder:add_2_pc"
+ 19. Port Connectivity Checks: "adder:add_1_pc"
+ 20. Port Connectivity Checks: "control_unit:contol_inst"
+ 21. Analysis & Elaboration Messages
 
 
 
@@ -38,10 +53,10 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                                 ;
 +-------------------------------+------------------------------------------------+
-; Analysis & Elaboration Status ; Successful - Tue May 30 11:24:24 2023          ;
+; Analysis & Elaboration Status ; Successful - Mon Jun 12 16:07:57 2023          ;
 ; Quartus Prime Version         ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
 ; Revision Name                 ; Microprocessor                                 ;
-; Top-level Entity Name         ; program_counter                                ;
+; Top-level Entity Name         ; cpu                                            ;
 ; Family                        ; Cyclone V                                      ;
 ; Logic utilization (in ALMs)   ; N/A until Partition Merge                      ;
 ; Total registers               ; N/A until Partition Merge                      ;
@@ -58,8 +73,8 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 8           ;
-; Maximum allowed            ; 8           ;
+; Number detected on machine ; 16          ;
+; Maximum allowed            ; 16          ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
 ; Maximum used               ; 1           ;
@@ -69,13 +84,254 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 
 
++-----------------------------------------------------------------------------------------------------+
+; Analysis & Elaboration IP Cores Summary                                                             ;
++--------+--------------+---------+--------------+--------------+-------------------+-----------------+
+; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance   ; IP Include File ;
++--------+--------------+---------+--------------+--------------+-------------------+-----------------+
+; Altera ; RAM: 1-PORT  ; 22.1    ; N/A          ; N/A          ; |cpu|ram:mem      ; ram.v           ;
+; Altera ; ROM: 1-PORT  ; 22.1    ; N/A          ; N/A          ; |cpu|rom:rom_inst ; rom.v           ;
++--------+--------------+---------+--------------+--------------+-------------------+-----------------+
+
+
++----------------------------------------------------------------------------------------------------+
+; Source assignments for rom:rom_inst|altsyncram:altsyncram_component|altsyncram_i5g1:auto_generated ;
++---------------------------------+--------------------+------+--------------------------------------+
+; Assignment                      ; Value              ; From ; To                                   ;
++---------------------------------+--------------------+------+--------------------------------------+
+; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                                    ;
++---------------------------------+--------------------+------+--------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------+
+; Source assignments for ram:mem|altsyncram:altsyncram_component|altsyncram_1un1:auto_generated ;
++---------------------------------+--------------------+------+---------------------------------+
+; Assignment                      ; Value              ; From ; To                              ;
++---------------------------------+--------------------+------+---------------------------------+
+; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                               ;
++---------------------------------+--------------------+------+---------------------------------+
+
+
++-------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: rom:rom_inst|altsyncram:altsyncram_component ;
++------------------------------------+----------------------+-------------------------------+
+; Parameter Name                     ; Value                ; Type                          ;
++------------------------------------+----------------------+-------------------------------+
+; BYTE_SIZE_BLOCK                    ; 8                    ; Untyped                       ;
+; AUTO_CARRY_CHAINS                  ; ON                   ; AUTO_CARRY                    ;
+; IGNORE_CARRY_BUFFERS               ; OFF                  ; IGNORE_CARRY                  ;
+; AUTO_CASCADE_CHAINS                ; ON                   ; AUTO_CASCADE                  ;
+; IGNORE_CASCADE_BUFFERS             ; OFF                  ; IGNORE_CASCADE                ;
+; WIDTH_BYTEENA                      ; 1                    ; Untyped                       ;
+; OPERATION_MODE                     ; ROM                  ; Untyped                       ;
+; WIDTH_A                            ; 32                   ; Signed Integer                ;
+; WIDTHAD_A                          ; 8                    ; Signed Integer                ;
+; NUMWORDS_A                         ; 256                  ; Signed Integer                ;
+; OUTDATA_REG_A                      ; CLOCK0               ; Untyped                       ;
+; ADDRESS_ACLR_A                     ; NONE                 ; Untyped                       ;
+; OUTDATA_ACLR_A                     ; NONE                 ; Untyped                       ;
+; WRCONTROL_ACLR_A                   ; NONE                 ; Untyped                       ;
+; INDATA_ACLR_A                      ; NONE                 ; Untyped                       ;
+; BYTEENA_ACLR_A                     ; NONE                 ; Untyped                       ;
+; WIDTH_B                            ; 1                    ; Untyped                       ;
+; WIDTHAD_B                          ; 1                    ; Untyped                       ;
+; NUMWORDS_B                         ; 1                    ; Untyped                       ;
+; INDATA_REG_B                       ; CLOCK1               ; Untyped                       ;
+; WRCONTROL_WRADDRESS_REG_B          ; CLOCK1               ; Untyped                       ;
+; RDCONTROL_REG_B                    ; CLOCK1               ; Untyped                       ;
+; ADDRESS_REG_B                      ; CLOCK1               ; Untyped                       ;
+; OUTDATA_REG_B                      ; UNREGISTERED         ; Untyped                       ;
+; BYTEENA_REG_B                      ; CLOCK1               ; Untyped                       ;
+; INDATA_ACLR_B                      ; NONE                 ; Untyped                       ;
+; WRCONTROL_ACLR_B                   ; NONE                 ; Untyped                       ;
+; ADDRESS_ACLR_B                     ; NONE                 ; Untyped                       ;
+; OUTDATA_ACLR_B                     ; NONE                 ; Untyped                       ;
+; RDCONTROL_ACLR_B                   ; NONE                 ; Untyped                       ;
+; BYTEENA_ACLR_B                     ; NONE                 ; Untyped                       ;
+; WIDTH_BYTEENA_A                    ; 1                    ; Signed Integer                ;
+; WIDTH_BYTEENA_B                    ; 1                    ; Untyped                       ;
+; RAM_BLOCK_TYPE                     ; AUTO                 ; Untyped                       ;
+; BYTE_SIZE                          ; 8                    ; Untyped                       ;
+; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE            ; Untyped                       ;
+; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ ; Untyped                       ;
+; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ ; Untyped                       ;
+; INIT_FILE                          ; instructions.mif     ; Untyped                       ;
+; INIT_FILE_LAYOUT                   ; PORT_A               ; Untyped                       ;
+; MAXIMUM_DEPTH                      ; 0                    ; Untyped                       ;
+; CLOCK_ENABLE_INPUT_A               ; BYPASS               ; Untyped                       ;
+; CLOCK_ENABLE_INPUT_B               ; NORMAL               ; Untyped                       ;
+; CLOCK_ENABLE_OUTPUT_A              ; BYPASS               ; Untyped                       ;
+; CLOCK_ENABLE_OUTPUT_B              ; NORMAL               ; Untyped                       ;
+; CLOCK_ENABLE_CORE_A                ; USE_INPUT_CLKEN      ; Untyped                       ;
+; CLOCK_ENABLE_CORE_B                ; USE_INPUT_CLKEN      ; Untyped                       ;
+; ENABLE_ECC                         ; FALSE                ; Untyped                       ;
+; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                ; Untyped                       ;
+; WIDTH_ECCSTATUS                    ; 3                    ; Untyped                       ;
+; DEVICE_FAMILY                      ; Cyclone V            ; Untyped                       ;
+; CBXI_PARAMETER                     ; altsyncram_i5g1      ; Untyped                       ;
++------------------------------------+----------------------+-------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: mux2_1:mux_RA1 ;
++----------------+-------+------------------------------------+
+; Parameter Name ; Value ; Type                               ;
++----------------+-------+------------------------------------+
+; width          ; 4     ; Signed Integer                     ;
++----------------+-------+------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: mux2_1:mux_RA2 ;
++----------------+-------+------------------------------------+
+; Parameter Name ; Value ; Type                               ;
++----------------+-------+------------------------------------+
+; width          ; 4     ; Signed Integer                     ;
++----------------+-------+------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: mux2_1:mux_SrcB ;
++----------------+-------+-------------------------------------+
+; Parameter Name ; Value ; Type                                ;
++----------------+-------+-------------------------------------+
+; width          ; 32    ; Signed Integer                      ;
++----------------+-------+-------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: alu:alu_inst|mod_compare:dut_compare ;
++----------------+-------+----------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                     ;
++----------------+-------+----------------------------------------------------------+
+; width          ; 32    ; Signed Integer                                           ;
++----------------+-------+----------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ram:mem|altsyncram:altsyncram_component ;
++------------------------------------+----------------------+--------------------------+
+; Parameter Name                     ; Value                ; Type                     ;
++------------------------------------+----------------------+--------------------------+
+; BYTE_SIZE_BLOCK                    ; 8                    ; Untyped                  ;
+; AUTO_CARRY_CHAINS                  ; ON                   ; AUTO_CARRY               ;
+; IGNORE_CARRY_BUFFERS               ; OFF                  ; IGNORE_CARRY             ;
+; AUTO_CASCADE_CHAINS                ; ON                   ; AUTO_CASCADE             ;
+; IGNORE_CASCADE_BUFFERS             ; OFF                  ; IGNORE_CASCADE           ;
+; WIDTH_BYTEENA                      ; 1                    ; Untyped                  ;
+; OPERATION_MODE                     ; SINGLE_PORT          ; Untyped                  ;
+; WIDTH_A                            ; 32                   ; Signed Integer           ;
+; WIDTHAD_A                          ; 16                   ; Signed Integer           ;
+; NUMWORDS_A                         ; 65536                ; Signed Integer           ;
+; OUTDATA_REG_A                      ; CLOCK0               ; Untyped                  ;
+; ADDRESS_ACLR_A                     ; NONE                 ; Untyped                  ;
+; OUTDATA_ACLR_A                     ; NONE                 ; Untyped                  ;
+; WRCONTROL_ACLR_A                   ; NONE                 ; Untyped                  ;
+; INDATA_ACLR_A                      ; NONE                 ; Untyped                  ;
+; BYTEENA_ACLR_A                     ; NONE                 ; Untyped                  ;
+; WIDTH_B                            ; 1                    ; Untyped                  ;
+; WIDTHAD_B                          ; 1                    ; Untyped                  ;
+; NUMWORDS_B                         ; 1                    ; Untyped                  ;
+; INDATA_REG_B                       ; CLOCK1               ; Untyped                  ;
+; WRCONTROL_WRADDRESS_REG_B          ; CLOCK1               ; Untyped                  ;
+; RDCONTROL_REG_B                    ; CLOCK1               ; Untyped                  ;
+; ADDRESS_REG_B                      ; CLOCK1               ; Untyped                  ;
+; OUTDATA_REG_B                      ; UNREGISTERED         ; Untyped                  ;
+; BYTEENA_REG_B                      ; CLOCK1               ; Untyped                  ;
+; INDATA_ACLR_B                      ; NONE                 ; Untyped                  ;
+; WRCONTROL_ACLR_B                   ; NONE                 ; Untyped                  ;
+; ADDRESS_ACLR_B                     ; NONE                 ; Untyped                  ;
+; OUTDATA_ACLR_B                     ; NONE                 ; Untyped                  ;
+; RDCONTROL_ACLR_B                   ; NONE                 ; Untyped                  ;
+; BYTEENA_ACLR_B                     ; NONE                 ; Untyped                  ;
+; WIDTH_BYTEENA_A                    ; 1                    ; Signed Integer           ;
+; WIDTH_BYTEENA_B                    ; 1                    ; Untyped                  ;
+; RAM_BLOCK_TYPE                     ; AUTO                 ; Untyped                  ;
+; BYTE_SIZE                          ; 8                    ; Untyped                  ;
+; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE            ; Untyped                  ;
+; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ ; Untyped                  ;
+; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ ; Untyped                  ;
+; INIT_FILE                          ; memory.mif           ; Untyped                  ;
+; INIT_FILE_LAYOUT                   ; PORT_A               ; Untyped                  ;
+; MAXIMUM_DEPTH                      ; 0                    ; Untyped                  ;
+; CLOCK_ENABLE_INPUT_A               ; BYPASS               ; Untyped                  ;
+; CLOCK_ENABLE_INPUT_B               ; NORMAL               ; Untyped                  ;
+; CLOCK_ENABLE_OUTPUT_A              ; BYPASS               ; Untyped                  ;
+; CLOCK_ENABLE_OUTPUT_B              ; NORMAL               ; Untyped                  ;
+; CLOCK_ENABLE_CORE_A                ; USE_INPUT_CLKEN      ; Untyped                  ;
+; CLOCK_ENABLE_CORE_B                ; USE_INPUT_CLKEN      ; Untyped                  ;
+; ENABLE_ECC                         ; FALSE                ; Untyped                  ;
+; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                ; Untyped                  ;
+; WIDTH_ECCSTATUS                    ; 3                    ; Untyped                  ;
+; DEVICE_FAMILY                      ; Cyclone V            ; Untyped                  ;
+; CBXI_PARAMETER                     ; altsyncram_1un1      ; Untyped                  ;
++------------------------------------+----------------------+--------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: mux2_1:mux_result ;
++----------------+-------+---------------------------------------+
+; Parameter Name ; Value ; Type                                  ;
++----------------+-------+---------------------------------------+
+; width          ; 32    ; Signed Integer                        ;
++----------------+-------+---------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: mux2_1:mux_pc ;
++----------------+-------+-----------------------------------+
+; Parameter Name ; Value ; Type                              ;
++----------------+-------+-----------------------------------+
+; width          ; 32    ; Signed Integer                    ;
++----------------+-------+-----------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------+
+; altsyncram Parameter Settings by Entity Instance                                         ;
++-------------------------------------------+----------------------------------------------+
+; Name                                      ; Value                                        ;
++-------------------------------------------+----------------------------------------------+
+; Number of entity instances                ; 2                                            ;
+; Entity Instance                           ; rom:rom_inst|altsyncram:altsyncram_component ;
+;     -- OPERATION_MODE                     ; ROM                                          ;
+;     -- WIDTH_A                            ; 32                                           ;
+;     -- NUMWORDS_A                         ; 256                                          ;
+;     -- OUTDATA_REG_A                      ; CLOCK0                                       ;
+;     -- WIDTH_B                            ; 1                                            ;
+;     -- NUMWORDS_B                         ; 1                                            ;
+;     -- ADDRESS_REG_B                      ; CLOCK1                                       ;
+;     -- OUTDATA_REG_B                      ; UNREGISTERED                                 ;
+;     -- RAM_BLOCK_TYPE                     ; AUTO                                         ;
+;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                    ;
+; Entity Instance                           ; ram:mem|altsyncram:altsyncram_component      ;
+;     -- OPERATION_MODE                     ; SINGLE_PORT                                  ;
+;     -- WIDTH_A                            ; 32                                           ;
+;     -- NUMWORDS_A                         ; 65536                                        ;
+;     -- OUTDATA_REG_A                      ; CLOCK0                                       ;
+;     -- WIDTH_B                            ; 1                                            ;
+;     -- NUMWORDS_B                         ; 1                                            ;
+;     -- ADDRESS_REG_B                      ; CLOCK1                                       ;
+;     -- OUTDATA_REG_B                      ; UNREGISTERED                                 ;
+;     -- RAM_BLOCK_TYPE                     ; AUTO                                         ;
+;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                    ;
++-------------------------------------------+----------------------------------------------+
+
+
 +---------------------------------------------------------------------------------------------------------------------------+
 ; Analysis & Elaboration Settings                                                                                           ;
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 ; Option                                                                          ; Setting            ; Default Value      ;
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 ; Device                                                                          ; 5CGXFC7C7F23C8     ;                    ;
-; Top-level entity name                                                           ; program_counter    ; Microprocessor     ;
+; Top-level entity name                                                           ; cpu                ; Microprocessor     ;
 ; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
 ; Use smart compilation                                                           ; Off                ; Off                ;
 ; Enable parallel Assembler and Timing Analyzer during compilation                ; On                 ; On                 ;
@@ -156,40 +412,171 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 
 
++--------------------------------------------+
+; Port Connectivity Checks: "mux2_1:mux_RA1" ;
++-------+-------+----------+-----------------+
+; Port  ; Type  ; Severity ; Details         ;
++-------+-------+----------+-----------------+
+; data1 ; Input ; Info     ; Stuck at VCC    ;
++-------+-------+----------+-----------------+
+
+
++--------------------------------------------+
+; Port Connectivity Checks: "adder:add_2_pc" ;
++----------+-------+----------+--------------+
+; Port     ; Type  ; Severity ; Details      ;
++----------+-------+----------+--------------+
+; A[31..1] ; Input ; Info     ; Stuck at GND ;
+; A[0]     ; Input ; Info     ; Stuck at VCC ;
++----------+-------+----------+--------------+
+
+
++--------------------------------------------+
+; Port Connectivity Checks: "adder:add_1_pc" ;
++----------+-------+----------+--------------+
+; Port     ; Type  ; Severity ; Details      ;
++----------+-------+----------+--------------+
+; B[31..1] ; Input ; Info     ; Stuck at GND ;
+; B[0]     ; Input ; Info     ; Stuck at VCC ;
++----------+-------+----------+--------------+
+
+
++------------------------------------------------------+
+; Port Connectivity Checks: "control_unit:contol_inst" ;
++-------------+-------+----------+---------------------+
+; Port        ; Type  ; Severity ; Details             ;
++-------------+-------+----------+---------------------+
+; ALUFlags[0] ; Input ; Info     ; Stuck at GND        ;
++-------------+-------+----------+---------------------+
+
+
 +---------------------------------+
 ; Analysis & Elaboration Messages ;
 +---------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
-    Info: Processing started: Tue May 30 11:24:11 2023
+    Info: Processing started: Mon Jun 12 16:07:48 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Microprocessor -c Microprocessor --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
+Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file register_file.sv
-    Info (12023): Found entity 1: register_file File: C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Proyecto/register_file.sv Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file register_file_tb.sv
-    Info (12023): Found entity 1: register_file_tb File: C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Proyecto/register_file_tb.sv Line: 1
+    Info (12023): Found entity 1: register_file File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/register_file.sv Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file extend.sv
-    Info (12023): Found entity 1: extend File: C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Proyecto/extend.sv Line: 1
+    Info (12023): Found entity 1: extend File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/extend.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file mux2_1.sv
-    Info (12023): Found entity 1: mux2_1 File: C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Proyecto/mux2_1.sv Line: 1
+    Info (12023): Found entity 1: mux2_1 File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/mux2_1.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file program_counter.sv
-    Info (12023): Found entity 1: program_counter File: C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Proyecto/program_counter.sv Line: 1
+    Info (12023): Found entity 1: program_counter File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/program_counter.sv Line: 17
 Info (12021): Found 1 design units, including 1 entities, in source file program_counter_tb.sv
-    Info (12023): Found entity 1: program_counter_tb File: C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Proyecto/program_counter_tb.sv Line: 1
-Info (12127): Elaborating entity "program_counter" for the top level hierarchy
-Info (144001): Generated suppressed messages file C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Proyecto/output_files/Microprocessor.map.smsg
-Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4780 megabytes
-    Info: Processing ended: Tue May 30 11:24:25 2023
-    Info: Elapsed time: 00:00:14
-    Info: Total CPU time (on all processors): 00:00:36
-
-
-+--------------------------------------------+
-; Analysis & Elaboration Suppressed Messages ;
-+--------------------------------------------+
-The suppressed messages can be found in C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Proyecto/output_files/Microprocessor.map.smsg.
+    Info (12023): Found entity 1: program_counter_tb File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/program_counter_tb.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file cpu.sv
+    Info (12023): Found entity 1: cpu File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/cpu.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file controlunit/alu/mod_compare.sv
+    Info (12023): Found entity 1: mod_compare File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit/alu/mod_compare.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file controlunit/conditional_check.sv
+    Info (12023): Found entity 1: conditional_check File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit/conditional_check.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file controlunit/conditional_logic.sv
+    Info (12023): Found entity 1: conditional_logic File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit/conditional_logic.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file controlunit/decoder.sv
+    Info (12023): Found entity 1: decoder File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit/decoder.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file controlunit/main_decoder.sv
+    Info (12023): Found entity 1: main_decoder File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit/main_decoder.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file controlunit/pclogic.sv
+    Info (12023): Found entity 1: PCLogic File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit/PCLogic.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file controlunit/alu/tb_mod_alu.sv
+    Info (12023): Found entity 1: tb_mod_alu File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit/alu/tb_mod_alu.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu.sv
+    Info (12023): Found entity 1: alu File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/alu.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file adder.sv
+    Info (12023): Found entity 1: adder File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/adder.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file rom.v
+    Info (12023): Found entity 1: rom File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/rom.v Line: 40
+Info (12021): Found 1 design units, including 1 entities, in source file ram.v
+    Info (12023): Found entity 1: ram File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ram.v Line: 40
+Info (12021): Found 1 design units, including 1 entities, in source file cpu_tb.sv
+    Info (12023): Found entity 1: cpu_tb File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/cpu_tb.sv Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file controlunit/alu_decoder.sv
+    Info (12023): Found entity 1: alu_decoder File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit/alu_decoder.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file controlunit/control_unit.sv
+    Info (12023): Found entity 1: control_unit File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit/control_unit.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file register_filev2.sv
+    Info (12023): Found entity 1: register_fileV2 File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/register_fileV2.sv Line: 1
+Warning (10236): Verilog HDL Implicit Net warning at decoder.sv(17): created implicit net for "Branch" File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit/decoder.sv Line: 17
+Warning (10236): Verilog HDL Implicit Net warning at decoder.sv(17): created implicit net for "ALUOp" File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit/decoder.sv Line: 17
+Info (12127): Elaborating entity "cpu" for the top level hierarchy
+Info (12128): Elaborating entity "program_counter" for hierarchy "program_counter:pc_inst" File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/cpu.sv Line: 9
+Info (12128): Elaborating entity "rom" for hierarchy "rom:rom_inst" File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/cpu.sv Line: 12
+Info (12128): Elaborating entity "altsyncram" for hierarchy "rom:rom_inst|altsyncram:altsyncram_component" File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/rom.v Line: 82
+Info (12130): Elaborated megafunction instantiation "rom:rom_inst|altsyncram:altsyncram_component" File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/rom.v Line: 82
+Info (12133): Instantiated megafunction "rom:rom_inst|altsyncram:altsyncram_component" with the following parameter: File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/rom.v Line: 82
+    Info (12134): Parameter "address_aclr_a" = "NONE"
+    Info (12134): Parameter "clock_enable_input_a" = "BYPASS"
+    Info (12134): Parameter "clock_enable_output_a" = "BYPASS"
+    Info (12134): Parameter "init_file" = "instructions.mif"
+    Info (12134): Parameter "intended_device_family" = "Cyclone V"
+    Info (12134): Parameter "lpm_hint" = "ENABLE_RUNTIME_MOD=NO"
+    Info (12134): Parameter "lpm_type" = "altsyncram"
+    Info (12134): Parameter "numwords_a" = "256"
+    Info (12134): Parameter "operation_mode" = "ROM"
+    Info (12134): Parameter "outdata_aclr_a" = "NONE"
+    Info (12134): Parameter "outdata_reg_a" = "CLOCK0"
+    Info (12134): Parameter "widthad_a" = "8"
+    Info (12134): Parameter "width_a" = "32"
+    Info (12134): Parameter "width_byteena_a" = "1"
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_i5g1.tdf
+    Info (12023): Found entity 1: altsyncram_i5g1 File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/db/altsyncram_i5g1.tdf Line: 28
+Info (12128): Elaborating entity "altsyncram_i5g1" for hierarchy "rom:rom_inst|altsyncram:altsyncram_component|altsyncram_i5g1:auto_generated" File: c:/intelfpga_lite/22.1std/quartus/libraries/megafunctions/altsyncram.tdf Line: 792
+Info (12128): Elaborating entity "control_unit" for hierarchy "control_unit:contol_inst" File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/cpu.sv Line: 18
+Info (12128): Elaborating entity "decoder" for hierarchy "control_unit:contol_inst|decoder:deco_inst" File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit/control_unit.sv Line: 22
+Info (12128): Elaborating entity "main_decoder" for hierarchy "control_unit:contol_inst|decoder:deco_inst|main_decoder:main_deco_inst" File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit/decoder.sv Line: 17
+Info (12128): Elaborating entity "PCLogic" for hierarchy "control_unit:contol_inst|decoder:deco_inst|PCLogic:pclogic_inst" File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit/decoder.sv Line: 19
+Info (12128): Elaborating entity "alu_decoder" for hierarchy "control_unit:contol_inst|decoder:deco_inst|alu_decoder:alu_deco_inst" File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit/decoder.sv Line: 21
+Info (12128): Elaborating entity "conditional_logic" for hierarchy "control_unit:contol_inst|conditional_logic:cond_logic_inst" File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit/control_unit.sv Line: 24
+Info (12128): Elaborating entity "conditional_check" for hierarchy "control_unit:contol_inst|conditional_logic:cond_logic_inst|conditional_check:cond_inst" File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit/conditional_logic.sv Line: 16
+Info (12128): Elaborating entity "adder" for hierarchy "adder:add_1_pc" File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/cpu.sv Line: 22
+Info (12128): Elaborating entity "mux2_1" for hierarchy "mux2_1:mux_RA1" File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/cpu.sv Line: 28
+Info (12128): Elaborating entity "register_file" for hierarchy "register_file:reg_inst" File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/cpu.sv Line: 37
+Info (12128): Elaborating entity "extend" for hierarchy "extend:ext_inst" File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/cpu.sv Line: 44
+Info (12128): Elaborating entity "mux2_1" for hierarchy "mux2_1:mux_SrcB" File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/cpu.sv Line: 47
+Info (12128): Elaborating entity "alu" for hierarchy "alu:alu_inst" File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/cpu.sv Line: 51
+Info (12128): Elaborating entity "mod_compare" for hierarchy "alu:alu_inst|mod_compare:dut_compare" File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/alu.sv Line: 30
+Warning (10230): Verilog HDL assignment warning at mod_compare.sv(7): truncated value with size 32 to match size of target (1) File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit/alu/mod_compare.sv Line: 7
+Info (12128): Elaborating entity "ram" for hierarchy "ram:mem" File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/cpu.sv Line: 54
+Info (12128): Elaborating entity "altsyncram" for hierarchy "ram:mem|altsyncram:altsyncram_component" File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ram.v Line: 86
+Info (12130): Elaborated megafunction instantiation "ram:mem|altsyncram:altsyncram_component" File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ram.v Line: 86
+Info (12133): Instantiated megafunction "ram:mem|altsyncram:altsyncram_component" with the following parameter: File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ram.v Line: 86
+    Info (12134): Parameter "clock_enable_input_a" = "BYPASS"
+    Info (12134): Parameter "clock_enable_output_a" = "BYPASS"
+    Info (12134): Parameter "init_file" = "memory.mif"
+    Info (12134): Parameter "intended_device_family" = "Cyclone V"
+    Info (12134): Parameter "lpm_hint" = "ENABLE_RUNTIME_MOD=NO"
+    Info (12134): Parameter "lpm_type" = "altsyncram"
+    Info (12134): Parameter "numwords_a" = "65536"
+    Info (12134): Parameter "operation_mode" = "SINGLE_PORT"
+    Info (12134): Parameter "outdata_aclr_a" = "NONE"
+    Info (12134): Parameter "outdata_reg_a" = "CLOCK0"
+    Info (12134): Parameter "power_up_uninitialized" = "FALSE"
+    Info (12134): Parameter "read_during_write_mode_port_a" = "NEW_DATA_NO_NBE_READ"
+    Info (12134): Parameter "widthad_a" = "16"
+    Info (12134): Parameter "width_a" = "32"
+    Info (12134): Parameter "width_byteena_a" = "1"
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_1un1.tdf
+    Info (12023): Found entity 1: altsyncram_1un1 File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/db/altsyncram_1un1.tdf Line: 34
+Info (12128): Elaborating entity "altsyncram_1un1" for hierarchy "ram:mem|altsyncram:altsyncram_component|altsyncram_1un1:auto_generated" File: c:/intelfpga_lite/22.1std/quartus/libraries/megafunctions/altsyncram.tdf Line: 792
+Info (12021): Found 1 design units, including 1 entities, in source file db/decode_dla.tdf
+    Info (12023): Found entity 1: decode_dla File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/db/decode_dla.tdf Line: 23
+Info (12128): Elaborating entity "decode_dla" for hierarchy "ram:mem|altsyncram:altsyncram_component|altsyncram_1un1:auto_generated|decode_dla:decode3" File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/db/altsyncram_1un1.tdf Line: 45
+Info (12021): Found 1 design units, including 1 entities, in source file db/decode_61a.tdf
+    Info (12023): Found entity 1: decode_61a File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/db/decode_61a.tdf Line: 23
+Info (12128): Elaborating entity "decode_61a" for hierarchy "ram:mem|altsyncram:altsyncram_component|altsyncram_1un1:auto_generated|decode_61a:rden_decode" File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/db/altsyncram_1un1.tdf Line: 46
+Info (12021): Found 1 design units, including 1 entities, in source file db/mux_ahb.tdf
+    Info (12023): Found entity 1: mux_ahb File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/db/mux_ahb.tdf Line: 23
+Info (12128): Elaborating entity "mux_ahb" for hierarchy "ram:mem|altsyncram:altsyncram_component|altsyncram_1un1:auto_generated|mux_ahb:mux2" File: C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/db/altsyncram_1un1.tdf Line: 47
+Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 4 warnings
+    Info: Peak virtual memory: 4820 megabytes
+    Info: Processing ended: Mon Jun 12 16:07:57 2023
+    Info: Elapsed time: 00:00:09
+    Info: Total CPU time (on all processors): 00:00:13
 
 

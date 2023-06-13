@@ -1,4 +1,5 @@
 # Reading pref.tcl
+# ERROR: No extended dataflow license exists
 # do Microprocessor_run_msim_rtl_verilog.do
 # if ![file isdirectory verilog_libs] {
 # 	file mkdir verilog_libs
@@ -13,7 +14,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work altera_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_primitives.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 11:24:39 on May 30,2023
+# Start time: 16:08:11 on Jun 12,2023
 # vlog -reportprogress 300 -vlog01compat -work altera_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_primitives.v 
 # -- Compiling module global
 # -- Compiling module carry
@@ -95,7 +96,7 @@
 # 	alt_iobuf_diff
 # 	alt_bidir_diff
 # 	alt_bidir_buf
-# End time: 11:24:41 on May 30,2023, Elapsed time: 0:00:02
+# End time: 16:08:12 on Jun 12,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/lpm_ver
@@ -106,7 +107,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work lpm_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/220model.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 11:24:42 on May 30,2023
+# Start time: 16:08:13 on Jun 12,2023
 # vlog -reportprogress 300 -vlog01compat -work lpm_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/220model.v 
 # -- Compiling module LPM_MEMORY_INITIALIZATION
 # -- Compiling module LPM_HINT_EVALUATION
@@ -170,7 +171,7 @@
 # 	lpm_inpad
 # 	lpm_outpad
 # 	lpm_bipad
-# End time: 11:24:42 on May 30,2023, Elapsed time: 0:00:00
+# End time: 16:08:13 on Jun 12,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/sgate_ver
@@ -181,7 +182,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work sgate_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/sgate.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 11:24:42 on May 30,2023
+# Start time: 16:08:13 on Jun 12,2023
 # vlog -reportprogress 300 -vlog01compat -work sgate_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/sgate.v 
 # -- Compiling module oper_add
 # -- Compiling module oper_addsub
@@ -223,7 +224,7 @@
 # 	oper_decoder
 # 	oper_bus_mux
 # 	oper_latch
-# End time: 11:24:43 on May 30,2023, Elapsed time: 0:00:01
+# End time: 16:08:13 on Jun 12,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_mf_ver
@@ -234,7 +235,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work altera_mf_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_mf.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 11:24:43 on May 30,2023
+# Start time: 16:08:14 on Jun 12,2023
 # vlog -reportprogress 300 -vlog01compat -work altera_mf_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_mf.v 
 # -- Compiling module lcell
 # -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
@@ -364,7 +365,7 @@
 # 	alt_fault_injection
 # 	sld_virtual_jtag_basic
 # 	altsource_probe
-# End time: 11:24:46 on May 30,2023, Elapsed time: 0:00:03
+# End time: 16:08:15 on Jun 12,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_lnsim_ver
@@ -375,7 +376,7 @@
 # Modifying modelsim.ini
 # vlog -sv -work altera_lnsim_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_lnsim.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 11:24:46 on May 30,2023
+# Start time: 16:08:16 on Jun 12,2023
 # vlog -reportprogress 300 -sv -work altera_lnsim_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/altera_lnsim.sv 
 # -- Compiling package altera_lnsim_functions
 # -- Compiling package altera_generic_pll_functions
@@ -458,7 +459,7 @@
 # 	altera_iopll
 # 	fourteennm_altera_iopll
 # 	fourteennm_simple_iopll
-# End time: 11:24:48 on May 30,2023, Elapsed time: 0:00:02
+# End time: 16:08:16 on Jun 12,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cyclonev_ver
@@ -469,7 +470,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cyclonev_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 11:24:48 on May 30,2023
+# Start time: 16:08:17 on Jun 12,2023
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_atoms_ncrypt.v 
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
@@ -483,19 +484,19 @@
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # 
 # Top level modules:
-# End time: 11:24:53 on May 30,2023, Elapsed time: 0:00:05
+# End time: 16:08:19 on Jun 12,2023, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 10
 # vlog -vlog01compat -work cyclonev_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hmi_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 11:24:53 on May 30,2023
+# Start time: 16:08:20 on Jun 12,2023
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hmi_atoms_ncrypt.v 
 # 
 # Top level modules:
-# End time: 11:24:56 on May 30,2023, Elapsed time: 0:00:03
+# End time: 16:08:21 on Jun 12,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work cyclonev_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_atoms.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 11:24:56 on May 30,2023
+# Start time: 16:08:21 on Jun 12,2023
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_atoms.v 
 # -- Compiling UDP CYCLONEV_PRIM_DFFE
 # -- Compiling UDP CYCLONEV_PRIM_DFFEAS
@@ -635,7 +636,7 @@
 # 	cyclonev_mem_phy
 # 	cyclonev_oscillator
 # 	cyclonev_hps_interface_fpga2sdram
-# End time: 11:24:57 on May 30,2023, Elapsed time: 0:00:01
+# End time: 16:08:22 on Jun 12,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cyclonev_hssi_ver
@@ -646,15 +647,15 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cyclonev_hssi_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hssi_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 11:24:58 on May 30,2023
+# Start time: 16:08:22 on Jun 12,2023
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_hssi_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hssi_atoms_ncrypt.v 
 # 
 # Top level modules:
-# End time: 11:25:02 on May 30,2023, Elapsed time: 0:00:04
+# End time: 16:08:24 on Jun 12,2023, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work cyclonev_hssi_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_hssi_atoms.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 11:25:02 on May 30,2023
+# Start time: 16:08:24 on Jun 12,2023
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_hssi_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_hssi_atoms.v 
 # -- Compiling module cyclonev_hssi_8g_pcs_aggregate
 # -- Compiling module cyclonev_hssi_8g_rx_pcs
@@ -754,7 +755,7 @@
 # 	arriav_hssi_avmm_interface
 # 	arriav_hssi_pma_hi_pmaif
 # 	arriav_hssi_pma_hi_xcvrif
-# End time: 11:25:03 on May 30,2023, Elapsed time: 0:00:01
+# End time: 16:08:25 on Jun 12,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cyclonev_pcie_hip_ver
@@ -765,7 +766,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cyclonev_pcie_hip_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_pcie_hip_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 11:25:03 on May 30,2023
+# Start time: 16:08:25 on Jun 12,2023
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_pcie_hip_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_pcie_hip_atoms_ncrypt.v 
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
@@ -775,18 +776,18 @@
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # 
 # Top level modules:
-# End time: 11:25:08 on May 30,2023, Elapsed time: 0:00:05
+# End time: 16:08:28 on Jun 12,2023, Elapsed time: 0:00:03
 # Errors: 0, Warnings: 6
 # vlog -vlog01compat -work cyclonev_pcie_hip_ver {c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_pcie_hip_atoms.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 11:25:08 on May 30,2023
+# Start time: 16:08:28 on Jun 12,2023
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_pcie_hip_ver c:/intelfpga_lite/22.1std/quartus/eda/sim_lib/cyclonev_pcie_hip_atoms.v 
 # -- Compiling module cyclonev_hd_altpe2_hip_top
 # -- Compiling module arriav_hd_altpe2_hip_top
 # 
 # Top level modules:
 # 	cyclonev_hd_altpe2_hip_top
-# End time: 11:25:09 on May 30,2023, Elapsed time: 0:00:01
+# End time: 16:08:28 on Jun 12,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # if {[file exists rtl_work]} {
@@ -798,34 +799,214 @@
 # vmap work rtl_work 
 # Modifying modelsim.ini
 # 
-# vlog -sv -work work +incdir+C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Proyecto {C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Proyecto/program_counter.sv}
+# vlog -vlog01compat -work work +incdir+C:/Users/dmeji/OneDrive\ -\ Estudiantes\ ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto {C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/rom.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 11:25:09 on May 30,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Proyecto" C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Proyecto/program_counter.sv 
+# Start time: 16:08:29 on Jun 12,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto" C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/rom.v 
+# -- Compiling module rom
+# 
+# Top level modules:
+# 	rom
+# End time: 16:08:29 on Jun 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/dmeji/OneDrive\ -\ Estudiantes\ ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto {C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ram.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:08:30 on Jun 12,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto" C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ram.v 
+# -- Compiling module ram
+# 
+# Top level modules:
+# 	ram
+# End time: 16:08:30 on Jun 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/dmeji/OneDrive\ -\ Estudiantes\ ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto {C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/register_file.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:08:30 on Jun 12,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto" C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/register_file.sv 
+# -- Compiling module register_file
+# 
+# Top level modules:
+# 	register_file
+# End time: 16:08:30 on Jun 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/dmeji/OneDrive\ -\ Estudiantes\ ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto {C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/extend.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:08:30 on Jun 12,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto" C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/extend.sv 
+# -- Compiling module extend
+# 
+# Top level modules:
+# 	extend
+# End time: 16:08:30 on Jun 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/dmeji/OneDrive\ -\ Estudiantes\ ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto {C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/mux2_1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:08:31 on Jun 12,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto" C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/mux2_1.sv 
+# -- Compiling module mux2_1
+# 
+# Top level modules:
+# 	mux2_1
+# End time: 16:08:31 on Jun 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/dmeji/OneDrive\ -\ Estudiantes\ ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto {C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/program_counter.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:08:31 on Jun 12,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto" C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/program_counter.sv 
 # -- Compiling module program_counter
 # 
 # Top level modules:
 # 	program_counter
-# End time: 11:25:09 on May 30,2023, Elapsed time: 0:00:00
+# End time: 16:08:31 on Jun 12,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# 
-# vlog -sv -work work +incdir+C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Proyecto {C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Proyecto/program_counter_tb.sv}
+# vlog -sv -work work +incdir+C:/Users/dmeji/OneDrive\ -\ Estudiantes\ ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto {C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/cpu.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 11:25:09 on May 30,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Proyecto" C:/Users/Valesska/Desktop/GitHub/dmejias08_digital_design_lab_2023/Proyecto/program_counter_tb.sv 
-# -- Compiling module program_counter_tb
+# Start time: 16:08:31 on Jun 12,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto" C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/cpu.sv 
+# -- Compiling module cpu
 # 
 # Top level modules:
-# 	program_counter_tb
-# End time: 11:25:10 on May 30,2023, Elapsed time: 0:00:01
+# 	cpu
+# End time: 16:08:31 on Jun 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/dmeji/OneDrive\ -\ Estudiantes\ ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit/alu {C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit/alu/mod_compare.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:08:31 on Jun 12,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit/alu" C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit/alu/mod_compare.sv 
+# -- Compiling module mod_compare
+# 
+# Top level modules:
+# 	mod_compare
+# End time: 16:08:31 on Jun 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/dmeji/OneDrive\ -\ Estudiantes\ ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit {C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit/conditional_check.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:08:31 on Jun 12,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit" C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit/conditional_check.sv 
+# -- Compiling module conditional_check
+# 
+# Top level modules:
+# 	conditional_check
+# End time: 16:08:32 on Jun 12,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/dmeji/OneDrive\ -\ Estudiantes\ ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit {C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit/conditional_logic.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:08:32 on Jun 12,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit" C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit/conditional_logic.sv 
+# -- Compiling module conditional_logic
+# 
+# Top level modules:
+# 	conditional_logic
+# End time: 16:08:32 on Jun 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/dmeji/OneDrive\ -\ Estudiantes\ ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit {C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit/decoder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:08:32 on Jun 12,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit" C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit/decoder.sv 
+# -- Compiling module decoder
+# 
+# Top level modules:
+# 	decoder
+# End time: 16:08:32 on Jun 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/dmeji/OneDrive\ -\ Estudiantes\ ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit {C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit/main_decoder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:08:32 on Jun 12,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit" C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit/main_decoder.sv 
+# -- Compiling module main_decoder
+# 
+# Top level modules:
+# 	main_decoder
+# End time: 16:08:32 on Jun 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/dmeji/OneDrive\ -\ Estudiantes\ ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit {C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit/PCLogic.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:08:32 on Jun 12,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit" C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit/PCLogic.sv 
+# -- Compiling module PCLogic
+# 
+# Top level modules:
+# 	PCLogic
+# End time: 16:08:32 on Jun 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/dmeji/OneDrive\ -\ Estudiantes\ ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto {C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/alu.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:08:32 on Jun 12,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto" C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/alu.sv 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 16:08:32 on Jun 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/dmeji/OneDrive\ -\ Estudiantes\ ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto {C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:08:33 on Jun 12,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto" C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/adder.sv 
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# End time: 16:08:33 on Jun 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/dmeji/OneDrive\ -\ Estudiantes\ ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit {C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit/alu_decoder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:08:33 on Jun 12,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit" C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit/alu_decoder.sv 
+# -- Compiling module alu_decoder
+# 
+# Top level modules:
+# 	alu_decoder
+# End time: 16:08:33 on Jun 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/dmeji/OneDrive\ -\ Estudiantes\ ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit {C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit/control_unit.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:08:33 on Jun 12,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit" C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/ControlUnit/control_unit.sv 
+# -- Compiling module control_unit
+# 
+# Top level modules:
+# 	control_unit
+# End time: 16:08:33 on Jun 12,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  program_counter_tb
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" program_counter_tb 
-# Start time: 11:25:10 on May 30,2023
+# vlog -sv -work work +incdir+C:/Users/dmeji/OneDrive\ -\ Estudiantes\ ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto {C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/cpu_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:08:33 on Jun 12,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto" C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/cpu_tb.sv 
+# -- Compiling module cpu_tb
+# 
+# Top level modules:
+# 	cpu_tb
+# End time: 16:08:33 on Jun 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  cpu_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" cpu_tb 
+# Start time: 16:08:33 on Jun 12,2023
 # Loading sv_std.std
-# Loading work.program_counter_tb
+# Loading work.cpu_tb
+# Loading work.cpu
 # Loading work.program_counter
+# Loading work.rom
+# Loading altera_mf_ver.altsyncram
+# Loading work.control_unit
+# Loading work.decoder
+# Loading work.main_decoder
+# Loading work.PCLogic
+# Loading work.alu_decoder
+# Loading work.conditional_logic
+# Loading work.conditional_check
+# Loading work.adder
+# Loading work.mux2_1
+# Loading work.register_file
+# Loading work.extend
+# Loading work.alu
+# Loading work.mod_compare
+# Loading work.ram
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
 # 
 # add wave *
 # view structure
@@ -833,7 +1014,27 @@
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run -all
+add wave -position end  sim:/cpu_tb/dut/alu_inst/A
+add wave -position end  sim:/cpu_tb/dut/alu_inst/B
+add wave -position end  sim:/cpu_tb/dut/alu_inst/alu_out
+add wave -position end  sim:/cpu_tb/dut/reg_inst/A1
+add wave -position end  sim:/cpu_tb/dut/reg_inst/A2
+add wave -position end  sim:/cpu_tb/dut/reg_inst/A3
+add wave -position end  sim:/cpu_tb/dut/reg_inst/WD3
+add wave -position end  sim:/cpu_tb/dut/reg_inst/A1
+add wave -position end  sim:/cpu_tb/dut/reg_inst/A2
+add wave -position end  sim:/cpu_tb/dut/reg_inst/A3
+add wave -position end  sim:/cpu_tb/dut/reg_inst/RD1
+add wave -position end  sim:/cpu_tb/dut/reg_inst/RD2
+add wave -position end  sim:/cpu_tb/dut/reg_inst/WD3
+add wave -position end  sim:/cpu_tb/dut/reg_inst/registers[4]
+add wave -position end  sim:/cpu_tb/dut/reg_inst/registers[3]
+add wave -position end  sim:/cpu_tb/dut/reg_inst/registers[2]
+add wave -position end  sim:/cpu_tb/dut/reg_inst/registers[1]
+add wave -position end  sim:/cpu_tb/dut/reg_inst/registers[0]
+restart -f
+run -all
 # Break key hit
-# Simulation stop requested.
-# End time: 11:26:19 on May 30,2023, Elapsed time: 0:01:09
+# Break in Module adder at C:/Users/dmeji/OneDrive - Estudiantes ITCR/TEC/Semestres/IS2023/Taller_de_Diseno_Digital/Git/dmejias08_digital_design_lab_2023/Proyecto/adder.sv line 8
+# End time: 16:14:32 on Jun 12,2023, Elapsed time: 0:05:59
 # Errors: 0, Warnings: 0

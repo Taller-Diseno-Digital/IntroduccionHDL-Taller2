@@ -19,7 +19,7 @@ output logic [1:0] ALUControl
 logic [1:0] FlagW;
 logic Pcs, RegW, MemW, NoWrite;
 
-decoder deco_inst(Rd, Op, Funct, RegW, MemW, MemtoReg, ALUScr, Pcs, ImmSrc, RegScr, ALUControl, FlagW, NoWrite);
+decoder deco_inst(Rd, Op, Funct, RegW, MemW, MemtoReg, ALUSrc, Pcs, ImmSrc, RegSrc, ALUControl, FlagW, NoWrite);
 
 conditional_logic cond_logic_inst(Pcs, RegW, NoWrite, MemW, FlagW, Cond, ALUFlags, PCSrc, RegWrite, MemWrite);
 

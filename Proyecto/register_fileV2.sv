@@ -1,0 +1,137 @@
+module register_fileV2(
+	input [3:0] A1,
+	input [3:0] A2,
+	input [3:0] A3,
+	input [31:0] RI15,
+	input [31:0] WD3,
+	input wr_enable,
+	input clk,
+	input reset,
+	
+	output [31:0] RD1,
+	output [31:0] RD2
+	);
+	
+	logic [31:0] R0, R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R12, R13, R15;
+	logic [31:0] R14 = 32'h0;
+	
+	logic [31:0] RD1_temp, RD2_temp;
+
+	
+	//always_ff @(posedge clk) begin
+	always @(*) begin
+
+		case (A1)
+		
+			// resgistro RA1 que se lee
+			4'd0: RD1_temp = R0; 	// registro 0
+			4'd1: RD1_temp = R1; 	// registro 1
+			4'd2: RD1_temp = R2; 	// registro 2
+			4'd3: RD1_temp = R3; 	// registro 3
+			4'd4: RD1_temp = R4; 	// registro 4
+			4'd5: RD1_temp = R5; 	// registro 5
+			4'd6: RD1_temp = R6; 	// registro 6
+			4'd7: RD1_temp = R7; 	// registro 7
+			4'd8: RD1_temp = R8; 	// registro 8
+			4'd9: RD1_temp = R9; 	// registro 9
+			4'd10: RD1_temp = R10; 	// registro 10
+			4'd11: RD1_temp = R11; 	// registro 11
+			4'd12: RD1_temp = R12; 	// registro 12
+			4'd13: RD1_temp = R13; 	// registro 13
+			4'd14: RD1_temp = R14; 	// registro 14
+			4'd15: RD1_temp = R15; 	// registro 15
+			default: RD1_temp = 0;
+		
+		endcase
+		
+		
+		case (A2)
+		
+			// registro RA2 que se lee
+			4'd0: RD2_temp = R0; // registro 0
+			4'd1: RD2_temp = R1; // registro 1
+			4'd2: RD2_temp = R2; // registro 2
+			4'd3: RD2_temp = R3; // registro 3
+			4'd4: RD2_temp = R4; // registro 4
+			4'd5: RD2_temp = R5; // registro 5
+			4'd6: RD2_temp = R6; // registro 6
+			4'd7: RD2_temp = R7; // registro 7
+			4'd8: RD2_temp = R8; // registro 8
+			4'd9: RD2_temp = R9; // registro 9
+			4'd10: RD2_temp = R10; // registro 10
+			4'd11: RD2_temp = R11; // registro 11
+			4'd12: RD2_temp = R12; // registro 12
+			4'd13: RD2_temp = R13; // registro 13
+			4'd14: RD2_temp = R14; // registro 14
+			4'd15: RD2_temp = R15; // registro 15
+			default: RD2_temp = 0;
+		
+		endcase
+	end
+	
+	always_ff @(negedge clk or posedge reset) begin
+	
+		if(reset)
+		begin
+			R0 = 32'd0;
+			R1 = 32'd0;
+			R2 = 32'd0;
+			R3 = 32'd0;
+			R4 = 32'd0;
+			R5 = 32'd0;
+			R6 = 32'd0;
+			R7 = 32'd0;
+			R8 = 32'd0;
+			R9 = 32'd0;
+			R10 = 32'd0;
+			R11 = 32'd0;
+			R12 = 32'd0;
+			R13 = 32'd0;
+			R14 = 32'd0;
+		
+		end
+	
+		else if (wr_enable)
+		begin
+		
+			case (A3)
+			
+				// escribe en el registro A3
+				4'd0: R0 = WD3; // registro 0
+				4'd1: R1 = WD3; // registro 1
+				4'd2: R2 = WD3; // registro 2
+				4'd3: R3 = WD3; // registro 3
+				4'd4: R4 = WD3; // registro 4
+				4'd5: R5 = WD3; // registro 5
+				4'd6: R6 = WD3; // registro 6
+				4'd7: R7 = WD3; // registro 7
+				4'd8: R8 = WD3; // registro 8
+				4'd9: R9 = WD3; // registro 9
+				4'd10: R10 = WD3; // registro 10
+				4'd11: R11 = WD3; // registro 11
+				4'd12: R12 = WD3; // registro 12
+				4'd13: R13 = WD3; // registro 13
+				4'd14: R14 = WD3; // registro 14
+			
+			endcase
+		
+		end
+		
+		
+		
+	end
+
+	always @(RI15) begin
+	
+	// actualiza valor PC+2
+	R15 = RI15;
+	
+	end
+		
+		
+	// logica de salidas
+	assign RD1 = RD1_temp;
+	assign RD2 = RD2_temp;
+	
+	
+endmodule

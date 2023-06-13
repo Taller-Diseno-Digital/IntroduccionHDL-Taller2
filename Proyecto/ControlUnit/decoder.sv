@@ -14,7 +14,7 @@ output logic [1:0] FlagW,
 output logic NoWrite
 );
 
-main_decoder main_deco_inst(Op, Funt[0], Funct[5], Branch, MemtoReg, MemW, ALUSrc, ImmSrc, RegW, RegSrc, ALUOp);
+main_decoder main_deco_inst(Op, Funct[0], Funct[5], Branch, MemtoReg, MemW, ALUSrc, ImmSrc, RegW, RegSrc, ALUOp);
 
 PCLogic pclogic_inst(Rd, Branch, RegW, Pcs);
 
